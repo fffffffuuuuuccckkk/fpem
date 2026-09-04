@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "dataset": "ETTh1",
+    "seq_len": 32,
+    "pred_len": 8,
+    "feature_dimension": 32,
+    "number_of_train_windows": 8601,
+    "number_of_active_nodes": 88,
+    "number_of_active_temporal_edges": 5088,
+    "coverage_radius": 0.358597993850708,
+    "creation_date": "2026-08-28T03:44:16.141147+00:00",
+    "source_split": "train"
+  },
+  "number_of_active_patterns": 88,
+  "pattern_support_histogram": [
+    29,
+    11,
+    19,
+    6,
+    11,
+    6,
+    1,
+    1,
+    0,
+    4
+  ],
+  "top_stable_patterns": [
+    {
+      "node": 31,
+      "stability": 0.5436199307441711,
+      "window_support": 3214.0,
+      "predictive_support": 0.5436199307441711
+    },
+    {
+      "node": 38,
+      "stability": 0.5388293862342834,
+      "window_support": 2927.0,
+      "predictive_support": 0.5451416373252869
+    },
+    {
+      "node": 73,
+      "stability": 0.5325739979743958,
+      "window_support": 1507.0,
+      "predictive_support": 0.5876644253730774
+    },
+    {
+      "node": 77,
+      "stability": 0.5304532051086426,
+      "window_support": 3009.0,
+      "predictive_support": 0.5348166823387146
+    },
+    {
+      "node": 0,
+      "stability": 0.5227457880973816,
+      "window_support": 2482.0,
+      "predictive_support": 0.540022611618042
+    },
+    {
+      "node": 35,
+      "stability": 0.5159426927566528,
+      "window_support": 3194.0,
+      "predictive_support": 0.5163416862487793
+    },
+    {
+      "node": 5,
+      "stability": 0.5128907561302185,
+      "window_support": 1300.0,
+      "predictive_support": 0.5775981545448303
+    },
+    {
+      "node": 83,
+      "stability": 0.5084770321846008,
+      "window_support": 1101.0,
+      "predictive_support": 0.586198091506958
+    },
+    {
+      "node": 47,
+      "stability": 0.5052738189697266,
+      "window_support": 1395.0,
+      "predictive_support": 0.5634821057319641
+    },
+    {
+      "node": 43,
+      "stability": 0.5035640001296997,
+      "window_support": 493.0,
+      "predictive_support": 0.6556307077407837
+    }
+  ],
+  "number_of_temporal_edges": 5088,
+  "mapping_support_histogram": [
+    4240,
+    488,
+    187,
+    81,
+    52,
+    19,
+    9,
+    9,
+    2,
+    1
+  ],
+  "top_stable_mappings": [
+    {
+      "src": 78,
+      "dst": 38,
+      "stability": 0.8642720580101013,
+      "window_support": 1621.0
+    },
+    {
+      "src": 78,
+      "dst": 35,
+      "stability": 0.8396122455596924,
+      "window_support": 1322.0
+    },
+    {
+      "src": 77,
+      "dst": 78,
+      "stability": 0.834997832775116,
+      "window_support": 2103.0
+    },
+    {
+      "src": 76,
+      "dst": 35,
+      "stability": 0.8308354020118713,
+      "window_support": 1173.0
+    },
+    {
+      "src": 76,
+      "dst": 38,
+      "stability": 0.8266671895980835,
+      "window_support": 1080.0
+    },
+    {
+      "src": 50,
+      "dst": 38,
+      "stability": 0.8186959028244019,
+      "window_support": 1335.0
+    },
+    {
+      "src": 31,
+      "dst": 77,
+      "stability": 0.8177251219749451,
+      "window_support": 1433.0
+    },
+    {
+      "src": 4,
+      "dst": 5,
+      "stability": 0.8128293752670288,
+      "window_support": 1047.0
+    },
+    {
+      "src": 31,
+      "dst": 5,
+      "stability": 0.8123520016670227,
+      "window_support": 906.0
+    },
+    {
+      "src": 13,
+      "dst": 31,
+      "stability": 0.8122183084487915,
+      "window_support": 1553.0
+    }
+  ],
+  "pattern_novelty_distance_distribution": {
+    "histogram": [
+      2738,
+      4606,
+      3141,
+      2046,
+      1340,
+      876,
+      575,
+      408,
+      251,
+      146,
+      102,
+      62,
+      34,
+      24,
+      19,
+      7,
+      4,
+      3,
+      1,
+      1
+    ],
+    "min": 0.07934379577636719,
+    "median": 1.9041223526000977,
+    "p90": 5.111309051513672,
+    "max": 17.04462242126465
+  },
+  "mapping_novelty_distance_distribution": {
+    "histogram": [
+      1458,
+      4959,
+      3274,
+      1534,
+      627,
+      268,
+      87,
+      31,
+      25,
+      9,
+      7,
+      1,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      3
+    ],
+    "min": 0.015259773470461369,
+    "median": 0.80406254529953,
+    "p90": 1.588411808013916,
+    "max": 8.279396057128906
+  }
+}

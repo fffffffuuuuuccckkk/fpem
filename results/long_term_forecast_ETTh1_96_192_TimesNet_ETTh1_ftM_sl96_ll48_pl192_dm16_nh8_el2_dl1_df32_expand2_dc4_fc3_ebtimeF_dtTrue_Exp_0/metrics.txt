@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_ETTh1_96_192_TimesNet_ETTh1_ftM_sl96_ll48_pl192_dm16_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0
+MAE: 0.4417005777
+MSE: 0.4393889904
+RMSE: 0.6628642082
+MAPE: 10.82943535
+MSPE: 40407.21875
+DTW: Not available in historical metrics.npy
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

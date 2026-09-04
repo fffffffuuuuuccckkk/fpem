@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_ETTh1_96_96_Nonstationary_Transformer_ETTh1_ftM_sl96_ll48_pl96_dm128_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0
+MAE: 0.4918867946
+MSE: 0.530595243
+RMSE: 0.7284196615
+MAPE: 11.49138641
+MSPE: 60367.97266
+DTW: Not available in historical metrics.npy
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

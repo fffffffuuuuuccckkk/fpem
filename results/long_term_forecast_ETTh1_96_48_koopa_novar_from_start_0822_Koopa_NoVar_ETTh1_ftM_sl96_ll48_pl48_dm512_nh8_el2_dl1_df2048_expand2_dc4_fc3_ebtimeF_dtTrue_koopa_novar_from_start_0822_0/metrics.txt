@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_ETTh1_96_48_koopa_novar_from_start_0822_Koopa_NoVar_ETTh1_ftM_sl96_ll48_pl48_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_koopa_novar_from_start_0822_0
+MAE: 0.3796995878
+MSE: 0.3414056897
+RMSE: 0.5842993259
+MAPE: 9.383094788
+MSPE: 42515.19531
+DTW: Not available in historical metrics.npy
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

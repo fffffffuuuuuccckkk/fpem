@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_ETTh1_288_144_Koopa_ETTh1_ftM_sl288_ll48_pl144_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_Exp_0
+MAE: 0.4290738106
+MSE: 0.4194648862
+RMSE: 0.6476610899
+MAPE: 10.20065212
+MSPE: 41266.53906
+DTW: Not available in historical metrics.npy
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

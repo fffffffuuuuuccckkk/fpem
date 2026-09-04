@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_ETTh1_96_96_A3_PatchTST_FPEM_ETTh1_ftM_sl96_ll48_pl96_dm64_nh4_el1_dl1_df128_expand2_dc4_fc1_ebtimeF_dtTrue_fpem_pmg_raw_raw_freezepatch_A3_B2_C2_P2_M2_V0_factorized_var_v1_invariant_baseline_0
+MAE: 0.4057637751
+MSE: 0.3896538615
+RMSE: 0.6242225766
+MAPE: 9.860650063
+MSPE: 42057.00391
+DTW: Not calculated
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

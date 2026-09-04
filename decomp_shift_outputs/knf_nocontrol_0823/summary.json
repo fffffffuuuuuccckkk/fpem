@@ -1,0 +1,8 @@
+{
+  "mode": "nocontrol",
+  "n": 2833,
+  "decomp_or_control_mae": 0.7783135771751404,
+  "no_control_infer_mae": 0.7783135771751404,
+  "decomp_better_ratio": 0.0,
+  "no_control_better_ratio": 1.0
+}
