@@ -1,0 +1,20 @@
+MSE: 0.4037257432937622
+MAE: 0.41707661747932434
+inv_only_MSE: 0.4037257432937622
+inv_only_MAE: 0.41707661747932434
+full_minus_inv_improvement: 0.0
+g_z_mean: 0.0
+g_z_p10: 0.0
+g_z_p50: 0.0
+g_z_p90: 0.0
+g_m_mean: 0.0
+g_m_p10: 0.0
+g_m_p50: 0.0
+g_m_p90: 0.0
+feature_variation_to_Zinv: 0.0
+deltaW_to_Winv: 2.1641358216584194e-07
+experiment: A0
+identity: {'feature': 0.0, 'mapping': 0.0}
+environment_updates: []
+gradient_disagreement: nan
+environment_source: TRAIN X,Y only; validation/test excluded

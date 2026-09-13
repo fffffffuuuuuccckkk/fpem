@@ -1,0 +1,45 @@
+experiment: long_term_forecast_ETTh1_32_8_A1_PatchTST_FPEM_ETTh1_ftM_sl32_ll16_pl8_dm16_nh4_el1_dl1_df32_expand2_dc4_fc1_ebtimeF_dtTrue_fpem_pmg_emb_A1_dualspace_check_smoke_0
+representation_space: embedding
+graph_source/variance: 0.6617423942
+graph_source/norm: 3.761332532
+query/variance: 0.03120614511
+query/norm: 1
+pattern/num_active: 89
+pattern/mean_support: 164.0561829
+pattern/mean_novelty: 0.2634648085
+pattern/null_rate: 0.2634648085
+mapping/num_active_edges: 7765
+mapping/mean_support: 222.7227173
+mapping/mean_novelty: 0
+variant/activation_mean: 0.6435438991
+variant/activation_p90: 0.6900731921
+forecast/full_metric: 0.7447487116
+forecast/inv_metric: 0.7447487116
+forecast/env_gain: -0.07882148027
+c_inv_mean: 0.3564561605
+c_inv_p10: 0.3099268377
+c_inv_p50: 0.3558085561
+c_inv_p90: 0.4027533829
+A1/Z_inv_only_MSE: 0.7447487116
+A1/Z_inv_only_MAE: 0.5653058887
+A1/c_inv_bin_0.0_0.2_count: 0
+A1/c_inv_bin_0.0_0.2_forecast_MSE: nan
+A1/c_inv_bin_0.2_0.4_count: 2539
+A1/c_inv_bin_0.2_0.4_forecast_MSE: 0.7334476113
+A1/c_inv_bin_0.4_0.6_count: 334
+A1/c_inv_bin_0.4_0.6_forecast_MSE: 0.8306574821
+A1/c_inv_bin_0.6_0.8_count: 0
+A1/c_inv_bin_0.6_0.8_forecast_MSE: nan
+A1/c_inv_bin_0.8_1.0_count: 0
+A1/c_inv_bin_0.8_1.0_forecast_MSE: nan
+
+[stage0_warmup]
+loaded_a0: False
+a0_checkpoint: 
+best_epoch: 1
+train_loss: 0.4787505120038986
+val_loss: 0.8009737282991409
+test_loss: 0.705232784152031
+projector_parameter_norm: 6.651442527770996
+pattern_representation_variance: 0.014584423042833805
+projector_grad_norm: 0.04613058269023895

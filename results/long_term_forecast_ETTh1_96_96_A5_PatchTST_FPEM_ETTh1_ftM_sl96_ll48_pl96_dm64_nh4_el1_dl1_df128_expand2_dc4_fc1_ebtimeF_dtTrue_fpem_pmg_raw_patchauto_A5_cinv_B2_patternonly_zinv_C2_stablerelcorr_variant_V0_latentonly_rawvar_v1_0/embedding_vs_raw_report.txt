@@ -1,0 +1,25 @@
+A0 PatchTST:
+MSE: 0.3908533454
+MAE: 0.4016337395
+
+R0 embedding C2:
+MSE: 0.3904909194
+MAE: 0.4039775133
+num_patterns: 89
+num_edges: 7902
+c_pat_mean: 0.3757839799
+c_pat_std: 0.02299966663
+c_map_mean: 0.4612140656
+c_map_std: nan
+spearman_c_pat_error: -0.1461433147
+
+R1 raw C2:
+MSE: 0.3924204707
+MAE: 0.4074843526
+num_patterns: 67
+num_edges: 3851
+c_pat_mean: 0.3557775021
+c_pat_std: 0.03019043989
+c_map_mean: 0.4220909476
+c_map_std: 0.03348251805
+spearman_c_pat_error: -0.06591003029

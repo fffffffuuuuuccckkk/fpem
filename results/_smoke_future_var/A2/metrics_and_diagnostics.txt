@@ -1,0 +1,71 @@
+environment_count: 3
+representation_constraint: classification
+decomposition_type: complementary_gate
+variant_fusion_mode: direct_gated
+lambda_invpred: 1.0
+lambda_future_var: 0.01
+MSE: 0.32580798864364624
+MAE: 0.38846737146377563
+inv_only_MSE: 0.3635236322879791
+inv_only_MAE: 0.4078547954559326
+inv_only_minus_full_MSE: 0.037715643644332886
+g_z_mean: 0.134423166513443
+g_z_p10: 0.06022016704082489
+g_z_p50: 0.11974969506263733
+g_z_p90: 0.23297011852264404
+feature_variation_to_Zinv: 0.15334448218345642
+mapping_variation: removed
+gate/mean: 0.0006121069725070681
+gate/std: 0.05645676527175735
+gate/positive_ratio: 0.5032188778831845
+gate/negative_ratio: 0.49678112211681547
+gate/abs_mean: 0.044362281050000875
+gate/near_zero_ratio: 0.9231087820870536
+reconstruction_error: 1.1273607740457963e-08
+inv_energy_ratio: 0.5013724565505981
+var_energy_ratio: 0.5002033412456512
+future_var_loss: 1.0070677995681763
+future_var_cosine: -0.007067787926644087
+future_var_l2: 4.901128768920898
+future_var_pred_norm: 4.5064473152160645
+future_var_target_norm: 1.8767375946044922
+corr_future_var_similarity_with_sample_gain: 0.4911764705882353
+corr_future_var_similarity_with_sample_gain_type: Spearman
+future_teacher_sample_count: 16
+future_teacher_source: TRAIN only; earliest seq_len steps from forecast origin; stop-gradient shared encoder/decomposer; absent from inference
+per_env_MSE: [0.3647022545337677, 0.3648390471935272, 0.36446407437324524]
+env_similarity_mean: 0.3341257572174072
+env_similarity_std: 0.0010840704198926687
+corr_inv_env: -0.06276816874742508
+corr_var_env: -0.06820125877857208
+hsic_inv_env: 2.754452488318293e-08
+hsic_var_env: 2.7563979543288042e-08
+hsic_inv_var: 9.890206456475426e-06
+diagnostic_sample_count: 32
+inv_env_soft_ce: 1.1167361736297607
+var_env_soft_ce: 1.1127312183380127
+inv_env_accuracy_argmax: 0.19753816723823547
+var_env_accuracy_argmax: 0.39910048246383667
+inv_env_entropy: 1.083211064338684
+var_env_entropy: 1.0832680463790894
+experiment: A2
+identity: {'feature': 0.0}
+environment_updates: [{'update': 0, 'source_split': 'TRAIN only', 'mean_q_change': 0.030469173565506935, 'environment_mass': [0.32930347323417664, 0.31880292296409607, 0.3518935739994049], 'min_environment_mass': 0.31880292296409607, 'environment_risk': [0.39009055495262146, 0.3902910053730011, 0.38993725180625916], 'probe_gradients': [[0.020491959527134895, 0.005406087264418602], [0.020401835441589355, 0.00499075697734952], [0.01950937509536743, 0.0031896254513412714]], 'gradient_disagreement': 3.366452119735186e-06, 'D_within_grad': 0.49595868587493896, 'D_between_grad': 0.49566367268562317, 'gradient_separation': 0.9994051456451416, 'random_partition_repeats': 100, 'conflict_ours': 3.366452119735186e-06, 'random_partition_conflict_mean': 3.0195175781955186e-07, 'random_partition_conflict_std': 1.9049753063882235e-07, 'random_partition_z_score': 16.086824417114258, 'environment_similarity_correlation': 0.4358704390850948, 'hungarian_permutation': [1, 2, 0], 'alignment_overlap_before': 0.33320942521095276, 'alignment_overlap_after': 0.33339592814445496, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}]
+training_gate_history: [{'loss': 1.110668957233429, 'future_var_loss': 0.9919566810131073, 'future_var_cosine': 0.008043322712182999, 'future_var_l2': 4.681460857391357, 'future_var_pred_norm': 4.4195146560668945, 'future_var_target_norm': 1.5339937806129456, 'gate/mean': -0.00021434189485652105, 'gate/std': 0.05626886258380683, 'gate/positive_ratio': 0.49765450613839285, 'gate/negative_ratio': 0.5023454938616071, 'gate/abs_mean': 0.04433051035517738, 'gate/near_zero_ratio': 0.924407958984375}]
+gradient_disagreement: 3.366452119735186e-06
+environment_source: TRAIN X,Y only; validation/test excluded
+reference_checkpoint: results/predictive_env_decomposition_comparison_k3/shared_reference.pt
+reference_checkpoint_sha256: ee517551a34c2cf0640dad6261f256671f3f7d33f895257f88008a0128deb15b
+reference_source: loaded
+seed: 2021
+D_within_grad: 0.49595868587493896
+D_between_grad: 0.49566367268562317
+gradient_separation: 0.9994051456451416
+random_partition_z_score: 16.086824417114258
+random_partition_conflict_mean: 3.0195175781955186e-07
+random_partition_conflict_std: 1.9049753063882235e-07
+min_environment_mass: 0.31880292296409607
+alignment_overlap_before: 0.33320942521095276
+alignment_overlap_after: 0.33339592814445496
+final_environment_similarity_correlation: 0.4358704390850948
+hungarian_permutation: [1, 2, 0]

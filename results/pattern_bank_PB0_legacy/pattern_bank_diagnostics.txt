@@ -1,0 +1,9 @@
+method: PB0_legacy
+source_split: train
+oracle_diagnostic_only: true
+pattern_count: 16
+oracle_normalized_shape_mse: 0.2987422645
+oracle_signal_mse_gt_geometry_diagnostic_only: 0.03659407422
+train_reconstruction_mse: 0.5375385284
+coverage_mean: 0.91015625
+p_inv_relation: legacy_stability

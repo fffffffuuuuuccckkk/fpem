@@ -1,0 +1,9 @@
+method: pb1
+source_split: train
+oracle_diagnostic_only: true
+pattern_count: 23
+oracle_normalized_shape_mse: 0.3185556531
+oracle_signal_mse_gt_geometry_diagnostic_only: 0.04527335614
+train_reconstruction_mse: 0.4664425254
+coverage_mean: 0.9945651889
+p_inv_relation: rho=1.0000

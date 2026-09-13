@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_ETTh1_96_96_A5_PatchTST_FPEM_ETTh1_ftM_sl96_ll48_pl96_dm64_nh4_el1_dl1_df128_expand2_dc4_fc1_ebtimeF_dtTrue_fpem_raw_RP4_RM0_stable_only_shgated_scgated_stgated_pattern_plus_hidden_0
+MAE: 0.5880274177
+MSE: 0.71716398
+RMSE: 0.8468553424
+MAPE: 10.74908066
+MSPE: 34989.19141
+DTW: Not calculated
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

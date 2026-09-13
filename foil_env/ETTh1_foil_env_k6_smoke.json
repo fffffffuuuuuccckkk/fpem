@@ -1,0 +1,15 @@
+{
+  "source": "FOIL_upstream/Informer+FOIL/Informer2020/models/model_env_scale.py",
+  "scope": "TRAIN-only",
+  "semantics": "future-vs-history scale/shift environment assignment",
+  "env_num": 6,
+  "num_windows": 8449,
+  "counts": [
+    1904,
+    2030,
+    959,
+    1139,
+    968,
+    1449
+  ]
+}

@@ -1,0 +1,31 @@
+environment_count: 2
+MSE: 0.3965791165828705
+MAE: 0.41520217061042786
+inv_only_MSE: 0.3965791165828705
+inv_only_MAE: 0.41520217061042786
+inv_only_minus_full_MSE: 0.0
+g_z_mean: 0.0
+g_z_p10: 0.0
+g_z_p50: 0.0
+g_z_p90: 0.0
+feature_variation_to_Zinv: 0.0
+mapping_variation: removed
+experiment: A0
+identity: {'feature': 0.0}
+environment_updates: []
+gradient_disagreement: nan
+environment_source: TRAIN X,Y only; validation/test excluded
+reference_checkpoint: results/predictive_env_count_sweep_sharedref_verified/shared_reference.pt
+reference_checkpoint_sha256: f207d0ffc19411b5101baaacdf4423d8741a083d5f77d50b336ceb315580af8a
+reference_source: loaded
+seed: 2021
+D_within_grad: nan
+D_between_grad: nan
+gradient_separation: nan
+random_partition_z_score: nan
+random_partition_conflict_mean: nan
+random_partition_conflict_std: nan
+min_environment_mass: nan
+final_environment_similarity_correlation: nan
+corr_inv_env: nan
+corr_var_env: nan

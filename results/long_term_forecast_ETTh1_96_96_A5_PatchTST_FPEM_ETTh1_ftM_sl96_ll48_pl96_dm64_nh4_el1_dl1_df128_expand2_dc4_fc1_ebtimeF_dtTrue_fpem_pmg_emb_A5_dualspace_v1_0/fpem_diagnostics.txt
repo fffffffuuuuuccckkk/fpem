@@ -1,0 +1,33 @@
+experiment: long_term_forecast_ETTh1_96_96_A5_PatchTST_FPEM_ETTh1_ftM_sl96_ll48_pl96_dm64_nh4_el1_dl1_df128_expand2_dc4_fc1_ebtimeF_dtTrue_fpem_pmg_emb_A5_dualspace_v1_0
+representation_space: embedding
+graph_source/variance: 0.772500729
+graph_source/norm: 7.832773041
+query/variance: 0.031246383
+query/norm: 1
+pattern/num_active: 89
+pattern/mean_support: 67.61798096
+pattern/mean_novelty: 0.2415114045
+pattern/null_rate: 0.2415114045
+mapping/num_active_edges: 7902
+mapping/mean_support: 85.4776001
+mapping/mean_novelty: 0.4569755793
+variant/activation_mean: 0.8198698163
+variant/activation_p90: 0.8439577222
+forecast/full_metric: 0.396592617
+forecast/inv_metric: 0.3994153142
+forecast/env_gain: 0.002822697163
+c_inv_mean: 0.1801301688
+c_inv_p10: 0.1560422927
+c_inv_p50: 0.1802274436
+c_inv_p90: 0.2037595958
+
+[stage0_warmup]
+loaded_a0: True
+a0_checkpoint: /data/OuXiaoyu/Time-Series-Library-FPEM/checkpoints/long_term_forecast_ETTh1_96_96_A0_PatchTST_ETTh1_ftM_sl96_ll48_pl96_dm64_nh4_el1_dl1_df128_expand2_dc4_fc1_ebtimeF_dtTrue_fpem_pmg_A0_0/checkpoint.pth
+best_epoch: 6
+train_loss: 0.3857858807410834
+val_loss: 0.7137048498473384
+test_loss: 0.4013144754889337
+projector_parameter_norm: 10.651483535766602
+pattern_representation_variance: 0.028483659029006958
+projector_grad_norm: 0.2166588306427002

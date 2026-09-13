@@ -1,0 +1,28 @@
+MSE: 0.4043532609939575
+MAE: 0.4168332815170288
+inv_only_MSE: 0.39628317952156067
+g_z_mean: 0.16426628828048706
+g_z_p10: 0.007511383760720492
+g_z_p50: 0.0635482706129551
+g_z_p90: 0.5267816305160523
+g_m_mean: 0.03626684844493866
+g_m_p10: 9.759661188581958e-05
+g_m_p50: 0.0011726918164640665
+g_m_p90: 0.049829392135143175
+feature_variation_to_Zinv: 0.1785896271467209
+deltaW_to_Winv: 0.16913436353206635
+env_similarity_mean: 0.290678471326828
+env_similarity_std: 0.13921736180782318
+corr_inv_env: 0.08498148620128632
+corr_var_env: 0.9625649452209473
+hsic_inv_env: 5.156078259460628e-06
+hsic_var_env: 7.76737360865809e-05
+hsic_inv_var: 9.035462426254526e-06
+experiment: V5
+feature_mode: gated
+mapping_mode: gated
+initial_identity: {'feature_identity_difference': 0.0, 'mapping_identity_difference': 0.0}
+dynamic_environment_source: TRAIN only
+environment_updates: [{'epoch': 0, 'mean_q_change': nan, 'environment_similarity_epoch_correlation': nan, 'source_split': 'TRAIN only', 'assignment_entropy': 1.7910449504852295}, {'epoch': 1, 'mean_q_change': 0.036307793110609055, 'environment_similarity_epoch_correlation': 0.06941718998919591, 'source_split': 'TRAIN only', 'assignment_entropy': 1.7867860794067383}, {'epoch': 2, 'mean_q_change': 0.03706566244363785, 'environment_similarity_epoch_correlation': 0.2668917824937847, 'source_split': 'TRAIN only', 'assignment_entropy': 1.7859214544296265}, {'epoch': 3, 'mean_q_change': 0.016856951639056206, 'environment_similarity_epoch_correlation': 0.8216006659280756, 'source_split': 'TRAIN only', 'assignment_entropy': 1.7843321561813354}, {'epoch': 4, 'mean_q_change': 0.02508542500436306, 'environment_similarity_epoch_correlation': 0.7824580447415234, 'source_split': 'TRAIN only', 'assignment_entropy': 1.7788056135177612}, {'epoch': 5, 'mean_q_change': 0.0354837104678154, 'environment_similarity_epoch_correlation': 0.7960910651856018, 'source_split': 'TRAIN only', 'assignment_entropy': 1.7680226564407349}, {'epoch': 6, 'mean_q_change': 0.05749623104929924, 'environment_similarity_epoch_correlation': 0.9162336165154541, 'source_split': 'TRAIN only', 'assignment_entropy': 1.7335257530212402}, {'epoch': 7, 'mean_q_change': 0.12649115920066833, 'environment_similarity_epoch_correlation': 0.9227942922851734, 'source_split': 'TRAIN only', 'assignment_entropy': 1.6046587228775024}, {'epoch': 8, 'mean_q_change': 0.12415466457605362, 'environment_similarity_epoch_correlation': 0.9530196668045546, 'source_split': 'TRAIN only', 'assignment_entropy': 1.4263116121292114}, {'epoch': 9, 'mean_q_change': 0.10904423147439957, 'environment_similarity_epoch_correlation': 0.9478516969893542, 'source_split': 'TRAIN only', 'assignment_entropy': 1.2713441848754883}]
+final_q_change: 0.10904423147439957
+final_env_similarity_correlation: 0.9478516969893542

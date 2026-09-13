@@ -1,0 +1,5 @@
+reference_checkpoint: results/_smoke_multidata/Traffic/reference.pt
+reference_checkpoint_sha256: f6526aad8cf6cda096a0409958f1c446d820601b8f262114c7ec6b44d1b20036
+reference_source: created
+seed: 2021
+signature: {'dataset_name': 'Traffic', 'data_class': 'custom', 'data_path': 'traffic.csv', 'target': 'OT', 'freq': 'h', 'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 1, 'protocol_version': 4}

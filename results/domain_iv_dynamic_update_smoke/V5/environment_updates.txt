@@ -1,0 +1,2 @@
+{"epoch": 0, "mean_q_change": NaN, "environment_similarity_epoch_correlation": NaN, "source_split": "TRAIN only", "assignment_entropy": 1.7911804914474487}
+{"epoch": 1, "mean_q_change": 0.0017453375039622188, "environment_similarity_epoch_correlation": 0.9787428880034822, "source_split": "TRAIN only", "assignment_entropy": 1.7911432981491089}

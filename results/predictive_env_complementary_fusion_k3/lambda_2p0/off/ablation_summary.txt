@@ -1,0 +1,2 @@
+experiment constraint decomposition fusion lambda_invpred env_count MSE MAE inv_MSE improvement g_z DeltaZ/Zinv corr_inv_env corr_var_env conflict Dwithin_grad Dbetween_grad separation random_z min_mass final_env_sim_corr
+A2 classification complementary_gate off 2.0 3 0.398653299 0.412717342 0.398653299 0.000000000 0.000000 0.000000 0.031198 0.040739 0.18406911 0.43884343 0.57230324 1.304117 4856.895996 0.329387 0.923272

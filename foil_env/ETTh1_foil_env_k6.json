@@ -1,0 +1,15 @@
+{
+  "source": "FOIL_upstream/Informer+FOIL/Informer2020/models/model_env_scale.py",
+  "scope": "TRAIN-only",
+  "semantics": "repo foil_shift six-feature history KMeans partition",
+  "env_num": 6,
+  "num_windows": 8449,
+  "counts": [
+    1497,
+    1410,
+    1332,
+    914,
+    1764,
+    1532
+  ]
+}

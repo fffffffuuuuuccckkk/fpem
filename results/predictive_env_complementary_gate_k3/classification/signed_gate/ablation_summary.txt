@@ -1,0 +1,2 @@
+experiment constraint decomposition env_count MSE MAE inv_MSE improvement g_z DeltaZ/Zinv corr_inv_env corr_var_env conflict Dwithin_grad Dbetween_grad separation random_z min_mass final_env_sim_corr
+A2 classification signed_gate 3 0.428703010 0.422500700 0.428703010 0.000000000 0.000000 0.000000 0.040152 0.071592 0.17090976 0.43749481 0.56429708 1.289837 4985.767090 0.329724 0.894125

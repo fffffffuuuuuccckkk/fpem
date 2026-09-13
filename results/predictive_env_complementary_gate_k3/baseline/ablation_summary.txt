@@ -1,0 +1,2 @@
+experiment constraint decomposition env_count MSE MAE inv_MSE improvement g_z DeltaZ/Zinv corr_inv_env corr_var_env conflict Dwithin_grad Dbetween_grad separation random_z min_mass final_env_sim_corr
+A0 contrastive projection 3 0.396434724 0.413913012 0.396434724 0.000000000 0.000000 0.000000 nan nan nan nan nan nan nan nan nan

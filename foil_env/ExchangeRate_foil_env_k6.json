@@ -1,0 +1,40 @@
+{
+  "source": "/data/OuXiaoyu/datasets/ExchangeRate",
+  "seq_len": 96,
+  "env_num": 6,
+  "splits": {
+    "train": {
+      "num_windows": 5216,
+      "counts": [
+        704,
+        1394,
+        2102,
+        238,
+        430,
+        348
+      ]
+    },
+    "val": {
+      "num_windows": 663,
+      "counts": [
+        0,
+        282,
+        0,
+        25,
+        19,
+        337
+      ]
+    },
+    "test": {
+      "num_windows": 1424,
+      "counts": [
+        0,
+        801,
+        465,
+        0,
+        0,
+        158
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{"epoch": 0, "mean_q_change": NaN, "environment_similarity_epoch_correlation": NaN, "source_split": "TRAIN only", "assignment_entropy": 1.7910449504852295}
+{"epoch": 1, "mean_q_change": 0.042421817779541016, "environment_similarity_epoch_correlation": 0.13957180187114102, "source_split": "TRAIN only", "assignment_entropy": 1.7835146188735962}
+{"epoch": 2, "mean_q_change": 0.12381863594055176, "environment_similarity_epoch_correlation": 0.7536205903526243, "source_split": "TRAIN only", "assignment_entropy": 1.7109888792037964}
+{"epoch": 3, "mean_q_change": 0.1473589539527893, "environment_similarity_epoch_correlation": 0.9393716505155515, "source_split": "TRAIN only", "assignment_entropy": 1.5400453805923462}
+{"epoch": 4, "mean_q_change": 0.11693765968084335, "environment_similarity_epoch_correlation": 0.9688052386028979, "source_split": "TRAIN only", "assignment_entropy": 1.3573840856552124}
+{"epoch": 5, "mean_q_change": 0.10845848172903061, "environment_similarity_epoch_correlation": 0.9500245395289543, "source_split": "TRAIN only", "assignment_entropy": 1.2326273918151855}
+{"epoch": 6, "mean_q_change": 0.1277821958065033, "environment_similarity_epoch_correlation": 0.9130772133262814, "source_split": "TRAIN only", "assignment_entropy": 1.1093229055404663}
+{"epoch": 7, "mean_q_change": 0.09984651952981949, "environment_similarity_epoch_correlation": 0.9451249054728432, "source_split": "TRAIN only", "assignment_entropy": 1.0147720575332642}
+{"epoch": 8, "mean_q_change": 0.09050077199935913, "environment_similarity_epoch_correlation": 0.9682202853513739, "source_split": "TRAIN only", "assignment_entropy": 0.9415534734725952}
+{"epoch": 9, "mean_q_change": 0.12286286801099777, "environment_similarity_epoch_correlation": 0.9475673807697448, "source_split": "TRAIN only", "assignment_entropy": 0.8849166035652161}

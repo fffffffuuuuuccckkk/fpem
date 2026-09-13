@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_ETTh1_32_8_A5_PatchTST_FPEM_ETTh1_ftM_sl32_ll16_pl8_dm16_nh4_el1_dl1_df32_expand2_dc4_fc1_ebtimeF_dtTrue_fpem_raw_RP0_stable_only_shoff_scoff_stoff_pattern_plus_hidden_smoke_0
+MAE: 0.782206893
+MSE: 1.112958193
+RMSE: 1.054968357
+MAPE: 2.029300213
+MSPE: 235.1339569
+DTW: Not calculated
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

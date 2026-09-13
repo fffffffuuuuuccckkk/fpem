@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_exchange_foil_fpem_patchtst_96_PatchTST_FPEM_split_npy_ftM_sl96_ll48_pl96_dm32_nh4_el1_dl1_df64_expand2_dc4_fc1_ebtimeF_dtTrue_foil_fpem_0
+MAE: 0.1996481121
+MSE: 0.07911303639
+RMSE: 0.2812703848
+MAPE: 1.320145011
+MSPE: 1021.641541
+DTW: Not available in historical metrics.npy
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

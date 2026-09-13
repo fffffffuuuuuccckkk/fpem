@@ -1,0 +1,61 @@
+environment_count: 3
+representation_constraint: classification
+decomposition_type: complementary_gate
+variant_fusion_mode: direct_gated
+lambda_invpred: 1.0
+MSE: 0.4022355377674103
+MAE: 0.414023756980896
+inv_only_MSE: 0.39612728357315063
+inv_only_MAE: 0.4118552803993225
+inv_only_minus_full_MSE: -0.0061082541942596436
+g_z_mean: 0.011365612968802452
+g_z_p10: 0.0020806165412068367
+g_z_p50: 0.005262082442641258
+g_z_p90: 0.020343443378806114
+feature_variation_to_Zinv: 0.060862913727760315
+mapping_variation: removed
+gate/mean: -0.5621565431104192
+gate/std: 0.3501594071213781
+gate/positive_ratio: 0.08097898032080876
+gate/negative_ratio: 0.9190210196791913
+gate/abs_mean: 0.6037642855373949
+gate/near_zero_ratio: 0.05343919982153544
+reconstruction_error: 9.108550241226908e-09
+inv_energy_ratio: 0.28356818608150447
+var_energy_ratio: 0.7993482273613743
+per_env_MSE: [0.307966947555542, 0.2573685646057129, 0.3292403221130371]
+env_similarity_mean: 0.3331296443939209
+env_similarity_std: 0.1888994425535202
+corr_inv_env: 0.03530654311180115
+corr_var_env: 0.045306622982025146
+hsic_inv_env: 2.4293697151733795e-06
+hsic_var_env: 1.710807191557251e-05
+hsic_inv_var: 4.3503864617377985e-06
+diagnostic_sample_count: 1024
+inv_env_soft_ce: 1.0983037948608398
+var_env_soft_ce: 0.9227292537689209
+inv_env_accuracy_argmax: 0.36607882380485535
+var_env_accuracy_argmax: 0.6759380102157593
+inv_env_entropy: 1.088382363319397
+var_env_entropy: 0.9651163816452026
+experiment: A2
+identity: {'feature': 0.0}
+environment_updates: [{'update': 0, 'source_split': 'TRAIN only', 'mean_q_change': 0.09010062366724014, 'environment_mass': [0.33318889141082764, 0.33289092779159546, 0.3339201807975769], 'min_environment_mass': 0.33289092779159546, 'environment_risk': [0.37670716643333435, 0.3926374018192291, 0.4009356200695038], 'probe_gradients': [[-0.01502344198524952, -0.10590828955173492], [0.029600951820611954, 0.04569735750555992], [0.045727141201496124, 0.07357725501060486]], 'gradient_disagreement': 0.02063954807817936, 'D_within_grad': 0.5931361317634583, 'D_between_grad': 0.6030728220939636, 'gradient_separation': 1.01675283908844, 'random_partition_repeats': 100, 'conflict_ours': 0.02063954807817936, 'random_partition_conflict_mean': 4.842242560698651e-06, 'random_partition_conflict_std': 5.582201083598193e-06, 'random_partition_z_score': 3696.517822265625, 'environment_similarity_correlation': -0.0004929395107948853, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.3333527445793152, 'alignment_overlap_after': 0.3333527445793152, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 1, 'source_split': 'TRAIN only', 'mean_q_change': 0.38077396154403687, 'environment_mass': [0.3316591680049896, 0.3374713063240051, 0.33086955547332764], 'min_environment_mass': 0.33086955547332764, 'environment_risk': [0.34645989537239075, 0.27326852083206177, 0.37160634994506836], 'probe_gradients': [[0.08603142946958542, -0.3756692409515381], [-0.03231418505311012, -0.00494516734033823], [0.14195536077022552, 0.24968872964382172]], 'gradient_disagreement': 0.21361680328845978, 'D_within_grad': 0.4689667820930481, 'D_between_grad': 0.6093440651893616, 'gradient_separation': 1.299333095550537, 'random_partition_repeats': 100, 'conflict_ours': 0.21361680328845978, 'random_partition_conflict_mean': 8.026642899494618e-05, 'random_partition_conflict_std': 6.266973650781438e-05, 'random_partition_z_score': 3407.330810546875, 'environment_similarity_correlation': 0.7178660797066825, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.3762548863887787, 'alignment_overlap_after': 0.3762548863887787, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 2, 'source_split': 'TRAIN only', 'mean_q_change': 0.15697789192199707, 'environment_mass': [0.33310627937316895, 0.33688342571258545, 0.33001020550727844], 'min_environment_mass': 0.33001020550727844, 'environment_risk': [0.3413099944591522, 0.2668410837650299, 0.36226949095726013], 'probe_gradients': [[0.09466221183538437, -0.3458554744720459], [-0.06113680452108383, -0.07369154691696167], [0.12480057775974274, 0.2852973937988281]], 'gradient_disagreement': 0.22035150229930878, 'D_within_grad': 0.46051880717277527, 'D_between_grad': 0.6123889684677124, 'gradient_separation': 1.3297805786132812, 'random_partition_repeats': 100, 'conflict_ours': 0.22035150229930878, 'random_partition_conflict_mean': 6.479903095168993e-05, 'random_partition_conflict_std': 4.225201337249018e-05, 'random_partition_z_score': 5213.6376953125, 'environment_similarity_correlation': 0.8732234850690571, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.5589068531990051, 'alignment_overlap_after': 0.5589068531990051, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 3, 'source_split': 'TRAIN only', 'mean_q_change': 0.11388612538576126, 'environment_mass': [0.33404165506362915, 0.3362185060977936, 0.3297398090362549], 'min_environment_mass': 0.3297398090362549, 'environment_risk': [0.31207194924354553, 0.26056361198425293, 0.3637554943561554], 'probe_gradients': [[0.07512907683849335, -0.26387280225753784], [-0.060135144740343094, -0.07494602352380753], [0.13046717643737793, 0.3161977231502533]], 'gradient_disagreement': 0.19428549706935883, 'D_within_grad': 0.43980672955513, 'D_between_grad': 0.573094367980957, 'gradient_separation': 1.3030595779418945, 'random_partition_repeats': 100, 'conflict_ours': 0.19428549706935883, 'random_partition_conflict_mean': 5.160652654012665e-05, 'random_partition_conflict_std': 4.39908035332337e-05, 'random_partition_z_score': 4415.32958984375, 'environment_similarity_correlation': 0.9171174945994995, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.5591431260108948, 'alignment_overlap_after': 0.5591431260108948, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 4, 'source_split': 'TRAIN only', 'mean_q_change': 0.1040777713060379, 'environment_mass': [0.3347814977169037, 0.33573779463768005, 0.32948070764541626], 'min_environment_mass': 0.32948070764541626, 'environment_risk': [0.31003791093826294, 0.2620375156402588, 0.3477679193019867], 'probe_gradients': [[0.07101593166589737, -0.26821020245552063], [-0.07109560817480087, -0.10367130488157272], [0.09989940375089645, 0.2923342287540436]], 'gradient_disagreement': 0.18279092013835907, 'D_within_grad': 0.44002753496170044, 'D_between_grad': 0.5732657313346863, 'gradient_separation': 1.302795171737671, 'random_partition_repeats': 100, 'conflict_ours': 0.18279092013835907, 'random_partition_conflict_mean': 5.140717257745564e-05, 'random_partition_conflict_std': 3.9351860323222354e-05, 'random_partition_z_score': 4643.732421875, 'environment_similarity_correlation': 0.9209885047124977, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.5439822673797607, 'alignment_overlap_after': 0.5439822673797607, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}]
+training_gate_history: [{'loss': 0.9562852733540085, 'gate/mean': -0.019692006944021578, 'gate/std': 0.17284779938789044, 'gate/positive_ratio': 0.4501179845837983, 'gate/negative_ratio': 0.5498820154162017, 'gate/abs_mean': 0.13018705541072803, 'gate/near_zero_ratio': 0.5126606568023336}, {'loss': 0.9378701563151377, 'gate/mean': -0.11036593157680621, 'gate/std': 0.20299425205221322, 'gate/positive_ratio': 0.28400143893384816, 'gate/negative_ratio': 0.7159985610661518, 'gate/abs_mean': 0.18378768694913492, 'gate/near_zero_ratio': 0.3418403397890846}, {'loss': 0.9269407333068128, 'gate/mean': -0.2405134737234617, 'gate/std': 0.24840798664406585, 'gate/positive_ratio': 0.16281552233569485, 'gate/negative_ratio': 0.8371844776643051, 'gate/abs_mean': 0.28842457686048983, 'gate/near_zero_ratio': 0.19136808552646412}, {'loss': 0.9191321213290377, 'gate/mean': -0.3273917387438976, 'gate/std': 0.2666108118445188, 'gate/positive_ratio': 0.11417806559243415, 'gate/negative_ratio': 0.8858219344075658, 'gate/abs_mean': 0.36194034667876385, 'gate/near_zero_ratio': 0.13421138151563441}, {'loss': 0.9050896057542764, 'gate/mean': -0.3946885177473158, 'gate/std': 0.2836143776222562, 'gate/positive_ratio': 0.09305117843792446, 'gate/negative_ratio': 0.9069488215620756, 'gate/abs_mean': 0.42622178961357804, 'gate/near_zero_ratio': 0.09785594475466243}, {'loss': 0.8947192632927085, 'gate/mean': -0.4380885865956817, 'gate/std': 0.29774376468762137, 'gate/positive_ratio': 0.08629681516092352, 'gate/negative_ratio': 0.9137031848390764, 'gate/abs_mean': 0.4700229878414284, 'gate/near_zero_ratio': 0.08291686778144357}, {'loss': 0.887165440703338, 'gate/mean': -0.4704125467476101, 'gate/std': 0.31070470009414913, 'gate/positive_ratio': 0.08417121525106522, 'gate/negative_ratio': 0.9158287847489348, 'gate/abs_mean': 0.5043553317520821, 'gate/near_zero_ratio': 0.07310299229727102}, {'loss': 0.880354072912684, 'gate/mean': -0.494756841894163, 'gate/std': 0.31797063050577756, 'gate/positive_ratio': 0.08064199216218178, 'gate/negative_ratio': 0.9193580078378182, 'gate/abs_mean': 0.5289174721832229, 'gate/near_zero_ratio': 0.06654641390006708}, {'loss': 0.8734414806905783, 'gate/mean': -0.5203524992558678, 'gate/std': 0.33011420576414624, 'gate/positive_ratio': 0.07985898474706785, 'gate/negative_ratio': 0.9201410152529321, 'gate/abs_mean': 0.5570931035674717, 'gate/near_zero_ratio': 0.06094408218833308}, {'loss': 0.8642497438304829, 'gate/mean': -0.5351341910657034, 'gate/std': 0.34171834916898053, 'gate/positive_ratio': 0.08228913814645576, 'gate/negative_ratio': 0.9177108591015631, 'gate/abs_mean': 0.5752683159843166, 'gate/near_zero_ratio': 0.05873834734157748}]
+gradient_disagreement: 0.18279092013835907
+environment_source: TRAIN X,Y only; validation/test excluded
+reference_checkpoint: results/predictive_env_decomposition_comparison_k3/shared_reference.pt
+reference_checkpoint_sha256: ee517551a34c2cf0640dad6261f256671f3f7d33f895257f88008a0128deb15b
+reference_source: loaded
+seed: 2021
+D_within_grad: 0.44002753496170044
+D_between_grad: 0.5732657313346863
+gradient_separation: 1.302795171737671
+random_partition_z_score: 4643.732421875
+random_partition_conflict_mean: 5.140717257745564e-05
+random_partition_conflict_std: 3.9351860323222354e-05
+min_environment_mass: 0.32948070764541626
+alignment_overlap_before: 0.5439822673797607
+alignment_overlap_after: 0.5439822673797607
+final_environment_similarity_correlation: 0.9209885047124977
+hungarian_permutation: [0, 1, 2]

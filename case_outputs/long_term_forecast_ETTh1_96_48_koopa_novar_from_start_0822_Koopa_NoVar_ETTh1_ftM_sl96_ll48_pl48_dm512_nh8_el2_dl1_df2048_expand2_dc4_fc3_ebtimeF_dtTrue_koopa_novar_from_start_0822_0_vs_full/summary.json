@@ -1,0 +1,11 @@
+{
+  "n": 2833,
+  "full_mae": 0.38414832949638367,
+  "inv_only_mae": 0.39228835701942444,
+  "full_better_ratio": 0.6710201200141193,
+  "inv_only_better_ratio": 0.3289798799858807,
+  "compare_model": "Koopa_NoVar",
+  "compare_mae": 0.37969958782196045,
+  "compare_better_than_full_ratio": 0.5601835510060007,
+  "full_better_than_compare_ratio": 0.4398164489939993
+}

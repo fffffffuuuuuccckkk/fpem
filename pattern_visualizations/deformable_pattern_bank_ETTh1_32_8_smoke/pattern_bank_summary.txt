@@ -1,0 +1,16 @@
+Method | Pattern count | Oracle shape MSE | Train recon MSE | Coverage mean | p_inv relation
+PB0 Legacy | 16 | 0.2987422645 | 0.5375385284 | 0.91015625 | legacy
+PB1 | 23 | 0.3185556531 | 0.4664425254 | 0.9945651889 | rho=1.0000
+PB2 | 23 | 0.2254196703 | 0.3369555473 | 0.9945651889 | rho=1.0000
+PB3 | 22 | 0.2254196703 | 0.3408131301 | 1 | rho=1.0000
+provisional_pattern_count: 23
+final_canonical_invariant_count: 22
+mean_error_before_shape: 0.4664425254
+mean_error_after_shape: 0.3369555473
+explained_local_ratio: 1
+unexplained_local_ratio: 0
+rho_coverage_p_inv: 1
+rho_entropy_p_inv: 0.07312252964
+rho_concentration_p_local: 0.1442687747
+source_split: TRAIN only
+oracle: DIAGNOSTIC ONLY

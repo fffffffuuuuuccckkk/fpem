@@ -1,0 +1,37 @@
+MSE: 0.7458828687667847
+MAE: 0.5895007848739624
+gP_mean: 0.0
+gM_mean: 0.0
+gP_p10: 0.0
+gP_p50: 0.0
+gP_p90: 0.0
+gM_p10: 0.0
+gM_p50: 0.0
+gM_p90: 0.0
+pattern_correction_to_H: 0.0
+deltaW_effect_ratio: 0.0
+deltaW_to_WU: 0.0
+environment_MSE: {'1': 0.7497231364250183, '4': 0.7321675419807434}
+environment_deltaW_to_WU: {'1': 0.0, '4': 0.0}
+pattern_count: 32
+pattern_p_inv_quantiles: [3.4521581255830824e-06, 0.4008814007043839, 0.9559078514575958, 0.9794184744358063, 0.9795071482658386]
+pattern_p_inv_min: 3.4521581255830824e-06
+pattern_p_inv_p10: 0.4008814007043839
+pattern_p_inv_p50: 0.9559078514575958
+pattern_p_inv_p90: 0.9794184744358063
+pattern_p_inv_max: 0.9795071482658386
+pattern_p_var_quantiles: [0.020492851734161377, 0.020581525564193726, 0.044092148542404175, 0.5991186261177067, 0.999996542930603]
+invariant_pattern_probability_sum: 26.273136138916016
+invariant_pattern_effective_mass: 26.273820877075195
+pattern_mass_inv: 26.273820877075195
+variant_pattern_environment_concentration: 1.993030309677124e-07
+mapping_count: 1024
+mapping_p_inv_quantiles: [0.5001534223556519, 0.5001534223556519, 0.5001535415649414, 0.500153660774231, 0.5001538991928101]
+mapping_p_var_quantiles: [0.49984610080718994, 0.49984633922576904, 0.4998464584350586, 0.49984657764434814, 0.49984657764434814]
+invariant_mapping_effective_mass: 0.5001535415649414
+variant_mapping_effective_mass: 0.4998464584350586
+experiment: E0
+identity: {'initial_pattern_abs_diff': 0.0, 'initial_prediction_abs_diff': 0.0}
+shared_warmup_epochs: 1
+stage_A_epochs: 1
+stage_B_epochs: 0

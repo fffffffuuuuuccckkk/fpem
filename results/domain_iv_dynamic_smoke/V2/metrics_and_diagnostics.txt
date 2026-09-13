@@ -1,0 +1,28 @@
+MSE: 1.1763514280319214
+MAE: 0.7359734773635864
+inv_only_MSE: 1.1763581037521362
+g_z_mean: 0.14175069332122803
+g_z_p10: 0.08348490595817566
+g_z_p50: 0.12995727360248566
+g_z_p90: 0.21838543415069586
+g_m_mean: 0.0
+g_m_p10: 0.0
+g_m_p50: 0.0
+g_m_p90: 0.0
+feature_variation_to_Zinv: 5.099958798382431e-05
+deltaW_to_Winv: 1.764623647204644e-07
+env_similarity_mean: 0.16672737896442413
+env_similarity_std: 4.607634400599636e-05
+corr_inv_env: 0.2215118110179901
+corr_var_env: 0.3436708450317383
+hsic_inv_env: 5.204110919976301e-09
+hsic_var_env: 4.0374856236091716e-10
+hsic_inv_var: 1.0760334134829463e-07
+experiment: V2
+feature_mode: gated
+mapping_mode: off
+initial_identity: {'feature_identity_difference': 0.0, 'mapping_identity_difference': 0.0}
+dynamic_environment_source: TRAIN only
+environment_updates: [{'epoch': 0, 'mean_q_change': nan, 'environment_similarity_epoch_correlation': nan, 'source_split': 'TRAIN only', 'assignment_entropy': 1.7911804914474487}]
+final_q_change: nan
+final_env_similarity_correlation: nan

@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_ETTh1_32_8_A6AMP_PatchTST_FPEM_ETTh1_ftM_sl32_ll16_pl8_dm16_nh4_el1_dl1_df32_expand2_dc4_fc1_ebtimeF_dtTrue_fpem_pmg_A6_amp_smoke_0
+MAE: 0.5617251396
+MSE: 0.7498541474
+RMSE: 0.8659411669
+MAPE: 13.54507828
+MSPE: 54717.93359
+DTW: Not available in historical metrics.npy
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

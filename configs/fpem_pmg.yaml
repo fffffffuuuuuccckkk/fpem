@@ -1,0 +1,31 @@
+# Canonical FPem-PMG configuration reference. run.py exposes the same keys as CLI flags.
+fpem_pmg_enabled: true
+fpem_pmg_representation_space: embedding
+fpem_pmg_cinv_mode: pattern_only
+fpem_pmg_zinv_mode: stable_relation_correction
+fpem_pmg_pattern_dim: 32
+fpem_pmg_env_dim: 16
+fpem_pmg_build_graph: auto
+fpem_pmg_graph_path: null
+fpem_pmg_resume_checkpoint: null
+fpem_pmg_refresh_every: 0
+fpem_pmg_use_pattern: true
+fpem_pmg_use_mapping: true
+fpem_pmg_use_mapping_delta: true
+fpem_pmg_use_variant: true
+fpem_pmg_use_env: true
+fpem_pmg_use_reliability: true
+fpem_pmg_use_retrospective_validity: false
+fpem_pmg_lambda_cons: 0.1
+fpem_pmg_lambda_sep: 0.01
+fpem_pmg_lambda_rel: 0.1
+
+# Ablation recipes (translate booleans to 0/1 on run.py's CLI):
+# A0: --model PatchTST
+# A1: use_pattern=true,  use_mapping=false, use_env=false
+# A2: use_pattern=true,  use_mapping=true,  use_mapping_delta=false, use_env=false
+# A3: use_pattern=true,  use_mapping=true,  use_mapping_delta=true,  use_env=false
+# A4: use_variant=false, use_env=false
+# A5: use_variant=true,  use_env=true, use_reliability=false
+# A6: all switches above enabled
+# A7: use_retrospective_validity=false

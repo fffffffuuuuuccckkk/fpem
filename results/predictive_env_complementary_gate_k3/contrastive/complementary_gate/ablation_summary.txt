@@ -1,0 +1,2 @@
+experiment constraint decomposition env_count MSE MAE inv_MSE improvement g_z DeltaZ/Zinv corr_inv_env corr_var_env conflict Dwithin_grad Dbetween_grad separation random_z min_mass final_env_sim_corr
+A2 contrastive complementary_gate 3 0.404495865 0.413466096 0.404495865 0.000000000 0.000000 0.000000 0.047746 0.100254 0.1736746 0.43904656 0.56678814 1.290952 4829.282227 0.330079 0.926316
