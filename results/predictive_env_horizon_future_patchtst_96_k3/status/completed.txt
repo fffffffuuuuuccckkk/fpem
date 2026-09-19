@@ -1,0 +1,4 @@
+ETTm1 horizon_future_var
+ETTm1 inv_only
+ETTm1 film
+ETTm1 y_film_decay

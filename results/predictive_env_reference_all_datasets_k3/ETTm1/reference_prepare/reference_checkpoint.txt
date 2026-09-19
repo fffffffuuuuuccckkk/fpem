@@ -1,0 +1,5 @@
+reference_checkpoint: results/predictive_env_reference_all_datasets_k3/ETTm1/shared_reference.pt
+reference_checkpoint_sha256: 43cb3aff3d6bab55dab11b8df89dc34b026cad2089306dd2f2e1b480e3c021c6
+reference_source: created
+seed: 2021
+signature: {'dataset_name': 'ETTm1', 'data_class': 'ett_minute', 'data_path': 'ETTm1.csv', 'target': 'OT', 'freq': '15min', 'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'protocol_version': 4}

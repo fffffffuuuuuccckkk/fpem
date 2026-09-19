@@ -1,0 +1,38 @@
+[Traffic] start 2026-09-15T02:36:14+00:00 GPU=0
+[Electricity] start 2026-09-15T02:36:14+00:00 GPU=1
+[Weather] start 2026-09-15T02:36:14+00:00 GPU=2
+[ETTm2] start 2026-09-15T02:36:14+00:00 GPU=3
+[patchtst/Electricity] prepare shared reference on GPU 1
+[patchtst/Traffic] prepare shared reference on GPU 0
+[patchtst/Weather] prepare shared reference on GPU 2
+[patchtst/ETTm2] prepare shared reference on GPU 3
+reference warmup 1 {'loss': 0.24881245290817217, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}
+reference warmup 2 {'loss': 0.23669482662234195, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}
+reference warmup 1 {'loss': 0.5302811556324402, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}
+reference warmup 3 {'loss': 0.2319188320706057, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}
+shared_reference source=created path=results/predictive_env_featurewise_gate_all_backbones_k3/patchtst/ETTm2/shared_reference.pt sha256=0656a4f5bc29dab558a007ec2683d65aafa7a06e025f1e2e7222f07752f0dad3
+reference preparation complete; no experiment was run
+[patchtst/ETTm2] run token-wise gate on GPU 3
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 1589, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 1280, in main
+    reference_state, reference_hash, reference_source = prepare_reference(
+                                                        ^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 1105, in prepare_reference
+    raise ValueError("Shared reference checkpoint configuration mismatch")
+ValueError: Shared reference checkpoint configuration mismatch
+reference warmup 2 {'loss': 0.5105470247573196, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}
+reference warmup 3 {'loss': 0.5001634432826233, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}
+shared_reference source=created path=results/predictive_env_featurewise_gate_all_backbones_k3/patchtst/Weather/shared_reference.pt sha256=7975dfc75918c48767c27453c44a66f4edc5df3279e8f6a68d3377e05dd9e26e
+reference preparation complete; no experiment was run
+[patchtst/Weather] run token-wise gate on GPU 2
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 1589, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 1280, in main
+    reference_state, reference_hash, reference_source = prepare_reference(
+                                                        ^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 1105, in prepare_reference
+    raise ValueError("Shared reference checkpoint configuration mismatch")
+ValueError: Shared reference checkpoint configuration mismatch

@@ -1,0 +1,7 @@
+CUDA_VISIBLE_DEVICES=0 bash scripts/long_term_forecast/ETT_script/Koopa_ETTh1.sh
+CUDA_VISIBLE_DEVICES=0 bash scripts/long_term_forecast/ETT_script/Nonstationary_Transformer_ETTh1.sh
+CUDA_VISIBLE_DEVICES=0 bash scripts/long_term_forecast/ETT_script/DLinear_ETTh1.sh
+CUDA_VISIBLE_DEVICES=0 bash scripts/long_term_forecast/ETT_script/TimeMixer_ETTh1.sh
+CUDA_VISIBLE_DEVICES=0 bash scripts/long_term_forecast/ETT_script/TimesNet_ETTh1.sh
+
+CUDA_VISIBLE_DEVICES=0 bash scripts/decomp_shift/run_knf_etth1_two_exps.sh

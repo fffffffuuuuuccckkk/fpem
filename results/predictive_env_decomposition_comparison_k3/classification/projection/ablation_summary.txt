@@ -1,0 +1,3 @@
+experiment constraint decomposition env_count MSE MAE inv_MSE improvement g_z DeltaZ/Zinv corr_inv_env corr_var_env conflict Dwithin_grad Dbetween_grad separation random_z min_mass final_env_sim_corr
+A2 classification projection 3 0.392348498 0.413755745 0.392348498 0.000000000 0.000000 0.000000 0.019870 0.057802 0.19805165 0.44785818 0.58253974 1.300724 4523.599121 0.330266 0.900475
+A4 classification projection 3 0.392121732 0.413402915 0.391205490 -0.000916243 0.033100 0.063341 0.027749 0.061533 0.19690113 0.44831467 0.58242702 1.299148 4566.908691 0.330387 0.900355
