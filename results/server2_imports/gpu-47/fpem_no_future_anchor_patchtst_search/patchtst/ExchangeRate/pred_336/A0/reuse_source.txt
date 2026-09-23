@@ -1,0 +1,1 @@
+/data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-41/fpem_final_patchtst_search/patchtst/ExchangeRate/pred_336/A0

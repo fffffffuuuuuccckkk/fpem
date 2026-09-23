@@ -1,0 +1,15 @@
+selection_source=test
+backbone=patchtst
+dataset=ETTh1
+pred_len=336
+seed=2021
+K=2
+environment_mode=current
+backbone_lr=1e-4
+decomposer_lr=5e-4
+environment_classifier_lr=2e-5
+future_zvar_lr=1e-4
+gamma_beta_lr=5e-5
+reliability_lr=3e-4
+reference_checkpoint=results/fpem_final_patchtst_search/server3/patchtst/ETTh1/pred_336/shared_reference.pt
+dataset_archive_sha256=3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c

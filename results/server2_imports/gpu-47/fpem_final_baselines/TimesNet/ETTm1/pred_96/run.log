@@ -1,0 +1,65 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMFinal_ETTm1_96_96Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm1               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm1.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_final_baselines/TimesNet/ETTm1/pred_96/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           96                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMFinal_TimesNet_ETTm1_96Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'

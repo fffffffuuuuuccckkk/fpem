@@ -1,0 +1,6 @@
+MAE=0.2980502247810364
+MSE=0.16726528108119965
+RMSE=0.4089807868003845
+MAPE=1.7437074184417725
+MSPE=1779.35693359375
+source=results/long_term_forecast_FPEMFinal_ExchangeRate_96_96_Autoformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_Autoformer_ExchangeRate_96_0/metrics.npy

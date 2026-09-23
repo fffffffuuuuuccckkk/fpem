@@ -1,0 +1,7 @@
+dataset/config,A0,Zinv,raw,gated,raw_gain,gated_gain
+ETTm2-336 K3 stable diffLR+L2,0.326629,0.322122,0.324252,0.322983,-0.002131,-0.000861
+ETTh1-720 K2 Phase8 diagnostic,0.521851,0.510844,0.511711,0.511260,-0.000867,-0.000416
+ExchangeRate-720 K2 stable diffLR+L2,0.876098,0.857950,0.858537,0.858351,-0.000586,-0.000401
+
+decision: DO NOT START FULL SWEEP
+reason: no unified TRAIN-only LR/K rule; correction remains harmful; reliability correlation remains negative

@@ -1,0 +1,2 @@
+experiment	MAE	MSE	RMSE	MAPE	MSPE
+long_term_forecast_FPEMFinalSmoke_ETTh1_96_96_DLinear_ETTh1_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinalSmoke_DLinear_ETTh1_96_0	0.4402311146	0.4355882704	0.6599910855	8.451973915	29712.58984

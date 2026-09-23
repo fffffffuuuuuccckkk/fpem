@@ -1,0 +1,5 @@
+reference_checkpoint: results/predictive_env_featurewise_gate_all_backbones_k3/patchtst/Traffic/shared_reference.pt
+reference_checkpoint_sha256: 3abc577fecbd2d2eda5a29e069e0ab4a323bf9ee01e5e9a44007717dd36d235d
+reference_source: created
+seed: 2021
+signature: {'backbone': 'patchtst', 'dataset_name': 'Traffic', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'custom', 'data_path': 'traffic.csv', 'target': 'OT', 'freq': 'h', 'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 862, 'cyclenet_cycle_len': 168, 'protocol_version': 4}

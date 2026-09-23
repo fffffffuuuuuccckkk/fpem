@@ -1,0 +1,8 @@
+| source | split | zero baseline | probe MSE | explained | cosine | beneficial |
+|---|---|---:|---:|---:|---:|---:|
+| current_zvar | train | 0.485909 | 0.47258 | 0.0274309 | 0.149754 | 0.596166 |
+| current_zvar | test | 0.510947 | 0.517832 | -0.0134745 | 0.0558084 | 0.428043 |
+| predicted_future_zvar | train | 0.485909 | 0.486166 | -0.000528558 | 0.0906032 | 0.441374 |
+| predicted_future_zvar | test | 0.510947 | 0.520988 | -0.0196521 | 0.0469753 | 0.369736 |
+| teacher_future_zvar | train | 0.437901 | 0.403837 | 0.0777892 | 0.242569 | 0.623589 |
+| teacher_future_zvar | heldout_train | 0.425033 | 0.412552 | 0.029365 | 0.167653 | 0.538871 |

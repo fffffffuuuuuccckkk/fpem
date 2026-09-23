@@ -1,0 +1,6 @@
+MAE=0.22141073644161224
+MSE=0.18136313557624817
+RMSE=0.42586749792099
+MAPE=15.664409637451172
+MSPE=27221956.0
+source=results/long_term_forecast_FPEMFinal_Weather_96_96_PatchTST_custom_ftM_sl96_ll48_pl96_dm128_nh8_el1_dl1_df256_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_PatchTST_Weather_96_0/metrics.npy

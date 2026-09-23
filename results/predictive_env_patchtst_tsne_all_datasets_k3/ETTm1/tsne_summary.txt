@@ -1,0 +1,12 @@
+dataset: ETTm1
+source_split: TRAIN only
+checkpoint: results/predictive_env_featurewise_gate_all_backbones_k3/patchtst/ETTm1/token_gate/A2/trained_checkpoint.pt
+checkpoint_sha256: 151e4f232ae2a6ebb3620f88e3893e62f828b01cccdeefd79c02699e641e1ca7
+environment_payload: results/predictive_env_patchtst_tsne_all_datasets_k3/ETTm1/environment_gradient_final_inferred.npz
+environment_source: inferred once from frozen final checkpoint on TRAIN
+sample_count: 3000
+selection: deterministic hard-environment-stratified evenly spaced
+seed: 2021
+perplexity: {'H': 30.0, 'Zinv': 30.0, 'Zvar': 30.0, 'Zfinal': 30.0}
+backbone: patchtst
+representations: ['H', 'Zinv', 'Zvar', 'Zfinal']

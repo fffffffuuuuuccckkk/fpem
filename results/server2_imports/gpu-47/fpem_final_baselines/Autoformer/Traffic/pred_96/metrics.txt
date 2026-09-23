@@ -1,0 +1,6 @@
+MAE=0.37108948826789856
+MSE=0.6200264096260071
+RMSE=0.7874175310134888
+MAPE=3.5739991664886475
+MSPE=203746.359375
+source=results/long_term_forecast_FPEMFinal_Traffic_96_96_Autoformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_Autoformer_Traffic_96_0/metrics.npy

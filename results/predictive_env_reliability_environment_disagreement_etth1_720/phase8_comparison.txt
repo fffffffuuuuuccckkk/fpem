@@ -1,0 +1,4 @@
+| config | Zinv | raw | gated | raw gain | gated gain | corr(r,r*) | useful acc | D mean | D p90 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| A usefulness supervision | 0.510947 | 0.511625 | 0.511285 | -0.000678276 | -0.000337836 | -0.0306981 | 0.516088 | nan | nan |
+| B usefulness + environment disagreement | 0.510844 | 0.511711 | 0.51126 | -0.00086683 | -0.000415557 | -0.0390041 | 0.523369 | 0.114022 | 0.189069 |

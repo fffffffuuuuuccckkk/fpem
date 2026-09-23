@@ -1,0 +1,21 @@
+Past Zvar -> future Zvar consistency sweep
+shared_reference_sha256: ee517551a34c2cf0640dad6261f256671f3f7d33f895257f88008a0128deb15b
+fixed: A2 K=3 seed=2021 classification complementary_gate
+fixed: lambda_invpred=1.0, variant_fusion_mode=direct_gated
+future teacher: TRAIN-only earliest seq_len window, shared frozen-target pass
+inference: no future teacher input or branch
+historical signed_gate conclusion: var_acc exceeded projection, but MSE worsened about 9%-13%; the suspected cause was information loss from ReLU splitting.
+previous_direct_gated: MSE=0.402235538 MAE=0.414023757
+
+lambda MSE MAE inv_MSE gain_mean future_loss future_cos future_l2 pred_norm target_norm corr_future_similarity_gain var_acc inv_acc corr_var_env corr_inv_env env_separation min_env_mass final_env_sim_corr
+0.00 0.408465385 0.415477782 0.402008504 -0.006456882 0.991232 0.008768 5.629786 4.485054 3.404218 -0.017743 0.670730 0.344419 0.034870 0.027145 1.301356 0.329662 0.906160
+0.01 0.409020901 0.415734589 0.402276397 -0.006744504 0.343908 0.656092 12.427180 14.328204 3.430474 -0.061581 0.670730 0.366079 0.034852 0.026937 1.300835 0.330120 0.900283
+0.05 0.408335865 0.415275306 0.401575953 -0.006759912 0.333364 0.666636 12.792203 14.772201 3.475686 -0.055431 0.673689 0.359924 0.036622 0.027317 1.301213 0.330255 0.901794
+0.10 0.407922596 0.415131956 0.400179207 -0.007743388 0.313570 0.686430 13.017523 15.126778 3.545424 -0.033570 0.667061 0.356137 0.039365 0.025862 1.298761 0.329941 0.908602
+0.20 0.408539295 0.415028423 0.401001513 -0.007537782 0.297680 0.702320 13.728572 15.941117 3.571196 -0.014318 0.661617 0.380637 0.040958 0.028670 1.297875 0.330101 0.911499
+
+best_lambda_future_var: 0.1
+best_MSE: 0.407922596
+best_MAE: 0.415131956
+best_MSE_delta_vs_lambda0: -0.000542790
+best_gain_delta_vs_lambda0: -0.001286507

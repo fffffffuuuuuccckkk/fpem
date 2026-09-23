@@ -1,0 +1,21 @@
+[cyclenet/Traffic/direct_gated] start GPU=0 2026-09-16T06:17:00+00:00
+shared_reference source=loaded path=results/predictive_env_cyclenet_itransformer_all_datasets_k3/cyclenet/Traffic/shared_reference.pt sha256=fac41c0972c3bbb4e811a8f6c8bc92ff5060f54cd866ff8a843c72d51cf8a412
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 1706, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 1421, in main
+    reference_h_predictions, reference_h_norms = build_pretrained_h_cache(
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 744, in build_pretrained_h_cache
+    _, _, sample_id, h_prediction, h_norm = collect(
+                                            ^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 378, in collect
+    result = [torch.cat(predictions), torch.cat(targets), torch.cat(ids)]
+              ^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 4001555712 bytes. Error code 12 (Cannot allocate memory)

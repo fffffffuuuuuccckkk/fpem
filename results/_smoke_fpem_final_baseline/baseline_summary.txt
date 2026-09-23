@@ -1,0 +1,2 @@
+method	dataset	pred_len	MSE	MAE
+DLinear	ETTh1	96	0.4355882704257965	0.4402311146259308

@@ -1,0 +1,5 @@
+reference_checkpoint: results/predictive_env_iv_ETTh1_96_96/shared_reference.pt
+reference_checkpoint_sha256: c3ea8b7cce48924445499f166098b611e5096295c7e4e44ef05c98a266f25e92
+reference_source: created
+seed: 2021
+signature: {'backbone': 'patchtst', 'dataset_name': 'ETTh1', 'dataset_archive_sha256': '', 'data_class': 'ett_hour', 'data_path': 'ETTh1.csv', 'target': 'OT', 'freq': 'h', 'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 7, 'cyclenet_cycle_len': 24, 'protocol_version': 4}

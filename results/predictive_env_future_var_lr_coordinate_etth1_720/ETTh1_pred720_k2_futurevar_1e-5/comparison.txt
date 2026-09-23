@@ -1,0 +1,7 @@
+A0: 0.521851000
+Zinv: 0.520741716
+raw_gamma_beta_full: 0.520836632
+r_gated_full: 0.520803207
+raw_variant_gain: -0.000094911
+gated_variant_gain: -0.000061486
+beats_A0: True

@@ -1,0 +1,42 @@
+[train]
+train/correction_beneficial_ratio: 0.4391249418258667
+train/correction_beneficial_ratio_far: 0.4315895438194275
+train/correction_beneficial_ratio_middle: 0.42827552556991577
+train/correction_beneficial_ratio_near: 0.45750975608825684
+train/correction_cosine_far: -0.05141652747988701
+train/correction_cosine_mean: -0.036129921674728394
+train/correction_cosine_middle: -0.0455758161842823
+train/correction_cosine_near: -0.01139743160456419
+train/correction_magnitude_ratio_far: 0.04327061399817467
+train/correction_magnitude_ratio_mean: 0.04804146662354469
+train/correction_magnitude_ratio_middle: 0.04593821242451668
+train/correction_magnitude_ratio_near: 0.05491553992033005
+train/correction_optimal_scalar_far: 0.6342558264732361
+train/correction_optimal_scalar_mean: 0.6053814888000488
+train/correction_optimal_scalar_middle: 0.5638077259063721
+train/correction_optimal_scalar_near: 0.6180830001831055
+train/correction_patch_beneficial_ratio: [0.477689653635025, 0.43732985854148865, 0.4329506456851959, 0.423600435256958, 0.43011006712913513, 0.43306899070739746]
+train/correction_patch_cosine: [0.004661915823817253, -0.027456730604171753, -0.03633849322795868, -0.05481284484267235, -0.05079903453588486, -0.052034344524145126]
+train/correction_patch_magnitude_ratio: [0.05905483290553093, 0.050776273012161255, 0.04751136153936386, 0.044365160167217255, 0.043515872210264206, 0.043025292456150055]
+train/correction_patch_optimal_scalar: [0.5668892860412598, 0.6692749261856079, 0.727430522441864, 0.40018177032470703, 0.5921623706817627, 0.6763502955436707]
+[test]
+test/correction_beneficial_ratio: 0.41585877537727356
+test/correction_beneficial_ratio_far: 0.3996409475803375
+test/correction_beneficial_ratio_middle: 0.4057450592517853
+test/correction_beneficial_ratio_near: 0.4421903192996979
+test/correction_cosine_far: -0.058621685951948166
+test/correction_cosine_mean: -0.04040073975920677
+test/correction_cosine_middle: -0.04779188707470894
+test/correction_cosine_near: -0.014788581058382988
+test/correction_magnitude_ratio_far: 0.04312072694301605
+test/correction_magnitude_ratio_mean: 0.04683787748217583
+test/correction_magnitude_ratio_middle: 0.0443941131234169
+test/correction_magnitude_ratio_near: 0.052998822182416916
+test/correction_optimal_scalar_far: -0.3243604004383087
+test/correction_optimal_scalar_mean: -0.12031885236501694
+test/correction_optimal_scalar_middle: -0.3902338445186615
+test/correction_optimal_scalar_near: 0.3536374568939209
+test/correction_patch_beneficial_ratio: [0.47253140807151794, 0.4118492007255554, 0.4118492007255554, 0.3996409475803375, 0.4025134742259979, 0.39676839113235474]
+test/correction_patch_cosine: [0.01029406301677227, -0.03987126052379608, -0.042750898748636246, -0.05283297225832939, -0.05683984234929085, -0.06040353700518608]
+test/correction_patch_magnitude_ratio: [0.05680238828063011, 0.04919523000717163, 0.04520604759454727, 0.04358221963047981, 0.04315362498164177, 0.043087754398584366]
+test/correction_patch_optimal_scalar: [0.6675388813018799, 0.03973682224750519, -0.23100022971630096, -0.5494673848152161, -0.3120404779911041, -0.3366802930831909]

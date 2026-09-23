@@ -1,0 +1,31 @@
+Args in experiment:
+{'model': 'informer', 'data': 'custom', 'root_path': '../dataset/exchange_rate/', 'data_path': 'exchange_rate.csv', 'features': 'MS', 'target': 'OT', 'freq': 'w', 'checkpoints': './informer_checkpoints', 'seq_len': 96, 'label_len': 48, 'pred_len': 96, 'enc_in': 8, 'dec_in': 8, 'c_out': 1, 'factor': 3, 'd_model': 512, 'n_heads': 8, 'e_layers': 2, 'd_layers': 1, 'd_ff': 512, 'dropout': 0.05, 'attn': 'prob', 'embed': 'timeF', 'activation': 'gelu', 'distil': True, 'output_attention': False, 'mix': True, 'padding': 0, 'learning_rate': 0.01, 'loss': 'mse', 'use_amp': False, 'num_workers': 0, 'itr': 1, 'des': 'exp', 'use_gpu': True, 'gpu': 0, 'use_multi_gpu': False, 'devices': '0', 'detail_freq': 'w'}
+Use GPU: cuda:0
+train 5120
+val 665
+test 1422
+Epoch: 1 cost time: 6.831443548202515
+Epoch: 1, Steps: 80 | Train Inv : 0.102 | Vali Loss: 0.394 |Test Loss: 0.159
+Validation loss decreased (inf --> 0.102322).  Saving model ...
+Updating learning rate to 0.001
+test 1422
+test shape: (1422, 96, 1) (1422, 96, 1)
+test shape: (1422, 96, 1) (1422, 96, 1)
+mse:0.16359291970729828, mae:0.3085997700691223,msev:0.08426012843847275,mse_w:0.7473096251487732,mae_w:0.7947568297386169
+Use GPU: cuda:0
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_atprob_fc3_ebtimeF_dtTrue_mxTrue_exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 5120
+Epoch: 1 cost time: 2.7773640155792236
+Epoch: 1, Steps: 40 | Train Inv : 1.313  Train Var : 1.872
+Validation loss decreased (inf --> 1.871517).  Saving model ...
+Updating learning rate to 0.001
+train 5120
+CHANGED RATIO {} 0.1087890625
+(5120, 6)
+Saved env_softmax2 for iteration 0 as 1-EXE_NEW_6class.csv
+Class 0: 0.2211 (Total soft score: 1132.0000)
+Class 1: 0.0953 (Total soft score: 488.0000)
+Class 2: 0.0758 (Total soft score: 388.0000)
+Class 3: 0.0375 (Total soft score: 192.0000)
+Class 4: 0.1453 (Total soft score: 744.0000)
+Class 5: 0.4250 (Total soft score: 2176.0000)

@@ -1,0 +1,107 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMFinal_ExchangeRate_96_720Model:              FEDformer           
+
+[1mData Loader[0m
+  Data:               custom              Root Path:          ./dataset/all_datasets/exchange_rate
+  Data Path:          exchange_rate.csv   Features:           M                   
+  Target:             OT                  Freq:               d                   
+  Checkpoints:        results/fpem_final_baselines/FEDformer/ExchangeRate/pred_720/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           720                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             8                   Dec In:             8                   
+  C Out:              8                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMFinal_FEDformer_ExchangeRate_720Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: FEDformer ...
+fourier enhanced block used!
+modes=32, index=[2, 3, 4, 5, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 23, 25, 26, 28, 31, 32, 34, 35, 37, 38, 39, 40, 42, 43, 44, 46]
+fourier enhanced block used!
+modes=32, index=[13, 34, 35, 46, 50, 95, 108, 124, 125, 129, 134, 137, 139, 140, 150, 161, 169, 211, 242, 251, 261, 263, 270, 271, 297, 307, 313, 317, 321, 347, 351, 381]
+ fourier enhanced cross attention used!
+modes_q=32, index_q=[8, 9, 16, 18, 40, 61, 62, 74, 93, 95, 99, 137, 148, 166, 172, 174, 191, 221, 222, 235, 273, 277, 299, 305, 308, 318, 320, 333, 353, 355, 369, 381]
+modes_kv=32, index_kv=[0, 1, 2, 6, 9, 10, 12, 14, 15, 16, 17, 19, 20, 23, 24, 27, 28, 29, 33, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47]
+>>>>>>>start training : long_term_forecast_FPEMFinal_ExchangeRate_96_720_FEDformer_custom_ftM_sl96_ll48_pl720_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_FEDformer_ExchangeRate_720_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 4496
+val 41
+test 798
+	iters: 100, epoch: 1 | loss: 0.8625565
+	speed: 0.5381s/iter; left time: 705.4180s
+Epoch: 1 cost time: 74.90501618385315
+Epoch: 1, Steps: 141 | Train Loss: 0.9082011 Vali Loss: 1.1426367 Test Loss: 1.0860891
+Validation loss decreased (inf --> 1.142637).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 0.7452316
+	speed: 0.7957s/iter; left time: 930.9434s
+Epoch: 2 cost time: 75.7522599697113
+Epoch: 2, Steps: 141 | Train Loss: 0.8643842 Vali Loss: 1.0856957 Test Loss: 1.0984740
+Validation loss decreased (1.142637 --> 1.085696).  Saving model ...
+Updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 0.9605847
+	speed: 0.8122s/iter; left time: 835.8042s
+Epoch: 3 cost time: 77.28774452209473
+Epoch: 3, Steps: 141 | Train Loss: 0.8606225 Vali Loss: 1.0406222 Test Loss: 1.1444437
+Validation loss decreased (1.085696 --> 1.040622).  Saving model ...
+Updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 0.6845480
+	speed: 0.7724s/iter; left time: 685.9034s
+Epoch: 4 cost time: 73.56756639480591
+Epoch: 4, Steps: 141 | Train Loss: 0.8597077 Vali Loss: 1.0279993 Test Loss: 1.1470849
+Validation loss decreased (1.040622 --> 1.027999).  Saving model ...
+Updating learning rate to 1.25e-05
+	iters: 100, epoch: 5 | loss: 0.8536350
+	speed: 0.7815s/iter; left time: 583.8046s
+Epoch: 5 cost time: 74.85042834281921
+Epoch: 5, Steps: 141 | Train Loss: 0.8580872 Vali Loss: 1.0276731 Test Loss: 1.1462750
+Validation loss decreased (1.027999 --> 1.027673).  Saving model ...
+Updating learning rate to 6.25e-06
+	iters: 100, epoch: 6 | loss: 0.9135207
+	speed: 0.7947s/iter; left time: 481.5819s
+Epoch: 6 cost time: 77.15798449516296
+Epoch: 6, Steps: 141 | Train Loss: 0.8587267 Vali Loss: 1.0544391 Test Loss: 1.1241840
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 3.125e-06
+	iters: 100, epoch: 7 | loss: 0.9518460
+	speed: 0.8227s/iter; left time: 382.5419s
+Epoch: 7 cost time: 80.08978796005249
+Epoch: 7, Steps: 141 | Train Loss: 0.8573127 Vali Loss: 1.0526046 Test Loss: 1.1259634
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.5625e-06
+	iters: 100, epoch: 8 | loss: 0.8663566
+	speed: 0.8318s/iter; left time: 269.5098s
+Epoch: 8 cost time: 76.94715023040771
+Epoch: 8, Steps: 141 | Train Loss: 0.8580890 Vali Loss: 1.0446596 Test Loss: 1.1304645
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : long_term_forecast_FPEMFinal_ExchangeRate_96_720_FEDformer_custom_ftM_sl96_ll48_pl720_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_FEDformer_ExchangeRate_720_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 798
+test shape: (798, 720, 8) (798, 720, 8)
+test shape: (798, 720, 8) (798, 720, 8)
+mse:1.1469608545303345, mae:0.8231702446937561, dtw:Not calculated

@@ -1,0 +1,9 @@
+protocol=official/TSLib-style fixed baseline configuration
+method=Autoformer
+dataset=Weather
+pred_len=720
+seq_len=96
+seed=2021
+learning_rate=1e-4
+selection_source=fixed_config
+train_epochs=10

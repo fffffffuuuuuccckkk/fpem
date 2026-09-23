@@ -1,0 +1,83 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMFinal_ExchangeRate_96_336Model:              FEDformer           
+
+[1mData Loader[0m
+  Data:               custom              Root Path:          ./dataset/all_datasets/exchange_rate
+  Data Path:          exchange_rate.csv   Features:           M                   
+  Target:             OT                  Freq:               d                   
+  Checkpoints:        results/fpem_final_baselines/FEDformer/ExchangeRate/pred_336/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           336                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             8                   Dec In:             8                   
+  C Out:              8                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMFinal_FEDformer_ExchangeRate_336Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: FEDformer ...
+fourier enhanced block used!
+modes=32, index=[2, 3, 4, 5, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 23, 25, 26, 28, 31, 32, 34, 35, 37, 38, 39, 40, 42, 43, 44, 46]
+fourier enhanced block used!
+modes=32, index=[0, 1, 5, 8, 13, 15, 28, 37, 43, 59, 63, 72, 85, 86, 88, 92, 95, 101, 109, 117, 128, 130, 134, 138, 144, 149, 150, 151, 154, 163, 182, 185]
+ fourier enhanced cross attention used!
+modes_q=32, index_q=[4, 12, 13, 24, 27, 34, 35, 45, 46, 50, 70, 76, 81, 83, 92, 95, 98, 113, 118, 120, 128, 133, 138, 139, 147, 151, 152, 157, 163, 169, 179, 191]
+modes_kv=32, index_kv=[1, 4, 5, 6, 7, 9, 10, 13, 14, 15, 16, 17, 18, 19, 20, 24, 25, 26, 29, 30, 33, 34, 36, 38, 39, 40, 41, 43, 44, 45, 46, 47]
+>>>>>>>start training : long_term_forecast_FPEMFinal_ExchangeRate_96_336_FEDformer_custom_ftM_sl96_ll48_pl336_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_FEDformer_ExchangeRate_336_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 4880
+val 425
+test 1182
+	iters: 100, epoch: 1 | loss: 0.4363345
+	speed: 0.4542s/iter; left time: 649.8963s
+Epoch: 1 cost time: 68.68592023849487
+Epoch: 1, Steps: 153 | Train Loss: 0.5335703 Vali Loss: 0.4540956 Test Loss: 0.4442241
+Validation loss decreased (inf --> 0.454096).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 0.4682550
+	speed: 0.7541s/iter; left time: 963.6987s
+Epoch: 2 cost time: 66.66145777702332
+Epoch: 2, Steps: 153 | Train Loss: 0.4915941 Vali Loss: 0.4846492 Test Loss: 0.4239816
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 0.4054088
+	speed: 0.7214s/iter; left time: 811.5243s
+Epoch: 3 cost time: 65.4930350780487
+Epoch: 3, Steps: 153 | Train Loss: 0.4882272 Vali Loss: 0.4745365 Test Loss: 0.4305872
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 0.4689485
+	speed: 0.7264s/iter; left time: 706.0766s
+Epoch: 4 cost time: 67.2425274848938
+Epoch: 4, Steps: 153 | Train Loss: 0.4871302 Vali Loss: 0.4992224 Test Loss: 0.4222704
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : long_term_forecast_FPEMFinal_ExchangeRate_96_336_FEDformer_custom_ftM_sl96_ll48_pl336_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_FEDformer_ExchangeRate_336_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 1182
+test shape: (1182, 336, 8) (1182, 336, 8)
+test shape: (1182, 336, 8) (1182, 336, 8)
+mse:0.4444846510887146, mae:0.4921095669269562, dtw:Not calculated

@@ -1,0 +1,6 @@
+MAE=0.29845842719078064
+MSE=0.16882480680942535
+RMSE=0.41088294982910156
+MAPE=1.6746972799301147
+MSPE=1660.678466796875
+source=results/long_term_forecast_FPEMFinal_ExchangeRate_96_96_FEDformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_FEDformer_ExchangeRate_96_0/metrics.npy

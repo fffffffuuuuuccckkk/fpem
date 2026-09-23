@@ -1,0 +1,17 @@
+dataset=ETTh1
+pred_len=720
+environment_count=2
+A0_MSE=0.521851
+purpose=diagnostic/development LR attribution; not test-selected benchmark
+training=single-stage end-to-end differential LR
+backbone_lr=1e-4
+inv_head_lr=2e-4
+decomposer_lr=1e-4
+env_head_lr=1e-4
+variant_lr=5e-5
+reliability_lr=3e-4
+reliability_objective=mse
+gamma_beta_lr=1e-4*(0.2+0.8*maturity)
+maturity=G_var_L2/(G_inv_L2+G_var_L2+1e-8)
+predictive_env_refactor_mode=h_reference
+reference=results/server2_imports/gpu-47/predictive_env_patchtst_multihorizon_96/pred_720/ETTh1/shared_reference.pt

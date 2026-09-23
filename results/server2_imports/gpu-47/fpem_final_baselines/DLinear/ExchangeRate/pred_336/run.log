@@ -1,0 +1,100 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMFinal_ExchangeRate_96_336Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               custom              Root Path:          ./dataset/all_datasets/exchange_rate
+  Data Path:          exchange_rate.csv   Features:           M                   
+  Target:             OT                  Freq:               d                   
+  Checkpoints:        results/fpem_final_baselines/DLinear/ExchangeRate/pred_336/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           336                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             8                   Dec In:             8                   
+  C Out:              8                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMFinal_DLinear_ExchangeRate_336Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: DLinear ...
+>>>>>>>start training : long_term_forecast_FPEMFinal_ExchangeRate_96_336_DLinear_custom_ftM_sl96_ll48_pl336_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_DLinear_ExchangeRate_336_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 4880
+val 425
+test 1182
+	iters: 100, epoch: 1 | loss: 0.4131106
+	speed: 0.0244s/iter; left time: 34.9442s
+Epoch: 1 cost time: 1.3662383556365967
+Epoch: 1, Steps: 153 | Train Loss: 0.4276570 Vali Loss: 1.1784443 Test Loss: 0.3429168
+Validation loss decreased (inf --> 1.178444).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 0.3662554
+	speed: 0.0128s/iter; left time: 16.3174s
+Epoch: 2 cost time: 1.0069029331207275
+Epoch: 2, Steps: 153 | Train Loss: 0.4020130 Vali Loss: 1.0857584 Test Loss: 0.3254586
+Validation loss decreased (1.178444 --> 1.085758).  Saving model ...
+Updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 0.3789113
+	speed: 0.0131s/iter; left time: 14.7492s
+Epoch: 3 cost time: 1.0016891956329346
+Epoch: 3, Steps: 153 | Train Loss: 0.3927062 Vali Loss: 1.0814215 Test Loss: 0.3261003
+Validation loss decreased (1.085758 --> 1.081421).  Saving model ...
+Updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 0.3886276
+	speed: 0.0135s/iter; left time: 13.1238s
+Epoch: 4 cost time: 1.0658042430877686
+Epoch: 4, Steps: 153 | Train Loss: 0.3895488 Vali Loss: 1.1075525 Test Loss: 0.3343293
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.25e-05
+	iters: 100, epoch: 5 | loss: 0.4443659
+	speed: 0.0126s/iter; left time: 10.2868s
+Epoch: 5 cost time: 1.0027234554290771
+Epoch: 5, Steps: 153 | Train Loss: 0.3881298 Vali Loss: 1.0701190 Test Loss: 0.3275363
+Validation loss decreased (1.081421 --> 1.070119).  Saving model ...
+Updating learning rate to 6.25e-06
+	iters: 100, epoch: 6 | loss: 0.3474744
+	speed: 0.0129s/iter; left time: 8.5760s
+Epoch: 6 cost time: 1.1053709983825684
+Epoch: 6, Steps: 153 | Train Loss: 0.3872181 Vali Loss: 1.0762392 Test Loss: 0.3280809
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 3.125e-06
+	iters: 100, epoch: 7 | loss: 0.3835481
+	speed: 0.0128s/iter; left time: 6.5641s
+Epoch: 7 cost time: 1.0497732162475586
+Epoch: 7, Steps: 153 | Train Loss: 0.3870195 Vali Loss: 1.0774762 Test Loss: 0.3271050
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.5625e-06
+	iters: 100, epoch: 8 | loss: 0.4707148
+	speed: 0.0122s/iter; left time: 4.3800s
+Epoch: 8 cost time: 0.9565222263336182
+Epoch: 8, Steps: 153 | Train Loss: 0.3865612 Vali Loss: 1.0715112 Test Loss: 0.3279309
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : long_term_forecast_FPEMFinal_ExchangeRate_96_336_DLinear_custom_ftM_sl96_ll48_pl336_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_DLinear_ExchangeRate_336_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 1182
+test shape: (1182, 336, 8) (1182, 336, 8)
+test shape: (1182, 336, 8) (1182, 336, 8)
+mse:0.3272415101528168, mae:0.4346544146537781, dtw:Not calculated
