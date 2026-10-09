@@ -1,0 +1,19 @@
+[semantic] Weather pred=96 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search/patchtst/Weather/pred_96/compact_dec_1e-4/A2/environment_gradient_stage_4.npz
+[semantic] Weather pred=336 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_no_future_anchor_patchtst_search/patchtst/Weather/pred_336/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+[semantic] Weather pred=720 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-41/fpem_no_future_anchor_patchtst_search/patchtst/Weather/pred_720/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+[semantic] ETTm1 pred=96 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search/patchtst/ETTm1/pred_96/compact_dec_5e-5/A2/environment_gradient_stage_4.npz
+[semantic] ETTm1 pred=336 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_no_future_anchor_patchtst_search/patchtst/ETTm1/pred_336/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+[semantic] ETTm1 pred=720 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-41/fpem_no_future_anchor_patchtst_search/patchtst/ETTm1/pred_720/compact_env_2e-5/A2/environment_gradient_stage_4.npz
+[semantic] ETTh1 pred=96 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search/patchtst/ETTh1/pred_96/compact_dec_1e-4/A2/environment_gradient_stage_4.npz
+[semantic] ETTh1 pred=336 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search/patchtst/ETTh1/pred_336/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+[semantic] ETTh1 pred=720 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search/patchtst/ETTh1/pred_720/compact_env_2e-5/A2/environment_gradient_stage_4.npz
+[semantic] ETTh2 pred=96 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_no_future_anchor_patchtst_search/patchtst/ETTh2/pred_96/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+[semantic] ETTh2 pred=336 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_no_future_anchor_patchtst_search/patchtst/ETTh2/pred_336/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+[semantic] ETTh2 pred=720 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_no_future_anchor_patchtst_search/patchtst/ETTh2/pred_720/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+[semantic] ETTm2 pred=96 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-41/fpem_no_future_anchor_patchtst_search/patchtst/ETTm2/pred_96/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+[semantic] ETTm2 pred=336 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-41/fpem_no_future_anchor_patchtst_search/patchtst/ETTm2/pred_336/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+[semantic] ETTm2 pred=720 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-41/fpem_no_future_anchor_patchtst_search/patchtst/ETTm2/pred_720/compact_env_2e-5/A2/environment_gradient_stage_4.npz
+[semantic] ExchangeRate pred=96 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search/patchtst/ExchangeRate/pred_96/compact_env_2e-5/A2/environment_gradient_stage_4.npz
+[semantic] ExchangeRate pred=336 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_no_future_anchor_patchtst_search/patchtst/ExchangeRate/pred_336/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+[semantic] ExchangeRate pred=720 <- /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-41/fpem_no_future_anchor_patchtst_search/patchtst/ExchangeRate/pred_720/compact_env_2e-5/A2/environment_gradient_stage_4.npz
+[semantic] complete: /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_environment_semantic_analysis

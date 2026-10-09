@@ -1,0 +1,9 @@
+Electricity horizon_future_var
+Electricity inv_only
+Weather horizon_future_var
+Traffic horizon_future_var
+Electricity film
+Traffic inv_only
+Electricity y_film_decay
+Traffic film
+Traffic y_film_decay

@@ -1,0 +1,6 @@
+MAE=0.27760186791419983
+MSE=0.1876092255115509
+RMSE=0.43313881754875183
+MAPE=2.6675798892974854
+MSPE=954948.4375
+source=results/long_term_forecast_FPEMFinal_Electricity_96_96_PatchTST_custom_ftM_sl96_ll48_pl96_dm128_nh8_el1_dl1_df256_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_PatchTST_Electricity_96_0/metrics.npy

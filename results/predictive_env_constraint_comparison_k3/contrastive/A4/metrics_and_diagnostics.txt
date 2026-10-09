@@ -1,0 +1,48 @@
+environment_count: 3
+representation_constraint: contrastive
+MSE: 0.40284156799316406
+MAE: 0.41797611117362976
+inv_only_MSE: 0.3995307981967926
+inv_only_MAE: 0.41553574800491333
+inv_only_minus_full_MSE: -0.00331076979637146
+g_z_mean: 0.086934395134449
+g_z_p10: 0.0010358301224187016
+g_z_p50: 0.01297262404114008
+g_z_p90: 0.26339274644851685
+feature_variation_to_Zinv: 0.13188062608242035
+mapping_variation: removed
+per_env_MSE: [0.29863879084587097, 0.2555563449859619, 0.3562058210372925]
+env_similarity_mean: 0.33312171697616577
+env_similarity_std: 0.18984203040599823
+corr_inv_env: 0.03548840060830116
+corr_var_env: 0.16585476696491241
+hsic_inv_env: 1.2178968063381035e-05
+hsic_var_env: 5.529725240194239e-05
+hsic_inv_var: 4.325942882132949e-06
+diagnostic_sample_count: 1024
+var_env_soft_ce: nan
+inv_env_soft_ce: nan
+var_env_accuracy_argmax: nan
+inv_env_accuracy_argmax: nan
+var_env_entropy: nan
+inv_env_entropy: nan
+experiment: A4
+identity: {'feature': 0.0}
+environment_updates: [{'update': 0, 'source_split': 'TRAIN only', 'mean_q_change': 0.07062029093503952, 'environment_mass': [0.33311766386032104, 0.33298933506011963, 0.33389294147491455], 'min_environment_mass': 0.33298933506011963, 'environment_risk': [0.33223217725753784, 0.35094428062438965, 0.3564920723438263], 'probe_gradients': [[0.04523943364620209, -0.06702877581119537], [0.0892898365855217, 0.050161831080913544], [0.09759383648633957, 0.0697740763425827]], 'gradient_disagreement': 0.012527893297374249, 'D_within_grad': 0.5827913284301758, 'D_between_grad': 0.5891909599304199, 'gradient_separation': 1.0109809637069702, 'random_partition_repeats': 100, 'conflict_ours': 0.012527893297374249, 'random_partition_conflict_mean': 2.7122196115669794e-06, 'random_partition_conflict_std': 3.1162921914074104e-06, 'random_partition_z_score': 4019.257568359375, 'environment_similarity_correlation': -0.0006654034838906888, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.3333513140678406, 'alignment_overlap_after': 0.3333513140678406, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 1, 'source_split': 'TRAIN only', 'mean_q_change': 0.4076850116252899, 'environment_mass': [0.3323536217212677, 0.33764997124671936, 0.32999640703201294], 'min_environment_mass': 0.32999640703201294, 'environment_risk': [0.33895403146743774, 0.27727916836738586, 0.39012986421585083], 'probe_gradients': [[0.0633331909775734, -0.32256191968917847], [-0.012085088528692722, 0.020650334656238556], [0.18980741500854492, 0.31445884704589844]], 'gradient_disagreement': 0.22411926090717316, 'D_within_grad': 0.47408056259155273, 'D_between_grad': 0.6272064447402954, 'gradient_separation': 1.3229955434799194, 'random_partition_repeats': 100, 'conflict_ours': 0.22411926090717316, 'random_partition_conflict_mean': 8.224784687627107e-05, 'random_partition_conflict_std': 6.575365114258602e-05, 'random_partition_z_score': 3407.2177734375, 'environment_similarity_correlation': 0.7622436010704002, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.367687851190567, 'alignment_overlap_after': 0.367687851190567, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 2, 'source_split': 'TRAIN only', 'mean_q_change': 0.14933910965919495, 'environment_mass': [0.33376967906951904, 0.3368596136569977, 0.32937073707580566], 'min_environment_mass': 0.32937073707580566, 'environment_risk': [0.32596826553344727, 0.2680169641971588, 0.3798135221004486], 'probe_gradients': [[0.07381748408079147, -0.2935869097709656], [-0.04752705618739128, -0.05543705075979233], [0.16182461380958557, 0.3325645923614502]], 'gradient_disagreement': 0.22187472879886627, 'D_within_grad': 0.45587724447250366, 'D_between_grad': 0.6060028076171875, 'gradient_separation': 1.3293113708496094, 'random_partition_repeats': 100, 'conflict_ours': 0.22187472879886627, 'random_partition_conflict_mean': 6.483453034888953e-05, 'random_partition_conflict_std': 5.030321335652843e-05, 'random_partition_z_score': 4409.45751953125, 'environment_similarity_correlation': 0.8951757973487883, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.5629563331604004, 'alignment_overlap_after': 0.5629563331604004, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 3, 'source_split': 'TRAIN only', 'mean_q_change': 0.08785411715507507, 'environment_mass': [0.3331447243690491, 0.3381432890892029, 0.32871198654174805], 'min_environment_mass': 0.32871198654174805, 'environment_risk': [0.3140489459037781, 0.27434203028678894, 0.39286699891090393], 'probe_gradients': [[0.020861554890871048, -0.24251583218574524], [-0.0871773362159729, 0.0011731900740414858], [0.14051872491836548, 0.38396236300468445]], 'gradient_disagreement': 0.22540749609470367, 'D_within_grad': 0.45143088698387146, 'D_between_grad': 0.6083618998527527, 'gradient_separation': 1.347630262374878, 'random_partition_repeats': 100, 'conflict_ours': 0.22540749609470367, 'random_partition_conflict_mean': 5.9779446019092575e-05, 'random_partition_conflict_std': 4.645900844479911e-05, 'random_partition_z_score': 4850.46337890625, 'environment_similarity_correlation': 0.9599596193972932, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.572955310344696, 'alignment_overlap_after': 0.572955310344696, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 4, 'source_split': 'TRAIN only', 'mean_q_change': 0.1208726018667221, 'environment_mass': [0.3332674503326416, 0.33607426285743713, 0.33065828680992126], 'min_environment_mass': 0.33065828680992126, 'environment_risk': [0.31292033195495605, 0.25738686323165894, 0.35910889506340027], 'probe_gradients': [[0.09501403570175171, -0.296779066324234], [-0.02649003639817238, -0.08048174530267715], [0.15151751041412354, 0.29644885659217834]], 'gradient_disagreement': 0.19680772721767426, 'D_within_grad': 0.44211503863334656, 'D_between_grad': 0.5767176747322083, 'gradient_separation': 1.304451584815979, 'random_partition_repeats': 100, 'conflict_ours': 0.19680772721767426, 'random_partition_conflict_mean': 5.575836985372007e-05, 'random_partition_conflict_std': 3.923407712136395e-05, 'random_partition_z_score': 5014.8232421875, 'environment_similarity_correlation': 0.9126007004731065, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.5591309666633606, 'alignment_overlap_after': 0.5591309666633606, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}]
+gradient_disagreement: 0.19680772721767426
+environment_source: TRAIN X,Y only; validation/test excluded
+reference_checkpoint: results/predictive_env_constraint_comparison_k3/shared_reference.pt
+reference_checkpoint_sha256: 2b4db3aa3c871585739c21ef4bc55d5b5fbe035997cef68924e4cb784e104e6e
+reference_source: loaded
+seed: 2021
+D_within_grad: 0.44211503863334656
+D_between_grad: 0.5767176747322083
+gradient_separation: 1.304451584815979
+random_partition_z_score: 5014.8232421875
+random_partition_conflict_mean: 5.575836985372007e-05
+random_partition_conflict_std: 3.923407712136395e-05
+min_environment_mass: 0.33065828680992126
+alignment_overlap_before: 0.5591309666633606
+alignment_overlap_after: 0.5591309666633606
+final_environment_similarity_correlation: 0.9126007004731065
+hungarian_permutation: [0, 1, 2]

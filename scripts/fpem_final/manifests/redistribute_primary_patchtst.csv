@@ -1,0 +1,4 @@
+# backbone,dataset,pred_len
+patchtst,Traffic,336
+patchtst,Traffic,720
+patchtst,ETTm1,336

@@ -1,0 +1,8 @@
+| source | split | residual MSE | explained ratio | cosine | beneficial |
+|---|---|---:|---:|---:|---:|
+| current_zvar | train | 0.480068 | 0.0295589 | 0.152783 | 0.605911 |
+| current_zvar | test | 0.519477 | -0.0189745 | 0.0379277 | 0.386858 |
+| predicted_future_zvar | train | 0.494397 | 0.000593411 | 0.0961491 | 0.4377 |
+| predicted_future_zvar | test | 0.517243 | -0.0145906 | 0.0772141 | 0.441462 |
+| teacher_future_zvar | train | 0.408747 | 0.0805629 | 0.246231 | 0.6377 |
+| teacher_future_zvar | heldout_train | 0.416038 | 0.0345431 | 0.174412 | 0.5459 |

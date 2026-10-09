@@ -1,0 +1,11 @@
+[Electricity 96->720] create shared CycleNet reference on GPU=1
+scripts/run_predictive_env_iv_patchtst.sh: line 28: /data/OuXiaoyu/miniconda3/envs/basicts/bin/python: No such file or directory
+[Electricity 96->720] create shared CycleNet reference on GPU=3
+Traceback (most recent call last):
+  File "tools/run_predictive_env_iv_patchtst.py", line 31, in <module>
+    from data_provider.data_loader import (
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/data_provider/data_loader.py", line 10, in <module>
+    from data_provider.m4 import M4Dataset, M4Meta
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/data_provider/m4.py", line 26, in <module>
+    import patoolib
+ModuleNotFoundError: No module named 'patoolib'

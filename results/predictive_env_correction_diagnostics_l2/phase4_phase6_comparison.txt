@@ -1,0 +1,14 @@
+| config | split | cosine | optimal scalar | beneficial ratio | magnitude/residual |
+|---|---|---:|---:|---:|---:|
+| ETTh1-720 h_reference | train | -0.014652 | -1.048944 | 0.463060 | 0.010548 |
+| ETTh1-720 h_reference | test | 0.001358 | 1.384214 | 0.498668 | 0.010315 |
+| ETTm2-336 stable L2 | train | -0.067462 | -3.704330 | 0.416578 | 0.030720 |
+| ETTm2-336 stable L2 | test | -0.121226 | 0.226209 | 0.373170 | 0.033388 |
+| ExchangeRate-720 stable L2 | train | 0.034025 | 18.400198 | 0.528386 | 0.005479 |
+| ExchangeRate-720 stable L2 | test | -0.079540 | -63.483063 | 0.441047 | 0.004742 |
+
+| config | epoch corr | epoch rank | stage corr | stage rank | target std | clip 0 | clip 1 | corr(r,r*) |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| ETTh1-720 h_reference | 0.704065 | 0.656993 | 0.638048 | 0.561259 | 0.496333 | 0.446701 | 0.546788 | -0.077692 |
+| ETTm2-336 stable L2 | 0.561349 | 0.569821 | 0.483321 | 0.494405 | 0.486718 | 0.388765 | 0.596912 | 0.063106 |
+| ExchangeRate-720 stable L2 | 0.821077 | 0.777055 | 0.788808 | 0.647190 | 0.498247 | 0.532205 | 0.464063 | -0.171609 |

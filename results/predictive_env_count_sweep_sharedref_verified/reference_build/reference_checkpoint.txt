@@ -1,0 +1,5 @@
+reference_checkpoint: results/predictive_env_count_sweep_sharedref_verified/shared_reference.pt
+reference_checkpoint_sha256: f207d0ffc19411b5101baaacdf4423d8741a083d5f77d50b336ceb315580af8a
+reference_source: created
+seed: 2021
+signature: {'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3}

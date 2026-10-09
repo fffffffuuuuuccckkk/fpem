@@ -1,0 +1,9 @@
+Shared-encoder joint training; heads are not independent backbone fits.
+A-class uses oracle-projected gamma/beta; B-class directly models normalized future residual.
+lowest_CRPS: affine_gaussian
+lowest_normalized_CRPS_Sum: affine_gaussian
+lowest_mean_MSE: affine_gaussian
+lowest_ProbTS_CRPS: affine_gaussian
+lowest_ProbTS_CRPS_Sum: affine_gaussian
+lowest_inference_time: affine_gaussian
+closest_PICP95_to_0.95: affine_gaussian

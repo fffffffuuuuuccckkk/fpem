@@ -1,0 +1,3 @@
+control=predictive
+source_best_config=results/fpem_final_patchtst_search/server3/patchtst/ETTh1/pred_720/best_config.json
+selection_source=fixed_from_best_predictive_config

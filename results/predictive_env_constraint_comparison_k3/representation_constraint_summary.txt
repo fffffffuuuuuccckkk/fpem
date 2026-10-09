@@ -1,0 +1,10 @@
+K=3 representation-constraint comparison
+shared_reference_sha256: 2b4db3aa3c871585739c21ef4bc55d5b5fbe035997cef68924e4cb784e104e6e
+shared_reference_path: results/predictive_env_constraint_comparison_k3/shared_reference.pt
+name MSE MAE corr_inv_env corr_var_env var_soft_ce inv_soft_ce var_acc inv_acc var_entropy inv_entropy overlap_before overlap_after final_env_sim_corr hungarian_permutation
+A2_contrastive 0.399063855 0.415811807 0.034536 0.106882 nan nan nan nan nan nan 0.558027 0.558027 0.909699 [0, 1, 2]
+A4_contrastive 0.402841568 0.417976111 0.035488 0.165855 nan nan nan nan nan nan 0.559131 0.559131 0.912601 [0, 1, 2]
+A2_classification 0.400208592 0.415873408 0.040748 0.068512 0.931811 1.110223 0.620784 0.319683 0.961771 1.090804 0.563451 0.563451 0.920931 [0, 1, 2]
+A4_classification 0.401466310 0.416618496 0.031887 0.060105 0.938993 1.137980 0.622085 0.339567 0.969221 1.057535 0.560946 0.560946 0.917084 [0, 1, 2]
+best_A2: contrastive MSE=0.399063855 MAE=0.415811807
+best_A4: classification MSE=0.401466310 MAE=0.416618496

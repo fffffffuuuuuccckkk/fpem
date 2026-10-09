@@ -1,0 +1,76 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMFinal_ExchangeRate_96_720Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               custom              Root Path:          ./dataset/all_datasets/exchange_rate
+  Data Path:          exchange_rate.csv   Features:           M                   
+  Target:             OT                  Freq:               d                   
+  Checkpoints:        results/fpem_final_baselines/DLinear/ExchangeRate/pred_720/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           720                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             8                   Dec In:             8                   
+  C Out:              8                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMFinal_DLinear_ExchangeRate_720Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: DLinear ...
+>>>>>>>start training : long_term_forecast_FPEMFinal_ExchangeRate_96_720_DLinear_custom_ftM_sl96_ll48_pl720_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_DLinear_ExchangeRate_720_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 4496
+val 41
+test 798
+	iters: 100, epoch: 1 | loss: 0.6134189
+	speed: 0.0209s/iter; left time: 27.3680s
+Epoch: 1 cost time: 1.2119956016540527
+Epoch: 1, Steps: 141 | Train Loss: 0.6749550 Vali Loss: 3.1584393 Test Loss: 0.7488966
+Validation loss decreased (inf --> 3.158439).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 0.6391549
+	speed: 0.0123s/iter; left time: 14.3756s
+Epoch: 2 cost time: 1.0327835083007812
+Epoch: 2, Steps: 141 | Train Loss: 0.6055702 Vali Loss: 3.2769421 Test Loss: 0.7799089
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 0.5606708
+	speed: 0.0122s/iter; left time: 12.5301s
+Epoch: 3 cost time: 0.9528331756591797
+Epoch: 3, Steps: 141 | Train Loss: 0.5974068 Vali Loss: 3.4061863 Test Loss: 0.8338541
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 0.5716915
+	speed: 0.0114s/iter; left time: 10.1036s
+Epoch: 4 cost time: 0.9872848987579346
+Epoch: 4, Steps: 141 | Train Loss: 0.5941337 Vali Loss: 3.3638921 Test Loss: 0.8113076
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : long_term_forecast_FPEMFinal_ExchangeRate_96_720_DLinear_custom_ftM_sl96_ll48_pl720_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_DLinear_ExchangeRate_720_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 798
+test shape: (798, 720, 8) (798, 720, 8)
+test shape: (798, 720, 8) (798, 720, 8)
+mse:0.7490575313568115, mae:0.6637014746665955, dtw:Not calculated

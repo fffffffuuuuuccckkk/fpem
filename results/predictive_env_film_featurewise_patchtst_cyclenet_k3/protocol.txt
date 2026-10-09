@@ -1,0 +1,8 @@
+backbones=patchtst,cyclenet
+datasets=8
+fusions=direct_gated,film
+feature_wise=true
+lambda_var_gain=0.1
+film_gamma_scale=0.1
+film_beta_scale=0.1
+archive_sha256=3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c

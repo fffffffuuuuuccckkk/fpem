@@ -1,0 +1,46 @@
+environment_count: 3
+representation_constraint: contrastive
+decomposition_type: projection
+MSE: 0.3964347243309021
+MAE: 0.4139130115509033
+inv_only_MSE: 0.3964347243309021
+inv_only_MAE: 0.4139130115509033
+inv_only_minus_full_MSE: 0.0
+g_z_mean: 0.0
+g_z_p10: 0.0
+g_z_p50: 0.0
+g_z_p90: 0.0
+feature_variation_to_Zinv: 0.0
+mapping_variation: removed
+gate/mean: nan
+gate/std: nan
+gate/positive_ratio: nan
+gate/negative_ratio: nan
+gate/abs_mean: nan
+gate/near_zero_ratio: nan
+reconstruction_error: 0.0
+inv_energy_ratio: 1.0
+var_energy_ratio: 0.0
+experiment: A0
+identity: {'feature': 0.0}
+environment_updates: []
+training_gate_history: [{'loss': 0.3770381355060721, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.3707029643486131, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.3673623855383891, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.36592092918899827, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.3632171960371845, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.35970091741040067, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.3575376349800038, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.3556005798420816, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.3530167302995358, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.34890210887171186, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}]
+gradient_disagreement: nan
+environment_source: TRAIN X,Y only; validation/test excluded
+reference_checkpoint: results/predictive_env_decomposition_comparison_k3/shared_reference.pt
+reference_checkpoint_sha256: ee517551a34c2cf0640dad6261f256671f3f7d33f895257f88008a0128deb15b
+reference_source: loaded
+seed: 2021
+D_within_grad: nan
+D_between_grad: nan
+gradient_separation: nan
+random_partition_z_score: nan
+random_partition_conflict_mean: nan
+random_partition_conflict_std: nan
+min_environment_mass: nan
+alignment_overlap_before: nan
+alignment_overlap_after: nan
+final_environment_similarity_correlation: nan
+hungarian_permutation: []
+corr_inv_env: nan
+corr_var_env: nan

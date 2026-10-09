@@ -1,0 +1,5 @@
+reference_checkpoint: results/fpem_final_patchtst_search/patchtst/ETTh2/pred_96/shared_reference.pt
+reference_checkpoint_sha256: 0c5b5d31dea377b003d935dbad1ca84b5e7e92c9ce1de6af8e0ccf97700a7a15
+reference_source: created
+seed: 2021
+signature: {'backbone': 'patchtst', 'dataset_name': 'ETTh2', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'ett_hour', 'data_path': 'ETTh2.csv', 'target': 'OT', 'freq': 'h', 'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 7, 'cyclenet_cycle_len': 24, 'protocol_version': 4}

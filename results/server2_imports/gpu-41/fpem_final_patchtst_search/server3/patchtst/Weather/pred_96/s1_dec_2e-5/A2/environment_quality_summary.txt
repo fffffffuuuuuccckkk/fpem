@@ -1,0 +1,32 @@
+dataset: Weather
+D_within_grad: 0.39778709411621094
+D_between_grad: 0.460498183965683
+gradient_separation: 1.1576498746871948
+gradient_separation_gain: 0.1576498855218048
+conflict_ours: 0.08567080646753311
+random_partition_conflict_mean: 5.520901140698697e-06
+random_partition_conflict_std: 6.513840162369888e-06
+random_partition_z_score: 13151.2724609375
+random_partition_p_value: 0.0009990009712055326
+min_environment_mass: 0.4997671842575073
+normalized_assignment_entropy: 0.7764645218849182
+max_q_mean: 0.7159881591796875
+max_q_p10: 0.5385797619819641
+max_q_p50: 0.6952487826347351
+max_q_p90: 0.936621904373169
+environment_similarity_correlation: 0.9088764738363286
+stage_ARI_to_previous: 0.7192671383097048
+stage_NMI_to_previous: 0.6114246160015858
+mean_q_change: 0.07148093730211258
+final_stage_ARI: 0.7192671383097048
+final_stage_NMI: 0.6114246160015858
+var_acc: 0.75390625
+inv_acc: 0.6376953125
+env_acc_gap_var_minus_inv: 0.1162109375
+train_only: True
+random_partition_repeats: 1000
+environment_mass: [0.5002328157424927, 0.4997671842575073]
+per_env_MSE: [0.5120452046394348, 0.34377816319465637]
+per_env_MAE: [0.3266184628009796, 0.28277188539505005]
+env_gradient_scale: [0.251831591129303, -0.03145952895283699]
+env_gradient_bias: [-0.01748134382069111, -0.09108127653598785]

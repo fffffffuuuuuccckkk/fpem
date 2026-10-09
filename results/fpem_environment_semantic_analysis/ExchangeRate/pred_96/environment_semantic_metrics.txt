@@ -1,0 +1,9 @@
+ExchangeRate pred_len=96
+Environment source: /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search/patchtst/ExchangeRate/pred_96/compact_env_2e-5/A2/environment_gradient_stage_4.npz
+Samples: 5120; exact alignment: PASS
+Physical columns: {'volatility': ['0', '1', '2', '3', '4', '5', '6', 'OT']}
+
+year: NMI=0.098119, p=0.000999001, z=250.340, ARI=0.042361, Cramer's V=0.406729
+volatility_regime: NMI=0.014657, p=0.000999001, z=58.495, ARI=0.014198, Cramer's V=0.123739
+month_of_year: NMI=0.014411, p=0.000999001, z=35.589, ARI=0.007394, Cramer's V=0.161902
+quarter: NMI=0.006891, p=0.000999001, z=24.266, ARI=0.006552, Cramer's V=0.093415

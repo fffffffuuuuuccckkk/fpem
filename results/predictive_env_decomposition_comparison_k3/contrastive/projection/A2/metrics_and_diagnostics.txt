@@ -1,0 +1,56 @@
+environment_count: 3
+representation_constraint: contrastive
+decomposition_type: projection
+MSE: 0.3913241922855377
+MAE: 0.4125041663646698
+inv_only_MSE: 0.3913241922855377
+inv_only_MAE: 0.4125041663646698
+inv_only_minus_full_MSE: 0.0
+g_z_mean: 0.0
+g_z_p10: 0.0
+g_z_p50: 0.0
+g_z_p90: 0.0
+feature_variation_to_Zinv: 0.0
+mapping_variation: removed
+gate/mean: nan
+gate/std: nan
+gate/positive_ratio: nan
+gate/negative_ratio: nan
+gate/abs_mean: nan
+gate/near_zero_ratio: nan
+per_env_MSE: [0.30827096104621887, 0.2592792212963104, 0.3603660464286804]
+env_similarity_mean: 0.333118200302124
+env_similarity_std: 0.1877855807542801
+corr_inv_env: 0.023937154561281204
+corr_var_env: 0.16063132882118225
+hsic_inv_env: 8.948552931542508e-06
+hsic_var_env: 2.7893429432879202e-05
+hsic_inv_var: 2.5725257728481665e-06
+diagnostic_sample_count: 1024
+var_env_soft_ce: nan
+inv_env_soft_ce: nan
+var_env_accuracy_argmax: nan
+inv_env_accuracy_argmax: nan
+var_env_entropy: nan
+inv_env_entropy: nan
+experiment: A2
+identity: {'feature': 0.0}
+environment_updates: [{'update': 0, 'source_split': 'TRAIN only', 'mean_q_change': 0.06722282618284225, 'environment_mass': [0.3330917954444885, 0.333054780960083, 0.33385348320007324], 'min_environment_mass': 0.333054780960083, 'environment_risk': [0.3351874053478241, 0.352999746799469, 0.352489173412323], 'probe_gradients': [[0.05551033094525337, -0.08510561287403107], [0.09738600254058838, 0.03793657198548317], [0.0962497889995575, 0.04091498628258705]], 'gradient_disagreement': 0.011481337249279022, 'D_within_grad': 0.5802318453788757, 'D_between_grad': 0.5858089327812195, 'gradient_separation': 1.0096118450164795, 'random_partition_repeats': 100, 'conflict_ours': 0.011481337249279022, 'random_partition_conflict_mean': 2.545087227190379e-06, 'random_partition_conflict_std': 3.0054197850404307e-06, 'random_partition_z_score': 3819.364013671875, 'environment_similarity_correlation': -0.0004979728071147007, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.3333510160446167, 'alignment_overlap_after': 0.3333510160446167, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 1, 'source_split': 'TRAIN only', 'mean_q_change': 0.3194347620010376, 'environment_mass': [0.3313685357570648, 0.3350030779838562, 0.33362847566604614], 'min_environment_mass': 0.3313685357570648, 'environment_risk': [0.34011217951774597, 0.3120858073234558, 0.3493509292602539], 'probe_gradients': [[0.052545737475156784, -0.3310924172401428], [0.08990153670310974, 0.09243141859769821], [0.06952647119760513, 0.20441584289073944]], 'gradient_disagreement': 0.16026033461093903, 'D_within_grad': 0.4935195744037628, 'D_between_grad': 0.5988884568214417, 'gradient_separation': 1.2135050296783447, 'random_partition_repeats': 100, 'conflict_ours': 0.16026033461093903, 'random_partition_conflict_mean': 6.132726412033662e-05, 'random_partition_conflict_std': 5.822683306178078e-05, 'random_partition_z_score': 2751.291748046875, 'environment_similarity_correlation': 0.7124925938567144, 'hungarian_permutation': [0, 2, 1], 'alignment_overlap_before': 0.3640526533126831, 'alignment_overlap_after': 0.3643055558204651, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 2, 'source_split': 'TRAIN only', 'mean_q_change': 0.22693927586078644, 'environment_mass': [0.33134785294532776, 0.3384830355644226, 0.33016905188560486], 'min_environment_mass': 0.33016905188560486, 'environment_risk': [0.33874791860580444, 0.2694850564002991, 0.36828336119651794], 'probe_gradients': [[0.0932915136218071, -0.3514595925807953], [-0.018299724906682968, -0.06722965091466904], [0.14688237011432648, 0.2700008749961853]], 'gradient_disagreement': 0.2077779769897461, 'D_within_grad': 0.45844772458076477, 'D_between_grad': 0.5967724919319153, 'gradient_separation': 1.3017241954803467, 'random_partition_repeats': 100, 'conflict_ours': 0.2077779769897461, 'random_partition_conflict_mean': 6.273354665609077e-05, 'random_partition_conflict_std': 4.0771570638753474e-05, 'random_partition_z_score': 5094.60986328125, 'environment_similarity_correlation': 0.8209268915840795, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.5012610554695129, 'alignment_overlap_after': 0.5012610554695129, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 3, 'source_split': 'TRAIN only', 'mean_q_change': 0.11605031788349152, 'environment_mass': [0.3342832922935486, 0.33590757846832275, 0.32980915904045105], 'min_environment_mass': 0.32980915904045105, 'environment_risk': [0.31619539856910706, 0.2786538600921631, 0.3952462077140808], 'probe_gradients': [[0.02522982843220234, -0.2369633913040161], [-0.09483254700899124, 0.022082604467868805], [0.13311238586902618, 0.37971001863479614]], 'gradient_disagreement': 0.2177669256925583, 'D_within_grad': 0.4503268897533417, 'D_between_grad': 0.6031434535980225, 'gradient_separation': 1.3393458127975464, 'random_partition_repeats': 100, 'conflict_ours': 0.2177669256925583, 'random_partition_conflict_mean': 6.206921534612775e-05, 'random_partition_conflict_std': 4.877337414654903e-05, 'random_partition_z_score': 4463.6005859375, 'environment_similarity_correlation': 0.9376118421767418, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.5625098943710327, 'alignment_overlap_after': 0.5625098943710327, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}, {'update': 4, 'source_split': 'TRAIN only', 'mean_q_change': 0.1662496030330658, 'environment_mass': [0.3322582542896271, 0.3359081447124481, 0.3318336308002472], 'min_environment_mass': 0.3318336308002472, 'environment_risk': [0.33558976650238037, 0.26487210392951965, 0.3446929156780243], 'probe_gradients': [[0.166377454996109, -0.3599814176559448], [-0.039099182933568954, -0.15809966623783112], [0.12331535667181015, 0.2202722132205963]], 'gradient_disagreement': 0.19702307879924774, 'D_within_grad': 0.45138245820999146, 'D_between_grad': 0.5839934349060059, 'gradient_separation': 1.2937885522842407, 'random_partition_repeats': 100, 'conflict_ours': 0.19702307879924774, 'random_partition_conflict_mean': 5.957003668299876e-05, 'random_partition_conflict_std': 4.3294559873174876e-05, 'random_partition_z_score': 4549.38232421875, 'environment_similarity_correlation': 0.8661975660460022, 'hungarian_permutation': [0, 1, 2], 'alignment_overlap_before': 0.5509910583496094, 'alignment_overlap_after': 0.5509910583496094, 'environment_matching_requested': 'overlap', 'environment_matching_used': 'overlap'}]
+training_gate_history: [{'loss': 0.671845576335799, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.6624864014814484, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.6545821761185269, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.6478971849072654, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.6423090644602506, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.6390838065237369, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.6337589003005117, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.6261119536633761, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.6255917913508865, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}, {'loss': 0.6209359271346399, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan}]
+gradient_disagreement: 0.19702307879924774
+environment_source: TRAIN X,Y only; validation/test excluded
+reference_checkpoint: results/predictive_env_decomposition_comparison_k3/shared_reference.pt
+reference_checkpoint_sha256: ee517551a34c2cf0640dad6261f256671f3f7d33f895257f88008a0128deb15b
+reference_source: loaded
+seed: 2021
+D_within_grad: 0.45138245820999146
+D_between_grad: 0.5839934349060059
+gradient_separation: 1.2937885522842407
+random_partition_z_score: 4549.38232421875
+random_partition_conflict_mean: 5.957003668299876e-05
+random_partition_conflict_std: 4.3294559873174876e-05
+min_environment_mass: 0.3318336308002472
+alignment_overlap_before: 0.5509910583496094
+alignment_overlap_after: 0.5509910583496094
+final_environment_similarity_correlation: 0.8661975660460022
+hungarian_permutation: [0, 1, 2]

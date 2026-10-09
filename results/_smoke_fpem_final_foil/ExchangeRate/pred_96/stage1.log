@@ -1,0 +1,17 @@
+Args in experiment:
+{'model': 'informer', 'data': 'custom', 'root_path': '../dataset/exchange_rate/', 'data_path': 'exchange_rate.csv', 'features': 'MS', 'target': 'OT', 'freq': 'w', 'checkpoints': './informer_checkpoints', 'seq_len': 96, 'label_len': 48, 'pred_len': 96, 'enc_in': 8, 'dec_in': 8, 'c_out': 1, 'factor': 3, 'd_model': 512, 'n_heads': 8, 'e_layers': 2, 'd_layers': 1, 'd_ff': 512, 'dropout': 0.05, 'attn': 'prob', 'embed': 'timeF', 'activation': 'gelu', 'distil': True, 'output_attention': False, 'mix': True, 'padding': 0, 'learning_rate': 0.01, 'loss': 'mse', 'use_amp': False, 'num_workers': 0, 'itr': 1, 'des': 'exp', 'use_gpu': True, 'gpu': 0, 'use_multi_gpu': False, 'devices': '0', 'detail_freq': 'w'}
+Use GPU: cuda:0
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_atprob_fc3_ebtimeF_dtTrue_mxTrue_exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 5120
+val 665
+test 1422
+Epoch: 0 | Vali Loss: 0.168 |Test Loss: 0.145 Test MAE:0.296
+Epoch: 1, Steps: 40 | Train Avg : 0.104 | Train Var : 0.0061597086 | Vali Loss: 0.319 |Test Loss: 0.132 Test MAE: 0.284 
+Validation loss decreased (inf --> 0.319425).  Saving model ...
+0
+Updating learning rate to 0.0001
+>>>>>>>testing : informer_custom_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_atprob_fc3_ebtimeF_dtTrue_mxTrue_exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 1422
+test shape: (1422, 96, 1) (1422, 96, 1)
+test shape: (1422, 96, 1) (1422, 96, 1)
+mse:0.13758620619773865, mae:0.2898244857788086,msev:0.04129422456026077,mse_w:0.452545702457428,mae_w:0.6142928600311279

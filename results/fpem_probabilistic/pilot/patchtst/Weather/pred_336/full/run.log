@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 4094, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 3685, in main
+    reference_state, reference_hash, reference_source = prepare_reference(
+                                                        ^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 3333, in prepare_reference
+    raise FileNotFoundError(
+FileNotFoundError: Required shared reference checkpoint is missing: results/fpem_probabilistic/pilot/patchtst/Weather/pred_336/full/shared_reference.pt

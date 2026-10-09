@@ -1,0 +1,68 @@
+Predictive Environment Semantic Analysis
+
+All semantic labels are post-hoc. Environments are the exact saved final-stage TRAIN assignments.
+No validation/test/future target is used for semantic labels. NMI is association, not environment quality.
+
+Strongest semantic association per dataset:
+- ExchangeRate: year, mean/run NMI=0.322157, p=0.000999001, z=757.61
+- ETTh2: month, mean/run NMI=0.243713, p=0.000999001, z=1032.29
+- ETTh1: month, mean/run NMI=0.122967, p=0.000999001, z=537.25
+- ETTm2: load_regime, mean/run NMI=0.094195, p=0.000999001, z=2540.44
+- Weather: season, mean/run NMI=0.050094, p=0.000999001, z=1443.50
+- ETTm1: month, mean/run NMI=0.032229, p=0.000999001, z=581.51
+
+Largest enrichments per case:
+- ETTm2 pred=720 Env-2: month=04, enrichment=8.901
+- ETTh2 pred=720 Env-3: month=05, enrichment=5.893
+- ETTh2 pred=720 Env-3: month=04, enrichment=3.619
+- ExchangeRate pred=720 Env-1: year=1998, enrichment=3.464
+- ETTh2 pred=336 Env-1: month=06, enrichment=3.310
+- ETTh2 pred=720 Env-3: load_regime=High, enrichment=3.000
+- ETTm2 pred=720 Env-2: load_regime=High, enrichment=3.000
+- ExchangeRate pred=336 Env-1: year=1998, enrichment=2.947
+- ExchangeRate pred=720 Env-3: year=1994, enrichment=2.914
+- ExchangeRate pred=336 Env-2: year=1996, enrichment=2.801
+- ETTh2 pred=336 Env-1: month=05, enrichment=2.715
+- ExchangeRate pred=720 Env-2: year=2001, enrichment=2.687
+- ExchangeRate pred=96 Env-2: year=1996, enrichment=2.536
+- ExchangeRate pred=336 Env-3: year=1994, enrichment=2.508
+- ETTh2 pred=336 Env-1: load_regime=High, enrichment=2.357
+- ETTh2 pred=96 Env-2: month=04, enrichment=2.279
+- ExchangeRate pred=96 Env-1: year=1998, enrichment=2.188
+- ETTh1 pred=336 Env-1: month=02, enrichment=2.134
+- ETTh1 pred=720 Env-2: month=09, enrichment=2.115
+- ETTh1 pred=336 Env-2: month=06, enrichment=2.063
+- ETTm2 pred=336 Env-2: load_regime=High, enrichment=2.019
+- ETTh1 pred=336 Env-2: month=09, enrichment=1.975
+- ETTh1 pred=720 Env-2: month=08, enrichment=1.962
+- ETTh1 pred=96 Env-1: month=11, enrichment=1.905
+- ExchangeRate pred=96 Env-3: year=1990, enrichment=1.885
+- ETTm2 pred=336 Env-2: month=05, enrichment=1.866
+- ETTh1 pred=720 Env-1: month=02, enrichment=1.865
+- ETTm1 pred=336 Env-1: month=11, enrichment=1.834
+- Weather pred=720 Env-1: month=09, enrichment=1.800
+- ETTm1 pred=720 Env-3: month=11, enrichment=1.773
+- ETTm2 pred=336 Env-2: month=04, enrichment=1.758
+- ETTm2 pred=96 Env-1: load_regime=High, enrichment=1.736
+- ETTm2 pred=96 Env-1: month=04, enrichment=1.659
+- ETTh2 pred=96 Env-3: month=02, enrichment=1.658
+- ETTm1 pred=720 Env-2: month=09, enrichment=1.655
+- ETTm2 pred=720 Env-2: season=Transition, enrichment=1.653
+- ETTm1 pred=720 Env-2: month=06, enrichment=1.641
+- Weather pred=336 Env-1: month=09, enrichment=1.636
+- ETTh2 pred=96 Env-3: month=06, enrichment=1.622
+- ETTm2 pred=96 Env-1: month=05, enrichment=1.619
+- Weather pred=336 Env-1: month=07, enrichment=1.543
+- Weather pred=720 Env-2: month=02, enrichment=1.520
+- Weather pred=720 Env-1: month=07, enrichment=1.519
+- ETTh1 pred=96 Env-3: month=09, enrichment=1.513
+- ETTm1 pred=336 Env-2: month=06, enrichment=1.485
+- ETTh1 pred=96 Env-2: month=04, enrichment=1.481
+- Weather pred=96 Env-1: month=09, enrichment=1.478
+- ETTm1 pred=336 Env-2: month=04, enrichment=1.452
+- ETTm1 pred=96 Env-2: month=11, enrichment=1.445
+- ETTm1 pred=96 Env-3: month=04, enrichment=1.434
+- Weather pred=96 Env-3: hour=17, enrichment=1.399
+- Weather pred=336 Env-1: season=Summer, enrichment=1.384
+- ETTm1 pred=96 Env-1: month=01, enrichment=1.369
+- Weather pred=96 Env-1: month=07, enrichment=1.307

@@ -1,0 +1,32 @@
+dataset: ETTm2
+D_within_grad: 0.5988753437995911
+D_between_grad: 0.7160641551017761
+gradient_separation: 1.1956814527511597
+gradient_separation_gain: 0.19568147614606318
+conflict_ours: 0.24132241308689117
+random_partition_conflict_mean: 2.32816473726416e-05
+random_partition_conflict_std: 2.2795613404014148e-05
+random_partition_z_score: 10585.33203125
+random_partition_p_value: 0.0009990009712055326
+min_environment_mass: 0.4981372356414795
+normalized_assignment_entropy: 0.6125211119651794
+max_q_mean: 0.785224199295044
+max_q_p10: 0.5569542050361633
+max_q_p50: 0.7854306101799011
+max_q_p90: 0.9992942810058594
+environment_similarity_correlation: 0.7959173217805379
+stage_ARI_to_previous: 0.5415038800264713
+stage_NMI_to_previous: 0.4366680960726609
+mean_q_change: 0.1259322613477707
+final_stage_ARI: 0.5415038800264713
+final_stage_NMI: 0.4366680960726609
+var_acc: 0.65234375
+inv_acc: 0.5849609375
+env_acc_gap_var_minus_inv: 0.0673828125
+train_only: True
+random_partition_repeats: 1000
+environment_mass: [0.4981372356414795, 0.5018627643585205]
+per_env_MSE: [0.33995166420936584, 0.2525789439678192]
+per_env_MAE: [0.3308134377002716, 0.30411669611930847]
+env_gradient_scale: [0.3033897578716278, -0.005007187835872173]
+env_gradient_bias: [-0.17298828065395355, 0.2093907743692398]

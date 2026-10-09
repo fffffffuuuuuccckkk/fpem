@@ -1,0 +1,5 @@
+reference_checkpoint: results/server2_imports/gpu-47/predictive_env_patchtst_multihorizon_96/pred_720/ExchangeRate/shared_reference.pt
+reference_checkpoint_sha256: 44344eed320bf45108424f3521ae0140606e5dafd633c81e3684a3fe30a9fba6
+reference_source: loaded
+seed: 2021
+signature: {'backbone': 'patchtst', 'dataset_name': 'ExchangeRate', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'custom', 'data_path': 'exchange_rate.csv', 'target': 'OT', 'freq': 'd', 'seq_len': 96, 'pred_len': 720, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 8, 'cyclenet_cycle_len': 7, 'protocol_version': 4}

@@ -1,0 +1,20 @@
+K=3 information-preserving complementary-gate comparison
+shared_reference_sha256: ee517551a34c2cf0640dad6261f256671f3f7d33f895257f88008a0128deb15b
+shared_reference_path: results/predictive_env_decomposition_comparison_k3/shared_reference.pt
+activity_regularization: signed_gate=0.0001 complementary_gate=0.0
+
+Previous signed-gate conclusion (preserved):
+signed assignment improved environment predictability: A2 classification var_acc 0.589774 -> 0.721387.
+Forecasting MSE degradation versus projection: A2 contrastive 10.52%, A2 classification 9.27%, A4 contrastive 12.02%, A4 classification 13.26%.
+Working hypothesis: relu(g)/relu(-g) attenuated or deleted too much H; the complementary gate tests information-preserving allocation.
+
+name MSE MAE corr_inv_env corr_var_env var_soft_ce inv_soft_ce var_acc inv_acc gate_mean gate_std gate_pos gate_neg gate_abs gate_near_zero reconstruction_error inv_energy var_energy env_separation min_env_mass final_env_sim_corr
+A0_baseline 0.396434724 0.413913012 nan nan nan nan nan nan nan nan nan nan nan nan 0 1.000000 0.000000 nan nan nan
+A2_contrastive_projection 0.391324192 0.412504166 0.023937 0.160631 nan nan nan nan nan nan nan nan nan nan 0.664332797 0.527229 0.439887 1.293789 0.331834 0.866198
+A2_contrastive_signed_gate 0.432477087 0.424862742 0.050004 0.196918 nan nan nan nan 0.114980 0.249907 0.694812 0.305188 0.217619 0.294449 0.617133535 0.252924 0.128763 1.278921 0.329917 0.910559
+A2_contrastive_complementary_gate 0.404495865 0.413466096 0.047746 0.100254 nan nan nan nan -0.568189 0.353535 0.085063 0.914937 0.613035 0.051164 9.17173941e-09 0.283419 0.801147 1.290952 0.330079 0.926316
+A2_classification_projection 0.392348498 0.413755745 0.019870 0.057802 0.971930 1.107433 0.589774 0.320748 nan nan nan nan nan nan 0.614281468 0.622154 0.331354 1.300724 0.330266 0.900475
+A2_classification_signed_gate 0.428703010 0.422500700 0.040152 0.071592 0.896785 1.103788 0.721387 0.377204 0.095229 0.253689 0.648139 0.351861 0.219467 0.276655 0.615225533 0.239139 0.132746 1.289837 0.329724 0.894125
+A2_classification_complementary_gate 0.401329279 0.412819266 0.045011 0.050100 0.933580 1.108121 0.673097 0.313410 -0.563604 0.347744 0.082720 0.917280 0.605093 0.053193 9.12050748e-09 0.277030 0.801921 1.300360 0.329999 0.927755
+best_A2_contrastive: projection MSE=0.391324192 MAE=0.412504166
+best_A2_classification: projection MSE=0.392348498 MAE=0.413755745

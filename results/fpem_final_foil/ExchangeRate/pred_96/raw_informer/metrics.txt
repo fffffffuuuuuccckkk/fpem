@@ -1,0 +1,8 @@
+method=Informer-Raw
+dataset=ExchangeRate
+pred_len=96
+seed=3407
+MSE=0.8898897767066956
+MAE=0.7691551446914673
+upstream_commit=6d6cf6f
+status=complete

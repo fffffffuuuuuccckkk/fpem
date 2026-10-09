@@ -1,0 +1,5 @@
+probe epoch 1: loss=1.500373
+probe epoch 2: loss=1.448251
+probe epoch 3: loss=1.434833
+probe epoch 4: loss=1.424499
+probe epoch 5: loss=1.416502

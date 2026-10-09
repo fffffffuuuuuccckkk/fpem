@@ -1,0 +1,9 @@
+# backbone,dataset,pred_len
+patchtst,ETTh1,96
+patchtst,ETTh2,336
+patchtst,ETTm1,720
+patchtst,Weather,336
+patchtst,ExchangeRate,96
+patchtst,Electricity,96
+patchtst,ETTm2,720
+patchtst,Traffic,96

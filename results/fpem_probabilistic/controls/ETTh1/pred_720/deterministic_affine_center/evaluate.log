@@ -1,0 +1,10 @@
+{
+  "ablation": "deterministic_affine_center",
+  "samples_evaluated": 2161,
+  "inv_MSE": 1.580089248258281,
+  "mean_MSE": 1.3860687634725364,
+  "CRPS": 0.8062062874429483,
+  "PICP_95": 0.0,
+  "MPIW_95": 0.0,
+  "sample_diversity": 0.0
+}

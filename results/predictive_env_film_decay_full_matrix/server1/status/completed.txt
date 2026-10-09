@@ -1,0 +1,5 @@
+patchtst:96:ETTm1 film
+patchtst:96:ETTm1 film_decay_reg
+patchtst:96:Weather film
+patchtst:96:ETTm1 y_film_decay
+patchtst:96:ETTm1 direct_gated
