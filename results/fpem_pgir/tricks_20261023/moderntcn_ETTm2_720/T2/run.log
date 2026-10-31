@@ -1,0 +1,11 @@
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_pgir_tricks.py --base_run_config results/fpem_latent_decomposition_search/pilot_20261015/moderntcn_ETTm2_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4/run_config.json --bank_checkpoint /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/pilot_20261022/moderntcn_ETTm2_720/prototype_bank.pt --core_p4_dir /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/pilot_20261022/moderntcn_ETTm2_720/P4 --gain_cache /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/tricks_20261023/moderntcn_ETTm2_720/oof_gain_labels.pt --output /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/tricks_20261023/moderntcn_ETTm2_720/T2 --mode T2 --seed 2021 --gpu 2 --epochs 10 --local --allow_legacy_reference_signature
+{"epoch": 1, "train_mse": 0.4680047502737078, "val_mse": 0.32327739280609763, "val_mae": 0.38572181659738247, "intervened": 0.39498988188924306}
+{"epoch": 2, "train_mse": 0.4708331460793083, "val_mse": 0.32085754740849476, "val_mae": 0.3837952259777419, "intervened": 0.35069504146441466}
+{"epoch": 3, "train_mse": 0.4703149184913596, "val_mse": 0.32103001284402355, "val_mae": 0.38395699546324524, "intervened": 0.3362519343447035}
+{"epoch": 4, "train_mse": 0.46996913205466284, "val_mse": 0.3212067315983577, "val_mae": 0.38418162071093964, "intervened": 0.47412276641051754}
+{"epoch": 5, "train_mse": 0.470039263099613, "val_mse": 0.3203071108363499, "val_mae": 0.38369731689121966, "intervened": 0.4430542145568532}
+{"epoch": 6, "train_mse": 0.4698713967262824, "val_mse": 0.3180216448033074, "val_mae": 0.38182026461354485, "intervened": 0.3285806869734284}
+{"epoch": 7, "train_mse": 0.4693245010184154, "val_mse": 0.3170565771622077, "val_mae": 0.3812408752099214, "intervened": 0.2944700887483963}
+{"epoch": 8, "train_mse": 0.46952497537161864, "val_mse": 0.31760298657632746, "val_mae": 0.38187088293736904, "intervened": 0.37171161400399433}
+{"epoch": 9, "train_mse": 0.4686324488800496, "val_mse": 0.31753878470273295, "val_mae": 0.3818088757400407, "intervened": 0.3053685505310355}
+{"epoch": 10, "train_mse": 0.46825837341833687, "val_mse": 0.31728453483257907, "val_mae": 0.3819781772926348, "intervened": 0.3563558929728729}

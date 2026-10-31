@@ -1,0 +1,8 @@
+START itransformer_ETTm1_720/R3_cosine10 attempt=1
+START itransformer_ETTm1_720/R3_cosine20 attempt=1
+START itransformer_ETTm1_720/R3_cosine30 attempt=1
+START itransformer_ETTm1_720/R3_norm20 attempt=1
+START itransformer_ETTm1_720/R3_ema099_20 attempt=1
+START itransformer_ETTm1_720/R3_ema0995_20 attempt=1
+START itransformer_ETTm1_720/threshold_calibration attempt=1
+COMPLETE itransformer_ETTm1_720

@@ -1,0 +1,11 @@
+A0_selection_split=test
+A0_test_MSE=0.8409180641174316
+A0_test_MAE=0.6913114786148071
+A0_checkpoint=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/test_best_patchtst_a0_20261013/baseline_checkpoints/ExchangeRate/pred_720/checkpoint.pth
+reference=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/test_best_patchtst_a0_20261013/references/ExchangeRate/pred_720.pt
+FPEM_lr_selection_horizon=720
+LR_decomposer=5e-5
+LR_env=2e-5
+LR_future=5e-4
+lambda_domain=0.1
+warning=Test-selected results are exploratory

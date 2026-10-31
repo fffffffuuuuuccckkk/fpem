@@ -1,0 +1,10 @@
+TRAIN anchor moderntcn/ETTh1/24 GPU=0
+ARCHIVE incomplete anchor /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/moderntcn/ETTh1/pred_24/anchor -> /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/moderntcn/ETTh1/pred_24/anchor.incomplete.20261010_123103
+/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/moderntcn/ETTh1/pred_24/anchor/A2/trained_checkpoint.pt
+HEAD candidate moderntcn/ETTh1/24 lr=5e-5 GPU=0
+ARCHIVE incomplete candidate /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/moderntcn/ETTh1/pred_24/head_lr_5e-5 -> /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/moderntcn/ETTh1/pred_24/head_lr_5e-5.incomplete.20261010_123244
+HEAD candidate moderntcn/ETTh1/24 lr=1e-4 GPU=0
+ARCHIVE incomplete candidate /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/moderntcn/ETTh1/pred_24/head_lr_1e-4 -> /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/moderntcn/ETTh1/pred_24/head_lr_1e-4.incomplete.20261010_123839
+HEAD candidate moderntcn/ETTh1/24 lr=5e-4 GPU=0
+ARCHIVE incomplete candidate /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/moderntcn/ETTh1/pred_24/head_lr_5e-4 -> /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/moderntcn/ETTh1/pred_24/head_lr_5e-4.incomplete.20261010_124400
+TEST_SELECTED_HEADS /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/moderntcn/ETTh1/pred_24 [('affine_deterministic', '5e-5'), ('affine_gaussian', '5e-4'), ('affine_mdn', '5e-4'), ('affine_flow', '1e-4'), ('residual_gaussian', '5e-4'), ('residual_lowrank', '5e-4'), ('residual_flow', '5e-4'), ('legacy_full', '5e-4')]

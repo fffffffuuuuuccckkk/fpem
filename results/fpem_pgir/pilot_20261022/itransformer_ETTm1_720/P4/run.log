@@ -1,0 +1,41 @@
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_pgir_probabilistic.py --base_run_config results/fpem_latent_decomposition_search/pilot_20261015/itransformer_ETTm1_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4/run_config.json --point_checkpoint /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/pilot_20261022/itransformer_ETTm1_720/P2/best.pt --output /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/pilot_20261022/itransformer_ETTm1_720/P4 --gpu 3 --seed 2021 --core_epochs 10 --mask_epochs 10 --prior_epochs 10 --flow_epochs 10
+{"stage": "core_A0", "epoch": 1, "mse": 0.533241304144015}
+{"stage": "core_A0", "epoch": 2, "mse": 0.5140647807116567}
+{"stage": "core_A0", "epoch": 3, "mse": 0.5071035135548909}
+{"stage": "core_A0", "epoch": 4, "mse": 0.5017572219388766}
+{"stage": "core_A0", "epoch": 5, "mse": 0.49554006818270874}
+{"stage": "core_A0", "epoch": 6, "mse": 0.4895420598494186}
+{"stage": "core_A0", "epoch": 7, "mse": 0.48345038735501805}
+{"stage": "core_A0", "epoch": 8, "mse": 0.477315498810913}
+{"stage": "core_A0", "epoch": 9, "mse": 0.4708962141445692}
+{"stage": "core_A0", "epoch": 10, "mse": 0.46501297066748637}
+{"stage": "core_PGIR", "epoch": 1, "mse": 0.4321370556607931}
+{"stage": "core_PGIR", "epoch": 2, "mse": 0.4321370545934494}
+{"stage": "core_PGIR", "epoch": 3, "mse": 0.4321370560095401}
+{"stage": "core_PGIR", "epoch": 4, "mse": 0.43213705551973935}
+{"stage": "core_PGIR", "epoch": 5, "mse": 0.4321370546900768}
+{"stage": "core_PGIR", "epoch": 6, "mse": 0.4321370549521924}
+{"stage": "core_PGIR", "epoch": 7, "mse": 0.43213705501327865}
+{"stage": "core_PGIR", "epoch": 8, "mse": 0.43213705561747734}
+{"stage": "core_PGIR", "epoch": 9, "mse": 0.4321370559640031}
+{"stage": "core_PGIR", "epoch": 10, "mse": 0.43213705626165977}
+{"stage": "PGIR_CFIP", "epoch": 1, "train_nll": 1.8213910987300257, "oof_val_nll": 1.767041102433816}
+{"stage": "PGIR_CFIP", "epoch": 2, "train_nll": 1.7666525794613746, "oof_val_nll": 1.7564127078423133}
+{"stage": "PGIR_CFIP", "epoch": 3, "train_nll": 1.7485629097107918, "oof_val_nll": 1.7464872506948619}
+{"stage": "PGIR_CFIP", "epoch": 4, "train_nll": 1.7366854160062728, "oof_val_nll": 1.7470663296870697}
+{"stage": "PGIR_CFIP", "epoch": 5, "train_nll": 1.7282669644201956, "oof_val_nll": 1.7514738211264977}
+{"stage": "PGIR_CFIP", "epoch": 6, "train_nll": 1.7225495499949302, "oof_val_nll": 1.7384874729009776}
+{"stage": "PGIR_CFIP", "epoch": 7, "train_nll": 1.717384280696992, "oof_val_nll": 1.7419505211023183}
+{"stage": "PGIR_CFIP", "epoch": 8, "train_nll": 1.7130689490226008, "oof_val_nll": 1.7368087157224998}
+{"stage": "PGIR_CFIP", "epoch": 9, "train_nll": 1.7098268032073975, "oof_val_nll": 1.7374173005421956}
+{"stage": "PGIR_CFIP", "epoch": 10, "train_nll": 1.706538526473507, "oof_val_nll": 1.7333335479100545}
+{"epoch": 1, "train_flow_loss": 4.150363797148098, "val": {"inv_MSE": 0.9903180142037682, "inv_MAE": 0.6594520777632226, "mean_MSE": 0.9997182617545316, "mean_MAE": 0.6736667307866149, "CRPS": 0.5306427291301365, "PICP_95": 0.8154193664599255, "MPIW_95": 3.023676911964095, "WIS": 0.43913846028457026, "EnergyScore": 48.3531243743063, "sample_std_mean": 0.8160981964197505}}
+{"epoch": 2, "train_flow_loss": 3.6382912812435744, "val": {"inv_MSE": 0.9903180142037682, "inv_MAE": 0.6594520777632226, "mean_MSE": 0.9628754830610949, "mean_MAE": 0.6604394391999953, "CRPS": 0.517468142331215, "PICP_95": 0.8187526658104256, "MPIW_95": 2.964267114811104, "WIS": 0.42734711830725924, "EnergyScore": 47.36611200453959, "sample_std_mean": 0.7946144277470475}}
+{"epoch": 3, "train_flow_loss": 3.5150962998167925, "val": {"inv_MSE": 0.9903180142037682, "inv_MAE": 0.6594520777632226, "mean_MSE": 0.956149029730095, "mean_MAE": 0.6576742395522716, "CRPS": 0.5145611228374252, "PICP_95": 0.8066224321404295, "MPIW_95": 2.746475376869592, "WIS": 0.4248839204244708, "EnergyScore": 47.24025172796992, "sample_std_mean": 0.7376635180017637}}
+{"epoch": 4, "train_flow_loss": 3.4354325635324745, "val": {"inv_MSE": 0.9903180142037682, "inv_MAE": 0.6594520777632226, "mean_MSE": 0.9635831706474891, "mean_MAE": 0.6609625334144136, "CRPS": 0.5152945574560979, "PICP_95": 0.8092150784137017, "MPIW_95": 2.7031133364068283, "WIS": 0.4243819690663421, "EnergyScore": 47.43154338465478, "sample_std_mean": 0.7274368704772528}}
+{"epoch": 5, "train_flow_loss": 3.396986219395106, "val": {"inv_MSE": 0.9903180142037682, "inv_MAE": 0.6594520777632226, "mean_MSE": 0.9527287579622438, "mean_MAE": 0.6549066833468148, "CRPS": 0.509904150153937, "PICP_95": 0.8113696958696209, "MPIW_95": 2.6609764811992864, "WIS": 0.41966924615016016, "EnergyScore": 47.1761107122045, "sample_std_mean": 0.7175409119279944}}
+{"epoch": 6, "train_flow_loss": 3.3500431122471093, "val": {"inv_MSE": 0.9903180142037682, "inv_MAE": 0.6594520777632226, "mean_MSE": 0.9502734679495247, "mean_MAE": 0.6541253623173486, "CRPS": 0.5090284764948801, "PICP_95": 0.7980532844125556, "MPIW_95": 2.5053924084394, "WIS": 0.4200003962612364, "EnergyScore": 47.3066528286054, "sample_std_mean": 0.6773447696450309}}
+{"epoch": 7, "train_flow_loss": 3.323217855712929, "val": {"inv_MSE": 0.9903180142037682, "inv_MAE": 0.6594520777632226, "mean_MSE": 0.9496314822634153, "mean_MAE": 0.655256177775121, "CRPS": 0.5087012369404699, "PICP_95": 0.798484572066542, "MPIW_95": 2.4991755895996057, "WIS": 0.41908934285558824, "EnergyScore": 47.30144572410305, "sample_std_mean": 0.6762551354038617}}
+{"epoch": 8, "train_flow_loss": 3.308039157873508, "val": {"inv_MSE": 0.9903180142037682, "inv_MAE": 0.6594520777632226, "mean_MSE": 0.9421152583223483, "mean_MAE": 0.6506172605586619, "CRPS": 0.5058824952642472, "PICP_95": 0.795881234924061, "MPIW_95": 2.459564169428214, "WIS": 0.4172468803324265, "EnergyScore": 47.142018323032495, "sample_std_mean": 0.6663962023427735}}
+{"epoch": 9, "train_flow_loss": 3.275997665479883, "val": {"inv_MSE": 0.9903180142037682, "inv_MAE": 0.6594520777632226, "mean_MSE": 0.9381906355120453, "mean_MAE": 0.6484207408112096, "CRPS": 0.5037563766122869, "PICP_95": 0.7976796226682028, "MPIW_95": 2.470660714327919, "WIS": 0.41533707518228147, "EnergyScore": 47.008894529820324, "sample_std_mean": 0.6697514823228935}}
+{"epoch": 10, "train_flow_loss": 3.2645883640937052, "val": {"inv_MSE": 0.9903180142037682, "inv_MAE": 0.6594520777632226, "mean_MSE": 0.9421261326851265, "mean_MAE": 0.6510248012221993, "CRPS": 0.5048634278096598, "PICP_95": 0.7973142487507663, "MPIW_95": 2.4596479722895275, "WIS": 0.41600624139899844, "EnergyScore": 47.15129031169062, "sample_std_mean": 0.6667263359314269}}

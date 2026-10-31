@@ -1,0 +1,24 @@
+# SMRVA point pilot: moderntcn_ETTm2_720
+
+TEST was not used for configuration/checkpoint selection.
+Cross-temporal shared mapping enabled by VAL: False.
+P6 passes A0/shuffled/random/constant VAL controls: False.
+
+| Mode | VAL MSE | TEST MSE | TEST MAE |
+|---|---:|---:|---:|
+| P0 | 0.261945 | 0.483657 | 0.443284 |
+| P1 | 0.278532 | 0.503082 | 0.455111 |
+| P2 | 0.261945 | 0.483657 | 0.443284 |
+| P3 | 0.264556 | 0.485357 | 0.446078 |
+| P4 | 0.258896 | 0.479600 | 0.441729 |
+| P5 | 0.260236 | 0.481074 | 0.442381 |
+| P6 | 0.261511 | 0.482477 | 0.442679 |
+| P7 | 0.260974 | 0.481912 | 0.442484 |
+| P8 | 0.261916 | 0.484245 | 0.443525 |
+| P9 | 0.261511 | 0.482477 | 0.442679 |
+| P10 | 0.261479 | 0.481684 | 0.442376 |
+
+Cross-temporal TRAIN-only transfer:
+
+- block 2: A0=4.172156, ordinary=3.840541, shared=3.840247
+- block 3: A0=828.434265, ordinary=828.245911, shared=828.250244

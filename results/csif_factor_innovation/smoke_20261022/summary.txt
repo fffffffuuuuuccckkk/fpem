@@ -1,0 +1,1 @@
+Completed 9/9 CSIF point pilots; identical A0 per case, selected one checkpoint by VAL MSE and evaluated TEST once. CFIP/probability ablations are separate and not implied by these results.

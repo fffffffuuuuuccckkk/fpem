@@ -1,0 +1,13 @@
+Weather pred_len=336
+Environment source: /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_no_future_anchor_patchtst_search/patchtst/Weather/pred_336/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+Samples: 36456; exact alignment: PASS
+Physical columns: {'temperature': 'T (degC)', 'humidity': 'rh (%)', 'wind': 'wv (m/s)', 'pressure': 'p (mbar)'}
+
+season: NMI=0.050094, p=0.000999001, z=1443.504, ARI=0.041006, Cramer's V=0.219851
+temperature_regime: NMI=0.047376, p=0.000999001, z=1287.071, ARI=0.048265, Cramer's V=0.219034
+month: NMI=0.045306, p=0.000999001, z=947.844, ARI=0.026514, Cramer's V=0.256603
+wind_regime: NMI=0.027123, p=0.000999001, z=791.602, ARI=0.027180, Cramer's V=0.167160
+pressure_regime: NMI=0.019747, p=0.000999001, z=569.259, ARI=0.021464, Cramer's V=0.147034
+humidity_regime: NMI=0.015219, p=0.000999001, z=438.698, ARI=0.015762, Cramer's V=0.126940
+hour: NMI=0.001057, p=0.000999001, z=12.894, ARI=0.000259, Cramer's V=0.047703
+day_night: NMI=0.000763, p=0.000999001, z=24.934, ARI=0.000845, Cramer's V=0.036958

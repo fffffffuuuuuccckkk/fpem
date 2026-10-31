@@ -1,0 +1,25 @@
+START moderntcn_ETTm2_720 R0 attempt=1
+READY moderntcn_ETTm2_720: TRAIN=351 early_val=1249 selection=1225 TEST=2701
+DONE moderntcn_ETTm2_720 R0 A0=0.485105 stable=0.485105 full=0.485105
+START moderntcn_ETTm2_720 R1 attempt=1
+READY moderntcn_ETTm2_720: TRAIN=351 early_val=1249 selection=1225 TEST=2701
+DONE moderntcn_ETTm2_720 R1 A0=0.485105 stable=0.485105 full=0.484114
+START moderntcn_ETTm2_720 R2 attempt=1
+READY moderntcn_ETTm2_720: TRAIN=351 early_val=1249 selection=1225 TEST=2701
+DONE moderntcn_ETTm2_720 R2 A0=0.485105 stable=0.485105 full=0.484046
+START moderntcn_ETTm2_720 R3 attempt=1
+READY moderntcn_ETTm2_720: TRAIN=351 early_val=1249 selection=1225 TEST=2701
+DONE moderntcn_ETTm2_720 R3 A0=0.485105 stable=0.485105 full=0.483837
+START moderntcn_ETTm2_720 R4 attempt=1
+READY moderntcn_ETTm2_720: TRAIN=351 early_val=1249 selection=1225 TEST=2701
+DONE moderntcn_ETTm2_720 R4 A0=0.485105 stable=0.485105 full=0.485105
+START moderntcn_ETTm2_720 R5 attempt=1
+READY moderntcn_ETTm2_720: TRAIN=351 early_val=1249 selection=1225 TEST=2701
+DONE moderntcn_ETTm2_720 R5 A0=0.485105 stable=0.485105 full=0.484841
+START moderntcn_ETTm2_720 R6 attempt=1
+READY moderntcn_ETTm2_720: TRAIN=351 early_val=1249 selection=1225 TEST=2701
+DONE moderntcn_ETTm2_720 R6 A0=0.485105 stable=0.485105 full=0.483836
+START moderntcn_ETTm2_720 R7 attempt=1
+READY moderntcn_ETTm2_720: TRAIN=351 early_val=1249 selection=1225 TEST=2701
+DONE moderntcn_ETTm2_720 R7 A0=0.485105 stable=0.485105 full=0.485105
+CASE FINISHED moderntcn_ETTm2_720

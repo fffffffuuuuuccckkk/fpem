@@ -1,0 +1,3 @@
+shared_reference source=loaded path=results/fpem_no_future_anchor_patchtst_search/patchtst/ETTh1/pred_720/shared_reference.pt sha256=aea74f86ffb18bf35d2787a527262db04b88c1c4e4b35ba1e2fb641d0002f76e
+A0 identity {'feature': 0.0, 'a0_initial_prediction_mse': 0.0}
+A0 TEST 0.5054772188784266 0.49510750601504483

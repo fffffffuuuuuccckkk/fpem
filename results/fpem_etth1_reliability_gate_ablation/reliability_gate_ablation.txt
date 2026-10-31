@@ -1,0 +1,3 @@
+ETTh1-96: r_on MSE=0.396637, r_off MSE=0.398074, off-on=+0.001437
+ETTh1-336: r_on MSE=0.516223, r_off MSE=0.520291, off-on=+0.004067
+ETTh1-720: r_on MSE=0.516970, r_off MSE=0.517731, off-on=+0.000761

@@ -1,0 +1,51 @@
+START moderntcn_ETTm2_720 attempt=1
+FIT moderntcn_ETTm2_720 L00 {'head_lr': 0.0001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.1, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L00 val_gain 0.0 candidate_gain -3.612041473388672e-05
+FIT moderntcn_ETTm2_720 L01 {'head_lr': 0.0001, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L01 val_gain 0.0 candidate_gain 7.911026477813721e-05
+FIT moderntcn_ETTm2_720 L02 {'head_lr': 0.0001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L02 val_gain 0.0 candidate_gain -3.594160079956055e-05
+FIT moderntcn_ETTm2_720 L03 {'head_lr': 0.0001, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L03 val_gain 0.0 candidate_gain 7.838010787963867e-05
+FIT moderntcn_ETTm2_720 L04 {'head_lr': 0.0001, 'dictionary_ratio': 0.3, 'basis_ratio': 1.0, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L04 val_gain 0.0 candidate_gain -9.864568710327148e-06
+FIT moderntcn_ETTm2_720 L05 {'head_lr': 0.0001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L05 val_gain 0.0 candidate_gain -3.618001937866211e-05
+FIT moderntcn_ETTm2_720 L06 {'head_lr': 0.0003, 'dictionary_ratio': 0.1, 'basis_ratio': 1.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L06 val_gain 0.0 candidate_gain 1.0728836059570312e-06
+FIT moderntcn_ETTm2_720 L07 {'head_lr': 0.0003, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L07 val_gain 0.0 candidate_gain 0.00032633543014526367
+FIT moderntcn_ETTm2_720 L08 {'head_lr': 0.0003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L08 val_gain 0.0 candidate_gain -4.306435585021973e-06
+FIT moderntcn_ETTm2_720 L09 {'head_lr': 0.0003, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L09 val_gain 0.0 candidate_gain 0.0003205239772796631
+FIT moderntcn_ETTm2_720 L10 {'head_lr': 0.0003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L10 val_gain 0.0 candidate_gain -6.407499313354492e-06
+FIT moderntcn_ETTm2_720 L11 {'head_lr': 0.0003, 'dictionary_ratio': 0.3, 'basis_ratio': 0.3, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L11 val_gain 0.0 candidate_gain 7.204711437225342e-05
+FIT moderntcn_ETTm2_720 L12 {'head_lr': 0.001, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L12 val_gain 0.0 candidate_gain 0.0008363425731658936
+FIT moderntcn_ETTm2_720 L13 {'head_lr': 0.001, 'dictionary_ratio': 1.0, 'basis_ratio': 0.3, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L13 val_gain 0.0 candidate_gain 0.0008079707622528076
+FIT moderntcn_ETTm2_720 L14 {'head_lr': 0.001, 'dictionary_ratio': 0.3, 'basis_ratio': 0.3, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L14 val_gain 0.0 candidate_gain 0.00034026801586151123
+FIT moderntcn_ETTm2_720 L15 {'head_lr': 0.001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L15 val_gain 0.0 candidate_gain 0.00010533630847930908
+FIT moderntcn_ETTm2_720 L16 {'head_lr': 0.001, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L16 val_gain 0.0 candidate_gain 0.0008000284433364868
+FIT moderntcn_ETTm2_720 L17 {'head_lr': 0.001, 'dictionary_ratio': 0.3, 'basis_ratio': 0.1, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L17 val_gain 0.0 candidate_gain 0.00032824277877807617
+FIT moderntcn_ETTm2_720 L18 {'head_lr': 0.003, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L18 val_gain 0.0004337131977081299 candidate_gain 0.0002625882625579834
+FIT moderntcn_ETTm2_720 L19 {'head_lr': 0.003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L19 val_gain 0.0 candidate_gain 0.00037388503551483154
+FIT moderntcn_ETTm2_720 L20 {'head_lr': 0.003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L20 val_gain 0.0 candidate_gain 0.00030581653118133545
+FIT moderntcn_ETTm2_720 L21 {'head_lr': 0.003, 'dictionary_ratio': 0.3, 'basis_ratio': 0.0, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L21 val_gain 0.0 candidate_gain 0.0007520169019699097
+FIT moderntcn_ETTm2_720 L22 {'head_lr': 0.003, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L22 val_gain 0.0003929734230041504 candidate_gain 0.0004221200942993164
+FIT moderntcn_ETTm2_720 L23 {'head_lr': 0.003, 'dictionary_ratio': 0.3, 'basis_ratio': 1.0, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L23 val_gain 0.0 candidate_gain 0.0009339004755020142
+COMPLETE moderntcn_ETTm2_720 L18 {'mse': 0.45398080348968506, 'mae': 0.4258504807949066}
+COMPLETE moderntcn_ETTm2_720

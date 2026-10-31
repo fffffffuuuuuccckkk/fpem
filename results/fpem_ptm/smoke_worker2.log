@@ -1,0 +1,13 @@
+START moderntcn_ETTm2_720 A0 attempt=1
+DONE moderntcn_ETTm2_720 A0
+START moderntcn_ETTm2_720 T0 attempt=1
+DONE moderntcn_ETTm2_720 T0
+START moderntcn_ETTm2_720 T1 attempt=1
+DONE moderntcn_ETTm2_720 T1
+START moderntcn_ETTm2_720 T2 attempt=1
+DONE moderntcn_ETTm2_720 T2
+START moderntcn_ETTm2_720 T3 attempt=1
+DONE moderntcn_ETTm2_720 T3
+START moderntcn_ETTm2_720 T4 attempt=1
+DONE moderntcn_ETTm2_720 T4
+WORKER COMPLETE

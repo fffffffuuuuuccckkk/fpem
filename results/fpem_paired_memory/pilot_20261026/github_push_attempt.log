@@ -1,0 +1,32 @@
+[push-fpem] Preparing sanitized copy: /tmp/fpem-sanitized-push
+[push-fpem] Checking sanitized copy for blocked artifacts
+[push-fpem] Sanitized copy verified: 15904 files, 322M total
+[push-fpem] Included readable result summaries: 15213
+[push-fpem] Largest included files:
+1024284 results/future_patch_anchored_pred96_launcher.log
+1014152 results/fpem_noaux_primary.log
+1000169 results/fpem_no_future_anchor_timefilter_search/launcher_primary_gpu1.log
+869894 results/fpem_no_future_anchor_moderntcn_search/launcher_primary_gpu0.log
+836220 results/fpem_no_future_anchor_patchtst_search/logs/fpem_noaux_primary.log
+832366 results/future_patch_maturity_pred96_launcher.log
+789208 results/server2_imports/gpu-47/fpem_no_future_anchor_patchtst_search/logs/fpem_noaux_server2.log
+778668 results/future_patch_pred96_launcher.log
+755644 results/server2_imports/gpu-41/fpem_final_backbones/logs/compact_screen_server3.log
+745300 results/fpem_no_future_anchor_moderntcn_search/launcher_primary_gpu1.log
+671229 results/fpem_final_patchtst_search/primary/logs/patchtst_ETTm1_720.log
+625042 results/server2_imports/gpu-47/predictive_env_future_patch_gradrel_patchtst_336_k3/logs/ETTm1_pred336.log
+622260 results/predictive_env_reference_all_datasets_k3/run.log
+617913 results/server2_imports/gpu-47/predictive_env_future_patch_gradrel_patchtst_336_k2/logs/ETTm1_pred336.log
+582132 results/fpem_no_future_anchor_timefilter_search/launcher_primary_gpu2.log
+578248 results/fpem_no_future_anchor_timefilter_search/launcher_primary_gpu3.log
+539757 results/fpem_final_patchtst_search/logs/compact_v2_screen_primary.log
+534905 results/fpem_classic_baselines_h48_h192/primary.log
+479092 results/fpem_no_future_anchor_itransformer_search_20261012/logs/itransformer_ETTh2_96.log
+468885 results/server2_imports/gpu-47/predictive_env_future_patch_gradrel_patchtst_336_k3/logs/ETTh1_pred336.log
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+[push-fpem] Pushing sanitized snapshot to git@github.com:fffffffuuuuuccckkk/fpem.git
+To github.com:fffffffuuuuuccckkk/fpem.git
+ + e07b123...342899a main -> main (forced update)
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+[push-fpem] Done: https://github.com/fffffffuuuuuccckkk/fpem

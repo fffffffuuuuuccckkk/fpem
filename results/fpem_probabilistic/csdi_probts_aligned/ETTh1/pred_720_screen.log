@@ -1,0 +1,13 @@
+EPOCH {'epoch': 1, 'train_diffusion_loss': 0.47337116676634466, 'train_batches': 1957}
+EPOCH {'epoch': 2, 'train_diffusion_loss': 0.30209425394459, 'train_batches': 1957}
+EPOCH {'epoch': 3, 'train_diffusion_loss': 0.27450874224485994, 'train_batches': 1957}
+EPOCH {'epoch': 4, 'train_diffusion_loss': 0.2528936707057291, 'train_batches': 1957}
+EPOCH {'epoch': 5, 'train_diffusion_loss': 0.2390084053657656, 'train_batches': 1957}
+EPOCH {'epoch': 6, 'train_diffusion_loss': 0.23617023127698414, 'train_batches': 1957}
+EPOCH {'epoch': 7, 'train_diffusion_loss': 0.23444949061713075, 'train_batches': 1957}
+EPOCH {'epoch': 8, 'train_diffusion_loss': 0.22333245333124715, 'train_batches': 1957}
+EPOCH {'epoch': 9, 'train_diffusion_loss': 0.23168712903307176, 'train_batches': 1957}
+EPOCH {'epoch': 10, 'train_diffusion_loss': 0.22440081009237733, 'train_batches': 1957}
+EPOCH {'epoch': 11, 'train_diffusion_loss': 0.21907716443061193, 'train_batches': 1957}
+EPOCH {'epoch': 12, 'train_diffusion_loss': 0.22170612678099777, 'train_batches': 1957}
+EPOCH {'epoch': 13, 'train_diffusion_loss': 0.21908579687466564, 'train_batches': 1957}

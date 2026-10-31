@@ -1,0 +1,4 @@
+START patchtst_ETTh1_720/P4 attempt=1
+START itransformer_ETTm1_720/P4 attempt=1
+START moderntcn_ETTm2_720/P4 attempt=1
+P4 WORKER COMPLETE

@@ -1,0 +1,3 @@
+patchtst:ETTh1:96
+patchtst:ETTm1:720
+patchtst:ETTh2:336

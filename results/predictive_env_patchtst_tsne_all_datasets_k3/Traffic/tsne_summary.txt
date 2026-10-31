@@ -1,0 +1,12 @@
+dataset: Traffic
+source_split: TRAIN only
+checkpoint: results/predictive_env_featurewise_gate_all_backbones_k3/patchtst/Traffic/token_gate/A2/trained_checkpoint.pt
+checkpoint_sha256: aa798798374bf0c9e0fd1dae13b958c4af1549380f5d5f13133c7d564f9120cc
+environment_payload: results/predictive_env_patchtst_tsne_all_datasets_k3/Traffic/environment_gradient_final_inferred.npz
+environment_source: inferred once from frozen final checkpoint on TRAIN
+sample_count: 3000
+selection: deterministic hard-environment-stratified evenly spaced
+seed: 2021
+perplexity: {'H': 30.0, 'Zinv': 30.0, 'Zvar': 30.0, 'Zfinal': 30.0}
+backbone: patchtst
+representations: ['H', 'Zinv', 'Zvar', 'Zfinal']

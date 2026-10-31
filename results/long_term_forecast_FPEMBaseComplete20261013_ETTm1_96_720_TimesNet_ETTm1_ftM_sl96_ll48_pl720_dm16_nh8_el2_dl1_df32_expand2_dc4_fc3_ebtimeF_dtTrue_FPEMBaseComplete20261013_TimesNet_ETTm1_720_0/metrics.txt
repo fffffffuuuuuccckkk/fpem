@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_FPEMBaseComplete20261013_ETTm1_96_720_TimesNet_ETTm1_ftM_sl96_ll48_pl720_dm16_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMBaseComplete20261013_TimesNet_ETTm1_720_0
+MAE: 0.4528814852
+MSE: 0.4766267538
+RMSE: 0.6903815866
+MAPE: 2.675105095
+MSPE: 494.5574951
+DTW: Not calculated
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

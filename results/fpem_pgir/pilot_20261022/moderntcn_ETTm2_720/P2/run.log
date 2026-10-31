@@ -1,0 +1,11 @@
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_pgir.py --base_run_config results/fpem_latent_decomposition_search/pilot_20261015/moderntcn_ETTm2_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4/run_config.json --output /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/pilot_20261022/moderntcn_ETTm2_720/P2 --bank_checkpoint /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/pilot_20261022/moderntcn_ETTm2_720/prototype_bank.pt --mode P2 --seed 2021 --gpu 2 --epochs 10 --allow_legacy_reference_signature
+{"epoch": 1, "train_mse": 0.4683015464305666, "val_mse": 0.3164532594385643, "val_mae": 0.38135020538893416, "replacement_fraction": 0.08084348602132983}
+{"epoch": 2, "train_mse": 0.4686252318005824, "val_mse": 0.31020664880058574, "val_mae": 0.3775136710325704, "replacement_fraction": 0.11705926924070631}
+{"epoch": 3, "train_mse": 0.4655492811401538, "val_mse": 0.31133425543354765, "val_mae": 0.3778973962541176, "replacement_fraction": 0.07852006802895331}
+{"epoch": 4, "train_mse": 0.46442807668367125, "val_mse": 0.3104900696620697, "val_mae": 0.3772494821612385, "replacement_fraction": 0.07102076209731156}
+{"epoch": 5, "train_mse": 0.4635159401562253, "val_mse": 0.31068943203125116, "val_mae": 0.37754338852679625, "replacement_fraction": 0.07426340724752437}
+{"epoch": 6, "train_mse": 0.46286757542020496, "val_mse": 0.3093620477701453, "val_mae": 0.37674287426383996, "replacement_fraction": 0.06346855115111989}
+{"epoch": 7, "train_mse": 0.463258640259915, "val_mse": 0.31039741634254797, "val_mae": 0.3772858961098684, "replacement_fraction": 0.06675748855828186}
+{"epoch": 8, "train_mse": 0.4638229738811084, "val_mse": 0.3106004205694264, "val_mae": 0.3775224965950918, "replacement_fraction": 0.07682489861572366}
+{"epoch": 9, "train_mse": 0.4641655361233755, "val_mse": 0.310453727129801, "val_mae": 0.37742476905430566, "replacement_fraction": 0.07407162605259979}
+{"epoch": 10, "train_mse": 0.46413692542050816, "val_mse": 0.3103585033056364, "val_mae": 0.3772761722906178, "replacement_fraction": 0.07077607586179692}

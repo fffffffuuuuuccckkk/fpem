@@ -1,0 +1,13 @@
+START patchtst_ETTh1_720 A1 attempt=1
+DONE patchtst_ETTh1_720 A1
+START patchtst_ETTh1_720 A2 attempt=1
+DONE patchtst_ETTh1_720 A2
+START patchtst_ETTh1_720 A3 attempt=1
+DONE patchtst_ETTh1_720 A3
+START patchtst_ETTh1_720 A4 attempt=1
+DONE patchtst_ETTh1_720 A4
+START patchtst_ETTh1_720 A5 attempt=1
+DONE patchtst_ETTh1_720 A5
+START patchtst_ETTh1_720 A6 attempt=1
+DONE patchtst_ETTh1_720 A6
+QUEUE COMPLETE

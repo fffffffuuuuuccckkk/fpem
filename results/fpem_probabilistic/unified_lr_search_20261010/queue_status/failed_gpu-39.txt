@@ -1,0 +1,6 @@
+patchtst:ETTh1:48:head_crps
+patchtst:ETTh2:48:head_crps
+patchtst:ETTh2:24:head_crps
+patchtst:ETTh1:24:head_crps
+moderntcn:ETTh1:24:head_crps
+moderntcn:ETTh1:48:head_crps

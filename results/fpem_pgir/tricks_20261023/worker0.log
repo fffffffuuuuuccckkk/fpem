@@ -1,0 +1,6 @@
+START patchtst_ETTh1_720/T1 origin=T1 attempt=1
+START patchtst_ETTh1_720/T2 origin=T2 attempt=1
+START patchtst_ETTh1_720/T3 origin=T3 attempt=1
+START patchtst_ETTh1_720/T4 origin=T3 attempt=1
+START patchtst_ETTh1_720/T5 origin=T3 attempt=1
+TRICK WORKER COMPLETE

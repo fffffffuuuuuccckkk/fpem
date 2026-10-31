@@ -1,0 +1,15 @@
+TimesNet:ETTm1:24
+TimesNet:ETTm1:48
+TimesNet:ETTm1:96
+TimesNet:ETTm1:192
+TimesNet:ETTm1:720
+TimesNet:ETTm1:336
+TimesNet:ETTm2:24
+TimesNet:ETTm2:48
+TimesNet:ETTm2:720
+TimesNet:ETTm2:96
+TimesNet:ETTm2:336
+TimesNet:ETTm2:192
+TimesNet:ExchangeRate:24
+TimesNet:ETTh1:24
+TimesNet:ETTh2:24

@@ -1,0 +1,5 @@
+reference_checkpoint: results/fpem_final_patchtst_search/patchtst/Electricity/pred_96/shared_reference.pt
+reference_checkpoint_sha256: d87fde96ec2dea29e7f9c095eb8dc67f698d1fbe5b49966f91c6e1cf8bd56ea9
+reference_source: created
+seed: 2021
+signature: {'backbone': 'patchtst', 'dataset_name': 'Electricity', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'custom', 'data_path': 'electricity.csv', 'target': 'OT', 'freq': 'h', 'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 321, 'cyclenet_cycle_len': 168, 'protocol_version': 4}

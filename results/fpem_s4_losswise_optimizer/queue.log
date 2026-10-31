@@ -1,0 +1,49 @@
+START patchtst_ETTh1_96 E0 gpu=0 attempt=1
+START moderntcn_ETTm2_720 E0 gpu=2 attempt=1
+START itransformer_ETTm1_720 E0 gpu=3 attempt=1
+START patchtst_ETTh1_720 E0 gpu=1 attempt=1
+DONE patchtst_ETTh1_96 E0
+START patchtst_ETTh1_96 E1 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 E0
+START patchtst_ETTh1_720 E1 gpu=1 attempt=1
+DONE patchtst_ETTh1_96 E1
+START patchtst_ETTh1_96 E2 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 E1
+START patchtst_ETTh1_720 E2 gpu=1 attempt=1
+DONE patchtst_ETTh1_96 E2
+START patchtst_ETTh1_96 E3 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 E2
+START patchtst_ETTh1_720 E3 gpu=1 attempt=1
+DONE itransformer_ETTm1_720 E0
+START itransformer_ETTm1_720 E1 gpu=3 attempt=1
+DONE patchtst_ETTh1_96 E3
+START patchtst_ETTh1_96 E4 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 E3
+START patchtst_ETTh1_720 E4 gpu=1 attempt=1
+DONE patchtst_ETTh1_96 E4
+START patchtst_ETTh1_96 E5 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 E4
+START patchtst_ETTh1_720 E5 gpu=1 attempt=1
+DONE moderntcn_ETTm2_720 E0
+START moderntcn_ETTm2_720 E1 gpu=2 attempt=1
+DONE patchtst_ETTh1_96 E5
+DONE patchtst_ETTh1_720 E5
+DONE itransformer_ETTm1_720 E1
+START itransformer_ETTm1_720 E2 gpu=3 attempt=1
+DONE itransformer_ETTm1_720 E2
+START itransformer_ETTm1_720 E3 gpu=3 attempt=1
+DONE moderntcn_ETTm2_720 E1
+START moderntcn_ETTm2_720 E2 gpu=2 attempt=1
+DONE itransformer_ETTm1_720 E3
+START itransformer_ETTm1_720 E4 gpu=3 attempt=1
+DONE moderntcn_ETTm2_720 E2
+START moderntcn_ETTm2_720 E3 gpu=2 attempt=1
+DONE itransformer_ETTm1_720 E4
+START itransformer_ETTm1_720 E5 gpu=3 attempt=1
+DONE itransformer_ETTm1_720 E5
+DONE moderntcn_ETTm2_720 E3
+START moderntcn_ETTm2_720 E4 gpu=2 attempt=1
+DONE moderntcn_ETTm2_720 E4
+START moderntcn_ETTm2_720 E5 gpu=2 attempt=1
+DONE moderntcn_ETTm2_720 E5
+QUEUE COMPLETE

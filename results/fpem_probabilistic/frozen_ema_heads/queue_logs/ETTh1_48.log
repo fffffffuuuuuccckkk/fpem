@@ -1,0 +1,4 @@
+reusing reference: /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search_h48_h192/patchtst/ETTh1/pred_48/shared_reference.pt
+frozen anchor: /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/frozen_ema_heads/ETTh1/pred_48/anchor/A2/trained_checkpoint.pt
+complete: /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/frozen_ema_heads/ETTh1/pred_48
+completed frozen EMA probability heads: ETTh1/48

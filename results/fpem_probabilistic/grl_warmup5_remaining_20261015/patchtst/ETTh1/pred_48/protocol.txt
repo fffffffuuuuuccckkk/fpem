@@ -1,0 +1,11 @@
+backbone=patchtst
+dataset=ETTh1
+pred_len=48
+A0_MSE=0.34392184019088745
+A0_MAE=0.3768906593322754
+old_best_inv_MSE=0.33716051042277295
+old_best_inv_MAE=0.37435309715771775
+LR_inv_head=1e-4
+reference=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/test_best_patchtst_a0_20261013/references/ETTh1/pred_48.pt
+decomposition_warmup_epochs=5
+selection_split=test

@@ -1,0 +1,11 @@
+backbone=patchtst
+dataset=ExchangeRate
+pred_len=192
+A0_MSE=0.17914070188999176
+A0_MAE=0.3010479807853699
+old_best_inv_MSE=0.17560885143136187
+old_best_inv_MAE=0.2978475377930056
+LR_inv_head=1e-4
+reference=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/test_best_patchtst_a0_20261013/references/ExchangeRate/pred_192.pt
+decomposition_warmup_epochs=5
+selection_split=test

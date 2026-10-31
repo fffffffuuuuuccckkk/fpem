@@ -1,0 +1,51 @@
+START patchtst_ETTh1_720 attempt=1
+FIT patchtst_ETTh1_720 L00 {'head_lr': 0.0001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.1, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L00 val_gain 0.0025472640991210938 candidate_gain -0.03299105167388916
+FIT patchtst_ETTh1_720 L01 {'head_lr': 0.0001, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L01 val_gain 0.0022579431533813477 candidate_gain -0.02734971046447754
+FIT patchtst_ETTh1_720 L02 {'head_lr': 0.0001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L02 val_gain 0.0025472640991210938 candidate_gain -0.03298664093017578
+FIT patchtst_ETTh1_720 L03 {'head_lr': 0.0001, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L03 val_gain 0.0022585391998291016 candidate_gain -0.0273665189743042
+FIT patchtst_ETTh1_720 L04 {'head_lr': 0.0001, 'dictionary_ratio': 0.3, 'basis_ratio': 1.0, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L04 val_gain 0.0024793148040771484 candidate_gain -0.031653404235839844
+FIT patchtst_ETTh1_720 L05 {'head_lr': 0.0001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L05 val_gain 0.0025472640991210938 candidate_gain -0.032993316650390625
+FIT patchtst_ETTh1_720 L06 {'head_lr': 0.0003, 'dictionary_ratio': 0.1, 'basis_ratio': 1.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L06 val_gain 0.002470731735229492 candidate_gain -0.03142714500427246
+FIT patchtst_ETTh1_720 L07 {'head_lr': 0.0003, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L07 val_gain 0.001423478126525879 candidate_gain -0.017522692680358887
+FIT patchtst_ETTh1_720 L08 {'head_lr': 0.0003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L08 val_gain 0.002472996711730957 candidate_gain -0.03159773349761963
+FIT patchtst_ETTh1_720 L09 {'head_lr': 0.0003, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L09 val_gain 0.0014293193817138672 candidate_gain -0.017595410346984863
+FIT patchtst_ETTh1_720 L10 {'head_lr': 0.0003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L10 val_gain 0.002474069595336914 candidate_gain -0.03165900707244873
+FIT patchtst_ETTh1_720 L11 {'head_lr': 0.0003, 'dictionary_ratio': 0.3, 'basis_ratio': 0.3, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L11 val_gain 0.0023070573806762695 candidate_gain -0.02789318561553955
+FIT patchtst_ETTh1_720 L12 {'head_lr': 0.001, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L12 val_gain 0.0013689994812011719 candidate_gain -0.0034193992614746094
+FIT patchtst_ETTh1_720 L13 {'head_lr': 0.001, 'dictionary_ratio': 1.0, 'basis_ratio': 0.3, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L13 val_gain 0.0013418197631835938 candidate_gain -0.002954244613647461
+FIT patchtst_ETTh1_720 L14 {'head_lr': 0.001, 'dictionary_ratio': 0.3, 'basis_ratio': 0.3, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L14 val_gain 0.0014137029647827148 candidate_gain -0.017417192459106445
+FIT patchtst_ETTh1_720 L15 {'head_lr': 0.001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L15 val_gain 0.002222418785095215 candidate_gain -0.026818275451660156
+FIT patchtst_ETTh1_720 L16 {'head_lr': 0.001, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L16 val_gain 0.0013310909271240234 candidate_gain -0.0028579235076904297
+FIT patchtst_ETTh1_720 L17 {'head_lr': 0.001, 'dictionary_ratio': 0.3, 'basis_ratio': 0.1, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L17 val_gain 0.0014241933822631836 candidate_gain -0.01758551597595215
+FIT patchtst_ETTh1_720 L18 {'head_lr': 0.003, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L18 val_gain 0.0 candidate_gain 0.0
+FIT patchtst_ETTh1_720 L19 {'head_lr': 0.003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L19 val_gain 0.0013877153396606445 candidate_gain -0.015439033508300781
+FIT patchtst_ETTh1_720 L20 {'head_lr': 0.003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L20 val_gain 0.0014187097549438477 candidate_gain -0.017902731895446777
+FIT patchtst_ETTh1_720 L21 {'head_lr': 0.003, 'dictionary_ratio': 0.3, 'basis_ratio': 0.0, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L21 val_gain 0.001363515853881836 candidate_gain -0.004044771194458008
+FIT patchtst_ETTh1_720 L22 {'head_lr': 0.003, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L22 val_gain 0.0010938644409179688 candidate_gain 0.00460660457611084
+FIT patchtst_ETTh1_720 L23 {'head_lr': 0.003, 'dictionary_ratio': 0.3, 'basis_ratio': 1.0, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L23 val_gain 0.0015240907669067383 candidate_gain 0.001765131950378418
+COMPLETE patchtst_ETTh1_720 L00 {'mse': 0.516135573387146, 'mae': 0.49994540214538574}
+COMPLETE patchtst_ETTh1_720

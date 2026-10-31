@@ -1,0 +1,5 @@
+reference_checkpoint: results/predictive_env_reference_all_datasets_k3/Weather/shared_reference.pt
+reference_checkpoint_sha256: 4752f5cae5e6d9bccf4f4227f668db382eb15f54d079a1c2b50ad1096bc97701
+reference_source: loaded
+seed: 2021
+signature: {'dataset_name': 'Weather', 'data_class': 'custom', 'data_path': 'weather.csv', 'target': 'OT', 'freq': '10min', 'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'protocol_version': 4}

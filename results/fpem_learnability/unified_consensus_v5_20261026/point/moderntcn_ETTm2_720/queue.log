@@ -1,0 +1,16 @@
+
+ATTEMPT 1: /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_learnability_pilot.py moderntcn_ETTm2_720 --gpu 2 --output results/fpem_learnability/unified_consensus_v5_20261026/point --protocol unified --topk 5
+{"mode": "A0", "val_mse": 0.2619445458108856, "test_mse": 0.483657175855269}
+{"mode": "A1", "val_mse": 0.26196619456098896, "test_mse": 0.4837588440328267}
+{"mode": "A2", "val_mse": 0.26169755906739145, "test_mse": 0.48380794209050376}
+{"mode": "A3", "val_mse": 0.26104278908919615, "test_mse": 0.4815896901910101}
+{"mode": "A4", "val_mse": 0.2605813886764679, "test_mse": 0.48027665365806077}
+{"mode": "B0", "val_mse": 0.26169755906739145, "test_mse": 0.48380794209050376}
+{"mode": "B1", "val_mse": 0.26059393970774314, "test_mse": 0.48032516147682375}
+{"mode": "B2", "val_mse": 0.2602432389839616, "test_mse": 0.4790510330654172}
+{"mode": "B3", "val_mse": 0.25802146302525397, "test_mse": 0.47477039270317484}
+{"mode": "B4", "val_mse": 0.25671888186607833, "test_mse": 0.4724977180741447}
+{"mode": "B5", "val_mse": 0.25682377743819124, "test_mse": 0.47296078687300963}
+{"mode": "B6", "val_mse": 0.2545222368189897, "test_mse": 0.46775158204838563}
+{"mode": "B7", "val_mse": 0.2602101125027557, "test_mse": 0.49911283175065063}
+{"mode": "B8", "val_mse": 0.25632981643811314, "test_mse": 0.47271865586243644}

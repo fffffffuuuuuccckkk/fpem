@@ -1,0 +1,7 @@
+itransformer:ETTh2:96:inv_mse
+itransformer:ETTh1:96:inv_mse
+itransformer:ETTh1:192:inv_mse
+itransformer:ETTh2:192:inv_mse
+itransformer:ETTh1:336:inv_mse
+itransformer:ETTh2:336:inv_mse
+itransformer:ETTh1:720:inv_mse

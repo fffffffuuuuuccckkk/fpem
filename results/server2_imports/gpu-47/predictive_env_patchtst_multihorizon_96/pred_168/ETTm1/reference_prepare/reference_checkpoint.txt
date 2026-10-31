@@ -1,0 +1,5 @@
+reference_checkpoint: results/predictive_env_patchtst_multihorizon_96/pred_168/ETTm1/shared_reference.pt
+reference_checkpoint_sha256: 48ff0c734773d0ca86583599ebd7a9c96028d3871e8d6ef960988f0453d3dd50
+reference_source: created
+seed: 2021
+signature: {'backbone': 'patchtst', 'dataset_name': 'ETTm1', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'ett_minute', 'data_path': 'ETTm1.csv', 'target': 'OT', 'freq': '15min', 'seq_len': 96, 'pred_len': 168, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 7, 'cyclenet_cycle_len': 96, 'protocol_version': 4}

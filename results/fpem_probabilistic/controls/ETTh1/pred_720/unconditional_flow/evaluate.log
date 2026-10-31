@@ -1,0 +1,10 @@
+{
+  "ablation": "unconditional_flow",
+  "samples_evaluated": 2161,
+  "inv_MSE": 1.580089248258281,
+  "mean_MSE": 7.416128623546245,
+  "CRPS": 1.6070145692388418,
+  "PICP_95": 0.4738074183629542,
+  "MPIW_95": 4.249261424035068,
+  "sample_diversity": 1.2556756153420021
+}

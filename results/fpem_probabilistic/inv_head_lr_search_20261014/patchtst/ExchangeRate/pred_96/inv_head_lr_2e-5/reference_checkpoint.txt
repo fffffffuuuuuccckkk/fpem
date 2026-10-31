@@ -1,0 +1,5 @@
+reference_checkpoint: /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/test_best_patchtst_a0_20261013/references/ExchangeRate/pred_96.pt
+reference_checkpoint_sha256: ada5bcc21d2993f6949115ff8e6fda7c998f04e54713cb7411b471b3e0f14b21
+reference_source: loaded
+seed: 2021
+signature: {'backbone': 'patchtst', 'dataset_name': 'ExchangeRate', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'custom', 'data_path': 'exchange_rate.csv', 'target': 'OT', 'freq': 'd', 'seq_len': 96, 'pred_len': 96, 'd_model': 128, 'd_ff': 256, 'n_heads': 8, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 0, 'enc_in': 8, 'cyclenet_cycle_len': 7, 'protocol_version': 4}

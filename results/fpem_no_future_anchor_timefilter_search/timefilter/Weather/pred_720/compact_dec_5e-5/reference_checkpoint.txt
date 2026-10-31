@@ -1,0 +1,5 @@
+reference_checkpoint: results/fpem_no_future_anchor_timefilter_search/timefilter/Weather/pred_720/shared_reference.pt
+reference_checkpoint_sha256: 8b41b8659e929f76538581df9bba029e8acf46713a129dc1b6f2516b6897c022
+reference_source: loaded
+seed: 2021
+signature: {'backbone': 'timefilter', 'dataset_name': 'Weather', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'custom', 'data_path': 'weather.csv', 'target': 'OT', 'freq': '10min', 'seq_len': 96, 'pred_len': 720, 'd_model': 128, 'd_ff': 256, 'n_heads': 4, 'e_layers': 2, 'dropout': 0.3, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 21, 'cyclenet_cycle_len': 144, 'protocol_version': 4, 'timefilter_patch_len': 48, 'timefilter_alpha': 0.1, 'timefilter_top_p': 0.5, 'timefilter_pos': 1, 'lambda_timefilter_moe': 0.05}

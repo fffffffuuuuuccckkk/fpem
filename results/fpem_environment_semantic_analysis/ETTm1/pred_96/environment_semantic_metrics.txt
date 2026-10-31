@@ -1,0 +1,13 @@
+ETTm1 pred_len=96
+Environment source: /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search/patchtst/ETTm1/pred_96/compact_dec_5e-5/A2/environment_gradient_stage_4.npz
+Samples: 34369; exact alignment: PASS
+Physical columns: {'aggregate_load': ['HUFL', 'HULL', 'MUFL', 'MULL', 'LUFL', 'LULL'], 'OT': 'OT'}
+
+month: NMI=0.014027, p=0.000999001, z=256.369, ARI=0.007571, Cramer's V=0.158671
+load_regime: NMI=0.005479, p=0.000999001, z=148.145, ARI=0.006070, Cramer's V=0.078257
+day_block: NMI=0.004759, p=0.000999001, z=117.077, ARI=0.004712, Cramer's V=0.077391
+day_night: NMI=0.004690, p=0.000999001, z=149.339, ARI=0.005528, Cramer's V=0.091571
+season: NMI=0.003903, p=0.000999001, z=102.907, ARI=0.004466, Cramer's V=0.064263
+hour: NMI=0.003744, p=0.000999001, z=54.496, ARI=0.001192, Cramer's V=0.090162
+ot_regime: NMI=0.001546, p=0.000999001, z=41.195, ARI=0.001636, Cramer's V=0.041189
+weekday_weekend: NMI=0.000902, p=0.000999001, z=23.872, ARI=0.000754, Cramer's V=0.039040

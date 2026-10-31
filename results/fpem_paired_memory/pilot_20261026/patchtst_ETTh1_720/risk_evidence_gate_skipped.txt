@@ -1,0 +1,1 @@
+Risk stage not launched: no VAL point gain over A0 or real retrieved future not better than shuffled future on VAL. This is not a positive result.

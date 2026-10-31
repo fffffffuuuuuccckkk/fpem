@@ -1,0 +1,3 @@
+patchtst:ETTm1:336
+patchtst:Traffic:336
+patchtst:Traffic:720

@@ -1,0 +1,6 @@
+96,predictive
+96,shuffled
+336,shuffled
+336,predictive
+720,shuffled
+720,predictive

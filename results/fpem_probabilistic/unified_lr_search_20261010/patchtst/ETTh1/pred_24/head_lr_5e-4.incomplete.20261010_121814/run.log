@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_head_comparison.py", line 470, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_head_comparison.py", line 350, in main
+    payload = torch.load(anchor_path, map_location=device,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/patchtst/ETTh1/pred_24/anchor/A2/trained_checkpoint.pt'

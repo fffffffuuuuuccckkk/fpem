@@ -1,0 +1,1 @@
+Phase 0 did not show a history-predictable environment-conditioned future response. P3/P4 were not trained; this is an evidence gate, not a positive result.

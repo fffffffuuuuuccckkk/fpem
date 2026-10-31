@@ -1,0 +1,4 @@
+patchtst:ETTm1:192
+patchtst:ETTh1:48
+patchtst:ExchangeRate:192
+patchtst:Weather:48

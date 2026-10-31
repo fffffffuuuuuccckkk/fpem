@@ -1,0 +1,15 @@
+START case=patchtst_ETTh1_720 mode=P0 gpu=0 attempt=1 2026-10-28T12:51:40+00:00
+END case=patchtst_ETTh1_720 mode=P0 status=0 2026-10-28T12:52:03+00:00
+summarized 1 completed, 0 blocked
+START case=patchtst_ETTh1_720 mode=P1 gpu=0 attempt=1 2026-10-28T12:52:04+00:00
+END case=patchtst_ETTh1_720 mode=P1 status=0 2026-10-28T12:52:28+00:00
+summarized 2 completed, 0 blocked
+START case=patchtst_ETTh1_720 mode=P2 gpu=0 attempt=1 2026-10-28T12:52:28+00:00
+END case=patchtst_ETTh1_720 mode=P2 status=0 2026-10-28T12:52:55+00:00
+summarized 3 completed, 0 blocked
+START case=patchtst_ETTh1_720 mode=P7 gpu=0 attempt=1 2026-10-28T12:52:55+00:00
+END case=patchtst_ETTh1_720 mode=P7 status=0 2026-10-28T12:53:20+00:00
+summarized 4 completed, 0 blocked
+START case=patchtst_ETTh1_720 mode=P8 gpu=0 attempt=1 2026-10-28T12:53:20+00:00
+END case=patchtst_ETTh1_720 mode=P8 status=0 2026-10-28T12:53:45+00:00
+summarized 6 completed, 0 blocked

@@ -1,0 +1,16 @@
+WAIT_FOR_SCREEN fpem_itr_primary_prob
+PROBABILITY_START slot=primary
+QUEUE cases=11 GPUs=0 1 2 3 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/itransformer_main_20261012
+DONE itransformer:ETTh2:24:head_crps GPU=2
+DONE itransformer:ETTh1:96:inv_mse GPU=2
+DONE itransformer:ETTh2:96:inv_mse GPU=2
+DONE itransformer:ETTh1:192:inv_mse GPU=2
+DONE itransformer:ETTh2:192:inv_mse GPU=2
+DONE itransformer:ETTh1:336:inv_mse GPU=2
+DONE itransformer:ETTh2:336:inv_mse GPU=2
+DONE itransformer:ETTh1:720:inv_mse GPU=2
+DONE itransformer:ETTh1:24:head_crps GPU=3
+DONE itransformer:ETTh1:48:head_crps GPU=1
+DONE itransformer:ETTh2:48:head_crps GPU=0
+QUEUE_COMPLETE gpu-39
+COMPLETE slot=primary

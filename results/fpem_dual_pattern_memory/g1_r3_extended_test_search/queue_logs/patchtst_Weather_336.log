@@ -1,0 +1,6 @@
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_final_patchtst_search/patchtst/Weather/pred_336/shared_reference.pt
+TRIAL patchtst Weather 336 inherited 0.2843889285402478 pruned False
+TRIAL patchtst Weather 336 head_0.0003 0.2843882364231657 pruned False
+TRIAL patchtst Weather 336 head_0.001 0.28438670303144975 pruned False
+TRIAL patchtst Weather 336 head_0.003 0.28438578441787254 pruned True
+COMPLETE patchtst Weather 336 {'mse': 0.28438578441787254, 'mae': 0.30156911137830333}

@@ -1,0 +1,5 @@
+TRIAL itransformer ETTm1 96 inherited 0.367737352848053 pruned False
+TRIAL itransformer ETTm1 96 head_0.0001 0.3677496314048767 pruned False
+TRIAL itransformer ETTm1 96 head_0.0003 0.36774319410324097 pruned False
+TRIAL itransformer ETTm1 96 head_0.001 0.36763694882392883 pruned True
+COMPLETE itransformer ETTm1 96 {'mse': 0.36763694882392883, 'mae': 0.38552823662757874}

@@ -1,0 +1,7 @@
+selection_source=prior_test_coordinate_search
+selected_horizon=192
+catalog_server=itransformer_search
+dec_lr=5e-5
+env_lr=1e-4
+future_lr=5e-4
+lambda_domain=0.1

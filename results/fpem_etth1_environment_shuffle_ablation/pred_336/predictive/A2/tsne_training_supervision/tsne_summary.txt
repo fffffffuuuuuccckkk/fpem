@@ -1,0 +1,15 @@
+dataset: ETTh1-336-predictive
+source_split: TRAIN only
+checkpoint: results/fpem_etth1_environment_shuffle_ablation/pred_336/predictive/A2/trained_checkpoint.pt
+checkpoint_sha256: e1bb971c755230f4faf4f1ccc46b5d571cd970d4eddacdc87a94a3e5fbbba1d2
+environment_payload: results/fpem_etth1_environment_shuffle_ablation/pred_336/predictive/A2/environment_gradient_stage_4.npz
+environment_source: saved training-stage TRAIN environment payload
+label_mode: training_supervision
+environment_supervision: predictive
+supervision_stage: 4
+sample_count: 1500
+selection: deterministic hard-environment-stratified evenly spaced
+seed: 2021
+perplexity: {'H': 30.0, 'Zinv': 30.0, 'Zvar': 30.0, 'Zfinal': 30.0}
+backbone: patchtst
+representations: ['H', 'Zinv', 'Zvar', 'Zfinal']

@@ -1,0 +1,24 @@
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_moderntcn_search/moderntcn/Weather/pred_336/shared_reference.pt
+TRIAL moderntcn Weather 336 inherited 0.2610098356440606 pruned False
+TRIAL moderntcn Weather 336 head_0.0001 0.26153075738684683 pruned False
+TRIAL moderntcn Weather 336 head_0.0003 0.2615355991614209 pruned False
+TRIAL moderntcn Weather 336 head_0.001 0.26146831250387853 pruned False
+TRIAL moderntcn Weather 336 dictionary_0.1 0.2610077945917621 pruned False
+TRIAL moderntcn Weather 336 dictionary_0.3 0.2610079785125043 pruned False
+TRIAL moderntcn Weather 336 basis_0 0.26099514659561285 pruned False
+TRIAL moderntcn Weather 336 basis_0.3 0.2610466529958911 pruned False
+TRIAL moderntcn Weather 336 basis_1 0.26133195593071257 pruned False
+TRIAL moderntcn Weather 336 route_0.1 0.2615390145940178 pruned False
+TRIAL moderntcn Weather 336 route_0.3 0.26148974899535743 pruned False
+TRIAL moderntcn Weather 336 adamw 0.2610098356440606 pruned False
+TRIAL moderntcn Weather 336 cosine 0.26120390291111695 pruned False
+TRIAL moderntcn Weather 336 warmup_cosine 0.26116132218717036 pruned False
+TRIAL moderntcn Weather 336 order_s1 0.2610123990868772 pruned False
+TRIAL moderntcn Weather 336 order_s2 0.2609954180685963 pruned False
+TRIAL moderntcn Weather 336 order_s3 0.26133921130559584 pruned False
+TRIAL moderntcn Weather 336 weight_decay 0.26100883943383396 pruned False
+TRIAL moderntcn Weather 336 ema_099 0.2615302250475187 pruned False
+TRIAL moderntcn Weather 336 epochs_20 0.26114554187565225 pruned False
+TRIAL moderntcn Weather 336 basis_init_half 0.26100178759248 pruned False
+TRIAL moderntcn Weather 336 basis_init_double 0.2610175210354048 pruned False
+COMPLETE moderntcn Weather 336 {'mse': 0.26099514659561285, 'mae': 0.2899798485388751}

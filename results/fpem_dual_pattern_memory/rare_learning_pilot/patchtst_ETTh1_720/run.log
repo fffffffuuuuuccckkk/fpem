@@ -1,0 +1,25 @@
+START patchtst_ETTh1_720 R0 attempt=1
+READY patchtst_ETTh1_720: TRAIN=81 early_val=169 selection=145 TEST=541
+DONE patchtst_ETTh1_720 R0 A0=0.517872 stable=0.517872 full=0.517872
+START patchtst_ETTh1_720 R1 attempt=1
+READY patchtst_ETTh1_720: TRAIN=81 early_val=169 selection=145 TEST=541
+DONE patchtst_ETTh1_720 R1 A0=0.517872 stable=0.517872 full=0.515139
+START patchtst_ETTh1_720 R2 attempt=1
+READY patchtst_ETTh1_720: TRAIN=81 early_val=169 selection=145 TEST=541
+DONE patchtst_ETTh1_720 R2 A0=0.517872 stable=0.517872 full=0.514863
+START patchtst_ETTh1_720 R3 attempt=1
+READY patchtst_ETTh1_720: TRAIN=81 early_val=169 selection=145 TEST=541
+DONE patchtst_ETTh1_720 R3 A0=0.517872 stable=0.517872 full=0.515110
+START patchtst_ETTh1_720 R4 attempt=1
+READY patchtst_ETTh1_720: TRAIN=81 early_val=169 selection=145 TEST=541
+DONE patchtst_ETTh1_720 R4 A0=0.517872 stable=0.517872 full=0.517776
+START patchtst_ETTh1_720 R5 attempt=1
+READY patchtst_ETTh1_720: TRAIN=81 early_val=169 selection=145 TEST=541
+DONE patchtst_ETTh1_720 R5 A0=0.517872 stable=0.517872 full=0.516780
+START patchtst_ETTh1_720 R6 attempt=1
+READY patchtst_ETTh1_720: TRAIN=81 early_val=169 selection=145 TEST=541
+DONE patchtst_ETTh1_720 R6 A0=0.517872 stable=0.517872 full=0.515110
+START patchtst_ETTh1_720 R7 attempt=1
+READY patchtst_ETTh1_720: TRAIN=81 early_val=169 selection=145 TEST=541
+DONE patchtst_ETTh1_720 R7 A0=0.517872 stable=0.517872 full=0.515499
+CASE FINISHED patchtst_ETTh1_720

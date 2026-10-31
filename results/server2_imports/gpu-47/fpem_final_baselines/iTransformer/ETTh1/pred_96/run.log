@@ -1,0 +1,84 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMFinal_ETTh1_96_96Model:              iTransformer        
+
+[1mData Loader[0m
+  Data:               ETTh1               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        results/fpem_final_baselines/iTransformer/ETTh1/pred_96/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           96                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            512                 
+  n heads:            8                   e layers:           3                   
+  d layers:           1                   d FF:               512                 
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0005              
+  Des:                FPEMFinal_iTransformer_ETTh1_96Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: iTransformer ...
+>>>>>>>start training : long_term_forecast_FPEMFinal_ETTh1_96_96_iTransformer_ETTh1_ftM_sl96_ll48_pl96_dm512_nh8_el3_dl1_df512_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_iTransformer_ETTh1_96_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8449
+val 2785
+test 2785
+	iters: 100, epoch: 1 | loss: 0.3667877
+	speed: 0.0244s/iter; left time: 62.2694s
+	iters: 200, epoch: 1 | loss: 0.3087002
+	speed: 0.0197s/iter; left time: 48.2900s
+Epoch: 1 cost time: 5.926665544509888
+Epoch: 1, Steps: 265 | Train Loss: 0.3681792 Vali Loss: 0.7087714 Test Loss: 0.4142406
+Validation loss decreased (inf --> 0.708771).  Saving model ...
+Updating learning rate to 0.0005
+	iters: 100, epoch: 2 | loss: 0.3334892
+	speed: 0.0483s/iter; left time: 110.3867s
+	iters: 200, epoch: 2 | loss: 0.3109834
+	speed: 0.0227s/iter; left time: 49.5809s
+Epoch: 2 cost time: 5.997525691986084
+Epoch: 2, Steps: 265 | Train Loss: 0.3342046 Vali Loss: 0.7106420 Test Loss: 0.4033023
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 0.00025
+	iters: 100, epoch: 3 | loss: 0.2779248
+	speed: 0.0472s/iter; left time: 95.2966s
+	iters: 200, epoch: 3 | loss: 0.2607700
+	speed: 0.0230s/iter; left time: 44.2558s
+Epoch: 3 cost time: 5.960822820663452
+Epoch: 3, Steps: 265 | Train Loss: 0.2944842 Vali Loss: 0.7089958 Test Loss: 0.4088494
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 0.000125
+	iters: 100, epoch: 4 | loss: 0.2477908
+	speed: 0.0475s/iter; left time: 83.4093s
+	iters: 200, epoch: 4 | loss: 0.2803938
+	speed: 0.0229s/iter; left time: 37.9023s
+Epoch: 4 cost time: 5.992184638977051
+Epoch: 4, Steps: 265 | Train Loss: 0.2608325 Vali Loss: 0.7101424 Test Loss: 0.4161339
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : long_term_forecast_FPEMFinal_ETTh1_96_96_iTransformer_ETTh1_ftM_sl96_ll48_pl96_dm512_nh8_el3_dl1_df512_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_iTransformer_ETTh1_96_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 2785
+test shape: (2785, 96, 7) (2785, 96, 7)
+test shape: (2785, 96, 7) (2785, 96, 7)
+mse:0.4141645133495331, mae:0.4248056411743164, dtw:Not calculated

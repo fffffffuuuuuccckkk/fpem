@@ -1,0 +1,24 @@
+# SMRVA point pilot: itransformer_ETTm1_720
+
+TEST was not used for configuration/checkpoint selection.
+Cross-temporal shared mapping enabled by VAL: False.
+P6 passes A0/shuffled/random/constant VAL controls: True.
+
+| Mode | VAL MSE | TEST MSE | TEST MAE |
+|---|---:|---:|---:|
+| P0 | 1.088563 | 0.469341 | 0.444563 |
+| P1 | 1.105392 | 0.497599 | 0.463061 |
+| P2 | 1.088563 | 0.469341 | 0.444563 |
+| P3 | 1.104451 | 0.477707 | 0.451300 |
+| P4 | 1.091262 | 0.468712 | 0.445176 |
+| P5 | 1.089264 | 0.469282 | 0.444808 |
+| P6 | 1.088115 | 0.468940 | 0.444504 |
+| P7 | 1.088402 | 0.469339 | 0.444604 |
+| P8 | 1.088465 | 0.469321 | 0.444639 |
+| P9 | 1.088115 | 0.468940 | 0.444504 |
+| P10 | 1.089263 | 0.469260 | 0.445062 |
+
+Cross-temporal TRAIN-only transfer:
+
+- block 2: A0=3.744700, ordinary=3.752324, shared=3.757118
+- block 3: A0=5.982241, ordinary=5.939324, shared=5.952113

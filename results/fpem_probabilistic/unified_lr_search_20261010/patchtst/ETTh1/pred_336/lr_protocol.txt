@@ -1,0 +1,7 @@
+selection_source=prior_test_coordinate_search
+selected_horizon=336
+catalog_server=server3
+dec_lr=1e-4
+env_lr=2e-5
+future_lr=5e-4
+lambda_domain=0.1

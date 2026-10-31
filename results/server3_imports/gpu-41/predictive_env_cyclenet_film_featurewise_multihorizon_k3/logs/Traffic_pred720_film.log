@@ -1,0 +1,22 @@
+[Traffic 96->720] create shared CycleNet reference on GPU=0
+reference warmup 1 {'loss': 0.4285834728371883, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_gain_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan, 'gamma_mean': 0.049960476726473024, 'gamma_std': 0.046280814271314995, 'gamma_abs_mean': 0.06007140115034107, 'beta_mean': -0.03540380724710693, 'beta_std': 0.023207408780115207, 'beta_abs_mean': 0.03600984961403292}
+reference warmup 2 {'loss': 0.3411790773639, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_gain_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan, 'gamma_mean': 0.03744018034423784, 'gamma_std': 0.08002141553435307, 'gamma_abs_mean': 0.08475665307295227, 'beta_mean': -0.08978239178355131, 'beta_std': 0.013238248465965925, 'beta_abs_mean': 0.08978373770662502}
+reference warmup 3 {'loss': 0.3122010438043618, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_gain_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan, 'gamma_mean': 0.023867143559320025, 'gamma_std': 0.09416072179738309, 'gamma_abs_mean': 0.09647524886435675, 'beta_mean': -0.09967397902422019, 'beta_std': 0.001008914762950492, 'beta_abs_mean': 0.09967397902422019}
+shared_reference source=created path=results/predictive_env_cyclenet_film_featurewise_multihorizon_k3/pred_720/Traffic/shared_reference.pt sha256=60832811dbece3f40b528842034d7539a2fbe2aa28d58b5aaec062122fa12bc4
+reference preparation complete; no experiment was run
+[Traffic 96->720 CycleNet film] start GPU=0 2026-09-16T08:25:06+00:00
+shared_reference source=loaded path=results/predictive_env_cyclenet_film_featurewise_multihorizon_k3/pred_720/Traffic/shared_reference.pt sha256=60832811dbece3f40b528842034d7539a2fbe2aa28d58b5aaec062122fa12bc4
+Traceback (most recent call last):
+  File "tools/run_predictive_env_iv_patchtst.py", line 1706, in <module>
+    main()
+  File "tools/run_predictive_env_iv_patchtst.py", line 1421, in main
+    reference_h_predictions, reference_h_norms = build_pretrained_h_cache(
+  File "/data/OuXiaoyu/miniconda3/envs/tslib/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "tools/run_predictive_env_iv_patchtst.py", line 744, in build_pretrained_h_cache
+    _, _, sample_id, h_prediction, h_norm = collect(
+  File "/data/OuXiaoyu/miniconda3/envs/tslib/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "tools/run_predictive_env_iv_patchtst.py", line 389, in collect
+    result.extend([torch.cat(h_predictions), torch.cat(h_norms)])
+RuntimeError: [enforce fail at alloc_cpu.cpp:83] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 28462550400 bytes. Error code 12 (Cannot allocate memory)

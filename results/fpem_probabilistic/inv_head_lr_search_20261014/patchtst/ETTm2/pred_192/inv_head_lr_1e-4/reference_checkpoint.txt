@@ -1,0 +1,5 @@
+reference_checkpoint: /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/test_best_patchtst_a0_20261013/references/ETTm2/pred_192.pt
+reference_checkpoint_sha256: 05f590eac7d3a42cee4cf1eee2107a6dbbab58bc9299406ed3d480536a96c607
+reference_source: loaded
+seed: 2021
+signature: {'backbone': 'patchtst', 'dataset_name': 'ETTm2', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'ett_minute', 'data_path': 'ETTm2.csv', 'target': 'OT', 'freq': '15min', 'seq_len': 96, 'pred_len': 192, 'd_model': 128, 'd_ff': 256, 'n_heads': 8, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 0, 'enc_in': 7, 'cyclenet_cycle_len': 96, 'protocol_version': 4}

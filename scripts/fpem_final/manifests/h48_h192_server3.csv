@@ -1,0 +1,5 @@
+# backbone,dataset,pred_len
+patchtst,Weather,192
+patchtst,ETTm2,192
+patchtst,ETTh1,192
+patchtst,ETTh2,48

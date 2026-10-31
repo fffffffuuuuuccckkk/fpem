@@ -1,0 +1,6 @@
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_final_patchtst_search/patchtst/Electricity/pred_336/shared_reference.pt
+TRIAL patchtst Electricity 336 inherited 0.2016505002975464 pruned False
+TRIAL patchtst Electricity 336 head_0.0003 0.2016505002975464 pruned False
+TRIAL patchtst Electricity 336 head_0.001 0.2016505002975464 pruned False
+TRIAL patchtst Electricity 336 head_0.003 0.2016505002975464 pruned True
+COMPLETE patchtst Electricity 336 {'mse': 0.2016505002975464, 'mae': 0.28854936361312866}

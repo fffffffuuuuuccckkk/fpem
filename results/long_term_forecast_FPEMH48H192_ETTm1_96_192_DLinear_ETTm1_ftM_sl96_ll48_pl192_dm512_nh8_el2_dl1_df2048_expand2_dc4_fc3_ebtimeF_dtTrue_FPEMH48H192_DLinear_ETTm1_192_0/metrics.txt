@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_FPEMH48H192_ETTm1_96_192_DLinear_ETTm1_ftM_sl96_ll48_pl192_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMH48H192_DLinear_ETTm1_192_0
+MAE: 0.3910686076
+MSE: 0.381814748
+RMSE: 0.6179115772
+MAPE: 2.018437147
+MSPE: 296.6228333
+DTW: Not calculated
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

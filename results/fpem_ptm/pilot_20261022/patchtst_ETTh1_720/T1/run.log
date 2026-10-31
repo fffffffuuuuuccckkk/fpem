@@ -1,0 +1,11 @@
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_ptm.py --base_run_config results/fpem_latent_decomposition_search/pilot_20261015/patchtst_ETTh1_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4/run_config.json --output /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_ptm/pilot_20261022/patchtst_ETTh1_720/T1 --bank_checkpoint /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_ptm/pilot_20261022/patchtst_ETTh1_720/prototype_bank.pt --mode T1 --seed 2021 --lr_head 5e-05 --epochs 10 --gpu 0 --allow_legacy_reference_signature
+{"epoch": 1, "train_mse": 0.5671177240301626, "val_mse": 1.6476603752293084, "val_mae": 0.8831466507470546, "gate_mean": 0.02461361486314269, "ema": null}
+{"epoch": 2, "train_mse": 0.5669322797970269, "val_mse": 1.6472468746097852, "val_mae": 0.8832461422255689, "gate_mean": 0.016689742546115587, "ema": null}
+{"epoch": 3, "train_mse": 0.5668715735136891, "val_mse": 1.6474743927341104, "val_mae": 0.8833235948225165, "gate_mean": 0.013601246029542444, "ema": null}
+{"epoch": 4, "train_mse": 0.5668676927066839, "val_mse": 1.647374304097989, "val_mae": 0.8833158109717356, "gate_mean": 0.014181749117132486, "ema": null}
+{"epoch": 5, "train_mse": 0.5668614363518005, "val_mse": 1.6472227071213723, "val_mae": 0.8832900388688273, "gate_mean": 0.015123965010936477, "ema": null}
+{"epoch": 6, "train_mse": 0.5668582246935786, "val_mse": 1.647219454136689, "val_mae": 0.8832875286549575, "gate_mean": 0.014927801981774217, "ema": null}
+{"epoch": 7, "train_mse": 0.5668556742013072, "val_mse": 1.6471301057298209, "val_mae": 0.8832626205476503, "gate_mean": 0.015585126155444239, "ema": null}
+{"epoch": 8, "train_mse": 0.5668527662944489, "val_mse": 1.646993652526663, "val_mae": 0.8832227942597581, "gate_mean": 0.016613024951786803, "ema": null}
+{"epoch": 9, "train_mse": 0.566850279999998, "val_mse": 1.646967229826818, "val_mae": 0.8832048451008315, "gate_mean": 0.016787947413931522, "ema": null}
+{"epoch": 10, "train_mse": 0.5668465307040718, "val_mse": 1.647156973876962, "val_mae": 0.8832410712277257, "gate_mean": 0.015109605952745674, "ema": null}

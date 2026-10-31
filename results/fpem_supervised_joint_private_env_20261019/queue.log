@@ -1,0 +1,297 @@
+START moderntcn_Weather_192 gpu=0
+START moderntcn_Weather_96 gpu=1
+START moderntcn_Weather_336 gpu=2
+START moderntcn_Weather_48 gpu=3
+NEW moderntcn_Weather_96 2e-5 val=0.3830382606934006
+NEW moderntcn_Weather_48 2e-5 val=0.32148099356230714
+NEW moderntcn_Weather_192 2e-5 val=0.46331738338541334
+NEW moderntcn_Weather_336 2e-5 val=0.5465104758106133
+NEW moderntcn_Weather_96 5e-5 val=0.38353189654862546
+NEW moderntcn_Weather_48 5e-5 val=0.32194260900037824
+NEW moderntcn_Weather_192 5e-5 val=0.46430237080879144
+NEW moderntcn_Weather_336 5e-5 val=0.547544737915423
+NEW moderntcn_Weather_96 1e-4 val=0.38438385648619916
+NEW moderntcn_Weather_48 1e-4 val=0.32215994848721774
+NEW moderntcn_Weather_192 1e-4 val=0.46594841479502563
+NEW moderntcn_Weather_336 1e-4 val=0.5484578060275673
+NEW moderntcn_Weather_96 shuffled {'val_mse': 0.38303373274924923, 'test_mse': 0.15394933712771394, 'test_mae': 0.20187784771129233, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_96/point_shuffled/lr_2e-5'}
+NEW moderntcn_Weather_48 shuffled {'val_mse': 0.3214809030376023, 'test_mse': 0.12339229293134722, 'test_mae': 0.16819669106587934, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_48/point_shuffled/lr_2e-5'}
+NEW moderntcn_Weather_192 shuffled {'val_mse': 0.4633176907409739, 'test_mse': 0.20273594841604337, 'test_mae': 0.24657729759503966, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_192/point_shuffled/lr_2e-5'}
+NEW moderntcn_Weather_336 shuffled {'val_mse': 0.5465225787811615, 'test_mse': 0.25997402315834195, 'test_mae': 0.28887948833625393, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_336/point_shuffled/lr_2e-5'}
+NEW moderntcn_Weather_96 no_domain {'val_mse': 0.3830527694137008, 'test_mse': 0.15395567883899805, 'test_mae': 0.20188303575801397, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_96/point_no_domain/lr_2e-5'}
+DONE moderntcn_Weather_96
+START moderntcn_ETTm1_48 gpu=1
+NEW moderntcn_Weather_48 no_domain {'val_mse': 0.3214830951243122, 'test_mse': 0.1233902282139577, 'test_mae': 0.16819341501174406, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_48/point_no_domain/lr_2e-5'}
+NEW moderntcn_Weather_192 no_domain {'val_mse': 0.4633188362815311, 'test_mse': 0.20273365653386755, 'test_mae': 0.2465703933115415, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_192/point_no_domain/lr_2e-5'}
+DONE moderntcn_Weather_192
+START moderntcn_ETTm1_96 gpu=0
+NEW moderntcn_Weather_336 no_domain {'val_mse': 0.5464930089533003, 'test_mse': 0.2599718361359087, 'test_mae': 0.28887672008494125, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_336/point_no_domain/lr_2e-5'}
+DONE moderntcn_Weather_336
+START moderntcn_ETTm2_96 gpu=2
+NEW moderntcn_ETTm1_48 2e-5 val=0.30398411548981813
+NEW moderntcn_ETTm1_96 2e-5 val=0.3775860782641973
+NEW moderntcn_ETTm2_96 2e-5 val=0.12047431382360813
+NEW moderntcn_ETTm1_48 5e-5 val=0.30383505647084585
+NEW moderntcn_Weather_48 prob_predictive {'val_mse': 0.3206715221212642, 'test_mse': 0.1226972798560884, 'test_mae': 0.16596273291548083, 'probts_crps': 0.27667221766969335, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_48/prob_predictive/lr_2e-5'}
+NEW moderntcn_ETTm1_96 5e-5 val=0.37754374867890717
+NEW moderntcn_ETTm2_96 5e-5 val=0.12053256436811334
+NEW moderntcn_ETTm1_48 1e-4 val=0.30368198154857623
+NEW moderntcn_ETTm1_96 1e-4 val=0.37749539968656154
+NEW moderntcn_ETTm2_96 1e-4 val=0.12059969611971331
+NEW moderntcn_ETTm1_48 shuffled {'val_mse': 0.3037489041662123, 'test_mse': 0.27408306077351213, 'test_mae': 0.33044912852964603, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm1_48/point_shuffled/lr_1e-4'}
+NEW moderntcn_ETTm1_96 shuffled {'val_mse': 0.37749271512863797, 'test_mse': 0.3251823159929637, 'test_mae': 0.3662506597057238, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm1_96/point_shuffled/lr_1e-4'}
+NEW moderntcn_ETTm2_96 shuffled {'val_mse': 0.12035845770244115, 'test_mse': 0.17596526184093955, 'test_mae': 0.2567019309810739, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm2_96/point_shuffled/lr_2e-5'}
+NEW moderntcn_Weather_48 prob_shuffled {'val_mse': 0.3207300075959035, 'test_mse': 0.12268002321689406, 'test_mae': 0.16595134100051706, 'probts_crps': 0.285898362606298, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_48/prob_shuffled/lr_2e-5'}
+NEW moderntcn_ETTm1_48 no_domain {'val_mse': 0.3037315862452605, 'test_mse': 0.274082326548826, 'test_mae': 0.3304380384167012, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm1_48/point_no_domain/lr_1e-4'}
+NEW moderntcn_ETTm1_96 no_domain {'val_mse': 0.37749301665149976, 'test_mse': 0.325184683991035, 'test_mae': 0.36625333843249086, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm1_96/point_no_domain/lr_1e-4'}
+DONE moderntcn_ETTm1_96
+START moderntcn_ETTm2_24 gpu=0
+FAIL moderntcn_ETTm2_24: exit=1, log=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm2_24/point_predictive/lr_2e-5/run.log
+START moderntcn_ExchangeRate_48 gpu=0
+NEW moderntcn_ETTm2_96 no_domain {'val_mse': 0.12044716794577516, 'test_mse': 0.17617057183390797, 'test_mae': 0.25688234266420445, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm2_96/point_no_domain/lr_2e-5'}
+DONE moderntcn_ETTm2_96
+START patchtst_Weather_48 gpu=2
+NEW moderntcn_ExchangeRate_48 2e-5 val=0.08655936788208521
+NEW moderntcn_ExchangeRate_48 5e-5 val=0.0858521765501157
+NEW moderntcn_ExchangeRate_48 1e-4 val=0.08721236803086911
+NEW moderntcn_ExchangeRate_48 shuffled {'val_mse': 0.0851142012164547, 'test_mse': 0.056993542263567315, 'test_mae': 0.16929701591024593, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ExchangeRate_48/point_shuffled/lr_5e-5'}
+NEW moderntcn_ExchangeRate_48 no_domain {'val_mse': 0.08700163150402139, 'test_mse': 0.05832713696421409, 'test_mae': 0.17204357782999674, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ExchangeRate_48/point_no_domain/lr_5e-5'}
+NEW moderntcn_ExchangeRate_48 prob_predictive {'val_mse': 0.08708200682095692, 'test_mse': 0.05895252822478072, 'test_mae': 0.17234641851481397, 'probts_crps': 0.10272853165662207, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ExchangeRate_48/prob_predictive/lr_5e-5'}
+NEW moderntcn_ETTm1_48 prob_predictive {'val_mse': 0.3040824035121915, 'test_mse': 0.27760164496040035, 'test_mae': 0.33224639171859005, 'probts_crps': 0.38609750757582734, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm1_48/prob_predictive/lr_1e-4'}
+NEW moderntcn_ExchangeRate_48 prob_shuffled {'val_mse': 0.08769293394864525, 'test_mse': 0.059337367627626106, 'test_mae': 0.1730291498491283, 'probts_crps': 0.10301520773748152, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ExchangeRate_48/prob_shuffled/lr_5e-5'}
+NEW moderntcn_ExchangeRate_48 prob_no_domain {'val_mse': 0.08782500597069674, 'test_mse': 0.05948384402830855, 'test_mae': 0.17332497248573908, 'probts_crps': 0.10319680668869798, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ExchangeRate_48/prob_no_domain/lr_5e-5'}
+NEW moderntcn_ExchangeRate_48 prob_no_zvar {'val_mse': 0.08683343901150468, 'test_mse': 0.05825591757724615, 'test_mae': 0.1720099888150654, 'probts_crps': 0.10187527658988019, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ExchangeRate_48/prob_no_zvar/lr_5e-5'}
+NEW moderntcn_ExchangeRate_48 prob_no_ema {'val_mse': 0.0871983919259598, 'test_mse': 0.05891465843399636, 'test_mae': 0.17233002915674325, 'probts_crps': 0.10274228597579359, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ExchangeRate_48/prob_no_ema/lr_5e-5'}
+DONE moderntcn_ExchangeRate_48
+START patchtst_ExchangeRate_24 gpu=0
+FAIL patchtst_ExchangeRate_24: exit=1, log=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ExchangeRate_24/point_predictive/lr_2e-5/run.log
+START patchtst_ETTh1_336 gpu=0
+NEW patchtst_ETTh1_336 2e-5 val=1.2864876851557174
+NEW patchtst_Weather_48 2e-5 val=0.35821471141214445
+NEW moderntcn_Weather_48 prob_no_domain {'val_mse': 0.3203768528052404, 'test_mse': 0.12253073348962319, 'test_mae': 0.16589284075190985, 'probts_crps': 0.28195574193954287, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_48/prob_no_domain/lr_2e-5'}
+NEW patchtst_ETTh1_336 5e-5 val=1.2877367638407893
+NEW patchtst_ETTh1_336 1e-4 val=1.2868010262030893
+NEW patchtst_ETTh1_336 shuffled {'val_mse': 1.2872215890438936, 'test_mse': 0.4835974025001086, 'test_mae': 0.4630796205085669, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_336/point_shuffled/lr_2e-5'}
+NEW patchtst_ETTh1_336 no_domain {'val_mse': 1.2865481944942148, 'test_mse': 0.4827772410075278, 'test_mae': 0.462579212005437, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_336/point_no_domain/lr_2e-5'}
+DONE patchtst_ETTh1_336
+START itransformer_ETTh1_48 gpu=0
+NEW moderntcn_ETTm1_48 prob_shuffled {'val_mse': 0.3040823833884217, 'test_mse': 0.2776015552584195, 'test_mae': 0.3322462554912768, 'probts_crps': 0.3860882438500424, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm1_48/prob_shuffled/lr_1e-4'}
+NEW itransformer_ETTh1_48 2e-5 val=0.505147538499228
+NEW itransformer_ETTh1_48 5e-5 val=0.5053418244620329
+NEW itransformer_ETTh1_48 1e-4 val=0.5055479101908441
+NEW itransformer_ETTh1_48 shuffled {'val_mse': 0.5051450057551742, 'test_mse': 0.33780948113836495, 'test_mae': 0.3761861791946226, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_48/point_shuffled/lr_2e-5'}
+NEW itransformer_ETTh1_48 no_domain {'val_mse': 0.5051667525368211, 'test_mse': 0.33782576931155506, 'test_mae': 0.3762025143037278, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_48/point_no_domain/lr_2e-5'}
+NEW patchtst_Weather_48 5e-5 val=0.35830384450468766
+NEW itransformer_ETTh1_48 prob_predictive {'val_mse': 0.5052126943979934, 'test_mse': 0.33874404150865833, 'test_mae': 0.37684816782993047, 'probts_crps': 0.3842486854770181, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_48/prob_predictive/lr_2e-5'}
+NEW itransformer_ETTh1_48 prob_shuffled {'val_mse': 0.5052076050572077, 'test_mse': 0.3387765135957516, 'test_mae': 0.3769384718894269, 'probts_crps': 0.384840366710339, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_48/prob_shuffled/lr_2e-5'}
+NEW moderntcn_ETTm1_48 prob_no_domain {'val_mse': 0.30408247756323104, 'test_mse': 0.27760153764418355, 'test_mae': 0.33224624960139293, 'probts_crps': 0.38609064053810643, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm1_48/prob_no_domain/lr_1e-4'}
+NEW moderntcn_Weather_48 prob_no_zvar {'val_mse': 0.31962446318132426, 'test_mse': 0.12291551108226083, 'test_mae': 0.16722777309232703, 'probts_crps': 0.25544121819134663, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_48/prob_no_zvar/lr_2e-5'}
+NEW itransformer_ETTh1_48 prob_no_domain {'val_mse': 0.5055318472074545, 'test_mse': 0.33891048055973283, 'test_mae': 0.3770562252518974, 'probts_crps': 0.3850601157807984, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_48/prob_no_domain/lr_2e-5'}
+NEW itransformer_ETTh1_48 prob_no_zvar {'val_mse': 0.5057135705032721, 'test_mse': 0.33814602780806574, 'test_mae': 0.37671469132061425, 'probts_crps': 0.3881422958629021, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_48/prob_no_zvar/lr_2e-5'}
+NEW itransformer_ETTh1_48 prob_no_ema {'val_mse': 0.5050707204361966, 'test_mse': 0.3386945774020084, 'test_mae': 0.37682730084021177, 'probts_crps': 0.38534528164319926, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_48/prob_no_ema/lr_2e-5'}
+DONE itransformer_ETTh1_48
+START itransformer_ETTh2_48 gpu=0
+NEW itransformer_ETTh2_48 2e-5 val=0.16628905594436072
+NEW itransformer_ETTh2_48 5e-5 val=0.16634386317916258
+NEW itransformer_ETTh2_48 1e-4 val=0.16642425350135157
+NEW patchtst_Weather_48 1e-4 val=0.3586807694934246
+NEW itransformer_ETTh2_48 shuffled {'val_mse': 0.16625378071874083, 'test_mse': 0.2425640735475859, 'test_mae': 0.31076194651999334, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_48/point_shuffled/lr_2e-5'}
+NEW itransformer_ETTh2_48 no_domain {'val_mse': 0.16629225393447927, 'test_mse': 0.24267026451667018, 'test_mae': 0.3108683637047997, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_48/point_no_domain/lr_2e-5'}
+NEW moderntcn_ETTm1_48 prob_no_zvar {'val_mse': 0.30341072000346153, 'test_mse': 0.27369216918026995, 'test_mae': 0.33039134579258433, 'probts_crps': 0.3484560022399948, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm1_48/prob_no_zvar/lr_1e-4'}
+NEW itransformer_ETTh2_48 prob_predictive {'val_mse': 0.16602803025213525, 'test_mse': 0.24230047853078812, 'test_mae': 0.3100012681981674, 'probts_crps': 0.17707921068048965, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_48/prob_predictive/lr_2e-5'}
+NEW itransformer_ETTh2_48 prob_shuffled {'val_mse': 0.16602803384286102, 'test_mse': 0.2423005024475864, 'test_mae': 0.31000128089394774, 'probts_crps': 0.17707919989253285, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_48/prob_shuffled/lr_2e-5'}
+NEW itransformer_ETTh2_48 prob_no_domain {'val_mse': 0.16602804429443774, 'test_mse': 0.24230051597692806, 'test_mae': 0.3100013011559002, 'probts_crps': 0.17707924006991366, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_48/prob_no_domain/lr_2e-5'}
+NEW itransformer_ETTh2_48 prob_no_zvar {'val_mse': 0.16659944590823628, 'test_mse': 0.2421642733263845, 'test_mae': 0.31032453123444703, 'probts_crps': 0.17836181788931793, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_48/prob_no_zvar/lr_2e-5'}
+NEW moderntcn_Weather_48 prob_no_ema {'val_mse': 0.32126624149261196, 'test_mse': 0.12286528689253785, 'test_mae': 0.16607764437141376, 'probts_crps': 0.2956826642604443, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_Weather_48/prob_no_ema/lr_2e-5'}
+DONE moderntcn_Weather_48
+START moderntcn_ETTm2_48 gpu=3
+NEW itransformer_ETTh2_48 prob_no_ema {'val_mse': 0.16589682429977318, 'test_mse': 0.24291449619221592, 'test_mae': 0.31026835715141743, 'probts_crps': 0.17558804216988297, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_48/prob_no_ema/lr_2e-5'}
+DONE itransformer_ETTh2_48
+START itransformer_ETTh2_24 gpu=0
+NEW itransformer_ETTh2_24 2e-5 val=0.1236386322896874
+NEW patchtst_Weather_48 shuffled {'val_mse': 0.35882849759799246, 'test_mse': 0.14101519062166037, 'test_mae': 0.18098632889787042, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_Weather_48/point_shuffled/lr_2e-5'}
+NEW itransformer_ETTh2_24 5e-5 val=0.12368456338237444
+NEW moderntcn_ETTm1_48 prob_no_ema {'val_mse': 0.3041182173783618, 'test_mse': 0.27737319921336223, 'test_mae': 0.332050833610434, 'probts_crps': 0.3800198978020446, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm1_48/prob_no_ema/lr_1e-4'}
+DONE moderntcn_ETTm1_48
+START patchtst_Weather_96 gpu=1
+NEW itransformer_ETTh2_24 1e-4 val=0.12384650769912356
+NEW itransformer_ETTh2_24 shuffled {'val_mse': 0.12363788937203818, 'test_mse': 0.18261162418523352, 'test_mae': 0.26915585764436334, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_24/point_shuffled/lr_2e-5'}
+NEW itransformer_ETTh2_24 no_domain {'val_mse': 0.12364620376150237, 'test_mse': 0.18259478676372173, 'test_mae': 0.2691490349079018, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_24/point_no_domain/lr_2e-5'}
+NEW moderntcn_ETTm2_48 2e-5 val=0.09508704943820259
+NEW itransformer_ETTh2_24 prob_predictive {'val_mse': 0.123301163545014, 'test_mse': 0.18292082489586922, 'test_mae': 0.2701663828206873, 'probts_crps': 0.1568678552281577, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_24/prob_predictive/lr_2e-5'}
+NEW itransformer_ETTh2_24 prob_shuffled {'val_mse': 0.12330525475807888, 'test_mse': 0.18293048263456468, 'test_mae': 0.2701730333149551, 'probts_crps': 0.15686911374779067, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_24/prob_shuffled/lr_2e-5'}
+NEW itransformer_ETTh2_24 prob_no_domain {'val_mse': 0.12330116691483174, 'test_mse': 0.18292083719888305, 'test_mae': 0.27016638860660075, 'probts_crps': 0.15686786662439053, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_24/prob_no_domain/lr_2e-5'}
+NEW itransformer_ETTh2_24 prob_no_zvar {'val_mse': 0.12375858142908162, 'test_mse': 0.18225828477525155, 'test_mae': 0.26966410150392367, 'probts_crps': 0.1576375235308915, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_24/prob_no_zvar/lr_2e-5'}
+NEW patchtst_Weather_48 no_domain {'val_mse': 0.35871633826544935, 'test_mse': 0.1409366803555657, 'test_mae': 0.18089059505108646, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_Weather_48/point_no_domain/lr_2e-5'}
+NEW moderntcn_ETTm2_48 5e-5 val=0.09499461241178864
+NEW patchtst_Weather_96 2e-5 val=0.4319606405532705
+NEW itransformer_ETTh2_24 prob_no_ema {'val_mse': 0.1229275993472932, 'test_mse': 0.18227640864058176, 'test_mae': 0.26972726301516897, 'probts_crps': 0.15619736449322918, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_24/prob_no_ema/lr_2e-5'}
+DONE itransformer_ETTh2_24
+NEW moderntcn_ETTm2_48 1e-4 val=0.0949100430549983
+NEW patchtst_Weather_96 5e-5 val=0.4320524801460935
+NEW moderntcn_ETTm2_48 shuffled {'val_mse': 0.09483678232267653, 'test_mse': 0.12910852994204478, 'test_mae': 0.22158017984418055, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm2_48/point_shuffled/lr_1e-4'}
+NEW patchtst_Weather_48 prob_predictive {'val_mse': 0.35852542963902045, 'test_mse': 0.13981854797671323, 'test_mae': 0.1787695652849234, 'probts_crps': 0.2848214071515267, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_Weather_48/prob_predictive/lr_2e-5'}
+NEW moderntcn_ETTm2_48 no_domain {'val_mse': 0.09486782340381023, 'test_mse': 0.1291588115003798, 'test_mae': 0.22164182442924457, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm2_48/point_no_domain/lr_1e-4'}
+NEW patchtst_Weather_96 1e-4 val=0.43373331135908577
+NEW moderntcn_ETTm2_48 prob_predictive {'val_mse': 0.09496717854805421, 'test_mse': 0.12900544174746656, 'test_mae': 0.22138111332855145, 'probts_crps': 0.13512432874599808, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm2_48/prob_predictive/lr_1e-4'}
+NEW patchtst_Weather_48 prob_shuffled {'val_mse': 0.3595021648298065, 'test_mse': 0.13980249371602005, 'test_mae': 0.17867909968236573, 'probts_crps': 0.2903498476878905, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_Weather_48/prob_shuffled/lr_2e-5'}
+NEW patchtst_Weather_96 shuffled {'val_mse': 0.43102121556009054, 'test_mse': 0.17628306217145714, 'test_mae': 0.21681412325573693, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_Weather_96/point_shuffled/lr_2e-5'}
+NEW moderntcn_ETTm2_48 prob_shuffled {'val_mse': 0.09494550564778402, 'test_mse': 0.12898546841513542, 'test_mae': 0.221361458738684, 'probts_crps': 0.135282007982724, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm2_48/prob_shuffled/lr_1e-4'}
+NEW patchtst_Weather_96 no_domain {'val_mse': 0.4316350728004186, 'test_mse': 0.17630346574221126, 'test_mae': 0.21691304789901314, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_Weather_96/point_no_domain/lr_2e-5'}
+DONE patchtst_Weather_96
+START patchtst_ETTm1_24 gpu=1
+FAIL patchtst_ETTm1_24: exit=1, log=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTm1_24/point_predictive/lr_2e-5/run.log
+START moderntcn_ETTh1_48 gpu=1
+NEW moderntcn_ETTh1_48 2e-5 val=0.509983357247772
+NEW moderntcn_ETTh1_48 5e-5 val=0.5082769068992279
+NEW moderntcn_ETTh1_48 1e-4 val=0.5058324775787493
+NEW patchtst_Weather_48 prob_no_domain {'val_mse': 0.35884205951401255, 'test_mse': 0.13962457258640482, 'test_mae': 0.17840693249740053, 'probts_crps': 0.2835326640406184, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_Weather_48/prob_no_domain/lr_2e-5'}
+NEW moderntcn_ETTh1_48 shuffled {'val_mse': 0.5057400259446555, 'test_mse': 0.3423978139879147, 'test_mae': 0.37073117941720657, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh1_48/point_shuffled/lr_1e-4'}
+NEW moderntcn_ETTh1_48 no_domain {'val_mse': 0.5052210110317846, 'test_mse': 0.34126432510290566, 'test_mae': 0.36964622624388155, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh1_48/point_no_domain/lr_1e-4'}
+NEW moderntcn_ETTh1_48 prob_predictive {'val_mse': 0.5062181244735176, 'test_mse': 0.34156300436359766, 'test_mae': 0.36988054213027655, 'probts_crps': 0.37969371638574073, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh1_48/prob_predictive/lr_1e-4'}
+NEW moderntcn_ETTm2_48 prob_no_domain {'val_mse': 0.0949407629593413, 'test_mse': 0.12897669441588666, 'test_mae': 0.22135614869174336, 'probts_crps': 0.1350633421311931, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm2_48/prob_no_domain/lr_1e-4'}
+NEW moderntcn_ETTh1_48 prob_shuffled {'val_mse': 0.5062293856947817, 'test_mse': 0.34158775510793254, 'test_mae': 0.36989934137492575, 'probts_crps': 0.3797320317262649, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh1_48/prob_shuffled/lr_1e-4'}
+NEW moderntcn_ETTh1_48 prob_no_domain {'val_mse': 0.5060434524012656, 'test_mse': 0.34144852106224105, 'test_mae': 0.3697822356254918, 'probts_crps': 0.3792303306682767, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh1_48/prob_no_domain/lr_1e-4'}
+NEW moderntcn_ETTh1_48 prob_no_zvar {'val_mse': 0.5059304598922951, 'test_mse': 0.3412238817328939, 'test_mae': 0.3695684012387585, 'probts_crps': 0.3759802013498879, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh1_48/prob_no_zvar/lr_1e-4'}
+NEW moderntcn_ETTh1_48 prob_no_ema {'val_mse': 0.5055764050362116, 'test_mse': 0.34167304369300144, 'test_mae': 0.3700920198467578, 'probts_crps': 0.38025457382286304, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh1_48/prob_no_ema/lr_1e-4'}
+DONE moderntcn_ETTh1_48
+START patchtst_ETTh1_720 gpu=1
+NEW patchtst_ETTh1_720 2e-5 val=1.5779369846583646
+NEW patchtst_ETTh1_720 5e-5 val=1.5790334506674508
+NEW moderntcn_ETTm2_48 prob_no_zvar {'val_mse': 0.09491419154995151, 'test_mse': 0.12904983358821, 'test_mae': 0.22146986993557236, 'probts_crps': 0.13232944105435798, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm2_48/prob_no_zvar/lr_1e-4'}
+NEW patchtst_Weather_48 prob_no_zvar {'val_mse': 0.3553828144287669, 'test_mse': 0.14024100593995714, 'test_mae': 0.1785272405822328, 'probts_crps': 0.27761828845414416, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_Weather_48/prob_no_zvar/lr_2e-5'}
+NEW patchtst_ETTh1_720 1e-4 val=1.579336989645079
+NEW patchtst_ETTh1_720 shuffled {'val_mse': 1.5772553642183678, 'test_mse': 0.5252144419866657, 'test_mae': 0.5012524941462057, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_720/point_shuffled/lr_2e-5'}
+NEW patchtst_ETTh1_720 no_domain {'val_mse': 1.5767960886886858, 'test_mse': 0.5223900794597638, 'test_mae': 0.5001260400656387, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_720/point_no_domain/lr_2e-5'}
+DONE patchtst_ETTh1_720
+START itransformer_ETTh1_192 gpu=1
+NEW itransformer_ETTh1_192 2e-5 val=0.9963454382625077
+NEW itransformer_ETTh1_192 5e-5 val=0.9959217255127627
+NEW itransformer_ETTh1_192 1e-4 val=0.996030158741904
+NEW itransformer_ETTh1_192 shuffled {'val_mse': 0.9965081645982667, 'test_mse': 0.4301574040578933, 'test_mae': 0.4292593629387769, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_192/point_shuffled/lr_5e-5'}
+NEW itransformer_ETTh1_192 no_domain {'val_mse': 0.9965782751979037, 'test_mse': 0.4301636852637369, 'test_mae': 0.42935049503233663, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_192/point_no_domain/lr_5e-5'}
+DONE itransformer_ETTh1_192
+START itransformer_ETTh2_192 gpu=1
+NEW itransformer_ETTh2_192 2e-5 val=0.28492663230862897
+NEW itransformer_ETTh2_192 5e-5 val=0.28531310854247094
+NEW moderntcn_ETTm2_48 prob_no_ema {'val_mse': 0.09496190341688329, 'test_mse': 0.12891100500059574, 'test_mae': 0.221350354946009, 'probts_crps': 0.13527718995012922, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm2_48/prob_no_ema/lr_1e-4'}
+DONE moderntcn_ETTm2_48
+START patchtst_ETTm1_96 gpu=3
+NEW itransformer_ETTh2_192 1e-4 val=0.2857728357424332
+NEW itransformer_ETTh2_192 shuffled {'val_mse': 0.28492092482902526, 'test_mse': 0.3853730891091145, 'test_mae': 0.40080216449034384, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_192/point_shuffled/lr_2e-5'}
+NEW itransformer_ETTh2_192 no_domain {'val_mse': 0.2850921961670484, 'test_mse': 0.38547784267265367, 'test_mae': 0.4009097112358977, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_192/point_no_domain/lr_2e-5'}
+DONE itransformer_ETTh2_192
+START patchtst_ETTh1_48 gpu=1
+NEW patchtst_ETTh1_48 2e-5 val=0.5124668225661297
+NEW patchtst_ETTm1_96 2e-5 val=0.40072610115972646
+NEW patchtst_ETTh1_48 5e-5 val=0.5139567568970086
+NEW patchtst_ETTh1_48 1e-4 val=0.5158118282819085
+NEW patchtst_Weather_48 prob_no_ema {'val_mse': 0.35946171781551284, 'test_mse': 0.13999328089608445, 'test_mae': 0.17869561641153328, 'probts_crps': 0.28322728951378173, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_Weather_48/prob_no_ema/lr_2e-5'}
+DONE patchtst_Weather_48
+START moderntcn_ExchangeRate_96 gpu=2
+NEW patchtst_ETTh1_48 shuffled {'val_mse': 0.5124778848227155, 'test_mse': 0.3401195845505278, 'test_mae': 0.37729056447800974, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_48/point_shuffled/lr_2e-5'}
+NEW moderntcn_ExchangeRate_96 2e-5 val=0.14577712498810655
+NEW moderntcn_ExchangeRate_96 5e-5 val=0.14463168242222682
+NEW patchtst_ETTh1_48 no_domain {'val_mse': 0.5124910644533301, 'test_mse': 0.3400127885441551, 'test_mae': 0.3772129835139973, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_48/point_no_domain/lr_2e-5'}
+NEW moderntcn_ExchangeRate_96 1e-4 val=0.1446102225989626
+NEW patchtst_ETTm1_96 5e-5 val=0.40167253557662114
+NEW moderntcn_ExchangeRate_96 shuffled {'val_mse': 0.14485983980030642, 'test_mse': 0.1018897711923298, 'test_mae': 0.22612952425957172, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ExchangeRate_96/point_shuffled/lr_1e-4'}
+NEW patchtst_ETTh1_48 prob_predictive {'val_mse': 0.5136414006388241, 'test_mse': 0.3402248869432299, 'test_mae': 0.37790002502756365, 'probts_crps': 0.3836393322554991, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_48/prob_predictive/lr_2e-5'}
+NEW moderntcn_ExchangeRate_96 no_domain {'val_mse': 0.14519154923900326, 'test_mse': 0.10192927104790782, 'test_mae': 0.2257393677358721, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ExchangeRate_96/point_no_domain/lr_1e-4'}
+DONE moderntcn_ExchangeRate_96
+START patchtst_ExchangeRate_96 gpu=2
+NEW patchtst_ExchangeRate_96 2e-5 val=0.13265683955716012
+NEW patchtst_ExchangeRate_96 5e-5 val=0.13341104177604043
+NEW patchtst_ETTh1_48 prob_shuffled {'val_mse': 0.5136414026906675, 'test_mse': 0.3402248834807443, 'test_mae': 0.3779000279770884, 'probts_crps': 0.3836393356218045, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_48/prob_shuffled/lr_2e-5'}
+NEW patchtst_ExchangeRate_96 1e-4 val=0.13259559908606355
+NEW patchtst_ExchangeRate_96 shuffled {'val_mse': 0.1321729846466753, 'test_mse': 0.08757374658866271, 'test_mae': 0.2045050545919126, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ExchangeRate_96/point_shuffled/lr_1e-4'}
+NEW patchtst_ETTm1_96 1e-4 val=0.40288466714006593
+NEW patchtst_ETTh1_48 prob_no_domain {'val_mse': 0.513641408717957, 'test_mse': 0.34022488745619067, 'test_mae': 0.3779000311830935, 'probts_crps': 0.3836393487503955, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_48/prob_no_domain/lr_2e-5'}
+NEW patchtst_ExchangeRate_96 no_domain {'val_mse': 0.13226871108052723, 'test_mse': 0.08779455874371965, 'test_mae': 0.20503498856248958, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ExchangeRate_96/point_no_domain/lr_1e-4'}
+DONE patchtst_ExchangeRate_96
+START moderntcn_ETTh2_48 gpu=2
+NEW moderntcn_ETTh2_48 2e-5 val=0.15846610455999272
+NEW patchtst_ETTh1_48 prob_no_zvar {'val_mse': 0.5132668689638464, 'test_mse': 0.33946771137437026, 'test_mae': 0.3781416970286125, 'probts_crps': 0.38874579776187607, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_48/prob_no_zvar/lr_2e-5'}
+NEW moderntcn_ETTh2_48 5e-5 val=0.15815857159552993
+NEW moderntcn_ETTh2_48 1e-4 val=0.15802958721236357
+NEW patchtst_ETTh1_48 prob_no_ema {'val_mse': 0.5135949817882084, 'test_mse': 0.34017319844609967, 'test_mae': 0.3778987636569047, 'probts_crps': 0.3834934475730764, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_48/prob_no_ema/lr_2e-5'}
+DONE patchtst_ETTh1_48
+NEW patchtst_ETTm1_96 shuffled {'val_mse': 0.40090691465008343, 'test_mse': 0.32624717121734415, 'test_mae': 0.366146586530343, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTm1_96/point_shuffled/lr_2e-5'}
+NEW moderntcn_ETTh2_48 shuffled {'val_mse': 0.15795251959389278, 'test_mse': 0.22305831606532803, 'test_mae': 0.2950127855074271, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh2_48/point_shuffled/lr_1e-4'}
+NEW moderntcn_ETTh2_48 no_domain {'val_mse': 0.15802270558646916, 'test_mse': 0.22307212388058817, 'test_mae': 0.29508135554517706, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh2_48/point_no_domain/lr_1e-4'}
+NEW moderntcn_ETTh2_48 prob_predictive {'val_mse': 0.15817791861821584, 'test_mse': 0.23401192043183192, 'test_mae': 0.3018637628904592, 'probts_crps': 0.18550134069646915, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh2_48/prob_predictive/lr_1e-4'}
+NEW patchtst_ETTm1_96 no_domain {'val_mse': 0.40050939771996646, 'test_mse': 0.325868143564067, 'test_mae': 0.36579873153588743, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTm1_96/point_no_domain/lr_2e-5'}
+DONE patchtst_ETTm1_96
+START patchtst_ETTm1_192 gpu=3
+NEW moderntcn_ETTh2_48 prob_shuffled {'val_mse': 0.1581827394881319, 'test_mse': 0.2340030274865583, 'test_mae': 0.3018662760137616, 'probts_crps': 0.1848749928715538, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh2_48/prob_shuffled/lr_1e-4'}
+NEW moderntcn_ETTh2_48 prob_no_domain {'val_mse': 0.15818141245848794, 'test_mse': 0.2340195477745199, 'test_mae': 0.3018775959049197, 'probts_crps': 0.18494879883315257, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh2_48/prob_no_domain/lr_1e-4'}
+NEW moderntcn_ETTh2_48 prob_no_zvar {'val_mse': 0.15771419613696347, 'test_mse': 0.2228752120713404, 'test_mae': 0.29459956773797014, 'probts_crps': 0.17211953008549397, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh2_48/prob_no_zvar/lr_1e-4'}
+NEW patchtst_ETTm1_192 2e-5 val=0.5173650125504398
+NEW moderntcn_ETTh2_48 prob_no_ema {'val_mse': 0.15821253391973947, 'test_mse': 0.23448884068968806, 'test_mae': 0.3021534555905277, 'probts_crps': 0.1841499543246809, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh2_48/prob_no_ema/lr_1e-4'}
+DONE moderntcn_ETTh2_48
+START itransformer_ETTh1_96 gpu=2
+NEW itransformer_ETTh1_96 2e-5 val=0.6896859892598683
+NEW itransformer_ETTh1_96 5e-5 val=0.6896827162580937
+NEW itransformer_ETTh1_96 1e-4 val=0.689918736310008
+NEW patchtst_ETTm1_192 5e-5 val=0.5169592077016988
+NEW itransformer_ETTh1_96 shuffled {'val_mse': 0.6897368220984553, 'test_mse': 0.37998472861757726, 'test_mae': 0.39914934410746816, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_96/point_shuffled/lr_5e-5'}
+NEW itransformer_ETTh1_96 no_domain {'val_mse': 0.6897557633569468, 'test_mse': 0.37993124514815646, 'test_mae': 0.39912585347923973, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_96/point_no_domain/lr_5e-5'}
+DONE itransformer_ETTh1_96
+START itransformer_ETTh2_96 gpu=2
+NEW itransformer_ETTh2_96 2e-5 val=0.21895153225512853
+NEW itransformer_ETTh2_96 5e-5 val=0.21904785820813508
+NEW patchtst_ETTm1_192 1e-4 val=0.5170367599434055
+NEW itransformer_ETTh2_96 1e-4 val=0.21918921133916866
+NEW itransformer_ETTh2_96 shuffled {'val_mse': 0.21887233884475002, 'test_mse': 0.3087276798237529, 'test_mae': 0.3525148667137144, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_96/point_shuffled/lr_2e-5'}
+NEW itransformer_ETTh2_96 no_domain {'val_mse': 0.21889875871743608, 'test_mse': 0.30886130062058265, 'test_mae': 0.35260145939587834, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_96/point_no_domain/lr_2e-5'}
+DONE itransformer_ETTh2_96
+START patchtst_ETTh1_24 gpu=2
+NEW patchtst_ETTh1_24 2e-5 val=0.38579208146656113
+NEW patchtst_ETTh1_24 5e-5 val=0.38881580938940746
+NEW patchtst_ETTm1_192 shuffled {'val_mse': 0.5167938598047337, 'test_mse': 0.36792996809307993, 'test_mae': 0.3899730047031112, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTm1_192/point_shuffled/lr_5e-5'}
+NEW patchtst_ETTh1_24 1e-4 val=0.3911950297857707
+NEW patchtst_ETTh1_24 shuffled {'val_mse': 0.3856088069346908, 'test_mse': 0.301463630971669, 'test_mae': 0.35376767617677757, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_24/point_shuffled/lr_2e-5'}
+NEW patchtst_ETTh1_24 no_domain {'val_mse': 0.3852105851447358, 'test_mse': 0.3010554239666736, 'test_mae': 0.3535172324666445, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_24/point_no_domain/lr_2e-5'}
+NEW patchtst_ETTm1_192 no_domain {'val_mse': 0.516613220082096, 'test_mse': 0.3678212182347818, 'test_mae': 0.38986553218992065, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTm1_192/point_no_domain/lr_5e-5'}
+DONE patchtst_ETTm1_192
+START patchtst_ExchangeRate_192 gpu=3
+NEW patchtst_ExchangeRate_192 2e-5 val=0.22898989891405336
+NEW patchtst_ETTh1_24 prob_predictive {'val_mse': 0.38572987380448126, 'test_mse': 0.3017433299770661, 'test_mae': 0.3534390682089036, 'probts_crps': 0.36312573746571725, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_24/prob_predictive/lr_2e-5'}
+NEW patchtst_ExchangeRate_192 5e-5 val=0.2273706638400989
+NEW patchtst_ExchangeRate_192 1e-4 val=0.22843016639535163
+NEW patchtst_ETTh1_24 prob_shuffled {'val_mse': 0.38552837898598624, 'test_mse': 0.30176810430487344, 'test_mae': 0.3534440756309056, 'probts_crps': 0.3640562591537713, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_24/prob_shuffled/lr_2e-5'}
+NEW patchtst_ExchangeRate_192 shuffled {'val_mse': 0.22859995394473753, 'test_mse': 0.18359599489851655, 'test_mae': 0.3035085207256856, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ExchangeRate_192/point_shuffled/lr_5e-5'}
+NEW patchtst_ExchangeRate_192 no_domain {'val_mse': 0.23125251553249973, 'test_mse': 0.18272708791653194, 'test_mae': 0.303147934740545, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ExchangeRate_192/point_no_domain/lr_5e-5'}
+DONE patchtst_ExchangeRate_192
+START moderntcn_ETTh2_24 gpu=3
+FAIL moderntcn_ETTh2_24: exit=1, log=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh2_24/point_predictive/lr_2e-5/run.log
+START itransformer_ETTh1_336 gpu=3
+NEW itransformer_ETTh1_336 2e-5 val=1.3079708280813553
+NEW patchtst_ETTh1_24 prob_no_domain {'val_mse': 0.38556816667839416, 'test_mse': 0.3018637607778623, 'test_mae': 0.3535143007252088, 'probts_crps': 0.3641671198082838, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_24/prob_no_domain/lr_2e-5'}
+NEW itransformer_ETTh1_336 5e-5 val=1.307699969127662
+NEW patchtst_ETTh1_24 prob_no_zvar {'val_mse': 0.38582678200580767, 'test_mse': 0.30112099915756285, 'test_mae': 0.35325347772210386, 'probts_crps': 0.3672486182731225, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_24/prob_no_zvar/lr_2e-5'}
+NEW itransformer_ETTh1_336 1e-4 val=1.307286656796498
+NEW itransformer_ETTh1_336 shuffled {'val_mse': 1.3069174033596893, 'test_mse': 0.47626160694969294, 'test_mae': 0.4537924064594526, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_336/point_shuffled/lr_1e-4'}
+NEW patchtst_ETTh1_24 prob_no_ema {'val_mse': 0.38563479179004523, 'test_mse': 0.30168906739150025, 'test_mae': 0.353421601235498, 'probts_crps': 0.3623647349757834, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTh1_24/prob_no_ema/lr_2e-5'}
+DONE patchtst_ETTh1_24
+NEW itransformer_ETTh1_336 no_domain {'val_mse': 1.3067902401359919, 'test_mse': 0.47610717706547867, 'test_mae': 0.45369985339881286, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_336/point_no_domain/lr_1e-4'}
+DONE itransformer_ETTh1_336
+START itransformer_ETTh2_336 gpu=3
+NEW itransformer_ETTh2_336 2e-5 val=0.3690391016320652
+NEW itransformer_ETTh2_336 5e-5 val=0.36900393865068437
+NEW itransformer_ETTh2_336 1e-4 val=0.36890671995675417
+NEW itransformer_ETTh2_336 shuffled {'val_mse': 0.36837090440666537, 'test_mse': 0.4223209059350118, 'test_mae': 0.43405791427534607, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_336/point_shuffled/lr_1e-4'}
+NEW itransformer_ETTh2_336 no_domain {'val_mse': 0.3690007174255462, 'test_mse': 0.4224855632437083, 'test_mae': 0.4344599397155412, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh2_336/point_no_domain/lr_1e-4'}
+DONE itransformer_ETTh2_336
+START itransformer_ETTh1_24 gpu=3
+NEW itransformer_ETTh1_24 2e-5 val=0.3865854344785314
+NEW itransformer_ETTh1_24 5e-5 val=0.3868471197734895
+NEW itransformer_ETTh1_24 1e-4 val=0.3873933557212529
+NEW itransformer_ETTh1_24 shuffled {'val_mse': 0.38678050076565923, 'test_mse': 0.3038516471645726, 'test_mae': 0.3569120197953257, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_24/point_shuffled/lr_2e-5'}
+NEW itransformer_ETTh1_24 no_domain {'val_mse': 0.3867611395731937, 'test_mse': 0.3038852437706012, 'test_mae': 0.35693708392745893, 'probts_crps': None, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_24/point_no_domain/lr_2e-5'}
+NEW itransformer_ETTh1_24 prob_predictive {'val_mse': 0.38659023487927735, 'test_mse': 0.3069954951655867, 'test_mae': 0.358055190916691, 'probts_crps': 0.3715801892849712, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_24/prob_predictive/lr_2e-5'}
+NEW itransformer_ETTh1_24 prob_shuffled {'val_mse': 0.38671989389416983, 'test_mse': 0.3069408635213967, 'test_mae': 0.358056609546379, 'probts_crps': 0.372209591520471, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_24/prob_shuffled/lr_2e-5'}
+NEW itransformer_ETTh1_24 prob_no_domain {'val_mse': 0.3866384410122199, 'test_mse': 0.3070376677988156, 'test_mae': 0.3580923068522811, 'probts_crps': 0.37246436488807805, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_24/prob_no_domain/lr_2e-5'}
+NEW itransformer_ETTh1_24 prob_no_zvar {'val_mse': 0.38685565393229376, 'test_mse': 0.3070470881561046, 'test_mae': 0.3580988420733496, 'probts_crps': 0.3659985855894569, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_24/prob_no_zvar/lr_2e-5'}
+NEW itransformer_ETTh1_24 prob_no_ema {'val_mse': 0.3866378474156455, 'test_mse': 0.30717658805837633, 'test_mae': 0.358128084080087, 'probts_crps': 0.37096844076859936, 'path': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/itransformer_ETTh1_24/prob_no_ema/lr_2e-5'}
+DONE itransformer_ETTh1_24

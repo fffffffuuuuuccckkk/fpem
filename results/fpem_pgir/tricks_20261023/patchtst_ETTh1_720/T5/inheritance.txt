@@ -1,0 +1,1 @@
+T5 inherits VAL-selected T3; options={'local': False, 'gain_supervision': True, 'boundary': False, 'recent': True}

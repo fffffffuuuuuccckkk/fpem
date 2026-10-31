@@ -1,0 +1,12 @@
+
+ATTEMPT 1: /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_prototype_fusion.py --base_run_config /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_latent_decomposition_search/pilot_20261015/moderntcn_ETTm2_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4/run_config.json --output /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_prototype_fusion_search/pilot_20261025/moderntcn_ETTm2_720/P3_F1_M1 --prototype P3 --fusion F1 --mapping M1 --gpu 2 --epochs 10 --phase0_cache /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_predictive_memory/pilot_20261024/moderntcn_ETTm2_720/phase0_cache.pt --max_batches 0 --allow_legacy_reference_signature
+{"epoch": 1, "train_mse": 0.4284377477745309, "val_mse": 0.28291909979931057, "val_mae": 0.3639416010521627}
+{"epoch": 2, "train_mse": 0.42137539379687106, "val_mse": 0.2809751670770433, "val_mae": 0.36113072074150937}
+{"epoch": 3, "train_mse": 0.41826547649799367, "val_mse": 0.2795033634339895, "val_mae": 0.3607367947305502}
+{"epoch": 4, "train_mse": 0.41634435810466514, "val_mse": 0.2793806665375496, "val_mae": 0.35992744754995865}
+{"epoch": 5, "train_mse": 0.41491381249156606, "val_mse": 0.2814599813596014, "val_mae": 0.36181586925493425}
+{"epoch": 6, "train_mse": 0.4137818540865776, "val_mse": 0.28093968857331564, "val_mae": 0.3611139144858331}
+{"epoch": 7, "train_mse": 0.41260012129754253, "val_mse": 0.28079589087787815, "val_mae": 0.3605531964153566}
+{"epoch": 8, "train_mse": 0.4115995063600947, "val_mse": 0.28220111384207563, "val_mae": 0.36176197847951963}
+{"epoch": 9, "train_mse": 0.4107240871371816, "val_mse": 0.2823711504575687, "val_mae": 0.3619471611221078}
+{"epoch": 10, "train_mse": 0.40967831217564676, "val_mse": 0.28001310828743053, "val_mae": 0.3613661986210928}

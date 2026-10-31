@@ -1,0 +1,36 @@
+Args in experiment:
+Namespace(model='informer', data='custom', root_path='../dataset/exchange_rate/', data_path='exchange_rate.csv', features='MS', target='OT', freq='w', checkpoints='./informer_checkpoints', seq_len=96, label_len=48, pred_len=96, enc_in=8, dec_in=8, c_out=1, d_model=512, n_heads=8, e_layers=2, d_layers=1, s_layers=[3, 2, 1], d_ff=2048, factor=5, padding=0, distil=True, dropout=0.05, attn='prob', embed='timeF', activation='gelu', output_attention=False, do_predict=False, mix=True, cols=None, num_workers=0, itr=1, train_epochs=6, batch_size=32, patience=3, learning_rate=0.0001, des='test', loss='mse', lradj='type1', use_amp=False, inverse=False, use_gpu=True, gpu=0, use_multi_gpu=False, devices='0,1,2,3', detail_freq='w')
+Use GPU: cuda:0
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_test_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 5120
+val 665
+test 1422
+	iters: 100, epoch: 1 | loss: 0.0773731
+	speed: 0.0838s/iter; left time: 72.1323s
+Epoch: 1 cost time: 10.737340211868286
+Epoch: 1, Steps: 160 | Train Loss: 0.1517986 Vali Loss: 0.7345991 Test Loss: 0.8805903
+Validation loss decreased (inf --> 0.734599).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 0.0406056
+	speed: 0.1107s/iter; left time: 77.5916s
+Epoch: 2 cost time: 9.555624961853027
+Epoch: 2, Steps: 160 | Train Loss: 0.0525859 Vali Loss: 0.9254581 Test Loss: 1.0221288
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 0.0307624
+	speed: 0.1110s/iter; left time: 60.0663s
+Epoch: 3 cost time: 9.645754098892212
+Epoch: 3, Steps: 160 | Train Loss: 0.0356319 Vali Loss: 0.9167646 Test Loss: 0.9246230
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 0.0352216
+	speed: 0.1110s/iter; left time: 42.3049s
+Epoch: 4 cost time: 9.602567911148071
+Epoch: 4, Steps: 160 | Train Loss: 0.0295060 Vali Loss: 0.9558981 Test Loss: 1.0225849
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : informer_custom_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_atprob_fc5_ebtimeF_dtTrue_mxTrue_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 1422
+test shape: (1422, 96, 1) (1422, 96, 1)
+test shape: (1422, 96, 1) (1422, 96, 1)
+mse:0.8898897767066956, mae:0.7691551446914673

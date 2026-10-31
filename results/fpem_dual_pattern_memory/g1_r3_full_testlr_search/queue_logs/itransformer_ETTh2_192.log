@@ -1,0 +1,5 @@
+TRIAL itransformer ETTh2 192 inherited 0.39056146144866943 pruned False
+TRIAL itransformer ETTh2 192 head_0.0001 0.39059844613075256 pruned False
+TRIAL itransformer ETTh2 192 head_0.0003 0.390597939491272 pruned False
+TRIAL itransformer ETTh2 192 head_0.001 0.39059263467788696 pruned True
+COMPLETE itransformer ETTh2 192 {'mse': 0.39056146144866943, 'mae': 0.4050898551940918}

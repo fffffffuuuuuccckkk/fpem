@@ -1,0 +1,1 @@
+/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_final_patchtst_search/patchtst/ExchangeRate/pred_96/shared_reference.pt

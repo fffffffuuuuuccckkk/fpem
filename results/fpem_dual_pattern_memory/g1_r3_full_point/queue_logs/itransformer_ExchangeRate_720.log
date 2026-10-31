@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_g1_r3_full.py", line 214, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_g1_r3_full.py", line 152, in main
+    raise ValueError("insufficient purged VAL support")
+ValueError: insufficient purged VAL support
+RETRY itransformer ExchangeRate 720 exit=1 2026-10-30T02:20:44+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_g1_r3_full.py", line 214, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_g1_r3_full.py", line 152, in main
+    raise ValueError("insufficient purged VAL support")
+ValueError: insufficient purged VAL support
+RETRY itransformer ExchangeRate 720 exit=1 2026-10-30T02:21:50+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_g1_r3_full.py", line 214, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_g1_r3_full.py", line 152, in main
+    raise ValueError("insufficient purged VAL support")
+ValueError: insufficient purged VAL support
+RETRY itransformer ExchangeRate 720 exit=1 2026-10-30T02:22:57+00:00

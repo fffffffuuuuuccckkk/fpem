@@ -1,0 +1,4 @@
+itransformer:ETTh2:48:head_crps
+itransformer:ETTh1:48:head_crps
+itransformer:ETTh2:24:head_crps
+itransformer:ETTh1:24:head_crps

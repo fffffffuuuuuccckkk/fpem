@@ -1,0 +1,2 @@
+START {'backbone': 'patchtst', 'dataset': 'ETTh1', 'pred_len': 720, 'seq_len': 96, 'span': 816, 'sha': '1ad15990fa5be9a8cd742f366309a4d7110e6f2020d4dfe3a67923d4766db5e0', 'selected_r3_gain': 0.00021335482597351074, 'source': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_dual_pattern_memory/g1_r3_full_testlr_search/patchtst/ETTh1/pred_720', 'train_cutoff': 8544, 'test_start_absolute': 11424, 'train_size': 484, 'val_size': 541, 'test_size': 2161}
+A COMPLETE 98

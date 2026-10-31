@@ -1,0 +1,3 @@
+shared_reference source=loaded path=results/fpem_probabilistic/test_best_backbones_a0_20261013/baseline_references/moderntcn/ETTm2/pred_720.pt sha256=e6ad2c723815043fb6e296902a09eba793ce4409e6a929fe59d3b3f8412445ae
+A0 identity {'feature': 0.0, 'a0_initial_prediction_mse': 0.0}
+A0 TEST 0.483657175855269 0.44328422130811573

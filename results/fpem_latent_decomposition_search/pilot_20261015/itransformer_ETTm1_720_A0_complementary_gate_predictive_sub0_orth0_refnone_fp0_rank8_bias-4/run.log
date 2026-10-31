@@ -1,0 +1,3 @@
+shared_reference source=loaded path=results/fpem_latent_decomposition_search/references/itransformer_ETTm1_720.pt sha256=03417e14c3e44a01aaadf4bd7e048d3787472414a60a7eb1cc831f6d21a01ae1
+A0 identity {'feature': 0.0, 'a0_initial_prediction_mse': 0.0}
+A0 TEST 0.46934146395312826 0.4445627667703369

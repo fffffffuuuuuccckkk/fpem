@@ -1,0 +1,4 @@
+moderntcn_ETTm2_24: exit=1, log=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTm2_24/point_predictive/lr_2e-5/run.log
+patchtst_ExchangeRate_24: exit=1, log=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ExchangeRate_24/point_predictive/lr_2e-5/run.log
+patchtst_ETTm1_24: exit=1, log=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/patchtst_ETTm1_24/point_predictive/lr_2e-5/run.log
+moderntcn_ETTh2_24: exit=1, log=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_supervised_joint_private_env_20261019/moderntcn_ETTh2_24/point_predictive/lr_2e-5/run.log
