@@ -1,0 +1,3 @@
+START {'backbone': 'patchtst', 'dataset': 'ExchangeRate', 'pred_len': 192, 'seq_len': 96, 'span': 288, 'sha': '594ae38a1472ca8c90d7baee8d9fd5dbb55ac3804ebc60bc05d2638e498cd872', 'selected_r3_gain': 0.0, 'source': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_dual_pattern_memory/g1_r3_full_testlr_search/patchtst/ExchangeRate/pred_192', 'train_cutoff': 5215, 'test_start_absolute': 5975, 'train_size': 308, 'val_size': 143, 'test_size': 332}
+A COMPLETE 98
+B COMPLETE 35

@@ -1,0 +1,5 @@
+TRAIN anchor patchtst/ETTh1/24 GPU=0
+ARCHIVE incomplete anchor /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/patchtst/ETTh1/pred_24/anchor -> /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/patchtst/ETTh1/pred_24/anchor.incomplete.20261010_120322
+/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/patchtst/ETTh1/pred_24/anchor/A2/trained_checkpoint.pt
+COMPLETE inv patchtst/ETTh1/24
+scripts/fpem_probabilistic/run_unified_matrix.sh: line 420: unexpected EOF while looking for matching `"'

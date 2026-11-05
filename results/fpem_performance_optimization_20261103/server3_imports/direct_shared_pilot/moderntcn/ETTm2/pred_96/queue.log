@@ -1,0 +1,36 @@
+attempt=1 gpu=0 case=moderntcn/ETTm2/96
+BEGIN moderntcn ETTm2 96 F00
+BEGIN moderntcn ETTm2 96 F03
+F03 epoch 1 val 0.123237
+F03 epoch 2 val 0.124285
+F03 epoch 3 val 0.124274
+F03 epoch 4 val 0.125147
+F03 epoch 5 val 0.124753
+F03 epoch 6 val 0.125017
+F03 epoch 7 val 0.125294
+F03 epoch 8 val 0.126133
+F03 epoch 9 val 0.125943
+F03 epoch 10 val 0.125694
+BEGIN moderntcn ETTm2 96 F01
+F01 epoch 1 val 0.128025
+F01 epoch 2 val 0.128442
+F01 epoch 3 val 0.126602
+F01 epoch 4 val 0.129431
+F01 epoch 5 val 0.126523
+F01 epoch 6 val 0.128013
+F01 epoch 7 val 0.127742
+F01 epoch 8 val 0.128236
+F01 epoch 9 val 0.128172
+F01 epoch 10 val 0.127452
+BEGIN moderntcn ETTm2 96 P01
+P01 epoch 1 val 0.128082
+P01 epoch 2 val 0.130127
+P01 epoch 3 val 0.127993
+P01 epoch 4 val 0.129374
+P01 epoch 5 val 0.126781
+P01 epoch 6 val 0.128384
+P01 epoch 7 val 0.127669
+P01 epoch 8 val 0.127419
+P01 epoch 9 val 0.12774
+P01 epoch 10 val 0.126848
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_shared_pilot/moderntcn/ETTm2/pred_96

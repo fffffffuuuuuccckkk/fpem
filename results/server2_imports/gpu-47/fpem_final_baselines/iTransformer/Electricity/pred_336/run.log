@@ -1,0 +1,972 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMFinal_Electricity_96_336Model:              iTransformer        
+
+[1mData Loader[0m
+  Data:               custom              Root Path:          ./dataset/all_datasets/electricity
+  Data Path:          electricity.csv     Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        results/fpem_final_baselines/iTransformer/Electricity/pred_336/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           336                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             321                 Dec In:             321                 
+  C Out:              321                 d model:            512                 
+  n heads:            8                   e layers:           3                   
+  d layers:           1                   d FF:               512                 
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         4                   
+  Patience:           3                   Learning Rate:      0.0005              
+  Des:                FPEMFinal_iTransformer_Electricity_336Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: iTransformer ...
+>>>>>>>start training : long_term_forecast_FPEMFinal_Electricity_96_336_iTransformer_custom_ftM_sl96_ll48_pl336_dm512_nh8_el3_dl1_df512_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_iTransformer_Electricity_336_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 17981
+val 2297
+test 4925
+	iters: 100, epoch: 1 | loss: 0.2575329
+	speed: 0.0269s/iter; left time: 1208.7324s
+	iters: 200, epoch: 1 | loss: 0.2587993
+	speed: 0.0222s/iter; left time: 994.5685s
+	iters: 300, epoch: 1 | loss: 0.2133002
+	speed: 0.0223s/iter; left time: 994.0681s
+	iters: 400, epoch: 1 | loss: 0.2463028
+	speed: 0.0230s/iter; left time: 1025.7998s
+	iters: 500, epoch: 1 | loss: 0.1865436
+	speed: 0.0280s/iter; left time: 1245.6999s
+	iters: 600, epoch: 1 | loss: 0.2495344
+	speed: 0.0362s/iter; left time: 1607.2220s
+	iters: 700, epoch: 1 | loss: 0.1899542
+	speed: 0.0370s/iter; left time: 1638.6149s
+	iters: 800, epoch: 1 | loss: 0.1985873
+	speed: 0.0372s/iter; left time: 1644.8601s
+	iters: 900, epoch: 1 | loss: 0.1862019
+	speed: 0.0244s/iter; left time: 1075.5885s
+	iters: 1000, epoch: 1 | loss: 0.2573512
+	speed: 0.0215s/iter; left time: 945.4235s
+	iters: 1100, epoch: 1 | loss: 0.1928124
+	speed: 0.0211s/iter; left time: 926.5787s
+	iters: 1200, epoch: 1 | loss: 0.1835839
+	speed: 0.0219s/iter; left time: 958.1508s
+	iters: 1300, epoch: 1 | loss: 0.2783293
+	speed: 0.0211s/iter; left time: 923.0194s
+	iters: 1400, epoch: 1 | loss: 0.1847664
+	speed: 0.0217s/iter; left time: 945.0450s
+	iters: 1500, epoch: 1 | loss: 0.2007317
+	speed: 0.0216s/iter; left time: 940.1715s
+	iters: 1600, epoch: 1 | loss: 0.1826376
+	speed: 0.0214s/iter; left time: 926.3710s
+	iters: 1700, epoch: 1 | loss: 0.1671246
+	speed: 0.0219s/iter; left time: 948.3683s
+	iters: 1800, epoch: 1 | loss: 0.2371197
+	speed: 0.0216s/iter; left time: 932.2697s
+	iters: 1900, epoch: 1 | loss: 0.1722993
+	speed: 0.0213s/iter; left time: 917.4060s
+	iters: 2000, epoch: 1 | loss: 0.1953402
+	speed: 0.0221s/iter; left time: 950.1877s
+	iters: 2100, epoch: 1 | loss: 0.1626345
+	speed: 0.0215s/iter; left time: 919.6399s
+	iters: 2200, epoch: 1 | loss: 0.1935082
+	speed: 0.0212s/iter; left time: 906.0379s
+	iters: 2300, epoch: 1 | loss: 0.2529042
+	speed: 0.0218s/iter; left time: 928.9473s
+	iters: 2400, epoch: 1 | loss: 0.2290697
+	speed: 0.0224s/iter; left time: 953.6509s
+	iters: 2500, epoch: 1 | loss: 0.2140770
+	speed: 0.0217s/iter; left time: 920.4431s
+	iters: 2600, epoch: 1 | loss: 0.2421712
+	speed: 0.0235s/iter; left time: 994.6366s
+	iters: 2700, epoch: 1 | loss: 0.2232629
+	speed: 0.0216s/iter; left time: 911.6526s
+	iters: 2800, epoch: 1 | loss: 0.1671883
+	speed: 0.0214s/iter; left time: 901.3215s
+	iters: 2900, epoch: 1 | loss: 0.1712009
+	speed: 0.0220s/iter; left time: 925.1029s
+	iters: 3000, epoch: 1 | loss: 0.2109277
+	speed: 0.0218s/iter; left time: 916.0788s
+	iters: 3100, epoch: 1 | loss: 0.1685457
+	speed: 0.0218s/iter; left time: 911.4222s
+	iters: 3200, epoch: 1 | loss: 0.1847473
+	speed: 0.0228s/iter; left time: 952.1063s
+	iters: 3300, epoch: 1 | loss: 0.2303977
+	speed: 0.0229s/iter; left time: 952.6564s
+	iters: 3400, epoch: 1 | loss: 0.1628466
+	speed: 0.0231s/iter; left time: 961.2515s
+	iters: 3500, epoch: 1 | loss: 0.1647212
+	speed: 0.0223s/iter; left time: 924.2684s
+	iters: 3600, epoch: 1 | loss: 0.1581836
+	speed: 0.0247s/iter; left time: 1022.6121s
+	iters: 3700, epoch: 1 | loss: 0.2422574
+	speed: 0.0242s/iter; left time: 997.4127s
+	iters: 3800, epoch: 1 | loss: 0.1478351
+	speed: 0.0247s/iter; left time: 1015.5229s
+	iters: 3900, epoch: 1 | loss: 0.1707851
+	speed: 0.0249s/iter; left time: 1020.3916s
+	iters: 4000, epoch: 1 | loss: 0.2189658
+	speed: 0.0237s/iter; left time: 970.7307s
+	iters: 4100, epoch: 1 | loss: 0.2076885
+	speed: 0.0236s/iter; left time: 963.9649s
+	iters: 4200, epoch: 1 | loss: 0.1955446
+	speed: 0.0228s/iter; left time: 931.0526s
+	iters: 4300, epoch: 1 | loss: 0.1547411
+	speed: 0.0211s/iter; left time: 858.7522s
+	iters: 4400, epoch: 1 | loss: 0.1834869
+	speed: 0.0222s/iter; left time: 899.7517s
+Epoch: 1 cost time: 105.93344187736511
+Epoch: 1, Steps: 4496 | Train Loss: 0.2202620 Vali Loss: 0.1715280 Test Loss: 0.1941056
+Validation loss decreased (inf --> 0.171528).  Saving model ...
+Updating learning rate to 0.0005
+	iters: 100, epoch: 2 | loss: 0.1807328
+	speed: 0.2213s/iter; left time: 8931.0387s
+	iters: 200, epoch: 2 | loss: 0.2314838
+	speed: 0.0221s/iter; left time: 891.5296s
+	iters: 300, epoch: 2 | loss: 0.1952381
+	speed: 0.0212s/iter; left time: 850.1901s
+	iters: 400, epoch: 2 | loss: 0.1964820
+	speed: 0.0216s/iter; left time: 867.0995s
+	iters: 500, epoch: 2 | loss: 0.2000480
+	speed: 0.0215s/iter; left time: 859.7538s
+	iters: 600, epoch: 2 | loss: 0.2060953
+	speed: 0.0211s/iter; left time: 842.6564s
+	iters: 700, epoch: 2 | loss: 0.1690850
+	speed: 0.0215s/iter; left time: 853.6230s
+	iters: 800, epoch: 2 | loss: 0.1939005
+	speed: 0.0227s/iter; left time: 901.7627s
+	iters: 900, epoch: 2 | loss: 0.3307267
+	speed: 0.0214s/iter; left time: 847.6991s
+	iters: 1000, epoch: 2 | loss: 0.1620169
+	speed: 0.0210s/iter; left time: 828.5782s
+	iters: 1100, epoch: 2 | loss: 0.1603229
+	speed: 0.0219s/iter; left time: 863.5032s
+	iters: 1200, epoch: 2 | loss: 0.2211265
+	speed: 0.0229s/iter; left time: 900.0454s
+	iters: 1300, epoch: 2 | loss: 0.1810377
+	speed: 0.0216s/iter; left time: 844.8966s
+	iters: 1400, epoch: 2 | loss: 0.1677158
+	speed: 0.0228s/iter; left time: 892.1337s
+	iters: 1500, epoch: 2 | loss: 0.2741949
+	speed: 0.0217s/iter; left time: 843.7191s
+	iters: 1600, epoch: 2 | loss: 0.1712791
+	speed: 0.0223s/iter; left time: 865.9026s
+	iters: 1700, epoch: 2 | loss: 0.1837014
+	speed: 0.0220s/iter; left time: 853.1315s
+	iters: 1800, epoch: 2 | loss: 0.1809834
+	speed: 0.0211s/iter; left time: 815.3595s
+	iters: 1900, epoch: 2 | loss: 0.1886995
+	speed: 0.0213s/iter; left time: 822.1707s
+	iters: 2000, epoch: 2 | loss: 0.1826031
+	speed: 0.0217s/iter; left time: 835.0420s
+	iters: 2100, epoch: 2 | loss: 0.2202280
+	speed: 0.0226s/iter; left time: 866.7330s
+	iters: 2200, epoch: 2 | loss: 0.1903990
+	speed: 0.0224s/iter; left time: 857.4863s
+	iters: 2300, epoch: 2 | loss: 0.2581067
+	speed: 0.0213s/iter; left time: 813.3061s
+	iters: 2400, epoch: 2 | loss: 0.3044228
+	speed: 0.0210s/iter; left time: 801.1752s
+	iters: 2500, epoch: 2 | loss: 0.1913555
+	speed: 0.0222s/iter; left time: 842.8458s
+	iters: 2600, epoch: 2 | loss: 0.2846116
+	speed: 0.0222s/iter; left time: 841.8740s
+	iters: 2700, epoch: 2 | loss: 0.1773320
+	speed: 0.0209s/iter; left time: 790.0542s
+	iters: 2800, epoch: 2 | loss: 0.2239880
+	speed: 0.0223s/iter; left time: 841.7371s
+	iters: 2900, epoch: 2 | loss: 0.1764949
+	speed: 0.0215s/iter; left time: 807.3999s
+	iters: 3000, epoch: 2 | loss: 0.1795781
+	speed: 0.0232s/iter; left time: 870.8451s
+	iters: 3100, epoch: 2 | loss: 0.1774553
+	speed: 0.0229s/iter; left time: 857.4142s
+	iters: 3200, epoch: 2 | loss: 0.2525720
+	speed: 0.0232s/iter; left time: 865.8157s
+	iters: 3300, epoch: 2 | loss: 0.2011037
+	speed: 0.0222s/iter; left time: 826.0965s
+	iters: 3400, epoch: 2 | loss: 0.1788518
+	speed: 0.0229s/iter; left time: 848.4328s
+	iters: 3500, epoch: 2 | loss: 0.1907517
+	speed: 0.0231s/iter; left time: 853.4244s
+	iters: 3600, epoch: 2 | loss: 0.2104347
+	speed: 0.0230s/iter; left time: 847.1085s
+	iters: 3700, epoch: 2 | loss: 0.1885134
+	speed: 0.0318s/iter; left time: 1169.2318s
+	iters: 3800, epoch: 2 | loss: 0.1841421
+	speed: 0.0457s/iter; left time: 1675.0966s
+	iters: 3900, epoch: 2 | loss: 0.1946273
+	speed: 0.0449s/iter; left time: 1642.0865s
+	iters: 4000, epoch: 2 | loss: 0.1486043
+	speed: 0.0432s/iter; left time: 1577.0136s
+	iters: 4100, epoch: 2 | loss: 0.2211711
+	speed: 0.0346s/iter; left time: 1259.2440s
+	iters: 4200, epoch: 2 | loss: 0.1826052
+	speed: 0.0238s/iter; left time: 862.3009s
+	iters: 4300, epoch: 2 | loss: 0.2221639
+	speed: 0.0237s/iter; left time: 858.0067s
+	iters: 4400, epoch: 2 | loss: 0.1774979
+	speed: 0.0242s/iter; left time: 872.5268s
+Epoch: 2 cost time: 108.52114820480347
+Epoch: 2, Steps: 4496 | Train Loss: 0.1989383 Vali Loss: 0.1656635 Test Loss: 0.1895597
+Validation loss decreased (0.171528 --> 0.165664).  Saving model ...
+Updating learning rate to 0.00025
+	iters: 100, epoch: 3 | loss: 0.1944357
+	speed: 0.2264s/iter; left time: 8121.5600s
+	iters: 200, epoch: 3 | loss: 0.2727430
+	speed: 0.0220s/iter; left time: 785.9097s
+	iters: 300, epoch: 3 | loss: 0.1942665
+	speed: 0.0216s/iter; left time: 771.9370s
+	iters: 400, epoch: 3 | loss: 0.2249788
+	speed: 0.0228s/iter; left time: 811.9528s
+	iters: 500, epoch: 3 | loss: 0.1723840
+	speed: 0.0220s/iter; left time: 779.0429s
+	iters: 600, epoch: 3 | loss: 0.2270370
+	speed: 0.0220s/iter; left time: 777.0226s
+	iters: 700, epoch: 3 | loss: 0.1987671
+	speed: 0.0216s/iter; left time: 761.9560s
+	iters: 800, epoch: 3 | loss: 0.1673407
+	speed: 0.0212s/iter; left time: 745.9484s
+	iters: 900, epoch: 3 | loss: 0.1953405
+	speed: 0.0215s/iter; left time: 755.3319s
+	iters: 1000, epoch: 3 | loss: 0.2311405
+	speed: 0.0222s/iter; left time: 775.8379s
+	iters: 1100, epoch: 3 | loss: 0.1783908
+	speed: 0.0224s/iter; left time: 781.1742s
+	iters: 1200, epoch: 3 | loss: 0.1600361
+	speed: 0.0231s/iter; left time: 802.7606s
+	iters: 1300, epoch: 3 | loss: 0.1621909
+	speed: 0.0231s/iter; left time: 800.1082s
+	iters: 1400, epoch: 3 | loss: 0.1847973
+	speed: 0.0232s/iter; left time: 801.0535s
+	iters: 1500, epoch: 3 | loss: 0.1610416
+	speed: 0.0229s/iter; left time: 789.2196s
+	iters: 1600, epoch: 3 | loss: 0.1566692
+	speed: 0.0293s/iter; left time: 1007.3800s
+	iters: 1700, epoch: 3 | loss: 0.2055097
+	speed: 0.0446s/iter; left time: 1529.4708s
+	iters: 1800, epoch: 3 | loss: 0.2519004
+	speed: 0.0440s/iter; left time: 1503.9275s
+	iters: 1900, epoch: 3 | loss: 0.1630869
+	speed: 0.0330s/iter; left time: 1124.2212s
+	iters: 2000, epoch: 3 | loss: 0.1326320
+	speed: 0.0196s/iter; left time: 664.3347s
+	iters: 2100, epoch: 3 | loss: 0.2316985
+	speed: 0.0217s/iter; left time: 735.4021s
+	iters: 2200, epoch: 3 | loss: 0.1735636
+	speed: 0.0217s/iter; left time: 734.4591s
+	iters: 2300, epoch: 3 | loss: 0.2675378
+	speed: 0.0219s/iter; left time: 735.9819s
+	iters: 2400, epoch: 3 | loss: 0.1363657
+	speed: 0.0208s/iter; left time: 699.2210s
+	iters: 2500, epoch: 3 | loss: 0.1547870
+	speed: 0.0236s/iter; left time: 790.5861s
+	iters: 2600, epoch: 3 | loss: 0.1813286
+	speed: 0.0237s/iter; left time: 789.3590s
+	iters: 2700, epoch: 3 | loss: 0.1823272
+	speed: 0.0217s/iter; left time: 723.1515s
+	iters: 2800, epoch: 3 | loss: 0.1575731
+	speed: 0.0214s/iter; left time: 710.4822s
+	iters: 2900, epoch: 3 | loss: 0.1936866
+	speed: 0.0223s/iter; left time: 738.9508s
+	iters: 3000, epoch: 3 | loss: 0.1894619
+	speed: 0.0220s/iter; left time: 726.4266s
+	iters: 3100, epoch: 3 | loss: 0.1430186
+	speed: 0.0213s/iter; left time: 700.1973s
+	iters: 3200, epoch: 3 | loss: 0.1977727
+	speed: 0.0218s/iter; left time: 714.9438s
+	iters: 3300, epoch: 3 | loss: 0.1693747
+	speed: 0.0215s/iter; left time: 703.0416s
+	iters: 3400, epoch: 3 | loss: 0.1633476
+	speed: 0.0230s/iter; left time: 749.6224s
+	iters: 3500, epoch: 3 | loss: 0.1756253
+	speed: 0.0217s/iter; left time: 704.3678s
+	iters: 3600, epoch: 3 | loss: 0.1658996
+	speed: 0.0220s/iter; left time: 711.1215s
+	iters: 3700, epoch: 3 | loss: 0.1814455
+	speed: 0.0214s/iter; left time: 690.9228s
+	iters: 3800, epoch: 3 | loss: 0.2899775
+	speed: 0.0218s/iter; left time: 702.8408s
+	iters: 3900, epoch: 3 | loss: 0.1358849
+	speed: 0.0212s/iter; left time: 679.8038s
+	iters: 4000, epoch: 3 | loss: 0.1556686
+	speed: 0.0222s/iter; left time: 711.1618s
+	iters: 4100, epoch: 3 | loss: 0.1681540
+	speed: 0.0231s/iter; left time: 736.4581s
+	iters: 4200, epoch: 3 | loss: 0.2359289
+	speed: 0.0241s/iter; left time: 764.4759s
+	iters: 4300, epoch: 3 | loss: 0.2424419
+	speed: 0.0244s/iter; left time: 771.4886s
+	iters: 4400, epoch: 3 | loss: 0.2112349
+	speed: 0.0241s/iter; left time: 760.5633s
+Epoch: 3 cost time: 106.01903104782104
+Epoch: 3, Steps: 4496 | Train Loss: 0.1866575 Vali Loss: 0.1625239 Test Loss: 0.1833416
+Validation loss decreased (0.165664 --> 0.162524).  Saving model ...
+Updating learning rate to 0.000125
+	iters: 100, epoch: 4 | loss: 0.2141748
+	speed: 0.2440s/iter; left time: 7655.2111s
+	iters: 200, epoch: 4 | loss: 0.1708944
+	speed: 0.0215s/iter; left time: 673.4073s
+	iters: 300, epoch: 4 | loss: 0.1991654
+	speed: 0.0222s/iter; left time: 693.5542s
+	iters: 400, epoch: 4 | loss: 0.1872402
+	speed: 0.0223s/iter; left time: 694.1136s
+	iters: 500, epoch: 4 | loss: 0.1617443
+	speed: 0.0223s/iter; left time: 690.1334s
+	iters: 600, epoch: 4 | loss: 0.2013309
+	speed: 0.0217s/iter; left time: 670.4171s
+	iters: 700, epoch: 4 | loss: 0.2201300
+	speed: 0.0219s/iter; left time: 674.1556s
+	iters: 800, epoch: 4 | loss: 0.1963760
+	speed: 0.0209s/iter; left time: 639.8752s
+	iters: 900, epoch: 4 | loss: 0.2129894
+	speed: 0.0224s/iter; left time: 684.3236s
+	iters: 1000, epoch: 4 | loss: 0.2264751
+	speed: 0.0220s/iter; left time: 671.2059s
+	iters: 1100, epoch: 4 | loss: 0.2007156
+	speed: 0.0218s/iter; left time: 660.7728s
+	iters: 1200, epoch: 4 | loss: 0.1769030
+	speed: 0.0229s/iter; left time: 694.0721s
+	iters: 1300, epoch: 4 | loss: 0.2293905
+	speed: 0.0235s/iter; left time: 709.1018s
+	iters: 1400, epoch: 4 | loss: 0.1697337
+	speed: 0.0215s/iter; left time: 646.9070s
+	iters: 1500, epoch: 4 | loss: 0.1878184
+	speed: 0.0214s/iter; left time: 642.7789s
+	iters: 1600, epoch: 4 | loss: 0.1834706
+	speed: 0.0220s/iter; left time: 656.6184s
+	iters: 1700, epoch: 4 | loss: 0.2026404
+	speed: 0.0220s/iter; left time: 656.2573s
+	iters: 1800, epoch: 4 | loss: 0.1331710
+	speed: 0.0208s/iter; left time: 617.0352s
+	iters: 1900, epoch: 4 | loss: 0.1505736
+	speed: 0.0212s/iter; left time: 625.6886s
+	iters: 2000, epoch: 4 | loss: 0.1446618
+	speed: 0.0214s/iter; left time: 630.7049s
+	iters: 2100, epoch: 4 | loss: 0.1611997
+	speed: 0.0222s/iter; left time: 653.5163s
+	iters: 2200, epoch: 4 | loss: 0.1538082
+	speed: 0.0216s/iter; left time: 632.9160s
+	iters: 2300, epoch: 4 | loss: 0.1531361
+	speed: 0.0210s/iter; left time: 612.9689s
+	iters: 2400, epoch: 4 | loss: 0.2102910
+	speed: 0.0224s/iter; left time: 652.4804s
+	iters: 2500, epoch: 4 | loss: 0.1313229
+	speed: 0.0215s/iter; left time: 623.4152s
+	iters: 2600, epoch: 4 | loss: 0.1592075
+	speed: 0.0228s/iter; left time: 657.5143s
+	iters: 2700, epoch: 4 | loss: 0.1672665
+	speed: 0.0239s/iter; left time: 687.0979s
+	iters: 2800, epoch: 4 | loss: 0.1808012
+	speed: 0.0216s/iter; left time: 620.1197s
+	iters: 2900, epoch: 4 | loss: 0.1562211
+	speed: 0.0218s/iter; left time: 621.5287s
+	iters: 3000, epoch: 4 | loss: 0.1806290
+	speed: 0.0211s/iter; left time: 601.0560s
+	iters: 3100, epoch: 4 | loss: 0.1462734
+	speed: 0.0223s/iter; left time: 633.5203s
+	iters: 3200, epoch: 4 | loss: 0.1582446
+	speed: 0.0235s/iter; left time: 664.8545s
+	iters: 3300, epoch: 4 | loss: 0.1893398
+	speed: 0.0212s/iter; left time: 596.1939s
+	iters: 3400, epoch: 4 | loss: 0.1450918
+	speed: 0.0235s/iter; left time: 659.5079s
+	iters: 3500, epoch: 4 | loss: 0.1290252
+	speed: 0.0236s/iter; left time: 661.4896s
+	iters: 3600, epoch: 4 | loss: 0.1594742
+	speed: 0.0224s/iter; left time: 624.9730s
+	iters: 3700, epoch: 4 | loss: 0.1747155
+	speed: 0.0210s/iter; left time: 582.4805s
+	iters: 3800, epoch: 4 | loss: 0.1601726
+	speed: 0.0239s/iter; left time: 660.9790s
+	iters: 3900, epoch: 4 | loss: 0.1624030
+	speed: 0.0242s/iter; left time: 667.9157s
+	iters: 4000, epoch: 4 | loss: 0.1747640
+	speed: 0.0217s/iter; left time: 596.2122s
+	iters: 4100, epoch: 4 | loss: 0.1462927
+	speed: 0.0233s/iter; left time: 636.9766s
+	iters: 4200, epoch: 4 | loss: 0.1485371
+	speed: 0.0243s/iter; left time: 663.1951s
+	iters: 4300, epoch: 4 | loss: 0.2528505
+	speed: 0.0228s/iter; left time: 620.6983s
+	iters: 4400, epoch: 4 | loss: 0.1496871
+	speed: 0.0228s/iter; left time: 618.3879s
+Epoch: 4 cost time: 100.01899886131287
+Epoch: 4, Steps: 4496 | Train Loss: 0.1781125 Vali Loss: 0.1584963 Test Loss: 0.1800104
+Validation loss decreased (0.162524 --> 0.158496).  Saving model ...
+Updating learning rate to 6.25e-05
+	iters: 100, epoch: 5 | loss: 0.1999405
+	speed: 0.4762s/iter; left time: 12799.7085s
+	iters: 200, epoch: 5 | loss: 0.1522766
+	speed: 0.0216s/iter; left time: 577.6326s
+	iters: 300, epoch: 5 | loss: 0.2126481
+	speed: 0.0212s/iter; left time: 566.6251s
+	iters: 400, epoch: 5 | loss: 0.1606210
+	speed: 0.0216s/iter; left time: 574.3333s
+	iters: 500, epoch: 5 | loss: 0.1397684
+	speed: 0.0221s/iter; left time: 584.2381s
+	iters: 600, epoch: 5 | loss: 0.1888956
+	speed: 0.0224s/iter; left time: 589.7906s
+	iters: 700, epoch: 5 | loss: 0.1735024
+	speed: 0.0219s/iter; left time: 576.5287s
+	iters: 800, epoch: 5 | loss: 0.1547410
+	speed: 0.0222s/iter; left time: 581.0754s
+	iters: 900, epoch: 5 | loss: 0.1904502
+	speed: 0.0234s/iter; left time: 610.0463s
+	iters: 1000, epoch: 5 | loss: 0.1343201
+	speed: 0.0217s/iter; left time: 562.8454s
+	iters: 1100, epoch: 5 | loss: 0.1378489
+	speed: 0.0224s/iter; left time: 580.8853s
+	iters: 1200, epoch: 5 | loss: 0.1749005
+	speed: 0.0231s/iter; left time: 595.5388s
+	iters: 1300, epoch: 5 | loss: 0.1522842
+	speed: 0.0227s/iter; left time: 582.4290s
+	iters: 1400, epoch: 5 | loss: 0.1412991
+	speed: 0.0228s/iter; left time: 582.9253s
+	iters: 1500, epoch: 5 | loss: 0.1728153
+	speed: 0.0228s/iter; left time: 579.6904s
+	iters: 1600, epoch: 5 | loss: 0.1590154
+	speed: 0.0228s/iter; left time: 577.8948s
+	iters: 1700, epoch: 5 | loss: 0.1708228
+	speed: 0.0233s/iter; left time: 588.6036s
+	iters: 1800, epoch: 5 | loss: 0.1965363
+	speed: 0.0229s/iter; left time: 577.1299s
+	iters: 1900, epoch: 5 | loss: 0.1673527
+	speed: 0.0337s/iter; left time: 844.6194s
+	iters: 2000, epoch: 5 | loss: 0.2136692
+	speed: 0.0465s/iter; left time: 1162.0752s
+	iters: 2100, epoch: 5 | loss: 0.2005460
+	speed: 0.0451s/iter; left time: 1121.6376s
+	iters: 2200, epoch: 5 | loss: 0.1505041
+	speed: 0.0295s/iter; left time: 731.8799s
+	iters: 2300, epoch: 5 | loss: 0.2223331
+	speed: 0.0222s/iter; left time: 548.8251s
+	iters: 2400, epoch: 5 | loss: 0.1733602
+	speed: 0.0233s/iter; left time: 572.5116s
+	iters: 2500, epoch: 5 | loss: 0.2032046
+	speed: 0.0216s/iter; left time: 529.2736s
+	iters: 2600, epoch: 5 | loss: 0.1703018
+	speed: 0.0219s/iter; left time: 534.8092s
+	iters: 2700, epoch: 5 | loss: 0.1625834
+	speed: 0.0217s/iter; left time: 527.5466s
+	iters: 2800, epoch: 5 | loss: 0.1621924
+	speed: 0.0229s/iter; left time: 553.8775s
+	iters: 2900, epoch: 5 | loss: 0.1573015
+	speed: 0.0225s/iter; left time: 541.1798s
+	iters: 3000, epoch: 5 | loss: 0.2573681
+	speed: 0.0215s/iter; left time: 516.1745s
+	iters: 3100, epoch: 5 | loss: 0.1994567
+	speed: 0.0224s/iter; left time: 534.8884s
+	iters: 3200, epoch: 5 | loss: 0.1306750
+	speed: 0.0224s/iter; left time: 533.1051s
+	iters: 3300, epoch: 5 | loss: 0.1558291
+	speed: 0.0211s/iter; left time: 498.9628s
+	iters: 3400, epoch: 5 | loss: 0.1632250
+	speed: 0.0224s/iter; left time: 529.0178s
+	iters: 3500, epoch: 5 | loss: 0.1575946
+	speed: 0.0221s/iter; left time: 517.8880s
+	iters: 3600, epoch: 5 | loss: 0.1529517
+	speed: 0.0228s/iter; left time: 532.7184s
+	iters: 3700, epoch: 5 | loss: 0.2238817
+	speed: 0.0233s/iter; left time: 542.2880s
+	iters: 3800, epoch: 5 | loss: 0.1431669
+	speed: 0.0225s/iter; left time: 522.0972s
+	iters: 3900, epoch: 5 | loss: 0.2322941
+	speed: 0.0218s/iter; left time: 502.2490s
+	iters: 4000, epoch: 5 | loss: 0.1807494
+	speed: 0.0214s/iter; left time: 492.8153s
+	iters: 4100, epoch: 5 | loss: 0.1594727
+	speed: 0.0216s/iter; left time: 494.4139s
+	iters: 4200, epoch: 5 | loss: 0.1676601
+	speed: 0.0212s/iter; left time: 482.6892s
+	iters: 4300, epoch: 5 | loss: 0.2345551
+	speed: 0.0221s/iter; left time: 500.9810s
+	iters: 4400, epoch: 5 | loss: 0.1451232
+	speed: 0.0213s/iter; left time: 481.9196s
+Epoch: 5 cost time: 106.70577764511108
+Epoch: 5, Steps: 4496 | Train Loss: 0.1709797 Vali Loss: 0.1604047 Test Loss: 0.1814761
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 3.125e-05
+	iters: 100, epoch: 6 | loss: 0.1511432
+	speed: 0.2400s/iter; left time: 5371.0429s
+	iters: 200, epoch: 6 | loss: 0.1579354
+	speed: 0.0240s/iter; left time: 535.2101s
+	iters: 300, epoch: 6 | loss: 0.2305663
+	speed: 0.0235s/iter; left time: 520.9503s
+	iters: 400, epoch: 6 | loss: 0.2412907
+	speed: 0.0245s/iter; left time: 540.4104s
+	iters: 500, epoch: 6 | loss: 0.1368438
+	speed: 0.0219s/iter; left time: 482.0671s
+	iters: 600, epoch: 6 | loss: 0.1504559
+	speed: 0.0227s/iter; left time: 495.6536s
+	iters: 700, epoch: 6 | loss: 0.1840051
+	speed: 0.0215s/iter; left time: 467.7947s
+	iters: 800, epoch: 6 | loss: 0.1472838
+	speed: 0.0223s/iter; left time: 484.2133s
+	iters: 900, epoch: 6 | loss: 0.1409029
+	speed: 0.0224s/iter; left time: 482.4790s
+	iters: 1000, epoch: 6 | loss: 0.1819957
+	speed: 0.0220s/iter; left time: 471.5837s
+	iters: 1100, epoch: 6 | loss: 0.1819615
+	speed: 0.0215s/iter; left time: 460.6461s
+	iters: 1200, epoch: 6 | loss: 0.1808245
+	speed: 0.0224s/iter; left time: 477.7233s
+	iters: 1300, epoch: 6 | loss: 0.1450933
+	speed: 0.0217s/iter; left time: 458.9645s
+	iters: 1400, epoch: 6 | loss: 0.1586746
+	speed: 0.0221s/iter; left time: 464.9653s
+	iters: 1500, epoch: 6 | loss: 0.1674049
+	speed: 0.0215s/iter; left time: 450.1220s
+	iters: 1600, epoch: 6 | loss: 0.2155708
+	speed: 0.0213s/iter; left time: 443.9034s
+	iters: 1700, epoch: 6 | loss: 0.1435215
+	speed: 0.0218s/iter; left time: 453.4971s
+	iters: 1800, epoch: 6 | loss: 0.1755262
+	speed: 0.0220s/iter; left time: 453.9481s
+	iters: 1900, epoch: 6 | loss: 0.2089840
+	speed: 0.0226s/iter; left time: 465.8408s
+	iters: 2000, epoch: 6 | loss: 0.2225338
+	speed: 0.0218s/iter; left time: 445.5483s
+	iters: 2100, epoch: 6 | loss: 0.1715438
+	speed: 0.0218s/iter; left time: 444.7992s
+	iters: 2200, epoch: 6 | loss: 0.1442922
+	speed: 0.0219s/iter; left time: 443.3836s
+	iters: 2300, epoch: 6 | loss: 0.1596158
+	speed: 0.0237s/iter; left time: 478.5030s
+	iters: 2400, epoch: 6 | loss: 0.1588876
+	speed: 0.0223s/iter; left time: 447.1034s
+	iters: 2500, epoch: 6 | loss: 0.1647266
+	speed: 0.0220s/iter; left time: 439.2400s
+	iters: 2600, epoch: 6 | loss: 0.2141975
+	speed: 0.0220s/iter; left time: 437.2157s
+	iters: 2700, epoch: 6 | loss: 0.1686709
+	speed: 0.0224s/iter; left time: 443.7856s
+	iters: 2800, epoch: 6 | loss: 0.1628896
+	speed: 0.0213s/iter; left time: 419.6112s
+	iters: 2900, epoch: 6 | loss: 0.1389699
+	speed: 0.0217s/iter; left time: 424.3855s
+	iters: 3000, epoch: 6 | loss: 0.2047233
+	speed: 0.0218s/iter; left time: 424.6493s
+	iters: 3100, epoch: 6 | loss: 0.1554531
+	speed: 0.0226s/iter; left time: 438.1648s
+	iters: 3200, epoch: 6 | loss: 0.2047003
+	speed: 0.0235s/iter; left time: 452.7479s
+	iters: 3300, epoch: 6 | loss: 0.1598097
+	speed: 0.0213s/iter; left time: 408.8775s
+	iters: 3400, epoch: 6 | loss: 0.1565947
+	speed: 0.0221s/iter; left time: 422.0513s
+	iters: 3500, epoch: 6 | loss: 0.1760450
+	speed: 0.0214s/iter; left time: 406.6528s
+	iters: 3600, epoch: 6 | loss: 0.1972366
+	speed: 0.0223s/iter; left time: 420.9095s
+	iters: 3700, epoch: 6 | loss: 0.1361470
+	speed: 0.0212s/iter; left time: 398.6078s
+	iters: 3800, epoch: 6 | loss: 0.1832550
+	speed: 0.0222s/iter; left time: 414.8637s
+	iters: 3900, epoch: 6 | loss: 0.1655040
+	speed: 0.0223s/iter; left time: 414.9056s
+	iters: 4000, epoch: 6 | loss: 0.1804313
+	speed: 0.0226s/iter; left time: 417.5672s
+	iters: 4100, epoch: 6 | loss: 0.1630917
+	speed: 0.0212s/iter; left time: 389.9864s
+	iters: 4200, epoch: 6 | loss: 0.1747667
+	speed: 0.0222s/iter; left time: 405.3164s
+	iters: 4300, epoch: 6 | loss: 0.1503778
+	speed: 0.0225s/iter; left time: 409.5697s
+	iters: 4400, epoch: 6 | loss: 0.1478754
+	speed: 0.0228s/iter; left time: 412.5379s
+Epoch: 6 cost time: 99.72213006019592
+Epoch: 6, Steps: 4496 | Train Loss: 0.1665071 Vali Loss: 0.1564492 Test Loss: 0.1775047
+Validation loss decreased (0.158496 --> 0.156449).  Saving model ...
+Updating learning rate to 1.5625e-05
+	iters: 100, epoch: 7 | loss: 0.1358422
+	speed: 0.2232s/iter; left time: 3992.4920s
+	iters: 200, epoch: 7 | loss: 0.1166080
+	speed: 0.0273s/iter; left time: 485.8836s
+	iters: 300, epoch: 7 | loss: 0.1585487
+	speed: 0.0282s/iter; left time: 498.5049s
+	iters: 400, epoch: 7 | loss: 0.1482099
+	speed: 0.0270s/iter; left time: 475.6505s
+	iters: 500, epoch: 7 | loss: 0.2106556
+	speed: 0.0269s/iter; left time: 470.6543s
+	iters: 600, epoch: 7 | loss: 0.2005019
+	speed: 0.0277s/iter; left time: 480.9138s
+	iters: 700, epoch: 7 | loss: 0.1615197
+	speed: 0.0286s/iter; left time: 494.2307s
+	iters: 800, epoch: 7 | loss: 0.1636780
+	speed: 0.0324s/iter; left time: 557.1932s
+	iters: 900, epoch: 7 | loss: 0.1272359
+	speed: 0.0407s/iter; left time: 696.0930s
+	iters: 1000, epoch: 7 | loss: 0.1836721
+	speed: 0.0411s/iter; left time: 698.1354s
+	iters: 1100, epoch: 7 | loss: 0.1570464
+	speed: 0.0401s/iter; left time: 676.7220s
+	iters: 1200, epoch: 7 | loss: 0.1522359
+	speed: 0.0247s/iter; left time: 413.9059s
+	iters: 1300, epoch: 7 | loss: 0.1214120
+	speed: 0.0219s/iter; left time: 366.0816s
+	iters: 1400, epoch: 7 | loss: 0.1298838
+	speed: 0.0222s/iter; left time: 368.2205s
+	iters: 1500, epoch: 7 | loss: 0.1654093
+	speed: 0.0232s/iter; left time: 381.8483s
+	iters: 1600, epoch: 7 | loss: 0.1815110
+	speed: 0.0209s/iter; left time: 343.1945s
+	iters: 1700, epoch: 7 | loss: 0.1152764
+	speed: 0.0234s/iter; left time: 380.5847s
+	iters: 1800, epoch: 7 | loss: 0.1637205
+	speed: 0.0216s/iter; left time: 348.9175s
+	iters: 1900, epoch: 7 | loss: 0.1948100
+	speed: 0.0234s/iter; left time: 375.8352s
+	iters: 2000, epoch: 7 | loss: 0.1963824
+	speed: 0.0215s/iter; left time: 344.1411s
+	iters: 2100, epoch: 7 | loss: 0.1380657
+	speed: 0.0217s/iter; left time: 345.4055s
+	iters: 2200, epoch: 7 | loss: 0.1639760
+	speed: 0.0230s/iter; left time: 362.9920s
+	iters: 2300, epoch: 7 | loss: 0.1428429
+	speed: 0.0231s/iter; left time: 362.2181s
+	iters: 2400, epoch: 7 | loss: 0.1802903
+	speed: 0.0230s/iter; left time: 358.5432s
+	iters: 2500, epoch: 7 | loss: 0.1483333
+	speed: 0.0225s/iter; left time: 348.3972s
+	iters: 2600, epoch: 7 | loss: 0.1692613
+	speed: 0.0235s/iter; left time: 361.3117s
+	iters: 2700, epoch: 7 | loss: 0.1653343
+	speed: 0.0228s/iter; left time: 349.1973s
+	iters: 2800, epoch: 7 | loss: 0.1417521
+	speed: 0.0322s/iter; left time: 488.3257s
+	iters: 2900, epoch: 7 | loss: 0.1707803
+	speed: 0.0473s/iter; left time: 714.1372s
+	iters: 3000, epoch: 7 | loss: 0.1475481
+	speed: 0.0428s/iter; left time: 640.8241s
+	iters: 3100, epoch: 7 | loss: 0.1757720
+	speed: 0.0308s/iter; left time: 458.8917s
+	iters: 3200, epoch: 7 | loss: 0.1827334
+	speed: 0.0222s/iter; left time: 328.1199s
+	iters: 3300, epoch: 7 | loss: 0.1869000
+	speed: 0.0220s/iter; left time: 323.1084s
+	iters: 3400, epoch: 7 | loss: 0.1461061
+	speed: 0.0225s/iter; left time: 327.5350s
+	iters: 3500, epoch: 7 | loss: 0.2077871
+	speed: 0.0221s/iter; left time: 320.0557s
+	iters: 3600, epoch: 7 | loss: 0.1402379
+	speed: 0.0232s/iter; left time: 333.9029s
+	iters: 3700, epoch: 7 | loss: 0.2043974
+	speed: 0.0223s/iter; left time: 317.8453s
+	iters: 3800, epoch: 7 | loss: 0.1528666
+	speed: 0.0215s/iter; left time: 305.4949s
+	iters: 3900, epoch: 7 | loss: 0.1646262
+	speed: 0.0216s/iter; left time: 304.3304s
+	iters: 4000, epoch: 7 | loss: 0.2312454
+	speed: 0.0238s/iter; left time: 332.6794s
+	iters: 4100, epoch: 7 | loss: 0.2035731
+	speed: 0.0214s/iter; left time: 297.5511s
+	iters: 4200, epoch: 7 | loss: 0.1660306
+	speed: 0.0223s/iter; left time: 307.4676s
+	iters: 4300, epoch: 7 | loss: 0.1439977
+	speed: 0.0226s/iter; left time: 309.5013s
+	iters: 4400, epoch: 7 | loss: 0.1628600
+	speed: 0.0223s/iter; left time: 302.2760s
+Epoch: 7 cost time: 116.90822243690491
+Epoch: 7, Steps: 4496 | Train Loss: 0.1639853 Vali Loss: 0.1564415 Test Loss: 0.1772285
+Validation loss decreased (0.156449 --> 0.156441).  Saving model ...
+Updating learning rate to 7.8125e-06
+	iters: 100, epoch: 8 | loss: 0.1516407
+	speed: 0.2304s/iter; left time: 3084.8299s
+	iters: 200, epoch: 8 | loss: 0.1436521
+	speed: 0.0263s/iter; left time: 350.0148s
+	iters: 300, epoch: 8 | loss: 0.1636693
+	speed: 0.0256s/iter; left time: 338.2914s
+	iters: 400, epoch: 8 | loss: 0.1591083
+	speed: 0.0267s/iter; left time: 348.8380s
+	iters: 500, epoch: 8 | loss: 0.1300875
+	speed: 0.0301s/iter; left time: 390.8236s
+	iters: 600, epoch: 8 | loss: 0.1716167
+	speed: 0.0301s/iter; left time: 387.7654s
+	iters: 700, epoch: 8 | loss: 0.1751390
+	speed: 0.0294s/iter; left time: 376.3674s
+	iters: 800, epoch: 8 | loss: 0.1637000
+	speed: 0.0280s/iter; left time: 355.1956s
+	iters: 900, epoch: 8 | loss: 0.1671222
+	speed: 0.0282s/iter; left time: 355.2504s
+	iters: 1000, epoch: 8 | loss: 0.1528290
+	speed: 0.0292s/iter; left time: 364.0626s
+	iters: 1100, epoch: 8 | loss: 0.1703644
+	speed: 0.0267s/iter; left time: 330.8944s
+	iters: 1200, epoch: 8 | loss: 0.1527594
+	speed: 0.0251s/iter; left time: 308.2419s
+	iters: 1300, epoch: 8 | loss: 0.1533018
+	speed: 0.0260s/iter; left time: 316.9460s
+	iters: 1400, epoch: 8 | loss: 0.1933595
+	speed: 0.0278s/iter; left time: 335.5233s
+	iters: 1500, epoch: 8 | loss: 0.1391153
+	speed: 0.0268s/iter; left time: 321.5740s
+	iters: 1600, epoch: 8 | loss: 0.1290485
+	speed: 0.0255s/iter; left time: 302.7559s
+	iters: 1700, epoch: 8 | loss: 0.1476538
+	speed: 0.0259s/iter; left time: 304.9342s
+	iters: 1800, epoch: 8 | loss: 0.1233803
+	speed: 0.0253s/iter; left time: 295.2071s
+	iters: 1900, epoch: 8 | loss: 0.2170395
+	speed: 0.0267s/iter; left time: 309.2786s
+	iters: 2000, epoch: 8 | loss: 0.1589350
+	speed: 0.0245s/iter; left time: 282.0257s
+	iters: 2100, epoch: 8 | loss: 0.1521084
+	speed: 0.0256s/iter; left time: 291.8998s
+	iters: 2200, epoch: 8 | loss: 0.1807878
+	speed: 0.0252s/iter; left time: 283.9841s
+	iters: 2300, epoch: 8 | loss: 0.1470947
+	speed: 0.0273s/iter; left time: 305.7732s
+	iters: 2400, epoch: 8 | loss: 0.1432555
+	speed: 0.0256s/iter; left time: 283.8145s
+	iters: 2500, epoch: 8 | loss: 0.1955324
+	speed: 0.0254s/iter; left time: 279.0046s
+	iters: 2600, epoch: 8 | loss: 0.1859112
+	speed: 0.0268s/iter; left time: 292.3114s
+	iters: 2700, epoch: 8 | loss: 0.1741886
+	speed: 0.0257s/iter; left time: 277.1997s
+	iters: 2800, epoch: 8 | loss: 0.1396560
+	speed: 0.0237s/iter; left time: 253.7631s
+	iters: 2900, epoch: 8 | loss: 0.1429072
+	speed: 0.0282s/iter; left time: 298.9150s
+	iters: 3000, epoch: 8 | loss: 0.1943148
+	speed: 0.0219s/iter; left time: 230.2069s
+	iters: 3100, epoch: 8 | loss: 0.1496283
+	speed: 0.0287s/iter; left time: 298.3277s
+	iters: 3200, epoch: 8 | loss: 0.1340861
+	speed: 0.0219s/iter; left time: 224.9190s
+	iters: 3300, epoch: 8 | loss: 0.1459806
+	speed: 0.0264s/iter; left time: 269.0093s
+	iters: 3400, epoch: 8 | loss: 0.1675528
+	speed: 0.0266s/iter; left time: 268.6092s
+	iters: 3500, epoch: 8 | loss: 0.1557545
+	speed: 0.0225s/iter; left time: 224.4393s
+	iters: 3600, epoch: 8 | loss: 0.1495241
+	speed: 0.0257s/iter; left time: 253.8094s
+	iters: 3700, epoch: 8 | loss: 0.1471640
+	speed: 0.0292s/iter; left time: 286.2208s
+	iters: 3800, epoch: 8 | loss: 0.1922787
+	speed: 0.0257s/iter; left time: 248.6185s
+	iters: 3900, epoch: 8 | loss: 0.1412157
+	speed: 0.0225s/iter; left time: 216.0828s
+	iters: 4000, epoch: 8 | loss: 0.1700084
+	speed: 0.0223s/iter; left time: 211.2651s
+	iters: 4100, epoch: 8 | loss: 0.1332818
+	speed: 0.0283s/iter; left time: 265.2804s
+	iters: 4200, epoch: 8 | loss: 0.1718632
+	speed: 0.0281s/iter; left time: 261.0740s
+	iters: 4300, epoch: 8 | loss: 0.1354544
+	speed: 0.0301s/iter; left time: 276.2052s
+	iters: 4400, epoch: 8 | loss: 0.1483938
+	speed: 0.0247s/iter; left time: 224.7316s
+Epoch: 8 cost time: 117.66878366470337
+Epoch: 8, Steps: 4496 | Train Loss: 0.1627644 Vali Loss: 0.1568506 Test Loss: 0.1777677
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 3.90625e-06
+	iters: 100, epoch: 9 | loss: 0.1259945
+	speed: 0.2226s/iter; left time: 1979.4220s
+	iters: 200, epoch: 9 | loss: 0.1956397
+	speed: 0.0206s/iter; left time: 180.9931s
+	iters: 300, epoch: 9 | loss: 0.1543796
+	speed: 0.0210s/iter; left time: 182.3371s
+	iters: 400, epoch: 9 | loss: 0.1559911
+	speed: 0.0245s/iter; left time: 210.7648s
+	iters: 500, epoch: 9 | loss: 0.1687132
+	speed: 0.0285s/iter; left time: 241.9728s
+	iters: 600, epoch: 9 | loss: 0.2101611
+	speed: 0.0281s/iter; left time: 235.5266s
+	iters: 700, epoch: 9 | loss: 0.1812360
+	speed: 0.0285s/iter; left time: 236.2664s
+	iters: 800, epoch: 9 | loss: 0.1200366
+	speed: 0.0295s/iter; left time: 241.8427s
+	iters: 900, epoch: 9 | loss: 0.1760635
+	speed: 0.0333s/iter; left time: 269.4419s
+	iters: 1000, epoch: 9 | loss: 0.1933468
+	speed: 0.0360s/iter; left time: 287.8120s
+	iters: 1100, epoch: 9 | loss: 0.1256376
+	speed: 0.0352s/iter; left time: 277.7172s
+	iters: 1200, epoch: 9 | loss: 0.1758719
+	speed: 0.0367s/iter; left time: 285.9176s
+	iters: 1300, epoch: 9 | loss: 0.1364897
+	speed: 0.0361s/iter; left time: 277.3768s
+	iters: 1400, epoch: 9 | loss: 0.1470095
+	speed: 0.0341s/iter; left time: 258.7953s
+	iters: 1500, epoch: 9 | loss: 0.1274221
+	speed: 0.0253s/iter; left time: 189.5852s
+	iters: 1600, epoch: 9 | loss: 0.1888295
+	speed: 0.0233s/iter; left time: 172.2191s
+	iters: 1700, epoch: 9 | loss: 0.1454377
+	speed: 0.0227s/iter; left time: 165.8632s
+	iters: 1800, epoch: 9 | loss: 0.1455457
+	speed: 0.0242s/iter; left time: 174.3039s
+	iters: 1900, epoch: 9 | loss: 0.1357321
+	speed: 0.0226s/iter; left time: 160.6500s
+	iters: 2000, epoch: 9 | loss: 0.1621704
+	speed: 0.0237s/iter; left time: 165.4522s
+	iters: 2100, epoch: 9 | loss: 0.1457093
+	speed: 0.0240s/iter; left time: 165.4209s
+	iters: 2200, epoch: 9 | loss: 0.1427180
+	speed: 0.0236s/iter; left time: 160.4777s
+	iters: 2300, epoch: 9 | loss: 0.1418164
+	speed: 0.0242s/iter; left time: 162.1981s
+	iters: 2400, epoch: 9 | loss: 0.1459140
+	speed: 0.0252s/iter; left time: 166.0412s
+	iters: 2500, epoch: 9 | loss: 0.1974730
+	speed: 0.0246s/iter; left time: 159.8607s
+	iters: 2600, epoch: 9 | loss: 0.1278471
+	speed: 0.0257s/iter; left time: 164.2915s
+	iters: 2700, epoch: 9 | loss: 0.2036865
+	speed: 0.0246s/iter; left time: 154.6157s
+	iters: 2800, epoch: 9 | loss: 0.1477814
+	speed: 0.0257s/iter; left time: 158.9679s
+	iters: 2900, epoch: 9 | loss: 0.1545267
+	speed: 0.0414s/iter; left time: 251.9481s
+	iters: 3000, epoch: 9 | loss: 0.1770940
+	speed: 0.0467s/iter; left time: 279.8422s
+	iters: 3100, epoch: 9 | loss: 0.1926384
+	speed: 0.0440s/iter; left time: 259.2220s
+	iters: 3200, epoch: 9 | loss: 0.1377911
+	speed: 0.0427s/iter; left time: 247.1879s
+	iters: 3300, epoch: 9 | loss: 0.1510154
+	speed: 0.0226s/iter; left time: 128.9340s
+	iters: 3400, epoch: 9 | loss: 0.1321822
+	speed: 0.0221s/iter; left time: 123.3783s
+	iters: 3500, epoch: 9 | loss: 0.1327204
+	speed: 0.0224s/iter; left time: 122.8539s
+	iters: 3600, epoch: 9 | loss: 0.1737953
+	speed: 0.0218s/iter; left time: 117.5727s
+	iters: 3700, epoch: 9 | loss: 0.1443195
+	speed: 0.0225s/iter; left time: 118.9282s
+	iters: 3800, epoch: 9 | loss: 0.2031742
+	speed: 0.0232s/iter; left time: 120.6915s
+	iters: 3900, epoch: 9 | loss: 0.1620958
+	speed: 0.0222s/iter; left time: 113.1969s
+	iters: 4000, epoch: 9 | loss: 0.1704013
+	speed: 0.0221s/iter; left time: 110.2822s
+	iters: 4100, epoch: 9 | loss: 0.1485990
+	speed: 0.0217s/iter; left time: 106.3303s
+	iters: 4200, epoch: 9 | loss: 0.1672972
+	speed: 0.0233s/iter; left time: 111.4812s
+	iters: 4300, epoch: 9 | loss: 0.1568044
+	speed: 0.0224s/iter; left time: 105.2230s
+	iters: 4400, epoch: 9 | loss: 0.1662139
+	speed: 0.0231s/iter; left time: 105.9778s
+Epoch: 9 cost time: 121.89569473266602
+Epoch: 9, Steps: 4496 | Train Loss: 0.1621327 Vali Loss: 0.1566742 Test Loss: 0.1779873
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.953125e-06
+	iters: 100, epoch: 10 | loss: 0.1922436
+	speed: 0.2554s/iter; left time: 1123.1761s
+	iters: 200, epoch: 10 | loss: 0.1560910
+	speed: 0.0376s/iter; left time: 161.6193s
+	iters: 300, epoch: 10 | loss: 0.1490447
+	speed: 0.0233s/iter; left time: 97.9004s
+	iters: 400, epoch: 10 | loss: 0.1546557
+	speed: 0.0228s/iter; left time: 93.5225s
+	iters: 500, epoch: 10 | loss: 0.1565759
+	speed: 0.0241s/iter; left time: 96.2805s
+	iters: 600, epoch: 10 | loss: 0.1325862
+	speed: 0.0210s/iter; left time: 81.6924s
+	iters: 700, epoch: 10 | loss: 0.1647143
+	speed: 0.0227s/iter; left time: 86.0572s
+	iters: 800, epoch: 10 | loss: 0.1526418
+	speed: 0.0226s/iter; left time: 83.4539s
+	iters: 900, epoch: 10 | loss: 0.1778479
+	speed: 0.0228s/iter; left time: 82.1166s
+	iters: 1000, epoch: 10 | loss: 0.1739615
+	speed: 0.0240s/iter; left time: 83.7590s
+	iters: 1100, epoch: 10 | loss: 0.1849799
+	speed: 0.0271s/iter; left time: 91.9759s
+	iters: 1200, epoch: 10 | loss: 0.1382252
+	speed: 0.0285s/iter; left time: 94.0462s
+	iters: 1300, epoch: 10 | loss: 0.1593180
+	speed: 0.0302s/iter; left time: 96.4108s
+	iters: 1400, epoch: 10 | loss: 0.1730783
+	speed: 0.0359s/iter; left time: 111.0756s
+	iters: 1500, epoch: 10 | loss: 0.1549792
+	speed: 0.0265s/iter; left time: 79.5010s
+	iters: 1600, epoch: 10 | loss: 0.1617334
+	speed: 0.0269s/iter; left time: 78.0258s
+	iters: 1700, epoch: 10 | loss: 0.1372303
+	speed: 0.0243s/iter; left time: 68.0926s
+	iters: 1800, epoch: 10 | loss: 0.1519907
+	speed: 0.0259s/iter; left time: 69.9775s
+	iters: 1900, epoch: 10 | loss: 0.1625710
+	speed: 0.0258s/iter; left time: 66.8948s
+	iters: 2000, epoch: 10 | loss: 0.1508743
+	speed: 0.0235s/iter; left time: 58.7923s
+	iters: 2100, epoch: 10 | loss: 0.1882216
+	speed: 0.0378s/iter; left time: 90.7218s
+	iters: 2200, epoch: 10 | loss: 0.1489246
+	speed: 0.0438s/iter; left time: 100.7057s
+	iters: 2300, epoch: 10 | loss: 0.1462617
+	speed: 0.0439s/iter; left time: 96.3978s
+	iters: 2400, epoch: 10 | loss: 0.1599662
+	speed: 0.0280s/iter; left time: 58.6980s
+	iters: 2500, epoch: 10 | loss: 0.1855197
+	speed: 0.0217s/iter; left time: 43.4223s
+	iters: 2600, epoch: 10 | loss: 0.1401390
+	speed: 0.0235s/iter; left time: 44.5380s
+	iters: 2700, epoch: 10 | loss: 0.1767933
+	speed: 0.0213s/iter; left time: 38.2872s
+	iters: 2800, epoch: 10 | loss: 0.1516996
+	speed: 0.0240s/iter; left time: 40.7067s
+	iters: 2900, epoch: 10 | loss: 0.1293272
+	speed: 0.0221s/iter; left time: 35.2972s
+	iters: 3000, epoch: 10 | loss: 0.1436553
+	speed: 0.0222s/iter; left time: 33.2003s
+	iters: 3100, epoch: 10 | loss: 0.1524069
+	speed: 0.0213s/iter; left time: 29.8125s
+	iters: 3200, epoch: 10 | loss: 0.1478765
+	speed: 0.0232s/iter; left time: 30.0506s
+	iters: 3300, epoch: 10 | loss: 0.1533478
+	speed: 0.0215s/iter; left time: 25.7507s
+	iters: 3400, epoch: 10 | loss: 0.1514879
+	speed: 0.0219s/iter; left time: 24.0238s
+	iters: 3500, epoch: 10 | loss: 0.1316164
+	speed: 0.0219s/iter; left time: 21.8105s
+	iters: 3600, epoch: 10 | loss: 0.1485019
+	speed: 0.0227s/iter; left time: 20.3487s
+	iters: 3700, epoch: 10 | loss: 0.1518072
+	speed: 0.0225s/iter; left time: 17.9656s
+	iters: 3800, epoch: 10 | loss: 0.2329929
+	speed: 0.0220s/iter; left time: 15.3643s
+	iters: 3900, epoch: 10 | loss: 0.2271180
+	speed: 0.0215s/iter; left time: 12.8381s
+	iters: 4000, epoch: 10 | loss: 0.1389381
+	speed: 0.0223s/iter; left time: 11.0691s
+	iters: 4100, epoch: 10 | loss: 0.1576100
+	speed: 0.0225s/iter; left time: 8.9208s
+	iters: 4200, epoch: 10 | loss: 0.1482275
+	speed: 0.0212s/iter; left time: 6.2829s
+	iters: 4300, epoch: 10 | loss: 0.1580252
+	speed: 0.0216s/iter; left time: 4.2574s
+	iters: 4400, epoch: 10 | loss: 0.1735557
+	speed: 0.0216s/iter; left time: 2.0907s
+Epoch: 10 cost time: 113.44132089614868
+Epoch: 10, Steps: 4496 | Train Loss: 0.1618167 Vali Loss: 0.1570678 Test Loss: 0.1782574
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : long_term_forecast_FPEMFinal_Electricity_96_336_iTransformer_custom_ftM_sl96_ll48_pl336_dm512_nh8_el3_dl1_df512_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_iTransformer_Electricity_336_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 4925
+test shape: (4925, 336, 321) (4925, 336, 321)
+test shape: (4925, 336, 321) (4925, 336, 321)
+mse:0.17710717022418976, mae:0.2714899182319641, dtw:Not calculated

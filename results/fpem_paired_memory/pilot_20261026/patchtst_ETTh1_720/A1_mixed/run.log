@@ -1,0 +1,12 @@
+
+ATTEMPT 1: /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_paired_memory_pilot.py --base_run_config /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_latent_decomposition_search/pilot_20261015/patchtst_ETTh1_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4/run_config.json --output /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paired_memory/pilot_20261026/patchtst_ETTh1_720/A1_mixed --mode A1 --hidden_view mixed --gpu 0 --epochs 10 --memory_cache /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paired_memory/pilot_20261026/patchtst_ETTh1_720/paired_memory_v2.pt --anchor_cache /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_predictive_memory/pilot_20261024/patchtst_ETTh1_720/phase0_cache.pt --max_batches 0
+{"epoch": 1, "train_mse": 0.5655866695910085, "val_selection_mse": 2.0859462695427324, "val_selection_mae": 1.0101894077702454}
+{"epoch": 2, "train_mse": 0.5551640335394412, "val_selection_mse": 2.1418870161394032, "val_selection_mae": 1.0306974929728836}
+{"epoch": 3, "train_mse": 0.557488024478056, "val_selection_mse": 2.1827505505722735, "val_selection_mae": 1.0426562614822164}
+{"epoch": 4, "train_mse": 0.5538222613383312, "val_selection_mse": 2.2101779973177544, "val_selection_mae": 1.0533380496536964}
+{"epoch": 5, "train_mse": 0.5545690905074684, "val_selection_mse": 2.2750683077050264, "val_selection_mae": 1.0772645370600014}
+{"epoch": 6, "train_mse": 0.5528639360350005, "val_selection_mse": 2.2414738056198558, "val_selection_mae": 1.0605478265886794}
+{"epoch": 7, "train_mse": 0.5561632038379202, "val_selection_mse": 2.2554248850630145, "val_selection_mae": 1.0670133090369636}
+{"epoch": 8, "train_mse": 0.5547994541878603, "val_selection_mse": 2.2990718781001984, "val_selection_mae": 1.080266820872832}
+{"epoch": 9, "train_mse": 0.5535112475862308, "val_selection_mse": 2.2925330888769473, "val_selection_mae": 1.0810582512928975}
+{"epoch": 10, "train_mse": 0.5523348372809741, "val_selection_mse": 2.32376813329016, "val_selection_mae": 1.0919086371527778}

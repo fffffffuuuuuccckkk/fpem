@@ -1,0 +1,5 @@
+TRIAL itransformer ExchangeRate 720 inherited 0.8150218725204468 pruned False
+TRIAL itransformer ExchangeRate 720 head_0.0001 0.8150218725204468 pruned False
+TRIAL itransformer ExchangeRate 720 head_0.0003 0.8150005340576172 pruned False
+TRIAL itransformer ExchangeRate 720 head_0.001 0.8150218725204468 pruned True
+COMPLETE itransformer ExchangeRate 720 {'mse': 0.8150005340576172, 'mae': 0.6785073280334473}

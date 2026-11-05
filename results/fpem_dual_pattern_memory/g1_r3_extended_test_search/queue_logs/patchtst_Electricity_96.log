@@ -1,0 +1,6 @@
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_final_patchtst_search/patchtst/Electricity/pred_96/shared_reference.pt
+TRIAL patchtst Electricity 96 inherited 0.18189917504787445 pruned False
+TRIAL patchtst Electricity 96 head_0.0003 0.18189917504787445 pruned False
+TRIAL patchtst Electricity 96 head_0.001 0.18189917504787445 pruned False
+TRIAL patchtst Electricity 96 head_0.003 0.18189917504787445 pruned True
+COMPLETE patchtst Electricity 96 {'mse': 0.18189917504787445, 'mae': 0.26740744709968567}

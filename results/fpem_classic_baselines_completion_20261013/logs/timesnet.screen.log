@@ -1,0 +1,1195 @@
+baseline queue=12/12 shard=0/1 GPUs=0 1 2 3
+dataset=ETTm1 pred_len=24 backbone=TimesNet GPU=0 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_24
+exact command: env CUDA_VISIBLE_DEVICES=0 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm1.csv --model_id FPEMBaseComplete20261013_ETTm1_96_24 --model TimesNet --data ETTm1 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 24 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm1_24 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_24/checkpoints --top_k 5 --num_kernels 6 
+dataset=ETTm1 pred_len=48 backbone=TimesNet GPU=1 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_48
+exact command: env CUDA_VISIBLE_DEVICES=1 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm1.csv --model_id FPEMBaseComplete20261013_ETTm1_96_48 --model TimesNet --data ETTm1 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 48 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm1_48 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_48/checkpoints --top_k 5 --num_kernels 6 
+dataset=ETTm1 pred_len=96 backbone=TimesNet GPU=2 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_96
+exact command: env CUDA_VISIBLE_DEVICES=2 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm1.csv --model_id FPEMBaseComplete20261013_ETTm1_96_96 --model TimesNet --data ETTm1 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 96 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm1_96 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_96/checkpoints --top_k 5 --num_kernels 6 
+dataset=ETTm1 pred_len=192 backbone=TimesNet GPU=3 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_192
+exact command: env CUDA_VISIBLE_DEVICES=3 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm1.csv --model_id FPEMBaseComplete20261013_ETTm1_96_192 --model TimesNet --data ETTm1 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 192 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm1_192 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_192/checkpoints --top_k 5 --num_kernels 6 
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm1_96_48Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm1               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm1.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_48/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           48                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm1_48Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm1_96_24Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm1               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm1.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_24/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           24                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm1_24Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm1_96_192Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm1               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm1.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_192/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           192                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm1_192Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm1_96_96Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm1               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm1.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_96/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           96                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm1_96Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+baseline metrics.npy not found
+dataset=ETTm1 pred_len=336 backbone=TimesNet GPU=0 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_336
+exact command: env CUDA_VISIBLE_DEVICES=0 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm1.csv --model_id FPEMBaseComplete20261013_ETTm1_96_336 --model TimesNet --data ETTm1 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm1_336 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_336/checkpoints --top_k 5 --num_kernels 6 
+baseline metrics.npy not found
+dataset=ETTm1 pred_len=720 backbone=TimesNet GPU=1 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_720
+exact command: env CUDA_VISIBLE_DEVICES=1 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm1.csv --model_id FPEMBaseComplete20261013_ETTm1_96_720 --model TimesNet --data ETTm1 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm1_720 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_720/checkpoints --top_k 5 --num_kernels 6 
+baseline metrics.npy not found
+baseline metrics.npy not found
+dataset=ETTm2 pred_len=24 backbone=TimesNet GPU=2 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_24
+exact command: env CUDA_VISIBLE_DEVICES=2 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm2.csv --model_id FPEMBaseComplete20261013_ETTm2_96_24 --model TimesNet --data ETTm2 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 24 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm2_24 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_24/checkpoints --top_k 5 --num_kernels 6 
+dataset=ETTm2 pred_len=48 backbone=TimesNet GPU=3 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_48
+exact command: env CUDA_VISIBLE_DEVICES=3 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm2.csv --model_id FPEMBaseComplete20261013_ETTm2_96_48 --model TimesNet --data ETTm2 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 48 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm2_48 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_48/checkpoints --top_k 5 --num_kernels 6 
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm1_96_336Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm1               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm1.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_336/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           336                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm1_336Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm1_96_720Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm1               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm1.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm1/pred_720/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           720                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm1_720Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm2_96_48Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm2               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm2.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_48/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           48                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm2_48Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm2_96_24Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm2               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm2.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_24/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           24                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm2_24Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+baseline metrics.npy not found
+baseline metrics.npy not found
+dataset=ETTm2 pred_len=96 backbone=TimesNet GPU=1 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_96
+exact command: env CUDA_VISIBLE_DEVICES=1 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm2.csv --model_id FPEMBaseComplete20261013_ETTm2_96_96 --model TimesNet --data ETTm2 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 96 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm2_96 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_96/checkpoints --top_k 5 --num_kernels 6 
+dataset=ETTm2 pred_len=192 backbone=TimesNet GPU=0 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_192
+exact command: env CUDA_VISIBLE_DEVICES=0 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm2.csv --model_id FPEMBaseComplete20261013_ETTm2_96_192 --model TimesNet --data ETTm2 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 192 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm2_192 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_192/checkpoints --top_k 5 --num_kernels 6 
+baseline metrics.npy not found
+baseline metrics.npy not found
+dataset=ETTm2 pred_len=336 backbone=TimesNet GPU=2 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_336
+exact command: env CUDA_VISIBLE_DEVICES=2 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm2.csv --model_id FPEMBaseComplete20261013_ETTm2_96_336 --model TimesNet --data ETTm2 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 336 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm2_336 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_336/checkpoints --top_k 5 --num_kernels 6 
+dataset=ETTm2 pred_len=720 backbone=TimesNet GPU=3 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_720
+exact command: env CUDA_VISIBLE_DEVICES=3 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTm2.csv --model_id FPEMBaseComplete20261013_ETTm2_96_720 --model TimesNet --data ETTm2 --features M --target OT --freq 15min --seq_len 96 --label_len 48 --pred_len 720 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTm2_720 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_720/checkpoints --top_k 5 --num_kernels 6 
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm2_96_336Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm2               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm2.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_336/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           336                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm2_336Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm2_96_720Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm2               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm2.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_720/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           720                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm2_720Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm2_96_96Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm2               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm2.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_96/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           96                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm2_96Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTm2_96_192Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTm2               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTm2.csv           Features:           M                   
+  Target:             OT                  Freq:               15min               
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTm2/pred_192/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           192                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTm2_192Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/run.py", line 351, in <module>
+    exp = Exp(args)  # set experiments
+          ^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 64, in __init__
+    super(Exp_Long_Term_Forecast, self).__init__(args)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_basic.py", line 23, in __init__
+    self.model = self._build_model().to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/exp/exp_long_term_forecasting.py", line 67, in _build_model
+    model = self.model_dict[self.args.model](self.args).float()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/TimesNet.py", line 85, in __init__
+    self.enc_embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 116, in __init__
+    freq=freq) if embed_type != 'timeF' else TimeFeatureEmbedding(
+                                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/layers/Embed.py", line 102, in __init__
+    d_inp = freq_map[freq]
+            ~~~~~~~~^^^^^^
+KeyError: '15min'
+baseline metrics.npy not found
+baseline metrics.npy not found
+baseline metrics.npy not found
+baseline metrics.npy not found
+baseline queue=3/3 shard=0/1 GPUs=0 1 2 3
+dataset=ETTh1 pred_len=24 backbone=TimesNet GPU=0 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTh1/pred_24
+exact command: env CUDA_VISIBLE_DEVICES=0 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTh1.csv --model_id FPEMBaseComplete20261013_ETTh1_96_24 --model TimesNet --data ETTh1 --features M --target OT --freq h --seq_len 96 --label_len 48 --pred_len 24 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTh1_24 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTh1/pred_24/checkpoints --top_k 5 --num_kernels 6 
+dataset=ETTh2 pred_len=24 backbone=TimesNet GPU=1 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ETTh2/pred_24
+exact command: env CUDA_VISIBLE_DEVICES=1 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/ETT-small --data_path ETTh2.csv --model_id FPEMBaseComplete20261013_ETTh2_96_24 --model TimesNet --data ETTh2 --features M --target OT --freq h --seq_len 96 --label_len 48 --pred_len 24 --e_layers 2 --d_layers 1 --factor 3 --enc_in 7 --dec_in 7 --c_out 7 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ETTh2_24 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ETTh2/pred_24/checkpoints --top_k 5 --num_kernels 6 
+dataset=ExchangeRate pred_len=24 backbone=TimesNet GPU=2 output=results/fpem_classic_baselines_completion_20261013/TimesNet/ExchangeRate/pred_24
+exact command: env CUDA_VISIBLE_DEVICES=2 /data/OuXiaoyu/miniconda3/envs/basicts/bin/python -u run.py --task_name long_term_forecast --is_training 1 --root_path ./dataset/all_datasets/exchange_rate --data_path exchange_rate.csv --model_id FPEMBaseComplete20261013_ExchangeRate_96_24 --model TimesNet --data custom --features M --target OT --freq d --seq_len 96 --label_len 48 --pred_len 24 --e_layers 2 --d_layers 1 --factor 3 --enc_in 8 --dec_in 8 --c_out 8 --d_model 16 --d_ff 32 --n_heads 8 --batch_size 32 --learning_rate 1e-4 --train_epochs 10 --patience 3 --num_workers 0 --des FPEMBaseComplete20261013_TimesNet_ExchangeRate_24 --itr 1 --checkpoints results/fpem_classic_baselines_completion_20261013/TimesNet/ExchangeRate/pred_24/checkpoints --top_k 5 --num_kernels 6 
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTh1_96_24Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTh1               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTh1/pred_24/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           24                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTh1_24Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ExchangeRate_96_24Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               custom              Root Path:          ./dataset/all_datasets/exchange_rate
+  Data Path:          exchange_rate.csv   Features:           M                   
+  Target:             OT                  Freq:               d                   
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ExchangeRate/pred_24/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           24                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             8                   Dec In:             8                   
+  C Out:              8                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ExchangeRate_24Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMBaseComplete20261013_ETTh2_96_24Model:              TimesNet            
+
+[1mData Loader[0m
+  Data:               ETTh2               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTh2.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        results/fpem_classic_baselines_completion_20261013/TimesNet/ETTh2/pred_24/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           24                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            16                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               32                  
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMBaseComplete20261013_TimesNet_ETTh2_24Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+Use GPU: cuda:0
+🚀 Lazy Loading: TimesNet ...
+>>>>>>>start training : long_term_forecast_FPEMBaseComplete20261013_ETTh1_96_24_TimesNet_ETTh1_ftM_sl96_ll48_pl24_dm16_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMBaseComplete20261013_TimesNet_ETTh1_24_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8521
+>>>>>>>start training : long_term_forecast_FPEMBaseComplete20261013_ExchangeRate_96_24_TimesNet_custom_ftM_sl96_ll48_pl24_dm16_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMBaseComplete20261013_TimesNet_ExchangeRate_24_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+val 2857
+train 5192
+val 737
+test 1494
+test 2857
+>>>>>>>start training : long_term_forecast_FPEMBaseComplete20261013_ETTh2_96_24_TimesNet_ETTh2_ftM_sl96_ll48_pl24_dm16_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMBaseComplete20261013_TimesNet_ETTh2_24_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8521
+val 2857
+test 2857
+        iters: 100, epoch: 1 | loss: 0.4587124
+        speed: 0.1111s/iter; left time: 285.5514s
+        iters: 100, epoch: 1 | loss: 0.2938806
+        speed: 0.1129s/iter; left time: 290.2147s
+        iters: 100, epoch: 1 | loss: 0.0567187
+        speed: 0.1202s/iter; left time: 183.9554s
+        iters: 200, epoch: 1 | loss: 0.4281884
+        speed: 0.0689s/iter; left time: 170.2982s
+Epoch: 1 cost time: 18.690721035003662
+        iters: 200, epoch: 1 | loss: 0.2132007
+        speed: 0.0896s/iter; left time: 221.5015s
+Epoch: 1, Steps: 163 | Train Loss: 0.0920395 Vali Loss: 0.0696031 Test Loss: 0.0499458
+Validation loss decreased (inf --> 0.069603).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 1 cost time: 21.64887499809265
+Epoch: 1, Steps: 267 | Train Loss: 0.4581269 Vali Loss: 0.6126713 Test Loss: 0.4132750
+Validation loss decreased (inf --> 0.612671).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 1 cost time: 25.21222162246704
+Epoch: 1, Steps: 267 | Train Loss: 0.3686119 Vali Loss: 0.1820820 Test Loss: 0.2504391
+Validation loss decreased (inf --> 0.182082).  Saving model ...
+Updating learning rate to 0.0001
+        iters: 100, epoch: 2 | loss: 0.2957269
+        speed: 0.1507s/iter; left time: 347.3156s
+        iters: 100, epoch: 2 | loss: 0.0676479
+        speed: 0.2138s/iter; left time: 292.4414s
+        iters: 100, epoch: 2 | loss: 0.2509304
+        speed: 0.1727s/iter; left time: 397.9065s
+        iters: 200, epoch: 2 | loss: 0.3399189
+        speed: 0.0736s/iter; left time: 162.1575s
+Epoch: 2 cost time: 19.696847438812256
+Epoch: 2, Steps: 163 | Train Loss: 0.0553521 Vali Loss: 0.0588977 Test Loss: 0.0427696
+Validation loss decreased (0.069603 --> 0.058898).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 2 cost time: 19.57861328125
+        iters: 200, epoch: 2 | loss: 0.2258164
+        speed: 0.0877s/iter; left time: 193.3436s
+Epoch: 2, Steps: 267 | Train Loss: 0.3320816 Vali Loss: 0.5253825 Test Loss: 0.3571363
+Validation loss decreased (0.612671 --> 0.525383).  Saving model ...
+Updating learning rate to 5e-05
+Epoch: 2 cost time: 22.84377098083496
+        iters: 100, epoch: 3 | loss: 0.0423644
+        speed: 0.2119s/iter; left time: 255.3425s
+Epoch: 2, Steps: 267 | Train Loss: 0.2854898 Vali Loss: 0.1661030 Test Loss: 0.2319251
+Validation loss decreased (0.182082 --> 0.166103).  Saving model ...
+Updating learning rate to 5e-05
+        iters: 100, epoch: 3 | loss: 0.3226893
+        speed: 0.1646s/iter; left time: 335.2694s
+Epoch: 3 cost time: 19.516276836395264
+Epoch: 3, Steps: 163 | Train Loss: 0.0505431 Vali Loss: 0.0554218 Test Loss: 0.0419872
+Validation loss decreased (0.058898 --> 0.055422).  Saving model ...
+Updating learning rate to 2.5e-05
+        iters: 100, epoch: 3 | loss: 0.1930577
+        speed: 0.1818s/iter; left time: 370.3370s
+        iters: 200, epoch: 3 | loss: 0.2867019
+        speed: 0.0811s/iter; left time: 157.1005s
+Epoch: 3 cost time: 21.16826343536377
+Epoch: 3, Steps: 267 | Train Loss: 0.3045330 Vali Loss: 0.5059862 Test Loss: 0.3455503
+Validation loss decreased (0.525383 --> 0.505986).  Saving model ...
+Updating learning rate to 2.5e-05
+        iters: 200, epoch: 3 | loss: 0.4025941
+        speed: 0.0892s/iter; left time: 172.7671s
+        iters: 100, epoch: 4 | loss: 0.0388163
+        speed: 0.2119s/iter; left time: 220.8158s
+Epoch: 3 cost time: 23.870989322662354
+        iters: 100, epoch: 4 | loss: 0.3290157
+        speed: 0.1603s/iter; left time: 283.6807s
+Epoch: 3, Steps: 267 | Train Loss: 0.2573560 Vali Loss: 0.1605777 Test Loss: 0.2249801
+Validation loss decreased (0.166103 --> 0.160578).  Saving model ...
+Updating learning rate to 2.5e-05
+Epoch: 4 cost time: 19.986669540405273
+Epoch: 4, Steps: 163 | Train Loss: 0.0484363 Vali Loss: 0.0545584 Test Loss: 0.0405216
+Validation loss decreased (0.055422 --> 0.054558).  Saving model ...
+Updating learning rate to 1.25e-05
+        iters: 200, epoch: 4 | loss: 0.3357559
+        speed: 0.0774s/iter; left time: 129.2357s
+        iters: 100, epoch: 4 | loss: 0.2509054
+        speed: 0.1840s/iter; left time: 325.6548s
+Epoch: 4 cost time: 20.379764556884766
+Epoch: 4, Steps: 267 | Train Loss: 0.2943550 Vali Loss: 0.4953703 Test Loss: 0.3404643
+Validation loss decreased (0.505986 --> 0.495370).  Saving model ...
+Updating learning rate to 1.25e-05
+        iters: 100, epoch: 5 | loss: 0.0558073
+        speed: 0.2178s/iter; left time: 191.4333s
+        iters: 200, epoch: 4 | loss: 0.2464254
+        speed: 0.0857s/iter; left time: 143.1279s
+        iters: 100, epoch: 5 | loss: 0.2914786
+        speed: 0.1597s/iter; left time: 240.0530s
+Epoch: 5 cost time: 20.365476846694946
+Epoch: 4 cost time: 23.73823118209839
+Epoch: 5, Steps: 163 | Train Loss: 0.0474154 Vali Loss: 0.0563331 Test Loss: 0.0400401
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 6.25e-06
+Epoch: 4, Steps: 267 | Train Loss: 0.2449744 Vali Loss: 0.1589099 Test Loss: 0.2208700
+Validation loss decreased (0.160578 --> 0.158910).  Saving model ...
+Updating learning rate to 1.25e-05
+        iters: 200, epoch: 5 | loss: 0.3583868
+        speed: 0.0829s/iter; left time: 116.2433s
+Epoch: 5 cost time: 21.342585802078247
+        iters: 100, epoch: 6 | loss: 0.0559298
+        speed: 0.2138s/iter; left time: 153.0987s
+        iters: 100, epoch: 5 | loss: 0.2198188
+        speed: 0.1892s/iter; left time: 284.3991s
+Epoch: 5, Steps: 267 | Train Loss: 0.2898171 Vali Loss: 0.4925310 Test Loss: 0.3398965
+Validation loss decreased (0.495370 --> 0.492531).  Saving model ...
+Updating learning rate to 6.25e-06
+Epoch: 6 cost time: 19.575188398361206
+Epoch: 6, Steps: 163 | Train Loss: 0.0470099 Vali Loss: 0.0535233 Test Loss: 0.0398005
+Validation loss decreased (0.054558 --> 0.053523).  Saving model ...
+Updating learning rate to 3.125e-06
+        iters: 200, epoch: 5 | loss: 0.4864031
+        speed: 0.0936s/iter; left time: 131.3552s
+        iters: 100, epoch: 6 | loss: 0.3060460
+        speed: 0.1650s/iter; left time: 203.8804s
+Epoch: 5 cost time: 25.098079919815063
+        iters: 200, epoch: 6 | loss: 0.3341185
+        speed: 0.0807s/iter; left time: 91.6447s
+Epoch: 5, Steps: 267 | Train Loss: 0.2393633 Vali Loss: 0.1581793 Test Loss: 0.2178755
+Validation loss decreased (0.158910 --> 0.158179).  Saving model ...
+Updating learning rate to 6.25e-06
+        iters: 100, epoch: 7 | loss: 0.0439908
+        speed: 0.2148s/iter; left time: 118.7752s
+Epoch: 6 cost time: 21.37267279624939
+Epoch: 6, Steps: 267 | Train Loss: 0.2880006 Vali Loss: 0.4933596 Test Loss: 0.3385101
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 20.352279663085938
+        iters: 100, epoch: 6 | loss: 0.1386436
+        speed: 0.1973s/iter; left time: 243.8053s
+Epoch: 7, Steps: 163 | Train Loss: 0.0466836 Vali Loss: 0.0536982 Test Loss: 0.0397096
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.5625e-06
+        iters: 100, epoch: 7 | loss: 0.2573583
+        speed: 0.1725s/iter; left time: 167.1321s
+        iters: 200, epoch: 6 | loss: 0.1914273
+        speed: 0.0921s/iter; left time: 104.5749s
+        iters: 100, epoch: 8 | loss: 0.0453499
+        speed: 0.2147s/iter; left time: 83.7522s
+        iters: 200, epoch: 7 | loss: 0.2811272
+        speed: 0.0812s/iter; left time: 70.5639s
+Epoch: 6 cost time: 24.983991146087646
+Epoch: 6, Steps: 267 | Train Loss: 0.2373623 Vali Loss: 0.1582101 Test Loss: 0.2176278
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 3.125e-06
+Epoch: 7 cost time: 21.688748121261597
+Epoch: 8 cost time: 19.977726697921753
+Epoch: 8, Steps: 163 | Train Loss: 0.0464321 Vali Loss: 0.0536938 Test Loss: 0.0396157
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 7.8125e-07
+Epoch: 7, Steps: 267 | Train Loss: 0.2870993 Vali Loss: 0.4908745 Test Loss: 0.3383745
+Validation loss decreased (0.492531 --> 0.490875).  Saving model ...
+Updating learning rate to 1.5625e-06
+        iters: 100, epoch: 7 | loss: 0.2005640
+        speed: 0.1832s/iter; left time: 177.4772s
+        iters: 100, epoch: 8 | loss: 0.2419104
+        speed: 0.1628s/iter; left time: 114.2808s
+        iters: 100, epoch: 9 | loss: 0.0354491
+        speed: 0.2199s/iter; left time: 49.9155s
+        iters: 200, epoch: 7 | loss: 0.2450159
+        speed: 0.0908s/iter; left time: 78.9441s
+        iters: 200, epoch: 8 | loss: 0.3153434
+        speed: 0.0809s/iter; left time: 48.6752s
+Epoch: 7 cost time: 24.019681453704834
+Epoch: 9 cost time: 20.51679491996765
+Epoch: 8 cost time: 21.404640674591064
+Epoch: 9, Steps: 163 | Train Loss: 0.0463731 Vali Loss: 0.0539248 Test Loss: 0.0395606
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : long_term_forecast_FPEMBaseComplete20261013_ExchangeRate_96_24_TimesNet_custom_ftM_sl96_ll48_pl24_dm16_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMBaseComplete20261013_TimesNet_ExchangeRate_24_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 1494
+Epoch: 7, Steps: 267 | Train Loss: 0.2354639 Vali Loss: 0.1574042 Test Loss: 0.2168193
+Validation loss decreased (0.158179 --> 0.157404).  Saving model ...
+Updating learning rate to 1.5625e-06
+test shape: (1494, 24, 8) (1494, 24, 8)
+test shape: (1494, 24, 8) (1494, 24, 8)
+mse:0.03970147296786308, mae:0.14436374604701996, dtw:Not calculated
+Epoch: 8, Steps: 267 | Train Loss: 0.2861861 Vali Loss: 0.4905776 Test Loss: 0.3381859
+Validation loss decreased (0.490875 --> 0.490578).  Saving model ...
+Updating learning rate to 7.8125e-07
+        iters: 100, epoch: 8 | loss: 0.1703169
+        speed: 0.1901s/iter; left time: 133.4739s
+        iters: 100, epoch: 9 | loss: 0.3106590
+        speed: 0.1719s/iter; left time: 74.7807s
+        iters: 200, epoch: 9 | loss: 0.2900959
+        speed: 0.0829s/iter; left time: 27.7609s
+        iters: 200, epoch: 8 | loss: 0.3163543
+        speed: 0.0935s/iter; left time: 56.2846s
+Epoch: 9 cost time: 22.154932737350464
+Epoch: 8 cost time: 24.863351106643677
+Epoch: 9, Steps: 267 | Train Loss: 0.2859746 Vali Loss: 0.4906513 Test Loss: 0.3381563
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 3.90625e-07
+Epoch: 8, Steps: 267 | Train Loss: 0.2348013 Vali Loss: 0.1571813 Test Loss: 0.2165181
+Validation loss decreased (0.157404 --> 0.157181).  Saving model ...
+Updating learning rate to 7.8125e-07
+        iters: 100, epoch: 10 | loss: 0.2447587
+        speed: 0.1699s/iter; left time: 28.5493s
+        iters: 100, epoch: 9 | loss: 0.2049365
+        speed: 0.1865s/iter; left time: 81.1273s
+        iters: 200, epoch: 10 | loss: 0.2258488
+        speed: 0.0840s/iter; left time: 5.7109s
+        iters: 200, epoch: 9 | loss: 0.2004007
+        speed: 0.0926s/iter; left time: 31.0308s
+Epoch: 10 cost time: 21.87524700164795
+Epoch: 10, Steps: 267 | Train Loss: 0.2857975 Vali Loss: 0.4931071 Test Loss: 0.3381342
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.953125e-07
+>>>>>>>testing : long_term_forecast_FPEMBaseComplete20261013_ETTh1_96_24_TimesNet_ETTh1_ftM_sl96_ll48_pl24_dm16_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMBaseComplete20261013_TimesNet_ETTh1_24_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 2857
+Epoch: 9 cost time: 24.671607494354248
+test shape: (2857, 24, 7) (2857, 24, 7)
+test shape: (2857, 24, 7) (2857, 24, 7)
+mse:0.33904367685317993, mae:0.3865869641304016, dtw:Not calculated
+Epoch: 9, Steps: 267 | Train Loss: 0.2346064 Vali Loss: 0.1576323 Test Loss: 0.2164478
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 3.90625e-07
+        iters: 100, epoch: 10 | loss: 0.2153642
+        speed: 0.1926s/iter; left time: 32.3512s
+        iters: 200, epoch: 10 | loss: 0.1862093
+        speed: 0.0934s/iter; left time: 6.3487s
+Epoch: 10 cost time: 24.722318649291992
+Epoch: 10, Steps: 267 | Train Loss: 0.2346132 Vali Loss: 0.1572110 Test Loss: 0.2163842
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1.953125e-07
+>>>>>>>testing : long_term_forecast_FPEMBaseComplete20261013_ETTh2_96_24_TimesNet_ETTh2_ftM_sl96_ll48_pl24_dm16_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMBaseComplete20261013_TimesNet_ETTh2_24_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 2857
+test shape: (2857, 24, 7) (2857, 24, 7)
+test shape: (2857, 24, 7) (2857, 24, 7)
+mse:0.2172686755657196, mae:0.3085308372974396, dtw:Not calculated
+scripts/fpem_final/run_remaining_classic_backbones.sh: line 27: unexpected EOF while looking for matching `"'

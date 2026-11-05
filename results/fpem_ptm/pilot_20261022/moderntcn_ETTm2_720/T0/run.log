@@ -1,0 +1,11 @@
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_ptm.py --base_run_config results/fpem_latent_decomposition_search/pilot_20261015/moderntcn_ETTm2_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4/run_config.json --output /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_ptm/pilot_20261022/moderntcn_ETTm2_720/T0 --bank_checkpoint /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_ptm/pilot_20261022/moderntcn_ETTm2_720/prototype_bank.pt --mode T0 --seed 2021 --lr_head 0.0002 --epochs 10 --gpu 2 --allow_legacy_reference_signature
+{"epoch": 1, "train_mse": 0.43514363114030863, "val_mse": 0.2866687743516696, "val_mae": 0.3640858243934185, "gate_mean": 0.0, "ema": null}
+{"epoch": 2, "train_mse": 0.4229151195942128, "val_mse": 0.2833593248883538, "val_mae": 0.3626862756842584, "gate_mean": 0.0, "ema": null}
+{"epoch": 3, "train_mse": 0.41955396273362583, "val_mse": 0.2819824382535827, "val_mae": 0.3623177654664223, "gate_mean": 0.0, "ema": null}
+{"epoch": 4, "train_mse": 0.41758457385958486, "val_mse": 0.2808581946656863, "val_mae": 0.3618265180245955, "gate_mean": 0.0, "ema": null}
+{"epoch": 5, "train_mse": 0.4161921825306842, "val_mse": 0.2817268827430907, "val_mae": 0.36241567372773664, "gate_mean": 0.0, "ema": null}
+{"epoch": 6, "train_mse": 0.4150072883280812, "val_mse": 0.28113700173603073, "val_mae": 0.3622177899875824, "gate_mean": 0.0, "ema": null}
+{"epoch": 7, "train_mse": 0.4140895976889909, "val_mse": 0.27964372168087437, "val_mae": 0.3613813677719481, "gate_mean": 0.0, "ema": null}
+{"epoch": 8, "train_mse": 0.4133675972467565, "val_mse": 0.28141159832662305, "val_mae": 0.36254043271106173, "gate_mean": 0.0, "ema": null}
+{"epoch": 9, "train_mse": 0.4126976410483127, "val_mse": 0.2813883430892137, "val_mae": 0.3624002260512787, "gate_mean": 0.0, "ema": null}
+{"epoch": 10, "train_mse": 0.4121010412974152, "val_mse": 0.2809528654749884, "val_mae": 0.36221979316179986, "gate_mean": 0.0, "ema": null}

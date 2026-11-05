@@ -1,0 +1,34 @@
+RUN moderntcn:ETTm2:720 GPU1 attempt=1 2026-11-01T16:42:12+00:00
+P2 a0__point_only 0.4836571514606476
+C12 EPOCH history_key 1 {'epoch': 1, 'flow_loss': 248.7491574184674}
+C12 EPOCH history_key 2 {'epoch': 2, 'flow_loss': 100.44783485071741}
+C12 EPOCH history_key 3 {'epoch': 3, 'flow_loss': 85.8066896325584}
+C12 EPOCH history_key 4 {'epoch': 4, 'flow_loss': 105.98993490192524}
+C12 EPOCH history_key 5 {'epoch': 5, 'flow_loss': 104.62970561159277}
+C12 EPOCH history_key 6 {'epoch': 6, 'flow_loss': 92.83898716673954}
+C12 EPOCH history_key 7 {'epoch': 7, 'flow_loss': 88.45609456610468}
+C12 EPOCH history_key 8 {'epoch': 8, 'flow_loss': 75.35405919760352}
+P2 a0__history_key 0.3436266653886074
+P2 g1__point_only 0.43756183981895447
+C12 EPOCH history_key 1 {'epoch': 1, 'flow_loss': 248.89404210814655}
+C12 EPOCH history_key 2 {'epoch': 2, 'flow_loss': 100.51024531547561}
+C12 EPOCH history_key 3 {'epoch': 3, 'flow_loss': 85.62689096800727}
+C12 EPOCH history_key 4 {'epoch': 4, 'flow_loss': 105.83129772698773}
+C12 EPOCH history_key 5 {'epoch': 5, 'flow_loss': 104.63352554137565}
+C12 EPOCH history_key 6 {'epoch': 6, 'flow_loss': 92.75140962371053}
+C12 EPOCH history_key 7 {'epoch': 7, 'flow_loss': 88.2500402578383}
+C12 EPOCH history_key 8 {'epoch': 8, 'flow_loss': 75.09722762325417}
+P2 g1__history_key 0.33363293443672215
+P2 g1_r3__point_only 0.4363199770450592
+P2 g1_r3__history_key 0.33306180012854103
+P2 g1_r3__retrieved_future 0.3325413615518605
+P2 g1_r3__all_fused 0.33574501154555425
+C12 EPOCH all_fused 1 {'epoch': 1, 'flow_loss': 248.96209972681353}
+C12 EPOCH all_fused 2 {'epoch': 2, 'flow_loss': 100.50524176980153}
+C12 EPOCH all_fused 3 {'epoch': 3, 'flow_loss': 85.66080788620222}
+C12 EPOCH all_fused 4 {'epoch': 4, 'flow_loss': 105.91136447074899}
+C12 EPOCH all_fused 5 {'epoch': 5, 'flow_loss': 104.7848396724319}
+C12 EPOCH all_fused 6 {'epoch': 6, 'flow_loss': 92.79239901118406}
+C12 EPOCH all_fused 7 {'epoch': 7, 'flow_loss': 88.27736580084787}
+C12 EPOCH all_fused 8 {'epoch': 8, 'flow_loss': 75.10474053625825}
+P2 g1_r3__wrong_pair_train 0.32987278721396784

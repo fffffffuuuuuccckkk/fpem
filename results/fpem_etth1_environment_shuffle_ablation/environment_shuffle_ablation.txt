@@ -1,0 +1,3 @@
+ETTh1-96: predictive MSE=0.396637, shuffled MSE=0.400010, shuffled-predictive=+0.003374
+ETTh1-336: predictive MSE=0.516223, shuffled MSE=0.514102, shuffled-predictive=-0.002121
+ETTh1-720: predictive MSE=0.516970, shuffled MSE=0.514970, shuffled-predictive=-0.002000

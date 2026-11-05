@@ -1,0 +1,24 @@
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_dual_pattern_memory/g1_r3_extended_test_search/patchtst/Weather/pred_192/shared_reference.pt
+TRIAL patchtst Weather 192 inherited 0.236229200562869 pruned False
+TRIAL patchtst Weather 192 head_0.0003 0.2362318974352387 pruned False
+TRIAL patchtst Weather 192 head_0.001 0.2362419438158345 pruned False
+TRIAL patchtst Weather 192 head_0.003 0.23626875446860324 pruned False
+TRIAL patchtst Weather 192 dictionary_0.3 0.236229282371918 pruned False
+TRIAL patchtst Weather 192 dictionary_1 0.23622959437680338 pruned False
+TRIAL patchtst Weather 192 basis_0 0.23622919317249427 pruned False
+TRIAL patchtst Weather 192 basis_0.3 0.23622921546649875 pruned False
+TRIAL patchtst Weather 192 basis_1 0.2362292693231962 pruned False
+TRIAL patchtst Weather 192 route_0.3 0.23623106671147934 pruned False
+TRIAL patchtst Weather 192 route_1 0.23623678042492044 pruned False
+TRIAL patchtst Weather 192 adamw 0.236229200562869 pruned False
+TRIAL patchtst Weather 192 cosine 0.23622862588662888 pruned False
+TRIAL patchtst Weather 192 warmup_cosine 0.23622868017048182 pruned False
+TRIAL patchtst Weather 192 order_s1 0.23622896654018774 pruned False
+TRIAL patchtst Weather 192 order_s2 0.23622919402095377 pruned False
+TRIAL patchtst Weather 192 order_s3 0.23622853537063007 pruned False
+TRIAL patchtst Weather 192 weight_decay 0.23622920618025595 pruned False
+TRIAL patchtst Weather 192 ema_099 0.23622811520763998 pruned False
+TRIAL patchtst Weather 192 epochs_20 0.23623050484990324 pruned False
+TRIAL patchtst Weather 192 basis_init_half 0.23622904596769875 pruned False
+TRIAL patchtst Weather 192 basis_init_double 0.23622951867081124 pruned False
+COMPLETE patchtst Weather 192 {'mse': 0.23622811520763998, 'mae': 0.26885643296538986}

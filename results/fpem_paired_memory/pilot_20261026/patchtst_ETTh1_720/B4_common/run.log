@@ -1,0 +1,12 @@
+
+ATTEMPT 1: /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_paired_memory_pilot.py --base_run_config /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_latent_decomposition_search/pilot_20261015/patchtst_ETTh1_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4/run_config.json --output /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paired_memory/pilot_20261026/patchtst_ETTh1_720/B4_common --mode B4 --hidden_view common --gpu 0 --epochs 10 --memory_cache /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paired_memory/pilot_20261026/patchtst_ETTh1_720/paired_memory_v2.pt --anchor_cache /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_predictive_memory/pilot_20261024/patchtst_ETTh1_720/phase0_cache.pt --max_batches 0
+{"epoch": 1, "train_mse": 0.57531416404004, "val_selection_mse": 2.0420518691899985, "val_selection_mae": 0.9973716661384847}
+{"epoch": 2, "train_mse": 0.5554903182448173, "val_selection_mse": 2.0185228387024177, "val_selection_mae": 0.9903594708765064}
+{"epoch": 3, "train_mse": 0.5502589808434856, "val_selection_mse": 2.0757116074873236, "val_selection_mae": 1.0135637297453703}
+{"epoch": 4, "train_mse": 0.5464062330674152, "val_selection_mse": 2.1259491200029395, "val_selection_mae": 1.033756986928645}
+{"epoch": 5, "train_mse": 0.5438809434978329, "val_selection_mse": 2.095448719273589, "val_selection_mae": 1.022093021453373}
+{"epoch": 6, "train_mse": 0.5412005512081847, "val_selection_mse": 2.1132010036605307, "val_selection_mae": 1.0249862443048208}
+{"epoch": 7, "train_mse": 0.5395455799540695, "val_selection_mse": 2.0822207611101926, "val_selection_mae": 1.0165153755488499}
+{"epoch": 8, "train_mse": 0.5388031235763004, "val_selection_mse": 2.153223118409208, "val_selection_mae": 1.034866392930629}
+{"epoch": 9, "train_mse": 0.537869784904986, "val_selection_mse": 2.1527689479534096, "val_selection_mae": 1.038913578524581}
+{"epoch": 10, "train_mse": 0.5354815146144556, "val_selection_mse": 2.1997671664875442, "val_selection_mae": 1.0544838686342592}

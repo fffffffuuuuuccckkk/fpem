@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 4368, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 3818, in main
+    reference_state, reference_hash, reference_source = prepare_reference(
+                                                        ^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_predictive_env_iv_patchtst.py", line 3357, in prepare_reference
+    raise ValueError("Shared reference checkpoint configuration mismatch")
+ValueError: Shared reference checkpoint configuration mismatch

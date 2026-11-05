@@ -1,0 +1,24 @@
+PGIR patch-trick pilot: A0 frozen; one checkpoint per run chosen by VAL MSE.
+T1 caps evidence-positive replacement at two segments; T2 adds local context retrieval;
+T3 trains replacement scores with independent TRAIN chronological OOF labels;
+T4/T5 inherit the lowest-VAL preceding option, not the lowest-TEST option.
+T3 labels use non-overlapping calibration anchors and no VAL/TEST targets.
+
+patchtst_ETTh1_720 P2: A0=0.505477, VAL=1.646660, TEST=0.505977, MAE=0.495297
+patchtst_ETTh1_720 T1: A0=0.505477, VAL=1.650279, TEST=0.505477, MAE=0.495108
+patchtst_ETTh1_720 T2: A0=0.505477, VAL=1.649721, TEST=0.507476, MAE=0.496256
+patchtst_ETTh1_720 T3: A0=0.505477, VAL=1.643551, TEST=0.506029, MAE=0.495172
+patchtst_ETTh1_720 T4: A0=0.505477, VAL=1.649245, TEST=0.506808, MAE=0.495799
+patchtst_ETTh1_720 T5: A0=0.505477, VAL=1.644655, TEST=0.506563, MAE=0.495490
+itransformer_ETTm1_720 P2: A0=0.469341, VAL=0.990318, TEST=0.469521, MAE=0.444709
+itransformer_ETTm1_720 T1: A0=0.469341, VAL=0.991036, TEST=0.469341, MAE=0.444563
+itransformer_ETTm1_720 T2: A0=0.469341, VAL=0.990550, TEST=0.469349, MAE=0.444574
+itransformer_ETTm1_720 T3: A0=0.469341, VAL=0.991001, TEST=0.469953, MAE=0.444877
+itransformer_ETTm1_720 T4: A0=0.469341, VAL=0.990580, TEST=0.469531, MAE=0.444716
+itransformer_ETTm1_720 T5: A0=0.469341, VAL=0.990544, TEST=0.469337, MAE=0.444560
+moderntcn_ETTm2_720 P2: A0=0.483657, VAL=0.309362, TEST=0.471489, MAE=0.436422
+moderntcn_ETTm2_720 T1: A0=0.483657, VAL=0.309610, TEST=0.470135, MAE=0.436030
+moderntcn_ETTm2_720 T2: A0=0.483657, VAL=0.317057, TEST=0.485018, MAE=0.444213
+moderntcn_ETTm2_720 T3: A0=0.483657, VAL=0.308017, TEST=0.467988, MAE=0.434767
+moderntcn_ETTm2_720 T4: A0=0.483657, VAL=0.314514, TEST=0.482578, MAE=0.442687
+moderntcn_ETTm2_720 T5: A0=0.483657, VAL=0.309089, TEST=0.471525, MAE=0.436974

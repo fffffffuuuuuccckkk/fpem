@@ -1,0 +1,8 @@
+START itransformer/ExchangeRate/96 on gpu=3
+COMPLETE itransformer/ExchangeRate/96
+START itransformer/ExchangeRate/192 on gpu=3
+COMPLETE itransformer/ExchangeRate/192
+START itransformer/ExchangeRate/336 on gpu=3
+COMPLETE itransformer/ExchangeRate/336
+START itransformer/ExchangeRate/720 on gpu=3
+COMPLETE itransformer/ExchangeRate/720

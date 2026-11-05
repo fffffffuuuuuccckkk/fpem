@@ -1,0 +1,36 @@
+attempt=1 gpu=1 case=itransformer/ETTm1/96
+BEGIN itransformer ETTm1 96 F00
+BEGIN itransformer ETTm1 96 F03
+F03 epoch 1 val 0.41302
+F03 epoch 2 val 0.414888
+F03 epoch 3 val 0.413749
+F03 epoch 4 val 0.41712
+F03 epoch 5 val 0.412656
+F03 epoch 6 val 0.415187
+F03 epoch 7 val 0.413931
+F03 epoch 8 val 0.416855
+F03 epoch 9 val 0.415563
+F03 epoch 10 val 0.415254
+BEGIN itransformer ETTm1 96 F01
+F01 epoch 1 val 0.424355
+F01 epoch 2 val 0.424276
+F01 epoch 3 val 0.419501
+F01 epoch 4 val 0.428739
+F01 epoch 5 val 0.417369
+F01 epoch 6 val 0.423915
+F01 epoch 7 val 0.416484
+F01 epoch 8 val 0.42507
+F01 epoch 9 val 0.425027
+F01 epoch 10 val 0.418919
+BEGIN itransformer ETTm1 96 P01
+P01 epoch 1 val 0.536652
+P01 epoch 2 val 0.450225
+P01 epoch 3 val 0.43047
+P01 epoch 4 val 0.434595
+P01 epoch 5 val 0.422282
+P01 epoch 6 val 0.428887
+P01 epoch 7 val 0.42086
+P01 epoch 8 val 0.429005
+P01 epoch 9 val 0.427015
+P01 epoch 10 val 0.421499
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_shared_pilot/itransformer/ETTm1/pred_96

@@ -1,0 +1,14 @@
+attempt=1 lane=it_b gpu=2 case=itransformer/ETTm2/336 method=F03
+BEGIN itransformer ETTm2 336 F00
+BEGIN itransformer ETTm2 336 F03
+F03 epoch 1 val 0.238153
+F03 epoch 2 val 0.239142
+F03 epoch 3 val 0.238298
+F03 epoch 4 val 0.238934
+F03 epoch 5 val 0.239057
+F03 epoch 6 val 0.23911
+F03 epoch 7 val 0.240153
+F03 epoch 8 val 0.239314
+F03 epoch 9 val 0.239414
+F03 epoch 10 val 0.239046
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_expansion/itransformer/ETTm2/pred_336

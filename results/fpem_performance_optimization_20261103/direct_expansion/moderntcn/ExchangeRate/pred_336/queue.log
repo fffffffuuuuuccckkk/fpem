@@ -1,0 +1,14 @@
+attempt=1 lane=mt_c gpu=3 case=moderntcn/ExchangeRate/336 method=P02
+BEGIN moderntcn ExchangeRate 336 F00
+BEGIN moderntcn ExchangeRate 336 P02
+P02 epoch 1 val 0.428387
+P02 epoch 2 val 0.395037
+P02 epoch 3 val 0.398651
+P02 epoch 4 val 0.384193
+P02 epoch 5 val 0.379706
+P02 epoch 6 val 0.382608
+P02 epoch 7 val 0.385965
+P02 epoch 8 val 0.38394
+P02 epoch 9 val 0.379441
+P02 epoch 10 val 0.379557
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_expansion/moderntcn/ExchangeRate/pred_336

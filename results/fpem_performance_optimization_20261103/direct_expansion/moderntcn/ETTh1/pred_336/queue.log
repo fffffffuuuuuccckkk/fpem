@@ -1,0 +1,14 @@
+attempt=1 lane=mt_b gpu=2 case=moderntcn/ETTh1/336 method=P02
+BEGIN moderntcn ETTh1 336 F00
+BEGIN moderntcn ETTh1 336 P02
+P02 epoch 1 val 1.387074
+P02 epoch 2 val 1.342103
+P02 epoch 3 val 1.332988
+P02 epoch 4 val 1.327866
+P02 epoch 5 val 1.325782
+P02 epoch 6 val 1.325024
+P02 epoch 7 val 1.330006
+P02 epoch 8 val 1.330094
+P02 epoch 9 val 1.328663
+P02 epoch 10 val 1.325101
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_expansion/moderntcn/ETTh1/pred_336

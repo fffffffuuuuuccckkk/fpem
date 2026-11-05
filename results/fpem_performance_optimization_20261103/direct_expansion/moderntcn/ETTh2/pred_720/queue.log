@@ -1,0 +1,14 @@
+attempt=1 lane=mt_b gpu=2 case=moderntcn/ETTh2/720 method=P02
+BEGIN moderntcn ETTh2 720 F00
+BEGIN moderntcn ETTh2 720 P02
+P02 epoch 1 val 0.659304
+P02 epoch 2 val 0.662893
+P02 epoch 3 val 0.699384
+P02 epoch 4 val 0.730489
+P02 epoch 5 val 0.739189
+P02 epoch 6 val 0.752159
+P02 epoch 7 val 0.761115
+P02 epoch 8 val 0.7685
+P02 epoch 9 val 0.774768
+P02 epoch 10 val 0.782613
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_expansion/moderntcn/ETTh2/pred_720

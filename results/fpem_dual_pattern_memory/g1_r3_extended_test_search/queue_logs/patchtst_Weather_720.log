@@ -1,0 +1,6 @@
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_final_patchtst_search/server2/patchtst/Weather/pred_720/shared_reference.pt
+TRIAL patchtst Weather 720 inherited 0.3595713846124882 pruned False
+TRIAL patchtst Weather 720 head_0.0003 0.3595707303980116 pruned False
+TRIAL patchtst Weather 720 head_0.001 0.3595689306176016 pruned False
+TRIAL patchtst Weather 720 head_0.003 0.3595656709894335 pruned True
+COMPLETE patchtst Weather 720 {'mse': 0.3595656709894335, 'mae': 0.35091345654591005}

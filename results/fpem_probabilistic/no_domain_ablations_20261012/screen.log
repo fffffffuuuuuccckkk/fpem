@@ -1,0 +1,7 @@
+QUEUE host=gpu-39 cases=6 GPUs=0 root=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/no_domain_ablations_20261012
+DONE moderntcn/ETTh1/pred_24 GPU=0
+DONE moderntcn/ETTh1/pred_48 GPU=0
+DONE patchtst/ETTh1/pred_24 GPU=0
+DONE patchtst/ETTh1/pred_48 GPU=0
+DONE patchtst/ETTh2/pred_24 GPU=0
+DONE patchtst/ETTh2/pred_48 GPU=0

@@ -1,0 +1,24 @@
+{
+  "dataset": "ETTh2",
+  "source_split": "TRAIN only",
+  "checkpoint": "results/predictive_env_featurewise_gate_all_backbones_k3/patchtst/ETTh2/token_gate/A2/trained_checkpoint.pt",
+  "checkpoint_sha256": "0ce806ffd60cab46a3e8a65029b96477dd609a099cd0357c13ad3cc086ba87ad",
+  "environment_payload": "results/predictive_env_patchtst_tsne_all_datasets_k3/ETTh2/environment_gradient_final_inferred.npz",
+  "environment_source": "inferred once from frozen final checkpoint on TRAIN",
+  "sample_count": 3000,
+  "selection": "deterministic hard-environment-stratified evenly spaced",
+  "seed": 2021,
+  "perplexity": {
+    "H": 30.0,
+    "Zinv": 30.0,
+    "Zvar": 30.0,
+    "Zfinal": 30.0
+  },
+  "backbone": "patchtst",
+  "representations": [
+    "H",
+    "Zinv",
+    "Zvar",
+    "Zfinal"
+  ]
+}

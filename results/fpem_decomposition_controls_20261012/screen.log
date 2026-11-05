@@ -1,0 +1,14 @@
+QUEUE host=gpu-39 cases=13 GPUs=1 2 3 root=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_decomposition_controls_20261012
+DONE moderntcn_ExchangeRate_96 GPU=3
+DONE moderntcn_ETTm1_96 GPU=2
+DONE moderntcn_ETTm2_96 GPU=1
+DONE patchtst_ETTm1_192 GPU=1
+DONE patchtst_ExchangeRate_192 GPU=1
+DONE moderntcn_Weather_192 GPU=3
+DONE patchtst_ETTh1_336 GPU=1
+DONE patchtst_ETTh1_96 GPU=1
+DONE moderntcn_Weather_96 GPU=2
+DONE patchtst_ETTh1_720 GPU=3
+DONE patchtst_ExchangeRate_96 GPU=2
+DONE patchtst_ETTm1_96 GPU=1
+DONE patchtst_Weather_96 GPU=3

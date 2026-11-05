@@ -1,0 +1,14 @@
+attempt=1 lane=pt_d gpu=3 case=patchtst/ETTm2/720 method=P02
+BEGIN patchtst ETTm2 720 F00
+BEGIN patchtst ETTm2 720 P02
+P02 epoch 1 val 0.300529
+P02 epoch 2 val 0.298172
+P02 epoch 3 val 0.301202
+P02 epoch 4 val 0.298796
+P02 epoch 5 val 0.302094
+P02 epoch 6 val 0.299107
+P02 epoch 7 val 0.301822
+P02 epoch 8 val 0.299909
+P02 epoch 9 val 0.301636
+P02 epoch 10 val 0.304233
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_expansion/patchtst/ETTm2/pred_720

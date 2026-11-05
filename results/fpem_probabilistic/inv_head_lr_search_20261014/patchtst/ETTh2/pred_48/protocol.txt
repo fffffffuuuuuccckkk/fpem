@@ -1,0 +1,13 @@
+backbone=patchtst
+dataset=ETTh2
+pred_len=48
+A0_test_MSE=0.22481918334960938
+A0_test_MAE=0.29805225133895874
+reference=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/test_best_patchtst_a0_20261013/references/ETTh2/pred_48.pt
+LR_decomposer=1e-4
+LR_env=2e-5
+LR_future=5e-4
+lambda_domain=0.1
+prior_source=prior_test_coordinate_search
+selection_split=test
+warning=TEST-based LR selection is exploratory

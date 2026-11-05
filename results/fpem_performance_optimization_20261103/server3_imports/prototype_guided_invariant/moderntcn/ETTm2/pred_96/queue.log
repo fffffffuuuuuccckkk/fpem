@@ -1,0 +1,780 @@
+stage=shared attempt=1
+BEGIN A0
+BEGIN linear
+linear epoch 1 VAL 0.127437
+linear epoch 2 VAL 0.136285
+linear epoch 3 VAL 0.143257
+linear epoch 4 VAL 0.144719
+linear epoch 5 VAL 0.152366
+linear epoch 6 VAL 0.148854
+linear epoch 7 VAL 0.150172
+linear epoch 8 VAL 0.156198
+linear epoch 9 VAL 0.156444
+linear epoch 10 VAL 0.158871
+BEGIN head_init
+head_init epoch 1 VAL 0.12318
+head_init epoch 2 VAL 0.126449
+head_init epoch 3 VAL 0.129538
+head_init epoch 4 VAL 0.130902
+head_init epoch 5 VAL 0.134628
+head_init epoch 6 VAL 0.134797
+head_init epoch 7 VAL 0.135953
+head_init epoch 8 VAL 0.138185
+head_init epoch 9 VAL 0.139438
+head_init epoch 10 VAL 0.141212
+BEGIN p01
+p01 epoch 1 VAL 0.127216
+p01 epoch 2 VAL 0.130134
+p01 epoch 3 VAL 0.138728
+p01 epoch 4 VAL 0.139064
+p01 epoch 5 VAL 0.141182
+p01 epoch 6 VAL 0.140791
+p01 epoch 7 VAL 0.141065
+p01 epoch 8 VAL 0.146171
+p01 epoch 9 VAL 0.146694
+p01 epoch 10 VAL 0.142668
+BEGIN p02
+p02 epoch 1 VAL 0.128288
+p02 epoch 2 VAL 0.128712
+p02 epoch 3 VAL 0.137296
+p02 epoch 4 VAL 0.137783
+p02 epoch 5 VAL 0.14051
+p02 epoch 6 VAL 0.140221
+p02 epoch 7 VAL 0.140062
+p02 epoch 8 VAL 0.145299
+p02 epoch 9 VAL 0.146214
+p02 epoch 10 VAL 0.142515
+BEGIN risk_var
+risk_var epoch 1 VAL 0.13828
+risk_var epoch 2 VAL 0.133991
+risk_var epoch 3 VAL 0.148155
+risk_var epoch 4 VAL 0.151501
+risk_var epoch 5 VAL 0.157552
+risk_var epoch 6 VAL 0.154729
+risk_var epoch 7 VAL 0.158554
+risk_var epoch 8 VAL 0.159987
+risk_var epoch 9 VAL 0.161462
+risk_var epoch 10 VAL 0.161651
+BEGIN risk_dro
+risk_dro epoch 1 VAL 0.12747
+risk_dro epoch 2 VAL 0.13191
+risk_dro epoch 3 VAL 0.140757
+risk_dro epoch 4 VAL 0.139952
+risk_dro epoch 5 VAL 0.141798
+risk_dro epoch 6 VAL 0.141868
+risk_dro epoch 7 VAL 0.141883
+risk_dro epoch 8 VAL 0.146661
+risk_dro epoch 9 VAL 0.147399
+risk_dro epoch 10 VAL 0.143564
+BEGIN risk_incremental
+risk_incremental epoch 1 VAL 0.131986
+risk_incremental epoch 2 VAL 0.132269
+risk_incremental epoch 3 VAL 0.130387
+risk_incremental epoch 4 VAL 0.130482
+risk_incremental epoch 5 VAL 0.130228
+risk_incremental epoch 6 VAL 0.133633
+risk_incremental epoch 7 VAL 0.129815
+risk_incremental epoch 8 VAL 0.131772
+risk_incremental epoch 9 VAL 0.13188
+risk_incremental epoch 10 VAL 0.129702
+BEGIN shared_grad_norm
+shared_grad_norm epoch 1 VAL 0.127212
+shared_grad_norm epoch 2 VAL 0.127627
+shared_grad_norm epoch 3 VAL 0.132313
+shared_grad_norm epoch 4 VAL 0.133652
+shared_grad_norm epoch 5 VAL 0.133535
+shared_grad_norm epoch 6 VAL 0.134309
+shared_grad_norm epoch 7 VAL 0.133884
+shared_grad_norm epoch 8 VAL 0.137901
+shared_grad_norm epoch 9 VAL 0.13986
+shared_grad_norm epoch 10 VAL 0.133838
+BEGIN shared_grad_variance
+shared_grad_variance epoch 1 VAL 0.127352
+shared_grad_variance epoch 2 VAL 0.128457
+shared_grad_variance epoch 3 VAL 0.136078
+shared_grad_variance epoch 4 VAL 0.137108
+shared_grad_variance epoch 5 VAL 0.137133
+shared_grad_variance epoch 6 VAL 0.137237
+shared_grad_variance epoch 7 VAL 0.137154
+shared_grad_variance epoch 8 VAL 0.140853
+shared_grad_variance epoch 9 VAL 0.142286
+shared_grad_variance epoch 10 VAL 0.135904
+BEGIN shared_irm
+shared_irm epoch 1 VAL 0.127517
+shared_irm epoch 2 VAL 0.124842
+shared_irm epoch 3 VAL 0.126183
+shared_irm epoch 4 VAL 0.125572
+shared_irm epoch 5 VAL 0.127531
+shared_irm epoch 6 VAL 0.127105
+shared_irm epoch 7 VAL 0.126787
+shared_irm epoch 8 VAL 0.126731
+shared_irm epoch 9 VAL 0.127111
+shared_irm epoch 10 VAL 0.127532
+BEGIN conditional
+conditional epoch 1 VAL 0.134652
+conditional epoch 2 VAL 0.128692
+conditional epoch 3 VAL 0.133297
+conditional epoch 4 VAL 0.136016
+conditional epoch 5 VAL 0.137811
+conditional epoch 6 VAL 0.136655
+conditional epoch 7 VAL 0.136679
+conditional epoch 8 VAL 0.139632
+conditional epoch 9 VAL 0.140265
+conditional epoch 10 VAL 0.139383
+BEGIN subspace
+subspace epoch 1 VAL 0.127879
+subspace epoch 2 VAL 0.130217
+subspace epoch 3 VAL 0.139139
+subspace epoch 4 VAL 0.139078
+subspace epoch 5 VAL 0.140886
+subspace epoch 6 VAL 0.141339
+subspace epoch 7 VAL 0.141172
+subspace epoch 8 VAL 0.145866
+subspace epoch 9 VAL 0.14706
+subspace epoch 10 VAL 0.142551
+BEGIN ref_global
+ref_global epoch 1 VAL 0.148719
+ref_global epoch 2 VAL 0.137638
+ref_global epoch 3 VAL 0.140565
+ref_global epoch 4 VAL 0.14015
+ref_global epoch 5 VAL 0.131896
+ref_global epoch 6 VAL 0.146918
+ref_global epoch 7 VAL 0.147775
+ref_global epoch 8 VAL 0.155832
+ref_global epoch 9 VAL 0.142851
+ref_global epoch 10 VAL 0.135238
+BEGIN ref_prototype
+ref_prototype epoch 1 VAL 0.137748
+ref_prototype epoch 2 VAL 0.137111
+ref_prototype epoch 3 VAL 0.141395
+ref_prototype epoch 4 VAL 0.139078
+ref_prototype epoch 5 VAL 0.131676
+ref_prototype epoch 6 VAL 0.139969
+ref_prototype epoch 7 VAL 0.15034
+ref_prototype epoch 8 VAL 0.151482
+ref_prototype epoch 9 VAL 0.141626
+ref_prototype epoch 10 VAL 0.132469
+BEGIN residual_risk
+residual_risk epoch 1 VAL 0.123868
+residual_risk epoch 2 VAL 0.131397
+residual_risk epoch 3 VAL 0.139145
+residual_risk epoch 4 VAL 0.138941
+residual_risk epoch 5 VAL 0.143233
+residual_risk epoch 6 VAL 0.141319
+residual_risk epoch 7 VAL 0.14158
+residual_risk epoch 8 VAL 0.146796
+residual_risk epoch 9 VAL 0.14746
+residual_risk epoch 10 VAL 0.144577
+BEGIN risk_var_shuffled
+risk_var_shuffled epoch 1 VAL 0.128736
+risk_var_shuffled epoch 2 VAL 0.128347
+risk_var_shuffled epoch 3 VAL 0.135722
+risk_var_shuffled epoch 4 VAL 0.138804
+risk_var_shuffled epoch 5 VAL 0.143962
+risk_var_shuffled epoch 6 VAL 0.144437
+risk_var_shuffled epoch 7 VAL 0.147595
+risk_var_shuffled epoch 8 VAL 0.149522
+risk_var_shuffled epoch 9 VAL 0.153705
+risk_var_shuffled epoch 10 VAL 0.153273
+BEGIN risk_var_random
+risk_var_random epoch 1 VAL 0.128444
+risk_var_random epoch 2 VAL 0.127404
+risk_var_random epoch 3 VAL 0.137654
+risk_var_random epoch 4 VAL 0.139762
+risk_var_random epoch 5 VAL 0.142472
+risk_var_random epoch 6 VAL 0.139628
+risk_var_random epoch 7 VAL 0.141483
+risk_var_random epoch 8 VAL 0.146687
+risk_var_random epoch 9 VAL 0.147962
+risk_var_random epoch 10 VAL 0.143212
+BEGIN risk_var_time
+risk_var_time epoch 1 VAL 0.133378
+risk_var_time epoch 2 VAL 0.129961
+risk_var_time epoch 3 VAL 0.143711
+risk_var_time epoch 4 VAL 0.15235
+risk_var_time epoch 5 VAL 0.158994
+risk_var_time epoch 6 VAL 0.15815
+risk_var_time epoch 7 VAL 0.167728
+risk_var_time epoch 8 VAL 0.165491
+risk_var_time epoch 9 VAL 0.166781
+risk_var_time epoch 10 VAL 0.165194
+BEGIN risk_var_uniform
+risk_var_uniform epoch 1 VAL 0.127313
+risk_var_uniform epoch 2 VAL 0.131495
+risk_var_uniform epoch 3 VAL 0.139092
+risk_var_uniform epoch 4 VAL 0.139067
+risk_var_uniform epoch 5 VAL 0.14105
+risk_var_uniform epoch 6 VAL 0.140876
+risk_var_uniform epoch 7 VAL 0.141314
+risk_var_uniform epoch 8 VAL 0.146015
+risk_var_uniform epoch 9 VAL 0.146726
+risk_var_uniform epoch 10 VAL 0.14337
+BEGIN risk_var_sample
+risk_var_sample epoch 1 VAL 0.131966
+risk_var_sample epoch 2 VAL 0.13418
+risk_var_sample epoch 3 VAL 0.144438
+risk_var_sample epoch 4 VAL 0.144392
+risk_var_sample epoch 5 VAL 0.148622
+risk_var_sample epoch 6 VAL 0.147118
+risk_var_sample epoch 7 VAL 0.144764
+risk_var_sample epoch 8 VAL 0.150789
+risk_var_sample epoch 9 VAL 0.153377
+risk_var_sample epoch 10 VAL 0.153542
+BEGIN risk_var_hcluster
+risk_var_hcluster epoch 1 VAL 0.134172
+risk_var_hcluster epoch 2 VAL 0.130115
+risk_var_hcluster epoch 3 VAL 0.137484
+risk_var_hcluster epoch 4 VAL 0.145581
+risk_var_hcluster epoch 5 VAL 0.155763
+risk_var_hcluster epoch 6 VAL 0.155775
+risk_var_hcluster epoch 7 VAL 0.160934
+risk_var_hcluster epoch 8 VAL 0.164208
+risk_var_hcluster epoch 9 VAL 0.164201
+risk_var_hcluster epoch 10 VAL 0.165544
+BEGIN risk_var_eiil
+risk_var_eiil epoch 1 VAL 0.130669
+risk_var_eiil epoch 2 VAL 0.130997
+risk_var_eiil epoch 3 VAL 0.140803
+risk_var_eiil epoch 4 VAL 0.143988
+risk_var_eiil epoch 5 VAL 0.142613
+risk_var_eiil epoch 6 VAL 0.141741
+risk_var_eiil epoch 7 VAL 0.14252
+risk_var_eiil epoch 8 VAL 0.148185
+risk_var_eiil epoch 9 VAL 0.148962
+risk_var_eiil epoch 10 VAL 0.145312
+BEGIN map_global
+BEGIN map_consensus
+BEGIN map_spectral
+BEGIN pairwise
+pairwise epoch 1 VAL 0.129342
+pairwise epoch 2 VAL 0.132904
+pairwise epoch 3 VAL 0.140449
+pairwise epoch 4 VAL 0.139342
+pairwise epoch 5 VAL 0.14066
+pairwise epoch 6 VAL 0.140982
+pairwise epoch 7 VAL 0.140503
+pairwise epoch 8 VAL 0.14531
+pairwise epoch 9 VAL 0.146127
+pairwise epoch 10 VAL 0.141594
+BEGIN shared_private
+shared_private epoch 1 VAL 0.134194
+shared_private epoch 2 VAL 0.134609
+shared_private epoch 3 VAL 0.140755
+shared_private epoch 4 VAL 0.140757
+shared_private epoch 5 VAL 0.135252
+shared_private epoch 6 VAL 0.143736
+shared_private epoch 7 VAL 0.145192
+shared_private epoch 8 VAL 0.149108
+shared_private epoch 9 VAL 0.148152
+shared_private epoch 10 VAL 0.136762
+BEGIN shared_private_irm
+shared_private_irm epoch 1 VAL 0.129629
+shared_private_irm epoch 2 VAL 0.126642
+shared_private_irm epoch 3 VAL 0.128671
+shared_private_irm epoch 4 VAL 0.125057
+shared_private_irm epoch 5 VAL 0.126412
+shared_private_irm epoch 6 VAL 0.127719
+shared_private_irm epoch 7 VAL 0.127961
+shared_private_irm epoch 8 VAL 0.126851
+shared_private_irm epoch 9 VAL 0.128582
+shared_private_irm epoch 10 VAL 0.126817
+BEGIN adversarial_weak
+adversarial_weak epoch 1 VAL 0.129667
+adversarial_weak epoch 2 VAL 0.133079
+adversarial_weak epoch 3 VAL 0.140173
+adversarial_weak epoch 4 VAL 0.139164
+adversarial_weak epoch 5 VAL 0.140783
+adversarial_weak epoch 6 VAL 0.14046
+adversarial_weak epoch 7 VAL 0.140142
+adversarial_weak epoch 8 VAL 0.145286
+adversarial_weak epoch 9 VAL 0.146002
+adversarial_weak epoch 10 VAL 0.141684
+BEGIN adversarial_strong
+adversarial_strong epoch 1 VAL 0.12811
+adversarial_strong epoch 2 VAL 0.130529
+adversarial_strong epoch 3 VAL 0.140107
+adversarial_strong epoch 4 VAL 0.140322
+adversarial_strong epoch 5 VAL 0.14222
+adversarial_strong epoch 6 VAL 0.141736
+adversarial_strong epoch 7 VAL 0.141832
+adversarial_strong epoch 8 VAL 0.146827
+adversarial_strong epoch 9 VAL 0.147316
+adversarial_strong epoch 10 VAL 0.142959
+BEGIN map_projection
+map_projection epoch 1 VAL 0.130859
+map_projection epoch 2 VAL 0.135451
+map_projection epoch 3 VAL 0.142075
+map_projection epoch 4 VAL 0.141012
+map_projection epoch 5 VAL 0.144546
+map_projection epoch 6 VAL 0.144607
+map_projection epoch 7 VAL 0.142974
+map_projection epoch 8 VAL 0.147797
+map_projection epoch 9 VAL 0.150338
+map_projection epoch 10 VAL 0.146077
+BEGIN map_shared_irm
+map_shared_irm epoch 1 VAL 0.129503
+map_shared_irm epoch 2 VAL 0.127298
+map_shared_irm epoch 3 VAL 0.128214
+map_shared_irm epoch 4 VAL 0.12713
+map_shared_irm epoch 5 VAL 0.129409
+map_shared_irm epoch 6 VAL 0.129439
+map_shared_irm epoch 7 VAL 0.128917
+map_shared_irm epoch 8 VAL 0.128382
+map_shared_irm epoch 9 VAL 0.129912
+map_shared_irm epoch 10 VAL 0.129166
+BEGIN map_consensus_shuffled
+Traceback (most recent call last):
+  File "tools/run_fpem_prototype_invariant_search.py", line 424, in <module>
+    main()
+  File "tools/run_fpem_prototype_invariant_search.py", line 391, in main
+    result, state = mapping_methods(data["train"],data["val"],data["test"],
+  File "tools/run_fpem_prototype_invariant_search.py", line 342, in mapping_methods
+    control=method.removeprefix("map_consensus_")
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=shared exit=1, waiting 60 seconds
+stage=shared attempt=2
+SKIP A0
+SKIP linear
+SKIP head_init
+SKIP p01
+SKIP p02
+SKIP risk_var
+SKIP risk_dro
+SKIP risk_incremental
+SKIP shared_grad_norm
+SKIP shared_grad_variance
+SKIP shared_irm
+SKIP conditional
+SKIP subspace
+SKIP ref_global
+SKIP ref_prototype
+SKIP residual_risk
+SKIP risk_var_shuffled
+SKIP risk_var_random
+SKIP risk_var_time
+SKIP risk_var_uniform
+SKIP risk_var_sample
+SKIP risk_var_hcluster
+SKIP risk_var_eiil
+SKIP map_global
+SKIP map_consensus
+SKIP map_spectral
+SKIP pairwise
+SKIP shared_private
+SKIP shared_private_irm
+SKIP adversarial_weak
+SKIP adversarial_strong
+SKIP map_projection
+SKIP map_shared_irm
+BEGIN map_consensus_shuffled
+Traceback (most recent call last):
+  File "tools/run_fpem_prototype_invariant_search.py", line 424, in <module>
+    main()
+  File "tools/run_fpem_prototype_invariant_search.py", line 391, in main
+    result, state = mapping_methods(data["train"],data["val"],data["test"],
+  File "tools/run_fpem_prototype_invariant_search.py", line 342, in mapping_methods
+    control=method.removeprefix("map_consensus_")
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=shared exit=1, waiting 60 seconds
+stage=shared attempt=3
+SKIP A0
+SKIP linear
+SKIP head_init
+SKIP p01
+SKIP p02
+SKIP risk_var
+SKIP risk_dro
+SKIP risk_incremental
+SKIP shared_grad_norm
+SKIP shared_grad_variance
+SKIP shared_irm
+SKIP conditional
+SKIP subspace
+SKIP ref_global
+SKIP ref_prototype
+SKIP residual_risk
+SKIP risk_var_shuffled
+SKIP risk_var_random
+SKIP risk_var_time
+SKIP risk_var_uniform
+SKIP risk_var_sample
+SKIP risk_var_hcluster
+SKIP risk_var_eiil
+SKIP map_global
+SKIP map_consensus
+SKIP map_spectral
+SKIP pairwise
+SKIP shared_private
+SKIP shared_private_irm
+SKIP adversarial_weak
+SKIP adversarial_strong
+SKIP map_projection
+SKIP map_shared_irm
+BEGIN map_consensus_shuffled
+Traceback (most recent call last):
+  File "tools/run_fpem_prototype_invariant_search.py", line 424, in <module>
+    main()
+  File "tools/run_fpem_prototype_invariant_search.py", line 391, in main
+    result, state = mapping_methods(data["train"],data["val"],data["test"],
+  File "tools/run_fpem_prototype_invariant_search.py", line 342, in mapping_methods
+    control=method.removeprefix("map_consensus_")
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=shared exit=1, waiting 60 seconds
+stage=shared attempt=4
+SKIP A0
+SKIP linear
+SKIP head_init
+SKIP p01
+SKIP p02
+SKIP risk_var
+SKIP risk_dro
+SKIP risk_incremental
+SKIP shared_grad_norm
+SKIP shared_grad_variance
+SKIP shared_irm
+SKIP conditional
+SKIP subspace
+SKIP ref_global
+SKIP ref_prototype
+SKIP residual_risk
+SKIP risk_var_shuffled
+SKIP risk_var_random
+SKIP risk_var_time
+SKIP risk_var_uniform
+SKIP risk_var_sample
+SKIP risk_var_hcluster
+SKIP risk_var_eiil
+SKIP map_global
+SKIP map_consensus
+SKIP map_spectral
+SKIP pairwise
+SKIP shared_private
+SKIP shared_private_irm
+SKIP adversarial_weak
+SKIP adversarial_strong
+SKIP map_projection
+SKIP map_shared_irm
+BEGIN map_consensus_shuffled
+Traceback (most recent call last):
+  File "tools/run_fpem_prototype_invariant_search.py", line 424, in <module>
+    main()
+  File "tools/run_fpem_prototype_invariant_search.py", line 391, in main
+    result, state = mapping_methods(data["train"],data["val"],data["test"],
+  File "tools/run_fpem_prototype_invariant_search.py", line 342, in mapping_methods
+    control=method.removeprefix("map_consensus_")
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=shared exit=1, waiting 60 seconds
+stage=shared attempt=5
+SKIP A0
+SKIP linear
+SKIP head_init
+SKIP p01
+SKIP p02
+SKIP risk_var
+SKIP risk_dro
+SKIP risk_incremental
+SKIP shared_grad_norm
+SKIP shared_grad_variance
+SKIP shared_irm
+SKIP conditional
+SKIP subspace
+SKIP ref_global
+SKIP ref_prototype
+SKIP residual_risk
+SKIP risk_var_shuffled
+SKIP risk_var_random
+SKIP risk_var_time
+SKIP risk_var_uniform
+SKIP risk_var_sample
+SKIP risk_var_hcluster
+SKIP risk_var_eiil
+SKIP map_global
+SKIP map_consensus
+SKIP map_spectral
+SKIP pairwise
+SKIP shared_private
+SKIP shared_private_irm
+SKIP adversarial_weak
+SKIP adversarial_strong
+SKIP map_projection
+SKIP map_shared_irm
+BEGIN map_consensus_shuffled
+Traceback (most recent call last):
+  File "tools/run_fpem_prototype_invariant_search.py", line 424, in <module>
+    main()
+  File "tools/run_fpem_prototype_invariant_search.py", line 391, in main
+    result, state = mapping_methods(data["train"],data["val"],data["test"],
+  File "tools/run_fpem_prototype_invariant_search.py", line 342, in mapping_methods
+    control=method.removeprefix("map_consensus_")
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=shared exit=1, waiting 60 seconds
+stage=shared attempt=6
+SKIP A0
+SKIP linear
+SKIP head_init
+SKIP p01
+SKIP p02
+SKIP risk_var
+SKIP risk_dro
+SKIP risk_incremental
+SKIP shared_grad_norm
+SKIP shared_grad_variance
+SKIP shared_irm
+SKIP conditional
+SKIP subspace
+SKIP ref_global
+SKIP ref_prototype
+SKIP residual_risk
+SKIP risk_var_shuffled
+SKIP risk_var_random
+SKIP risk_var_time
+SKIP risk_var_uniform
+SKIP risk_var_sample
+SKIP risk_var_hcluster
+SKIP risk_var_eiil
+SKIP map_global
+SKIP map_consensus
+SKIP map_spectral
+SKIP pairwise
+SKIP shared_private
+SKIP shared_private_irm
+SKIP adversarial_weak
+SKIP adversarial_strong
+SKIP map_projection
+SKIP map_shared_irm
+BEGIN map_consensus_shuffled
+Traceback (most recent call last):
+  File "tools/run_fpem_prototype_invariant_search.py", line 424, in <module>
+    main()
+  File "tools/run_fpem_prototype_invariant_search.py", line 391, in main
+    result, state = mapping_methods(data["train"],data["val"],data["test"],
+  File "tools/run_fpem_prototype_invariant_search.py", line 342, in mapping_methods
+    control=method.removeprefix("map_consensus_")
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=shared exit=1, waiting 60 seconds
+stage=shared failed after six attempts
+stage=shared attempt=1
+SKIP A0
+SKIP linear
+SKIP head_init
+SKIP p01
+SKIP p02
+SKIP risk_var
+SKIP risk_dro
+SKIP risk_incremental
+SKIP shared_grad_norm
+SKIP shared_grad_variance
+SKIP shared_irm
+SKIP conditional
+SKIP subspace
+SKIP ref_global
+SKIP ref_prototype
+SKIP residual_risk
+SKIP risk_var_shuffled
+SKIP risk_var_random
+SKIP risk_var_time
+SKIP risk_var_uniform
+SKIP risk_var_sample
+SKIP risk_var_hcluster
+SKIP risk_var_eiil
+SKIP map_global
+SKIP map_consensus
+SKIP map_spectral
+SKIP pairwise
+SKIP shared_private
+SKIP shared_private_irm
+SKIP adversarial_weak
+SKIP adversarial_strong
+SKIP map_projection
+SKIP map_shared_irm
+BEGIN map_consensus_shuffled
+BEGIN map_consensus_random
+BEGIN map_consensus_time
+BEGIN map_consensus_uniform
+BEGIN map_consensus_hcluster
+BEGIN map_consensus_eiil
+COMPLETE results/fpem_prototype_guided_invariant_20261103/moderntcn/ETTm2/pred_96/shared
+stage=finetune attempt=1
+partial 1 {'mse': 0.12400134065134247, 'mae': 0.23997079586747078}
+partial 2 {'mse': 0.12371546159095063, 'mae': 0.23969672744603213}
+partial 3 {'mse': 0.12403601308758065, 'mae': 0.23996243376011575}
+partial 4 {'mse': 0.12350495270073969, 'mae': 0.23955750755880892}
+partial 5 {'mse': 0.1235051860765137, 'mae': 0.23962381158405252}
+partial 6 {'mse': 0.12339620515342783, 'mae': 0.23945626195697806}
+partial 7 {'mse': 0.12375704949721973, 'mae': 0.23978483501862674}
+partial 8 {'mse': 0.1242806317180483, 'mae': 0.24004585429771977}
+partial 9 {'mse': 0.12440020601290482, 'mae': 0.24023343615606074}
+partial 10 {'mse': 0.1239237973619974, 'mae': 0.2400908283303773}
+full 1 {'mse': 0.12346593812717777, 'mae': 0.23970248067864006}
+full 2 {'mse': 0.12399651637575572, 'mae': 0.2403127692954879}
+full 3 {'mse': 0.12430830291285683, 'mae': 0.24064327364419166}
+full 4 {'mse': 0.12359343286072995, 'mae': 0.24022715341699702}
+full 5 {'mse': 0.12394363589232521, 'mae': 0.2404605392368821}
+full 6 {'mse': 0.12403618370844689, 'mae': 0.24050829851927574}
+full 7 {'mse': 0.124834092427888, 'mae': 0.2415119736191074}
+full 8 {'mse': 0.12511516600101652, 'mae': 0.24119895118545398}
+full 9 {'mse': 0.12548490412038912, 'mae': 0.24174630782015175}
+full 10 {'mse': 0.12494865033575572, 'mae': 0.2414949196709103}
+stage=forward attempt=1
+shared_irm epoch 1 VAL 0.109411
+shared_irm epoch 2 VAL 0.100062
+shared_irm epoch 3 VAL 0.096094
+shared_irm epoch 4 VAL 0.093827
+shared_irm epoch 5 VAL 0.092504
+shared_irm epoch 6 VAL 0.091557
+shared_irm epoch 7 VAL 0.091413
+shared_irm epoch 8 VAL 0.09138
+shared_irm epoch 9 VAL 0.091237
+shared_irm epoch 10 VAL 0.090844
+FORWARD OOF COMPLETE {'mse': 0.37668319647756715, 'mae': 0.31801066085033536, 'prediction_std': 1.4191609621047974}
+stage=fusion attempt=1
+FUSION COMPLETE results/fpem_prototype_guided_invariant_20261103/moderntcn/ETTm2/pred_96/fusion
+stage=analysis attempt=1
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=2
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=3
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=4
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=5
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=6
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis failed after six attempts
+stage=analysis attempt=1
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=2
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=3
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=4
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=5
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=6
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis failed after six attempts
+stage=analysis attempt=1
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=2
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=3
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=4
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=5
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis attempt=6
+Traceback (most recent call last):
+  File "tools/analyze_fpem_prototype_invariant.py", line 149, in <module>
+    if __name__=="__main__":main()
+  File "tools/analyze_fpem_prototype_invariant.py", line 109, in main
+    "control":key.removeprefix("ablation_"),"test_mse":value["mse"],
+AttributeError: 'str' object has no attribute 'removeprefix'
+stage=analysis exit=1, waiting 60 seconds
+stage=analysis failed after six attempts
+stage=analysis attempt=1
+all stages complete

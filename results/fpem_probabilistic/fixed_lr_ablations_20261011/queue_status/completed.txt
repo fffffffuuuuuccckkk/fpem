@@ -1,0 +1,6 @@
+patchtst,ETTh1,24,2
+patchtst,ETTh1,48,3
+moderntcn,ETTh1,24,0
+moderntcn,ETTh1,48,1
+patchtst,ETTh2,48,3
+patchtst,ETTh2,24,2

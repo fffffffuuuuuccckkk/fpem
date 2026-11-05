@@ -1,0 +1,14 @@
+attempt=1 lane=it_c gpu=3 case=itransformer/ExchangeRate/336 method=F03
+BEGIN itransformer ExchangeRate 336 F00
+BEGIN itransformer ExchangeRate 336 F03
+F03 epoch 1 val 0.365704
+F03 epoch 2 val 0.367433
+F03 epoch 3 val 0.367002
+F03 epoch 4 val 0.367165
+F03 epoch 5 val 0.368077
+F03 epoch 6 val 0.371029
+F03 epoch 7 val 0.372913
+F03 epoch 8 val 0.374111
+F03 epoch 9 val 0.375057
+F03 epoch 10 val 0.375361
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_expansion/itransformer/ExchangeRate/pred_336

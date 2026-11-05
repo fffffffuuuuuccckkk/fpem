@@ -1,0 +1,22 @@
+attempt=1 case=itransformer/ETTm1/720 gpu=1
+F03 lr=0.0003 epoch=1 val_mse=0.986598
+F03 lr=0.0003 epoch=2 val_mse=0.986464
+F03 lr=0.0003 epoch=3 val_mse=0.985650
+F03 lr=0.0003 epoch=4 val_mse=0.984317
+F03 lr=0.0003 epoch=5 val_mse=0.985692
+F03 lr=0.0003 epoch=6 val_mse=0.986596
+F03 lr=0.0003 epoch=7 val_mse=0.987020
+F03 lr=0.0003 epoch=8 val_mse=0.986690
+F03 lr=0.0003 epoch=9 val_mse=0.987031
+F03 lr=0.0003 epoch=10 val_mse=0.986837
+F03 lr=0.0003 epoch=1 val_mse=0.991778
+F03 lr=0.0003 epoch=2 val_mse=0.992170
+F03 lr=0.0003 epoch=3 val_mse=0.990649
+F03 lr=0.0003 epoch=4 val_mse=0.989784
+F03 lr=0.0003 epoch=5 val_mse=0.991307
+F03 lr=0.0003 epoch=6 val_mse=0.992277
+F03 lr=0.0003 epoch=7 val_mse=0.992393
+F03 lr=0.0003 epoch=8 val_mse=0.991570
+F03 lr=0.0003 epoch=9 val_mse=0.991214
+F03 lr=0.0003 epoch=10 val_mse=0.991007
+F03 ANCHOR SEARCH COMPLETE results/fpem_performance_optimization_20261103/f03_anchor_search/itransformer/ETTm1/pred_720

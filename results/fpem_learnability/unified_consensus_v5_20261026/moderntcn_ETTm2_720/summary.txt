@@ -1,0 +1,37 @@
+# moderntcn_ETTm2_720: unified retrieval / consensus pilot
+
+All point hyperparameters and the single reported checkpoint/config were chosen by the first half of VAL, not TEST.
+C0–C7 are exploratory probability ablations unless real paired memory also beat A0 and both negative controls on VAL.
+
+| Mode | VAL MSE | TEST MSE | TEST MAE |
+|---|---:|---:|---:|
+| A0 | 0.261945 | 0.483657 | 0.443284 |
+| A1 | 0.261966 | 0.483759 | 0.443379 |
+| A2 | 0.261698 | 0.483808 | 0.443615 |
+| A3 | 0.261043 | 0.481590 | 0.442062 |
+| A4 | 0.260581 | 0.480277 | 0.441290 |
+| B0 | 0.261698 | 0.483808 | 0.443615 |
+| B1 | 0.260594 | 0.480325 | 0.441334 |
+| B2 | 0.260243 | 0.479051 | 0.440427 |
+| B3 | 0.258021 | 0.474770 | 0.438219 |
+| B4 | 0.256719 | 0.472498 | 0.437808 |
+| B5 | 0.256824 | 0.472961 | 0.437645 |
+| B6 | 0.254522 | 0.467752 | 0.434531 |
+| B7 | 0.260210 | 0.499113 | 0.448860 |
+| B8 | 0.256330 | 0.472719 | 0.437548 |
+
+VAL-selected point mode: **B8**. A0 TEST MSE 0.483657; selected TEST MSE 0.472719.
+Matched shuffled-pair B6 VAL MSE: 0.254522; random retrieval B7: 0.260210.
+
+Reconstruction-only two-component GMM supported by BIC: True. When false, grouped interpretations are exploratory; A3 is the no-group control.
+
+| C mode | VAL CRPS | TEST CRPS | TEST PICP95 | TEST MPIW95 |
+|---|---:|---:|---:|---:|
+| C0 | 0.274569 | 0.343650 | 0.999302 | 12.587341 |
+| C1 | 0.289181 | 0.377030 | 0.999433 | 12.547008 |
+| C2 | 0.284402 | 0.367960 | 0.999446 | 12.611262 |
+| C3 | 0.278764 | 0.355947 | 0.999354 | 12.590156 |
+| C4 | 0.289688 | 0.375588 | 0.999458 | 12.536011 |
+| C5 | 0.281923 | 0.362716 | 0.999407 | 12.565760 |
+| C6 | 0.285404 | 0.369116 | 0.999440 | 12.607396 |
+| C7 | 0.279868 | 0.356588 | 0.999401 | 12.535969 |

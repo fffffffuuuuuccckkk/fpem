@@ -1,0 +1,142 @@
+RUN reference Weather/48 GPU1 attempt=1 2026-11-01T04:51:21+00:00
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search_h48_h192/patchtst/Weather/pred_48/shared_reference.pt
+RETRY reference code=0
+RUN reference Weather/48 GPU1 attempt=2 2026-11-01T04:52:24+00:00
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search_h48_h192/patchtst/Weather/pred_48/shared_reference.pt
+RETRY reference code=0
+RUN reference Weather/48 GPU1 attempt=3 2026-11-01T04:53:26+00:00
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search_h48_h192/patchtst/Weather/pred_48/shared_reference.pt
+RETRY reference code=0
+FAILED reference
+RUN reference Weather/48 GPU1 attempt=1 2026-11-01T04:55:42+00:00
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_patchtst_search_h48_h192/patchtst/Weather/pred_48/shared_reference.pt
+RUN point Weather/48 GPU1 attempt=1 2026-11-01T04:55:45+00:00
+TRIAL patchtst Weather 48 inherited 0.14969142428950666 pruned False
+TRIAL patchtst Weather 48 head_0.0003 0.14969195552249945 pruned False
+TRIAL patchtst Weather 48 head_0.001 0.14969275956426584 pruned False
+TRIAL patchtst Weather 48 head_0.003 0.1496931951796483 pruned True
+COMPLETE patchtst Weather 48 {'mse': 0.14969142428950666, 'mae': 0.19140958596428953}
+RUN flow Weather/48 GPU1 attempt=1 2026-11-01T04:56:28+00:00
+EPOCH 5e-05 1 {'epoch': 1, 'prob_loss': 806.7541053045483, 'maturity': 0.16541551045682373, 'prob_loss_weight': 0.20714473493398255, 'effective_prob_lr': 1.0357236746699128e-05, 'inv_loss_ema': 0.40838957405090326, 'inv_loss_relative_change': 0.00010522270898624843}
+EPOCH 5e-05 2 {'epoch': 2, 'prob_loss': 708.5654665321164, 'maturity': 0.2544853029247419, 'prob_loss_weight': 0.2917610377785048, 'effective_prob_lr': 1.4588051888925241e-05, 'inv_loss_ema': 0.40835519294738765, 'inv_loss_relative_change': 8.418702557583697e-05}
+EPOCH 5e-05 3 {'epoch': 3, 'prob_loss': 627.4870859786062, 'maturity': 0.3413053145728876, 'prob_loss_weight': 0.37424004884424317, 'effective_prob_lr': 1.871200244221216e-05, 'inv_loss_ema': 0.4083276880645752, 'inv_loss_relative_change': 6.735529090215868e-05}
+EPOCH 5e-05 4 {'epoch': 4, 'prob_loss': 591.0304423643448, 'maturity': 0.4232145531509468, 'prob_loss_weight': 0.45205382549339945, 'effective_prob_lr': 2.2602691274669974e-05, 'inv_loss_ema': 0.40830568415832524, 'inv_loss_relative_change': 5.388786235437192e-05}
+EPOCH 5e-05 5 {'epoch': 5, 'prob_loss': 330.2415673899193, 'maturity': 0.49870573542630237, 'prob_loss_weight': 0.5237704486549872, 'effective_prob_lr': 2.6188522432749362e-05, 'inv_loss_ema': 0.40828808103332526, 'inv_loss_relative_change': 4.3112613130114005e-05}
+EPOCH 5e-05 6 {'epoch': 6, 'prob_loss': 403.6600322674498, 'maturity': 0.5670704876274024, 'prob_loss_weight': 0.5887169632460323, 'effective_prob_lr': 2.9435848162301614e-05, 'inv_loss_ema': 0.40827399853332524, 'inv_loss_relative_change': 3.449157752618372e-05}
+EPOCH 5e-05 7 {'epoch': 7, 'prob_loss': 274.55765986109697, 'maturity': 0.6281402294383766, 'prob_loss_weight': 0.6467332179664578, 'effective_prob_lr': 3.233666089832289e-05, 'inv_loss_ema': 0.40826273253332523, 'inv_loss_relative_change': 2.7594213788911152e-05}
+EPOCH 5e-05 8 {'epoch': 8, 'prob_loss': 288.04967637128647, 'maturity': 0.6820986917256577, 'prob_loss_weight': 0.6979937571393748, 'effective_prob_lr': 3.4899687856968744e-05, 'inv_loss_ema': 0.40825371973332525, 'inv_loss_relative_change': 2.2075980200391785e-05}
+EPOCH 5e-05 9 {'epoch': 9, 'prob_loss': 159.64481489227705, 'maturity': 0.7293477993941084, 'prob_loss_weight': 0.742880409424403, 'effective_prob_lr': 3.714402047122015e-05, 'inv_loss_ema': 0.4082465094933252, 'inv_loss_relative_change': 1.7661174048205196e-05}
+EPOCH 5e-05 10 {'epoch': 10, 'prob_loss': 257.74985379635973, 'maturity': 0.770413085580195, 'prob_loss_weight': 0.7818924313011852, 'effective_prob_lr': 3.9094621565059265e-05, 'inv_loss_ema': 0.40824074130132515, 'inv_loss_relative_change': 1.4129188776626299e-05}
+TRIAL 5e-05 0.8 {'CRPS': 0.14668203817635048, 'ProbTS_CRPS': 0.2931581044160738, 'inv_MSE': 0.14880366527997865, 'inv_MAE': 0.19130846921627115, 'mean_MSE': 0.1447759946671928, 'mean_MAE': 0.1875476147525194, 'PICP_95': 0.8333802622992817, 'MPIW_95': 0.7971576942903239, 'WIS': 0.12071186876515062, 'sample_std_mean': 0.19752069526329274, 'sample_diversity': 0.21176159318263937, 'samples_evaluated': 656}
+TRIAL 5e-05 1.0 {'CRPS': 0.14557265608412465, 'ProbTS_CRPS': 0.2908102332091913, 'inv_MSE': 0.14880366527997865, 'inv_MAE': 0.19130846921627115, 'mean_MSE': 0.14504714219308482, 'mean_MAE': 0.18798290483835267, 'PICP_95': 0.8849554657936096, 'MPIW_95': 0.9964471066870341, 'WIS': 0.11832400402281343, 'sample_std_mean': 0.2469008628551553, 'sample_diversity': 0.26470198718512933, 'samples_evaluated': 656}
+TRIAL 5e-05 1.2 {'CRPS': 0.14634617672460834, 'ProbTS_CRPS': 0.29188943690643077, 'inv_MSE': 0.14880366527997865, 'inv_MAE': 0.19130846921627115, 'mean_MSE': 0.14582951057974886, 'mean_MAE': 0.18890057158906284, 'PICP_95': 0.9187763653150419, 'MPIW_95': 1.195736569602315, 'WIS': 0.1184480076701176, 'sample_std_mean': 0.29628104607506495, 'sample_diversity': 0.31764239472586936, 'samples_evaluated': 656}
+EPOCH 0.0001 1 {'epoch': 1, 'prob_loss': 758.4159375006824, 'maturity': 0.16541551045682373, 'prob_loss_weight': 0.20714473493398255, 'effective_prob_lr': 2.0714473493398256e-05, 'inv_loss_ema': 0.40838957405090326, 'inv_loss_relative_change': 0.00010522270898624843}
+EPOCH 0.0001 2 {'epoch': 2, 'prob_loss': 575.6087550376307, 'maturity': 0.2544853029247419, 'prob_loss_weight': 0.2917610377785048, 'effective_prob_lr': 2.9176103777850483e-05, 'inv_loss_ema': 0.40835519294738765, 'inv_loss_relative_change': 8.418702557583697e-05}
+EPOCH 0.0001 3 {'epoch': 3, 'prob_loss': 456.44314323503517, 'maturity': 0.3413053145728876, 'prob_loss_weight': 0.37424004884424317, 'effective_prob_lr': 3.742400488442432e-05, 'inv_loss_ema': 0.4083276880645752, 'inv_loss_relative_change': 6.735529090215868e-05}
+EPOCH 0.0001 4 {'epoch': 4, 'prob_loss': 421.71255509058636, 'maturity': 0.4232145531509468, 'prob_loss_weight': 0.45205382549339945, 'effective_prob_lr': 4.520538254933995e-05, 'inv_loss_ema': 0.40830568415832524, 'inv_loss_relative_change': 5.388786235437192e-05}
+EPOCH 0.0001 5 {'epoch': 5, 'prob_loss': 204.1834610317806, 'maturity': 0.49870573542630237, 'prob_loss_weight': 0.5237704486549872, 'effective_prob_lr': 5.2377044865498723e-05, 'inv_loss_ema': 0.40828808103332526, 'inv_loss_relative_change': 4.3112613130114005e-05}
+EPOCH 0.0001 6 {'epoch': 6, 'prob_loss': 275.4080208705358, 'maturity': 0.5670704876274024, 'prob_loss_weight': 0.5887169632460323, 'effective_prob_lr': 5.887169632460323e-05, 'inv_loss_ema': 0.40827399853332524, 'inv_loss_relative_change': 3.449157752618372e-05}
+EPOCH 0.0001 7 {'epoch': 7, 'prob_loss': 158.49012307492436, 'maturity': 0.6281402294383766, 'prob_loss_weight': 0.6467332179664578, 'effective_prob_lr': 6.467332179664578e-05, 'inv_loss_ema': 0.40826273253332523, 'inv_loss_relative_change': 2.7594213788911152e-05}
+EPOCH 0.0001 8 {'epoch': 8, 'prob_loss': 200.6699722017085, 'maturity': 0.6820986917256577, 'prob_loss_weight': 0.6979937571393748, 'effective_prob_lr': 6.979937571393749e-05, 'inv_loss_ema': 0.40825371973332525, 'inv_loss_relative_change': 2.2075980200391785e-05}
+EPOCH 0.0001 9 {'epoch': 9, 'prob_loss': 126.73801442725912, 'maturity': 0.7293477993941084, 'prob_loss_weight': 0.742880409424403, 'effective_prob_lr': 7.42880409424403e-05, 'inv_loss_ema': 0.4082465094933252, 'inv_loss_relative_change': 1.7661174048205196e-05}
+EPOCH 0.0001 10 {'epoch': 10, 'prob_loss': 278.6979947374129, 'maturity': 0.770413085580195, 'prob_loss_weight': 0.7818924313011852, 'effective_prob_lr': 7.818924313011853e-05, 'inv_loss_ema': 0.40824074130132515, 'inv_loss_relative_change': 1.4129188776626299e-05}
+TRIAL 0.0001 0.8 {'CRPS': 0.1463813010330607, 'ProbTS_CRPS': 0.2921368753219523, 'inv_MSE': 0.14880366527997865, 'inv_MAE': 0.19130846921627115, 'mean_MSE': 0.14383667920965973, 'mean_MAE': 0.18877322426656398, 'PICP_95': 0.8281794910023852, 'MPIW_95': 0.784224329925165, 'WIS': 0.12031286473317844, 'sample_std_mean': 0.19663954744251763, 'sample_diversity': 0.20978403463959694, 'samples_evaluated': 656}
+TRIAL 0.0001 1.0 {'CRPS': 0.14505920159380611, 'ProbTS_CRPS': 0.2892867114122321, 'inv_MSE': 0.14880366527997865, 'inv_MAE': 0.19130846921627115, 'mean_MSE': 0.144141969248289, 'mean_MAE': 0.18962595493691722, 'PICP_95': 0.8815331502658564, 'MPIW_95': 0.9802804015031675, 'WIS': 0.11764930252258371, 'sample_std_mean': 0.24579942953295825, 'sample_diversity': 0.2622300430041988, 'samples_evaluated': 656}
+TRIAL 0.0001 1.2 {'CRPS': 0.14562986027903674, 'ProbTS_CRPS': 0.2899074254602921, 'inv_MSE': 0.14880366527997865, 'inv_MAE': 0.19130846921627115, 'mean_MSE': 0.14506607389122975, 'mean_MAE': 0.19101158911135138, 'PICP_95': 0.9163204075359717, 'MPIW_95': 1.1763365290513852, 'WIS': 0.11752958014243986, 'sample_std_mean': 0.2949593261611171, 'sample_diversity': 0.31467606054573527, 'samples_evaluated': 656}
+EPOCH 0.0005 1 {'epoch': 1, 'prob_loss': 456.5488832138388, 'maturity': 0.16541551045682373, 'prob_loss_weight': 0.20714473493398255, 'effective_prob_lr': 0.00010357236746699127, 'inv_loss_ema': 0.40838957405090326, 'inv_loss_relative_change': 0.00010522270898624843}
+EPOCH 0.0005 2 {'epoch': 2, 'prob_loss': 187.31646237614683, 'maturity': 0.2544853029247419, 'prob_loss_weight': 0.2917610377785048, 'effective_prob_lr': 0.0001458805188892524, 'inv_loss_ema': 0.40835519294738765, 'inv_loss_relative_change': 8.418702557583697e-05}
+EPOCH 0.0005 3 {'epoch': 3, 'prob_loss': 171.40957102059903, 'maturity': 0.3413053145728876, 'prob_loss_weight': 0.37424004884424317, 'effective_prob_lr': 0.0001871200244221216, 'inv_loss_ema': 0.4083276880645752, 'inv_loss_relative_change': 6.735529090215868e-05}
+EPOCH 0.0005 4 {'epoch': 4, 'prob_loss': 233.04046230145565, 'maturity': 0.4232145531509468, 'prob_loss_weight': 0.45205382549339945, 'effective_prob_lr': 0.00022602691274669972, 'inv_loss_ema': 0.40830568415832524, 'inv_loss_relative_change': 5.388786235437192e-05}
+EPOCH 0.0005 5 {'epoch': 5, 'prob_loss': 174.49776862949184, 'maturity': 0.49870573542630237, 'prob_loss_weight': 0.5237704486549872, 'effective_prob_lr': 0.0002618852243274936, 'inv_loss_ema': 0.40828808103332526, 'inv_loss_relative_change': 4.3112613130114005e-05}
+EPOCH 0.0005 6 {'epoch': 6, 'prob_loss': 220.5395629824144, 'maturity': 0.5670704876274024, 'prob_loss_weight': 0.5887169632460323, 'effective_prob_lr': 0.00029435848162301614, 'inv_loss_ema': 0.40827399853332524, 'inv_loss_relative_change': 3.449157752618372e-05}
+EPOCH 0.0005 7 {'epoch': 7, 'prob_loss': 124.87728254374825, 'maturity': 0.6281402294383766, 'prob_loss_weight': 0.6467332179664578, 'effective_prob_lr': 0.00032336660898322887, 'inv_loss_ema': 0.40826273253332523, 'inv_loss_relative_change': 2.7594213788911152e-05}
+EPOCH 0.0005 8 {'epoch': 8, 'prob_loss': 173.5608540642324, 'maturity': 0.6820986917256577, 'prob_loss_weight': 0.6979937571393748, 'effective_prob_lr': 0.00034899687856968745, 'inv_loss_ema': 0.40825371973332525, 'inv_loss_relative_change': 2.2075980200391785e-05}
+EPOCH 0.0005 9 {'epoch': 9, 'prob_loss': 170.30465621203444, 'maturity': 0.7293477993941084, 'prob_loss_weight': 0.742880409424403, 'effective_prob_lr': 0.0003714402047122015, 'inv_loss_ema': 0.4082465094933252, 'inv_loss_relative_change': 1.7661174048205196e-05}
+EPOCH 0.0005 10 {'epoch': 10, 'prob_loss': 315.4804163437863, 'maturity': 0.770413085580195, 'prob_loss_weight': 0.7818924313011852, 'effective_prob_lr': 0.00039094621565059263, 'inv_loss_ema': 0.40824074130132515, 'inv_loss_relative_change': 1.4129188776626299e-05}
+TRIAL 0.0005 0.8 {'CRPS': 0.14701264596930363, 'ProbTS_CRPS': 0.2931087756665742, 'inv_MSE': 0.14880366527997865, 'inv_MAE': 0.19130846921627115, 'mean_MSE': 0.1432723786863612, 'mean_MAE': 0.18886780593453384, 'PICP_95': 0.8073249844516196, 'MPIW_95': 0.7204074023700342, 'WIS': 0.12113495107467581, 'sample_std_mean': 0.18313810102096417, 'sample_diversity': 0.1968421809738729, 'samples_evaluated': 656}
+TRIAL 0.0005 1.0 {'CRPS': 0.1453909137081809, 'ProbTS_CRPS': 0.2897542237145145, 'inv_MSE': 0.14880366527997865, 'inv_MAE': 0.19130846921627115, 'mean_MSE': 0.14329141392031822, 'mean_MAE': 0.1897390224948162, 'PICP_95': 0.8650597537436137, 'MPIW_95': 0.9005092411506467, 'WIS': 0.11790954703237952, 'sample_std_mean': 0.22892262205118086, 'sample_diversity': 0.2460527225601964, 'samples_evaluated': 656}
+TRIAL 0.0005 1.2 {'CRPS': 0.14564263002901542, 'ProbTS_CRPS': 0.2898178873810826, 'inv_MSE': 0.14880366527997865, 'inv_MAE': 0.19130846921627115, 'mean_MSE': 0.14387119316109798, 'mean_MAE': 0.19114026872486603, 'PICP_95': 0.9034492853211193, 'MPIW_95': 1.0806111373552463, 'WIS': 0.11721926645898237, 'sample_std_mean': 0.2747071559836225, 'sample_diversity': 0.2952632793202633, 'samples_evaluated': 656}
+COMPLETE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/Weather/pred_48 {'lr': 0.0001, 'sample_scale': 1.0, 'test': {'CRPS': 0.14505920159380611, 'ProbTS_CRPS': 0.2892867114122321, 'inv_MSE': 0.14880366527997865, 'inv_MAE': 0.19130846921627115, 'mean_MSE': 0.144141969248289, 'mean_MAE': 0.18962595493691722, 'PICP_95': 0.8815331502658564, 'MPIW_95': 0.9802804015031675, 'WIS': 0.11764930252258371, 'sample_std_mean': 0.24579942953295825, 'sample_diversity': 0.2622300430041988, 'samples_evaluated': 656}, 'checkpoint': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/Weather/pred_48/probability_search_ema_lr/flow_lr_0.0001.pt'}
+RUN full_eval Weather/48 GPU1 attempt=1 2026-11-01T05:03:46+00:00
+FULL_TEST 256 / 10492
+FULL_TEST 512 / 10492
+FULL_TEST 768 / 10492
+FULL_TEST 1024 / 10492
+FULL_TEST 1280 / 10492
+FULL_TEST 1536 / 10492
+FULL_TEST 1792 / 10492
+FULL_TEST 2048 / 10492
+FULL_TEST 2304 / 10492
+FULL_TEST 2560 / 10492
+FULL_TEST 2816 / 10492
+FULL_TEST 3072 / 10492
+FULL_TEST 3328 / 10492
+FULL_TEST 3584 / 10492
+FULL_TEST 3840 / 10492
+FULL_TEST 4096 / 10492
+FULL_TEST 4352 / 10492
+FULL_TEST 4608 / 10492
+FULL_TEST 4864 / 10492
+FULL_TEST 5120 / 10492
+FULL_TEST 5376 / 10492
+FULL_TEST 5632 / 10492
+FULL_TEST 5888 / 10492
+FULL_TEST 6144 / 10492
+FULL_TEST 6400 / 10492
+FULL_TEST 6656 / 10492
+FULL_TEST 6912 / 10492
+FULL_TEST 7168 / 10492
+FULL_TEST 7424 / 10492
+FULL_TEST 7680 / 10492
+FULL_TEST 7936 / 10492
+FULL_TEST 8192 / 10492
+FULL_TEST 8448 / 10492
+FULL_TEST 8704 / 10492
+FULL_TEST 8960 / 10492
+FULL_TEST 9216 / 10492
+FULL_TEST 9472 / 10492
+FULL_TEST 9728 / 10492
+FULL_TEST 9984 / 10492
+FULL_TEST 10240 / 10492
+FULL_TEST 256 / 10492
+FULL_TEST 512 / 10492
+FULL_TEST 768 / 10492
+FULL_TEST 1024 / 10492
+FULL_TEST 1280 / 10492
+FULL_TEST 1536 / 10492
+FULL_TEST 1792 / 10492
+FULL_TEST 2048 / 10492
+FULL_TEST 2304 / 10492
+FULL_TEST 2560 / 10492
+FULL_TEST 2816 / 10492
+FULL_TEST 3072 / 10492
+FULL_TEST 3328 / 10492
+FULL_TEST 3584 / 10492
+FULL_TEST 3840 / 10492
+FULL_TEST 4096 / 10492
+FULL_TEST 4352 / 10492
+FULL_TEST 4608 / 10492
+FULL_TEST 4864 / 10492
+FULL_TEST 5120 / 10492
+FULL_TEST 5376 / 10492
+FULL_TEST 5632 / 10492
+FULL_TEST 5888 / 10492
+FULL_TEST 6144 / 10492
+FULL_TEST 6400 / 10492
+FULL_TEST 6656 / 10492
+FULL_TEST 6912 / 10492
+FULL_TEST 7168 / 10492
+FULL_TEST 7424 / 10492
+FULL_TEST 7680 / 10492
+FULL_TEST 7936 / 10492
+FULL_TEST 8192 / 10492
+FULL_TEST 8448 / 10492
+FULL_TEST 8704 / 10492
+FULL_TEST 8960 / 10492
+FULL_TEST 9216 / 10492
+FULL_TEST 9472 / 10492
+FULL_TEST 9728 / 10492
+FULL_TEST 9984 / 10492
+FULL_TEST 10240 / 10492
+COMPLETE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/Weather/pred_48/full_test_eval windows 10492
+PAPER WEATHER COMPLETE 48 2026-11-01T05:41:10+00:00

@@ -1,0 +1,13 @@
+START itransformer_ETTm1_720 A0 attempt=1
+DONE itransformer_ETTm1_720 A0
+START itransformer_ETTm1_720 T0 attempt=1
+DONE itransformer_ETTm1_720 T0
+START itransformer_ETTm1_720 T1 attempt=1
+DONE itransformer_ETTm1_720 T1
+START itransformer_ETTm1_720 T2 attempt=1
+DONE itransformer_ETTm1_720 T2
+START itransformer_ETTm1_720 T3 attempt=1
+DONE itransformer_ETTm1_720 T3
+START itransformer_ETTm1_720 T4 attempt=1
+DONE itransformer_ETTm1_720 T4
+WORKER COMPLETE

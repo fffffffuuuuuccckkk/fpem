@@ -1,0 +1,3 @@
+START {'backbone': 'moderntcn', 'dataset': 'ExchangeRate', 'pred_len': 720, 'seq_len': 96, 'span': 816, 'sha': '7e0d55dfbee13958432dda27f2aaa12dee9423cf94e265eebf0e3f731b5c4866', 'selected_r3_gain': 5.960464477539063e-08, 'source': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_dual_pattern_memory/g1_r3_full_testlr_search/moderntcn/ExchangeRate/pred_720', 'train_cutoff': 5215, 'test_start_absolute': 5975, 'train_size': 275, 'val_size': 11, 'test_size': 200}
+A COMPLETE 98
+B COMPLETE 37

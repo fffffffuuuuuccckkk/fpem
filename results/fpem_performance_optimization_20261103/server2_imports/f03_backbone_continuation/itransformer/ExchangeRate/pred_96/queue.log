@@ -1,0 +1,42 @@
+seed=2022 mode=head_only attempt=1 gpu=3
+head_only ExchangeRate 96 2022 1 0.12746314374272694
+head_only ExchangeRate 96 2022 2 0.12838009303201459
+head_only ExchangeRate 96 2022 3 0.12848311270068505
+head_only ExchangeRate 96 2022 4 0.12823198417465606
+head_only ExchangeRate 96 2022 5 0.12812430368450112
+CONTINUATION COMPLETE head_only ExchangeRate 96 2022 0.09182654632071179
+seed=2022 mode=joint attempt=1 gpu=3
+joint ExchangeRate 96 2022 1 0.12957372969971923
+joint ExchangeRate 96 2022 2 0.12848246644832892
+joint ExchangeRate 96 2022 3 0.1281716357210201
+joint ExchangeRate 96 2022 4 0.1291883539058967
+joint ExchangeRate 96 2022 5 0.1292252997438351
+CONTINUATION COMPLETE joint ExchangeRate 96 2022 0.09182654632071179
+seed=2023 mode=head_only attempt=1 gpu=3
+head_only ExchangeRate 96 2023 1 0.12689369262573486
+head_only ExchangeRate 96 2023 2 0.12808364070580153
+head_only ExchangeRate 96 2023 3 0.12787534376818263
+head_only ExchangeRate 96 2023 4 0.12809932398462962
+head_only ExchangeRate 96 2023 5 0.12812592883309917
+CONTINUATION COMPLETE head_only ExchangeRate 96 2023 0.09120009787139678
+seed=2023 mode=joint attempt=1 gpu=3
+joint ExchangeRate 96 2023 1 0.12653384998648942
+joint ExchangeRate 96 2023 2 0.1295598110039077
+joint ExchangeRate 96 2023 3 0.12829677644603982
+joint ExchangeRate 96 2023 4 0.12947951866957003
+joint ExchangeRate 96 2023 5 0.13013286266974108
+CONTINUATION COMPLETE joint ExchangeRate 96 2023 0.0900705440246718
+seed=2024 mode=head_only attempt=1 gpu=3
+head_only ExchangeRate 96 2024 1 0.12697631917789787
+head_only ExchangeRate 96 2024 2 0.12722069584205004
+head_only ExchangeRate 96 2024 3 0.12740738425188197
+head_only ExchangeRate 96 2024 4 0.1278610553094251
+head_only ExchangeRate 96 2024 5 0.12781480020153785
+CONTINUATION COMPLETE head_only ExchangeRate 96 2024 0.09229663046547576
+seed=2024 mode=joint attempt=1 gpu=3
+joint ExchangeRate 96 2024 1 0.1282233449513327
+joint ExchangeRate 96 2024 2 0.12841068056529154
+joint ExchangeRate 96 2024 3 0.12858029801450566
+joint ExchangeRate 96 2024 4 0.1298469688126189
+joint ExchangeRate 96 2024 5 0.12931226303953372
+CONTINUATION COMPLETE joint ExchangeRate 96 2024 0.09229663046547576

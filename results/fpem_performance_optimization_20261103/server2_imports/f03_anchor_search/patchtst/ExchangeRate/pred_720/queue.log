@@ -1,0 +1,22 @@
+attempt=1 case=patchtst/ExchangeRate/720 gpu=2
+F03 lr=0.0003 epoch=1 val_mse=1.121737
+F03 lr=0.0003 epoch=2 val_mse=1.132811
+F03 lr=0.0003 epoch=3 val_mse=1.089523
+F03 lr=0.0003 epoch=4 val_mse=1.110507
+F03 lr=0.0003 epoch=5 val_mse=1.090943
+F03 lr=0.0003 epoch=6 val_mse=1.094893
+F03 lr=0.0003 epoch=7 val_mse=1.105532
+F03 lr=0.0003 epoch=8 val_mse=1.132572
+F03 lr=0.0003 epoch=9 val_mse=1.112023
+F03 lr=0.0003 epoch=10 val_mse=1.112815
+F03 lr=0.0003 epoch=1 val_mse=1.113272
+F03 lr=0.0003 epoch=2 val_mse=1.123132
+F03 lr=0.0003 epoch=3 val_mse=1.091975
+F03 lr=0.0003 epoch=4 val_mse=1.128645
+F03 lr=0.0003 epoch=5 val_mse=1.093886
+F03 lr=0.0003 epoch=6 val_mse=1.113683
+F03 lr=0.0003 epoch=7 val_mse=1.121695
+F03 lr=0.0003 epoch=8 val_mse=1.127885
+F03 lr=0.0003 epoch=9 val_mse=1.115061
+F03 lr=0.0003 epoch=10 val_mse=1.126132
+F03 ANCHOR SEARCH COMPLETE results/fpem_performance_optimization_20261103/f03_anchor_search/patchtst/ExchangeRate/pred_720

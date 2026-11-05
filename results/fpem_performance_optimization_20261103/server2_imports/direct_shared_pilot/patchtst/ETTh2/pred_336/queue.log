@@ -1,0 +1,36 @@
+attempt=1 gpu=0 case=patchtst/ETTh2/336
+BEGIN patchtst ETTh2 336 F00
+BEGIN patchtst ETTh2 336 F03
+F03 epoch 1 val 0.360787
+F03 epoch 2 val 0.36039
+F03 epoch 3 val 0.364809
+F03 epoch 4 val 0.366074
+F03 epoch 5 val 0.369615
+F03 epoch 6 val 0.372688
+F03 epoch 7 val 0.372532
+F03 epoch 8 val 0.374348
+F03 epoch 9 val 0.378323
+F03 epoch 10 val 0.379842
+BEGIN patchtst ETTh2 336 F01
+F01 epoch 1 val 0.382827
+F01 epoch 2 val 0.390636
+F01 epoch 3 val 0.381666
+F01 epoch 4 val 0.398597
+F01 epoch 5 val 0.396893
+F01 epoch 6 val 0.392546
+F01 epoch 7 val 0.405878
+F01 epoch 8 val 0.421565
+F01 epoch 9 val 0.411856
+F01 epoch 10 val 0.40992
+BEGIN patchtst ETTh2 336 P01
+P01 epoch 1 val 0.395148
+P01 epoch 2 val 0.375967
+P01 epoch 3 val 0.370824
+P01 epoch 4 val 0.37286
+P01 epoch 5 val 0.372355
+P01 epoch 6 val 0.375328
+P01 epoch 7 val 0.376136
+P01 epoch 8 val 0.376014
+P01 epoch 9 val 0.378566
+P01 epoch 10 val 0.383397
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_shared_pilot/patchtst/ETTh2/pred_336

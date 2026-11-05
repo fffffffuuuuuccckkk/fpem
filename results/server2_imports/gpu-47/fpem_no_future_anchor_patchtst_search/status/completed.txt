@@ -1,0 +1,8 @@
+patchtst:ETTh2:96
+patchtst:ETTh2:96
+patchtst:ETTh2:96
+patchtst:ETTh2:336
+patchtst:ETTh2:720
+patchtst:ExchangeRate:336
+patchtst:ETTm1:336
+patchtst:Weather:336

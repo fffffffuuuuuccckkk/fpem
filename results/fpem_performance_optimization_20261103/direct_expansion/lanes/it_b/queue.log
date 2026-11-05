@@ -1,0 +1,8 @@
+START itransformer/ETTm1/192 on gpu=2
+COMPLETE itransformer/ETTm1/192
+START itransformer/ETTm1/336 on gpu=2
+COMPLETE itransformer/ETTm1/336
+START itransformer/ETTm2/336 on gpu=2
+COMPLETE itransformer/ETTm2/336
+START itransformer/ETTm2/720 on gpu=2
+COMPLETE itransformer/ETTm2/720

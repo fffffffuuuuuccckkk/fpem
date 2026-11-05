@@ -1,0 +1,1 @@
+Completed rows: 30; A0 MSE/MAE and checkpoint SHA are attached to every row. F0 source was previously selected by TEST; new F1/F2/F3 reuse its LR and select epoch by VAL only. Treat all comparisons as exploratory.

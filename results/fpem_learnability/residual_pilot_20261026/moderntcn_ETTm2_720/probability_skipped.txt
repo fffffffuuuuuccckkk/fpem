@@ -1,0 +1,1 @@
+Predeclared VAL gate not met: real learned memory must beat A0, shuffled-pair and random-retrieval controls. Selected=P3; A0=0.2619445458108856; real=0.25967366087934257; shuffled=0.25881646380460943; random=0.27114353107719263.

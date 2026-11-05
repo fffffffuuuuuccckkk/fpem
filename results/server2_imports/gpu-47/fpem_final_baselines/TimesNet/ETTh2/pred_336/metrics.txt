@@ -1,0 +1,6 @@
+MAE=0.4676567614078522
+MSE=0.47077837586402893
+RMSE=0.6861329078674316
+MAPE=1.851564645767212
+MSPE=475.3655700683594
+source=results/long_term_forecast_FPEMFinal_ETTh2_96_336_TimesNet_ETTh2_ftM_sl96_ll48_pl336_dm16_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_TimesNet_ETTh2_336_0/metrics.npy

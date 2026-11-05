@@ -1,0 +1,38 @@
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_final_patchtst_search/patchtst/Electricity/pred_720/shared_reference.pt
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_g1_r3_test_search.py", line 215, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_g1_r3_test_search.py", line 174, in main
+    choice, learner, reliability, evidence = fit_and_score(
+                                             ^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_g1_r3_test_search.py", line 114, in fit_and_score
+    pred, anchor, query, beta = full_prediction(test, g1, learner, reliability, offset)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_g1_r3_full.py", line 113, in full_prediction
+    query=learner.query(data["key"],offset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/predictive_env/dual_pattern_memory/rare_learning/learner.py", line 298, in query
+    return self.net(history_x.float().cpu(), null_offset)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/models/predictive_env/dual_pattern_memory/rare_learning/learner.py", line 82, in forward
+    "prediction": (weight[:, :, None]*candidate).sum(1).reshape(b,c,self.horizon),
+                   ~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 33584509440 bytes. Error code 12 (Cannot allocate memory)
+RETRY patchtst Electricity 720 exit=1 2026-10-31T05:10:51+00:00
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_final_patchtst_search/patchtst/Electricity/pred_720/shared_reference.pt
+RETRY patchtst Electricity 720 exit=143 2026-10-31T05:19:56+00:00
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_final_patchtst_search/patchtst/Electricity/pred_720/shared_reference.pt
+TRIAL patchtst Electricity 720 inherited 0.24552970484001804 pruned False
+TRIAL patchtst Electricity 720 head_0.0003 0.24552970484001804 pruned False
+TRIAL patchtst Electricity 720 head_0.001 0.24552970484001804 pruned False
+TRIAL patchtst Electricity 720 head_0.003 0.24552970484001804 pruned True
+COMPLETE patchtst Electricity 720 {'mse': 0.24552970484001804, 'mae': 0.3265386117844692}

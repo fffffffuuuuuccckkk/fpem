@@ -1,0 +1,4 @@
+START itransformer:ETTm1:720 attempt=1 gpu=1
+DONE itransformer:ETTm1:720
+aggregated 2 completed pilots
+QUEUE COMPLETE gpu=1

@@ -1,0 +1,8 @@
+START moderntcn/ExchangeRate/96 on gpu=3
+COMPLETE moderntcn/ExchangeRate/96
+START moderntcn/ExchangeRate/192 on gpu=3
+COMPLETE moderntcn/ExchangeRate/192
+START moderntcn/ExchangeRate/336 on gpu=3
+COMPLETE moderntcn/ExchangeRate/336
+START moderntcn/ExchangeRate/720 on gpu=3
+COMPLETE moderntcn/ExchangeRate/720

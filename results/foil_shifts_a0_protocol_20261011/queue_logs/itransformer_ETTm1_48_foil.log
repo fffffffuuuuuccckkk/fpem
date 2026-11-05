@@ -1,0 +1,17 @@
+reference warmup 1: 0.299140
+reference warmup 2: 0.274212
+reference warmup 3: 0.264645
+{'phase': 'environment_head', 'epoch': 1, 'loss': 0.5349805191380826}
+{'phase': 'environment_head', 'epoch': 2, 'loss': 0.5794514733951774}
+FOIL TRAIN-only environment counts [15352, 9938, 9127]
+{'phase': 'final', 'epoch': 1, 'loss': 0.13917804226196168}
+{'phase': 'final', 'epoch': 2, 'loss': 0.13513782639125688}
+{'phase': 'final', 'epoch': 3, 'loss': 0.13213903247811537}
+{'phase': 'final', 'epoch': 4, 'loss': 0.12943210288688375}
+{'phase': 'final', 'epoch': 5, 'loss': 0.12708435845336286}
+{'phase': 'final', 'epoch': 6, 'loss': 0.12451129612343241}
+{'phase': 'final', 'epoch': 7, 'loss': 0.12243687638452062}
+{'phase': 'final', 'epoch': 8, 'loss': 0.12035637750501527}
+{'phase': 'final', 'epoch': 9, 'loss': 0.11827358168629465}
+{'phase': 'final', 'epoch': 10, 'loss': 0.11643391257657437}
+FINAL {"method": "foil", "backbone": "itransformer", "dataset": "ETTm1", "pred_len": 48, "val": {"MSE": 0.33817080261010324, "MAE": 0.37706102900189137, "windows": 11473, "elements": 3854928}, "test": {"MSE": 0.2897423162666671, "MAE": 0.3359635787590018, "windows": 11473, "elements": 3854928}, "diagnostics": {"source_split": "TRAIN only", "counts": [15352, 9938, 9127]}}
