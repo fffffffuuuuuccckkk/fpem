@@ -1,0 +1,36 @@
+attempt=1 gpu=2 case=patchtst/ExchangeRate/336
+BEGIN patchtst ExchangeRate 336 F00
+BEGIN patchtst ExchangeRate 336 F03
+F03 epoch 1 val 0.388079
+F03 epoch 2 val 0.387711
+F03 epoch 3 val 0.386451
+F03 epoch 4 val 0.381224
+F03 epoch 5 val 0.381242
+F03 epoch 6 val 0.390447
+F03 epoch 7 val 0.397847
+F03 epoch 8 val 0.393811
+F03 epoch 9 val 0.379155
+F03 epoch 10 val 0.383099
+BEGIN patchtst ExchangeRate 336 F01
+F01 epoch 1 val 0.427088
+F01 epoch 2 val 0.378825
+F01 epoch 3 val 0.399529
+F01 epoch 4 val 0.372226
+F01 epoch 5 val 0.4058
+F01 epoch 6 val 0.4054
+F01 epoch 7 val 0.395074
+F01 epoch 8 val 0.392967
+F01 epoch 9 val 0.383702
+F01 epoch 10 val 0.404228
+BEGIN patchtst ExchangeRate 336 P01
+P01 epoch 1 val 0.427649
+P01 epoch 2 val 0.398008
+P01 epoch 3 val 0.40057
+P01 epoch 4 val 0.388963
+P01 epoch 5 val 0.386008
+P01 epoch 6 val 0.393125
+P01 epoch 7 val 0.398467
+P01 epoch 8 val 0.396827
+P01 epoch 9 val 0.384476
+P01 epoch 10 val 0.385148
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_shared_pilot/patchtst/ExchangeRate/pred_336

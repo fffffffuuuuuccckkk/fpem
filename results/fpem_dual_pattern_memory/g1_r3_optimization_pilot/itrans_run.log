@@ -1,0 +1,51 @@
+START itransformer_ETTm1_720 attempt=1
+FIT itransformer_ETTm1_720 L00 {'head_lr': 0.0001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.1, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L00 val_gain 0.0 candidate_gain -0.11731040477752686
+FIT itransformer_ETTm1_720 L01 {'head_lr': 0.0001, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L01 val_gain 0.0 candidate_gain -0.11217844486236572
+FIT itransformer_ETTm1_720 L02 {'head_lr': 0.0001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L02 val_gain 0.0 candidate_gain -0.11730849742889404
+FIT itransformer_ETTm1_720 L03 {'head_lr': 0.0001, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L03 val_gain 0.0 candidate_gain -0.11218726634979248
+FIT itransformer_ETTm1_720 L04 {'head_lr': 0.0001, 'dictionary_ratio': 0.3, 'basis_ratio': 1.0, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L04 val_gain 0.0 candidate_gain -0.11616849899291992
+FIT itransformer_ETTm1_720 L05 {'head_lr': 0.0001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L05 val_gain 0.0 candidate_gain -0.11731147766113281
+FIT itransformer_ETTm1_720 L06 {'head_lr': 0.0003, 'dictionary_ratio': 0.1, 'basis_ratio': 1.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L06 val_gain 0.0 candidate_gain -0.1159820556640625
+FIT itransformer_ETTm1_720 L07 {'head_lr': 0.0003, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L07 val_gain 0.0 candidate_gain -0.10029029846191406
+FIT itransformer_ETTm1_720 L08 {'head_lr': 0.0003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L08 val_gain 0.0 candidate_gain -0.11605513095855713
+FIT itransformer_ETTm1_720 L09 {'head_lr': 0.0003, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L09 val_gain 0.0 candidate_gain -0.1003561019897461
+FIT itransformer_ETTm1_720 L10 {'head_lr': 0.0003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L10 val_gain 0.0 candidate_gain -0.11608219146728516
+FIT itransformer_ETTm1_720 L11 {'head_lr': 0.0003, 'dictionary_ratio': 0.3, 'basis_ratio': 0.3, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L11 val_gain 0.0 candidate_gain -0.11264121532440186
+FIT itransformer_ETTm1_720 L12 {'head_lr': 0.001, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L12 val_gain 2.980232238769531e-07 candidate_gain -0.05922424793243408
+FIT itransformer_ETTm1_720 L13 {'head_lr': 0.001, 'dictionary_ratio': 1.0, 'basis_ratio': 0.3, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L13 val_gain 1.7881393432617188e-07 candidate_gain -0.05941653251647949
+FIT itransformer_ETTm1_720 L14 {'head_lr': 0.001, 'dictionary_ratio': 0.3, 'basis_ratio': 0.3, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L14 val_gain 0.0 candidate_gain -0.10001635551452637
+FIT itransformer_ETTm1_720 L15 {'head_lr': 0.001, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L15 val_gain 0.0 candidate_gain -0.11163580417633057
+FIT itransformer_ETTm1_720 L16 {'head_lr': 0.001, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L16 val_gain 2.384185791015625e-07 candidate_gain -0.059468865394592285
+FIT itransformer_ETTm1_720 L17 {'head_lr': 0.001, 'dictionary_ratio': 0.3, 'basis_ratio': 0.1, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L17 val_gain 0.0 candidate_gain -0.10017609596252441
+FIT itransformer_ETTm1_720 L18 {'head_lr': 0.003, 'dictionary_ratio': 1.0, 'basis_ratio': 0.1, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L18 val_gain 3.874301910400391e-06 candidate_gain -0.003968954086303711
+FIT itransformer_ETTm1_720 L19 {'head_lr': 0.003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.3, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L19 val_gain 0.0 candidate_gain -0.09895646572113037
+FIT itransformer_ETTm1_720 L20 {'head_lr': 0.003, 'dictionary_ratio': 0.1, 'basis_ratio': 0.0, 'route_ratio': 0.1, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L20 val_gain 0.0 candidate_gain -0.10044384002685547
+FIT itransformer_ETTm1_720 L21 {'head_lr': 0.003, 'dictionary_ratio': 0.3, 'basis_ratio': 0.0, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L21 val_gain 0.0 candidate_gain -0.06504976749420166
+FIT itransformer_ETTm1_720 L22 {'head_lr': 0.003, 'dictionary_ratio': 1.0, 'basis_ratio': 1.0, 'route_ratio': 1.0, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L22 val_gain 8.344650268554688e-07 candidate_gain -0.007788658142089844
+FIT itransformer_ETTm1_720 L23 {'head_lr': 0.003, 'dictionary_ratio': 0.3, 'basis_ratio': 1.0, 'route_ratio': 0.3, 'optimizer': 'adam', 'schedule': 'constant'}
+DONE L23 val_gain 0.0 candidate_gain -0.0659632682800293
+COMPLETE itransformer_ETTm1_720 L18 {'mse': 0.4685530364513397, 'mae': 0.4429006576538086}
+COMPLETE itransformer_ETTm1_720

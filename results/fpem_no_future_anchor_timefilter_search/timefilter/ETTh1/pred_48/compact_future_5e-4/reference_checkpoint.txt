@@ -1,0 +1,5 @@
+reference_checkpoint: results/fpem_no_future_anchor_timefilter_search/timefilter/ETTh1/pred_48/shared_reference.pt
+reference_checkpoint_sha256: d09da3f839f1c3e454e9d0e69c0621173a5742840e2e8b8c38720310a7c5db4a
+reference_source: loaded
+seed: 2021
+signature: {'backbone': 'timefilter', 'dataset_name': 'ETTh1', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'ett_hour', 'data_path': 'ETTh1.csv', 'target': 'OT', 'freq': 'h', 'seq_len': 96, 'pred_len': 48, 'd_model': 128, 'd_ff': 256, 'n_heads': 4, 'e_layers': 2, 'dropout': 0.8, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 7, 'cyclenet_cycle_len': 24, 'protocol_version': 4, 'timefilter_patch_len': 2, 'timefilter_alpha': 0.1, 'timefilter_top_p': 0.5, 'timefilter_pos': 0, 'lambda_timefilter_moe': 0.05}

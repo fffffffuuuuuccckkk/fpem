@@ -1,0 +1,8 @@
+START moderntcn/ETTm1/720 on gpu=1
+COMPLETE moderntcn/ETTm1/720
+START moderntcn/ETTm2/96 on gpu=1
+COMPLETE moderntcn/ETTm2/96
+START moderntcn/ETTm2/192 on gpu=1
+COMPLETE moderntcn/ETTm2/192
+START moderntcn/ETTm2/336 on gpu=1
+COMPLETE moderntcn/ETTm2/336

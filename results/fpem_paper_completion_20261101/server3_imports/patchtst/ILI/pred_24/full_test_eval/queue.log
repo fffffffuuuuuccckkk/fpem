@@ -1,0 +1,2 @@
+RUN ILI:24 GPU2 attempt=1 2026-11-01T04:52:27+00:00
+COMPLETE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/ILI/pred_24/full_test_eval windows 170

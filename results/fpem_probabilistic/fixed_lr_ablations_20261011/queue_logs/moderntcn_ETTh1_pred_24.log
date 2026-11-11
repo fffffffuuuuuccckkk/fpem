@@ -1,0 +1,3 @@
+COMPLETE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/fixed_lr_ablations_20261011/moderntcn/ETTh1/pred_24/environment_shuffled_fixed_lr_summary.csv
+COMPLETE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/fixed_lr_ablations_20261011/moderntcn/ETTh1/pred_24/zinv_only_fixed_lr_summary.csv
+COMPLETE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/fixed_lr_ablations_20261011/moderntcn/ETTh1/pred_24/no_ema_fixed_lr_summary.csv

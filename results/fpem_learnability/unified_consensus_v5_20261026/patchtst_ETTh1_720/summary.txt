@@ -1,0 +1,37 @@
+# patchtst_ETTh1_720: unified retrieval / consensus pilot
+
+All point hyperparameters and the single reported checkpoint/config were chosen by the first half of VAL, not TEST.
+C0–C7 are exploratory probability ablations unless real paired memory also beat A0 and both negative controls on VAL.
+
+| Mode | VAL MSE | TEST MSE | TEST MAE |
+|---|---:|---:|---:|
+| A0 | 1.958068 | 0.505477 | 0.495108 |
+| A1 | 1.957440 | 0.504878 | 0.495081 |
+| A2 | 1.957715 | 0.505047 | 0.495347 |
+| A3 | 1.956834 | 0.505214 | 0.495375 |
+| A4 | 1.957189 | 0.505261 | 0.495262 |
+| B0 | 1.957715 | 0.505047 | 0.495347 |
+| B1 | 1.957129 | 0.505410 | 0.495762 |
+| B2 | 1.956006 | 0.504574 | 0.494939 |
+| B3 | 1.956592 | 0.504456 | 0.494600 |
+| B4 | 1.956670 | 0.504505 | 0.494630 |
+| B5 | 1.956287 | 0.504117 | 0.494684 |
+| B6 | 1.961515 | 0.508888 | 0.497023 |
+| B7 | 1.959494 | 0.503402 | 0.494065 |
+| B8 | 1.956511 | 0.504161 | 0.494605 |
+
+VAL-selected point mode: **B2**. A0 TEST MSE 0.505477; selected TEST MSE 0.504574.
+Matched shuffled-pair B6 VAL MSE: 1.961515; random retrieval B7: 1.959494.
+
+Reconstruction-only two-component GMM supported by BIC: False. When false, grouped interpretations are exploratory; A3 is the no-group control.
+
+| C mode | VAL CRPS | TEST CRPS | TEST PICP95 | TEST MPIW95 |
+|---|---:|---:|---:|---:|
+| C0 | 0.783823 | 0.445471 | 1.000000 | 24.722517 |
+| C1 | 0.775302 | 0.419584 | 1.000000 | 24.259039 |
+| C2 | 0.773782 | 0.427346 | 1.000000 | 24.297499 |
+| C3 | 0.773902 | 0.432660 | 1.000000 | 24.333490 |
+| C4 | 0.776049 | 0.435467 | 1.000000 | 24.251398 |
+| C5 | 0.775707 | 0.433173 | 1.000000 | 24.131855 |
+| C6 | 0.768404 | 0.423718 | 1.000000 | 24.126369 |
+| C7 | 0.775602 | 0.423757 | 1.000000 | 24.249125 |

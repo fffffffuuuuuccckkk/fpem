@@ -1,0 +1,3 @@
+START {'backbone': 'itransformer', 'dataset': 'ExchangeRate', 'pred_len': 336, 'seq_len': 96, 'span': 432, 'sha': '7b49979f0ff1cbceab3815f167bfc73092b7c2bf45cc69928e20f72486e2960e', 'selected_r3_gain': 0.0009142160415649414, 'source': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_dual_pattern_memory/g1_r3_full_testlr_search/itransformer/ExchangeRate/pred_336', 'train_cutoff': 5215, 'test_start_absolute': 5975, 'train_size': 299, 'val_size': 107, 'test_size': 296}
+A COMPLETE 98
+B COMPLETE 41

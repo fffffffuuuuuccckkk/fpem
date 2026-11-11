@@ -1,0 +1,56 @@
+START patchtst_ETTh1_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 GPU=0 2026-10-15T13:12:38+00:00
+START patchtst_ETTh1_720_A2_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 GPU=1 2026-10-15T13:12:38+00:00
+START patchtst_ETTh1_720_A2_complementary_gate_predictive_sub0_orth0_refnone_fp1_rank8_bias-4 GPU=2 2026-10-15T13:12:38+00:00
+START patchtst_ETTh1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 GPU=3 2026-10-15T13:12:38+00:00
+DONE patchtst_ETTh1_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:12:58+00:00
+START patchtst_ETTh1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank2_bias-4 GPU=0 2026-10-15T13:12:58+00:00
+DONE patchtst_ETTh1_720_A2_complementary_gate_predictive_sub0_orth0_refnone_fp1_rank8_bias-4 2026-10-15T13:14:58+00:00
+START patchtst_ETTh1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank8_bias-3 GPU=2 2026-10-15T13:14:58+00:00
+DONE patchtst_ETTh1_720_A2_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:14:59+00:00
+START patchtst_ETTh1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank16_bias-4 GPU=1 2026-10-15T13:14:59+00:00
+DONE patchtst_ETTh1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:14:59+00:00
+START patchtst_ETTh1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank8_bias-5 GPU=3 2026-10-15T13:14:59+00:00
+DONE patchtst_ETTh1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank2_bias-4 2026-10-15T13:15:04+00:00
+START patchtst_ETTh1_720_A2_env_guided_subspace_predictive_sub0.05_orth0_refnone_fp0_rank8_bias-4 GPU=0 2026-10-15T13:15:04+00:00
+DONE patchtst_ETTh1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank8_bias-3 2026-10-15T13:16:57+00:00
+START patchtst_ETTh1_720_A2_env_guided_subspace_predictive_sub0.1_orth0_refnone_fp0_rank8_bias-4 GPU=2 2026-10-15T13:16:57+00:00
+DONE patchtst_ETTh1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank8_bias-5 2026-10-15T13:17:04+00:00
+START patchtst_ETTh1_720_A2_env_guided_subspace_shuffled_sub0.05_orth0_refnone_fp0_rank8_bias-4 GPU=3 2026-10-15T13:17:04+00:00
+DONE patchtst_ETTh1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank16_bias-4 2026-10-15T13:17:06+00:00
+START patchtst_ETTh1_720_A2_env_guided_subspace_predictive_sub0.01_orth0_refnone_fp0_rank8_bias-4 GPU=1 2026-10-15T13:17:06+00:00
+DONE patchtst_ETTh1_720_A2_env_guided_subspace_predictive_sub0.05_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:17:23+00:00
+START patchtst_ETTh1_720_A2_env_guided_subspace_predictive_sub0.05_orth0.001_refnone_fp0_rank8_bias-4 GPU=0 2026-10-15T13:17:23+00:00
+DONE patchtst_ETTh1_720_A2_env_guided_subspace_shuffled_sub0.05_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:19:15+00:00
+START patchtst_ETTh1_720_A2_reference_guided_shuffled_sub0_orth0_refenvironment_fp0_rank8_bias-4 GPU=3 2026-10-15T13:19:15+00:00
+DONE patchtst_ETTh1_720_A2_env_guided_subspace_predictive_sub0.1_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:19:18+00:00
+START patchtst_ETTh1_720_A2_reference_guided_predictive_sub0_orth0_refenvironment_fp0_rank8_bias-4 GPU=2 2026-10-15T13:19:18+00:00
+DONE patchtst_ETTh1_720_A2_env_guided_subspace_predictive_sub0.01_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:19:23+00:00
+START patchtst_ETTh1_720_A2_reference_guided_predictive_sub0_orth0_refglobal_fp0_rank8_bias-4 GPU=1 2026-10-15T13:19:23+00:00
+DONE patchtst_ETTh1_720_A2_env_guided_subspace_predictive_sub0.05_orth0.001_refnone_fp0_rank8_bias-4 2026-10-15T13:19:45+00:00
+START moderntcn_ETTm2_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 GPU=0 2026-10-15T13:19:45+00:00
+DONE moderntcn_ETTm2_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:21:05+00:00
+START moderntcn_ETTm2_720_A2_env_guided_subspace_predictive_sub0.05_orth0.001_refnone_fp0_rank8_bias-4 GPU=0 2026-10-15T13:21:05+00:00
+DONE patchtst_ETTh1_720_A2_reference_guided_shuffled_sub0_orth0_refenvironment_fp0_rank8_bias-4 2026-10-15T13:21:25+00:00
+START moderntcn_ETTm2_720_A2_env_guided_subspace_shuffled_sub0.05_orth0_refnone_fp0_rank8_bias-4 GPU=3 2026-10-15T13:21:25+00:00
+DONE patchtst_ETTh1_720_A2_reference_guided_predictive_sub0_orth0_refenvironment_fp0_rank8_bias-4 2026-10-15T13:21:27+00:00
+START moderntcn_ETTm2_720_A2_env_guided_subspace_predictive_sub0.05_orth0_refnone_fp0_rank8_bias-4 GPU=2 2026-10-15T13:21:27+00:00
+DONE patchtst_ETTh1_720_A2_reference_guided_predictive_sub0_orth0_refglobal_fp0_rank8_bias-4 2026-10-15T13:21:32+00:00
+START moderntcn_ETTm2_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 GPU=1 2026-10-15T13:21:32+00:00
+DONE moderntcn_ETTm2_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:34:44+00:00
+START moderntcn_ETTm2_720_A2_reference_guided_predictive_sub0_orth0_refenvironment_fp0_rank8_bias-4 GPU=1 2026-10-15T13:34:44+00:00
+DONE moderntcn_ETTm2_720_A2_env_guided_subspace_predictive_sub0.05_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:35:11+00:00
+START itransformer_ETTm1_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 GPU=2 2026-10-15T13:35:11+00:00
+DONE itransformer_ETTm1_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:35:55+00:00
+START itransformer_ETTm1_720_A2_env_guided_subspace_predictive_sub0.05_orth0.001_refnone_fp0_rank8_bias-4 GPU=2 2026-10-15T13:35:55+00:00
+DONE moderntcn_ETTm2_720_A2_env_guided_subspace_shuffled_sub0.05_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:35:56+00:00
+START itransformer_ETTm1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 GPU=3 2026-10-15T13:35:56+00:00
+DONE moderntcn_ETTm2_720_A2_env_guided_subspace_predictive_sub0.05_orth0.001_refnone_fp0_rank8_bias-4 2026-10-15T13:36:01+00:00
+START itransformer_ETTm1_720_A2_env_guided_subspace_predictive_sub0.05_orth0_refnone_fp0_rank8_bias-4 GPU=0 2026-10-15T13:36:01+00:00
+DONE itransformer_ETTm1_720_A2_low_rank_subspace_predictive_sub0_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:43:31+00:00
+START itransformer_ETTm1_720_A2_reference_guided_predictive_sub0_orth0_refenvironment_fp0_rank8_bias-4 GPU=3 2026-10-15T13:43:31+00:00
+DONE itransformer_ETTm1_720_A2_env_guided_subspace_predictive_sub0.05_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:43:43+00:00
+DONE itransformer_ETTm1_720_A2_env_guided_subspace_predictive_sub0.05_orth0.001_refnone_fp0_rank8_bias-4 2026-10-15T13:44:24+00:00
+DONE moderntcn_ETTm2_720_A2_reference_guided_predictive_sub0_orth0_refenvironment_fp0_rank8_bias-4 2026-10-15T13:49:17+00:00
+START itransformer_ETTm1_720_A2_env_guided_subspace_shuffled_sub0.05_orth0_refnone_fp0_rank8_bias-4 GPU=1 2026-10-15T13:49:17+00:00
+DONE itransformer_ETTm1_720_A2_reference_guided_predictive_sub0_orth0_refenvironment_fp0_rank8_bias-4 2026-10-15T13:50:35+00:00
+DONE itransformer_ETTm1_720_A2_env_guided_subspace_shuffled_sub0.05_orth0_refnone_fp0_rank8_bias-4 2026-10-15T13:55:48+00:00

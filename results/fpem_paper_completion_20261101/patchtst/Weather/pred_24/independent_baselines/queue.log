@@ -1,0 +1,97 @@
+RUN timegrad Weather 24 GPU0 attempt=1 2026-11-01T05:46:26+00:00
+EPOCH {'epoch': 1, 'train_loss': 1.5409791807800506, 'train_batches': 1149}
+EPOCH {'epoch': 2, 'train_loss': 0.9350411402753792, 'train_batches': 1149}
+EPOCH {'epoch': 3, 'train_loss': 0.8384122576684512, 'train_batches': 1149}
+EPOCH {'epoch': 4, 'train_loss': 0.7696516965657758, 'train_batches': 1149}
+EPOCH {'epoch': 5, 'train_loss': 0.7143559896292325, 'train_batches': 1149}
+EPOCH {'epoch': 6, 'train_loss': 0.6649314321259813, 'train_batches': 1149}
+EPOCH {'epoch': 7, 'train_loss': 0.6267179187429377, 'train_batches': 1149}
+EPOCH {'epoch': 8, 'train_loss': 0.5971921543850911, 'train_batches': 1149}
+EPOCH {'epoch': 9, 'train_loss': 0.5763598719921394, 'train_batches': 1149}
+EPOCH {'epoch': 10, 'train_loss': 0.5547980104351791, 'train_batches': 1149}
+EPOCH {'epoch': 11, 'train_loss': 0.5388981813809682, 'train_batches': 1149}
+EPOCH {'epoch': 12, 'train_loss': 0.5290139389878464, 'train_batches': 1149}
+EPOCH {'epoch': 13, 'train_loss': 0.5160022106141604, 'train_batches': 1149}
+EVALUATE timegrad Weather 24 32
+EVALUATE timegrad Weather 24 672
+EVALUATE timegrad Weather 24 1312
+EVALUATE timegrad Weather 24 1952
+EVALUATE timegrad Weather 24 2592
+EVALUATE timegrad Weather 24 3232
+EVALUATE timegrad Weather 24 3872
+EVALUATE timegrad Weather 24 4512
+EVALUATE timegrad Weather 24 5152
+EVALUATE timegrad Weather 24 5792
+EVALUATE timegrad Weather 24 6432
+EVALUATE timegrad Weather 24 7072
+EVALUATE timegrad Weather 24 7712
+EVALUATE timegrad Weather 24 8352
+EVALUATE timegrad Weather 24 8992
+EVALUATE timegrad Weather 24 9632
+EVALUATE timegrad Weather 24 10272
+COMPLETE {'inv_MSE': 0.1362973002997819, 'inv_MAE': 0.1351927144218416, 'mean_MSE': 0.17163686116979507, 'mean_MAE': 0.23643364118799687, 'median_NMAE': 0.4523003813022441, 'CRPS_empirical': 0.19150297370087108, 'CRPS': 0.19150297370087108, 'quantile_CRPS_normalized': 0.38106007939477343, 'ProbTS_CRPS': 0.38707433178731815, 'PICP_95': 0.5382178704427557, 'MPIW_95': 0.445518060266042, 'WIS': 0.1662284076828814, 'EnergyScore': 6.635239523506383, 'sample_std_mean': 0.11775277449564138, 'correction_win_rate': 0.22270825408900724, 'sample_diversity': 0.1330578026520113, 'max_boundary_jump': 4.705116989676967, 'quantile_crps_raw': 0.19761024879418476, 'target_abs_mean': 0.6076453830770505, 'ProbTS_CRPS_Sum': 0.5939423149659204, 'CRPS_Sum': 1.7941153512430899, 'method': 'timegrad', 'dataset': 'Weather', 'pred_len': 24, 'num_samples': 100, 'evaluated_windows': 10516, 'total_test_windows': 10516, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+RUN tsflow Weather 24 GPU0 attempt=1 2026-11-01T05:54:27+00:00
+EPOCH {'epoch': 1, 'train_loss': 1.0065033353858661, 'train_batches': 1149}
+EPOCH {'epoch': 2, 'train_loss': 0.651078274812358, 'train_batches': 1149}
+EPOCH {'epoch': 3, 'train_loss': 0.5782713680499735, 'train_batches': 1149}
+EPOCH {'epoch': 4, 'train_loss': 0.5355023449923911, 'train_batches': 1149}
+EPOCH {'epoch': 5, 'train_loss': 0.5045143560392116, 'train_batches': 1149}
+EPOCH {'epoch': 6, 'train_loss': 0.4826466875868948, 'train_batches': 1149}
+EPOCH {'epoch': 7, 'train_loss': 0.4626112474733275, 'train_batches': 1149}
+EPOCH {'epoch': 8, 'train_loss': 0.4504229752938575, 'train_batches': 1149}
+EPOCH {'epoch': 9, 'train_loss': 0.43510718718884406, 'train_batches': 1149}
+EPOCH {'epoch': 10, 'train_loss': 0.42428560056978976, 'train_batches': 1149}
+EPOCH {'epoch': 11, 'train_loss': 0.4133576408897513, 'train_batches': 1149}
+EPOCH {'epoch': 12, 'train_loss': 0.4015388045755026, 'train_batches': 1149}
+EPOCH {'epoch': 13, 'train_loss': 0.3940792611570748, 'train_batches': 1149}
+EVALUATE tsflow Weather 24 32
+EVALUATE tsflow Weather 24 672
+EVALUATE tsflow Weather 24 1312
+EVALUATE tsflow Weather 24 1952
+EVALUATE tsflow Weather 24 2592
+EVALUATE tsflow Weather 24 3232
+EVALUATE tsflow Weather 24 3872
+EVALUATE tsflow Weather 24 4512
+EVALUATE tsflow Weather 24 5152
+EVALUATE tsflow Weather 24 5792
+EVALUATE tsflow Weather 24 6432
+EVALUATE tsflow Weather 24 7072
+EVALUATE tsflow Weather 24 7712
+EVALUATE tsflow Weather 24 8352
+EVALUATE tsflow Weather 24 8992
+EVALUATE tsflow Weather 24 9632
+EVALUATE tsflow Weather 24 10272
+COMPLETE {'inv_MSE': 0.1362973002997819, 'inv_MAE': 0.1351927144218416, 'mean_MSE': 0.10342045912548146, 'mean_MAE': 0.1500327671949244, 'median_NMAE': 0.2591103005455718, 'CRPS_empirical': 0.1074619572588408, 'CRPS': 0.1074619572588408, 'quantile_CRPS_normalized': 0.20838697311621104, 'ProbTS_CRPS': 0.2103395762638295, 'PICP_95': 0.9739501818181354, 'MPIW_95': 0.9898233607768469, 'WIS': 0.0858874793496364, 'EnergyScore': 4.53400068538821, 'sample_std_mean': 0.27458138995725606, 'correction_win_rate': 0.5312856599481648, 'sample_diversity': 0.27950351719576944, 'max_boundary_jump': 22.319764464832886, 'quantile_crps_raw': 0.11193543576347416, 'target_abs_mean': 0.6076453830770505, 'ProbTS_CRPS_Sum': 0.3090227547821866, 'CRPS_Sum': 1.021582593592277, 'method': 'tsflow', 'dataset': 'Weather', 'pred_len': 24, 'num_samples': 100, 'evaluated_windows': 10516, 'total_test_windows': 10516, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+RUN tsdiff Weather 24 GPU0 attempt=1 2026-11-01T05:58:53+00:00
+EPOCH {'epoch': 1, 'train_loss': 0.6775784082678321, 'train_batches': 1149}
+EPOCH {'epoch': 2, 'train_loss': 0.4270874100524099, 'train_batches': 1149}
+EPOCH {'epoch': 3, 'train_loss': 0.3803296108106824, 'train_batches': 1149}
+EPOCH {'epoch': 4, 'train_loss': 0.3418814080554159, 'train_batches': 1149}
+EPOCH {'epoch': 5, 'train_loss': 0.3191047335340211, 'train_batches': 1149}
+EPOCH {'epoch': 6, 'train_loss': 0.3069967655667645, 'train_batches': 1149}
+EPOCH {'epoch': 7, 'train_loss': 0.30000924649085037, 'train_batches': 1149}
+EPOCH {'epoch': 8, 'train_loss': 0.2934857390568088, 'train_batches': 1149}
+EPOCH {'epoch': 9, 'train_loss': 0.2889967867350765, 'train_batches': 1149}
+EPOCH {'epoch': 10, 'train_loss': 0.28721396526479015, 'train_batches': 1149}
+EPOCH {'epoch': 11, 'train_loss': 0.28146484110332554, 'train_batches': 1149}
+EPOCH {'epoch': 12, 'train_loss': 0.2781856592916426, 'train_batches': 1149}
+EPOCH {'epoch': 13, 'train_loss': 0.275535611067781, 'train_batches': 1149}
+EVALUATE tsdiff Weather 24 32
+EVALUATE tsdiff Weather 24 672
+EVALUATE tsdiff Weather 24 1312
+EVALUATE tsdiff Weather 24 1952
+EVALUATE tsdiff Weather 24 2592
+EVALUATE tsdiff Weather 24 3232
+EVALUATE tsdiff Weather 24 3872
+EVALUATE tsdiff Weather 24 4512
+EVALUATE tsdiff Weather 24 5152
+EVALUATE tsdiff Weather 24 5792
+EVALUATE tsdiff Weather 24 6432
+EVALUATE tsdiff Weather 24 7072
+EVALUATE tsdiff Weather 24 7712
+EVALUATE tsdiff Weather 24 8352
+EVALUATE tsdiff Weather 24 8992
+EVALUATE tsdiff Weather 24 9632
+EVALUATE tsdiff Weather 24 10272
+COMPLETE {'inv_MSE': 0.1362973002997819, 'inv_MAE': 0.1351927144218416, 'mean_MSE': 0.18091139577034424, 'mean_MAE': 0.24579919800700775, 'median_NMAE': 0.467813628385982, 'CRPS_empirical': 0.21069723482467956, 'CRPS': 0.21069723482467956, 'quantile_CRPS_normalized': 0.41560977567008534, 'ProbTS_CRPS': 0.42187727045178547, 'PICP_95': 0.34899014571221804, 'MPIW_95': 0.31446485997334594, 'WIS': 0.19098535497499627, 'EnergyScore': 7.127813052568838, 'sample_std_mean': 0.08357040188886358, 'correction_win_rate': 0.20749334347660708, 'sample_diversity': 0.09214415507211844, 'max_boundary_jump': 5.023893359769383, 'quantile_crps_raw': 0.2159712757247852, 'target_abs_mean': 0.6076453830770505, 'ProbTS_CRPS_Sum': 0.6270443947157532, 'CRPS_Sum': 1.9255147367523124, 'method': 'tsdiff', 'dataset': 'Weather', 'pred_len': 24, 'num_samples': 100, 'evaluated_windows': 10516, 'total_test_windows': 10516, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+COMPLETE independent baselines Weather 24 2026-11-01T06:41:23+00:00

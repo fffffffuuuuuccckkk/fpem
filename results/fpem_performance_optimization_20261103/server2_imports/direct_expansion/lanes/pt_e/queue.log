@@ -1,0 +1,8 @@
+START patchtst/ExchangeRate/96 on gpu=0
+COMPLETE patchtst/ExchangeRate/96
+START patchtst/ExchangeRate/192 on gpu=0
+COMPLETE patchtst/ExchangeRate/192
+START patchtst/ExchangeRate/336 on gpu=0
+COMPLETE patchtst/ExchangeRate/336
+START patchtst/ExchangeRate/720 on gpu=0
+COMPLETE patchtst/ExchangeRate/720

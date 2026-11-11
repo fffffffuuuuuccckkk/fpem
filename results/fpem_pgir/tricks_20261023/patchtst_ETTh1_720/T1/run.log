@@ -1,0 +1,11 @@
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_pgir_tricks.py --base_run_config results/fpem_latent_decomposition_search/pilot_20261015/patchtst_ETTh1_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4/run_config.json --bank_checkpoint /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/pilot_20261022/patchtst_ETTh1_720/prototype_bank.pt --core_p4_dir /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/pilot_20261022/patchtst_ETTh1_720/P4 --gain_cache /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/tricks_20261023/patchtst_ETTh1_720/oof_gain_labels.pt --output /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_pgir/tricks_20261023/patchtst_ETTh1_720/T1 --mode T1 --seed 2021 --gpu 0 --epochs 10 --allow_legacy_reference_signature
+{"epoch": 1, "train_mse": 0.567019186370289, "val_mse": 1.6502793392104258, "val_mae": 0.8838286072451164, "intervened": 0.0}
+{"epoch": 2, "train_mse": 0.5670191863398202, "val_mse": 1.6502793392104258, "val_mae": 0.8838286072451164, "intervened": 0.0}
+{"epoch": 3, "train_mse": 0.5670191885335758, "val_mse": 1.6502793392104258, "val_mae": 0.8838286072451164, "intervened": 0.0}
+{"epoch": 4, "train_mse": 0.5670191856009511, "val_mse": 1.6502793392104258, "val_mae": 0.8838286072451164, "intervened": 0.0}
+{"epoch": 5, "train_mse": 0.5670191879394336, "val_mse": 1.6502793392104258, "val_mae": 0.8838286072451164, "intervened": 0.0}
+{"epoch": 6, "train_mse": 0.567019189645688, "val_mse": 1.6502793392104258, "val_mae": 0.8838286072451164, "intervened": 0.0}
+{"epoch": 7, "train_mse": 0.5670191869034935, "val_mse": 1.6502793392104258, "val_mae": 0.8838286072451164, "intervened": 0.0}
+{"epoch": 8, "train_mse": 0.5670191859361082, "val_mse": 1.6502793392104258, "val_mae": 0.8838286072451164, "intervened": 0.0}
+{"epoch": 9, "train_mse": 0.5670191854638413, "val_mse": 1.6502793392104258, "val_mae": 0.8838286072451164, "intervened": 0.0}
+{"epoch": 10, "train_mse": 0.5670191883355283, "val_mse": 1.6502793392104258, "val_mae": 0.8838286072451164, "intervened": 0.0}

@@ -1,0 +1,5 @@
+reference_checkpoint: results/predictive_env_reference_all_datasets_k3/Electricity/shared_reference.pt
+reference_checkpoint_sha256: 90d283a82a16114d5dfa0181fe932d474f565b6f2e819bc0b1ca7c4d285d84f5
+reference_source: created
+seed: 2021
+signature: {'dataset_name': 'Electricity', 'data_class': 'custom', 'data_path': 'electricity.csv', 'target': 'OT', 'freq': 'h', 'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'protocol_version': 4}

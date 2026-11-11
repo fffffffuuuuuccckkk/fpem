@@ -1,0 +1,4 @@
+TRAIN A2 patchtst/ETTh2/192 LR_inv_head=2e-5 GPU=3
+REUSE previous A2 patchtst/ETTh2/192 LR=5e-5
+TRAIN A2 patchtst/ETTh2/192 LR_inv_head=1e-4 GPU=3
+BEST patchtst ETTh2 192 5e-5 0.3649171288016118

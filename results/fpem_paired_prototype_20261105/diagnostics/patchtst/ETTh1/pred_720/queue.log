@@ -1,0 +1,6 @@
+2026-11-06T12:15:16+00:00 START gpu=1 attempt=1
+COLLECT train 979
+COLLECT val 541
+COLLECT test 2161
+COMPLETE results/fpem_paired_prototype_20261105/diagnostics/patchtst/ETTh1/pred_720 selected F03_cons
+2026-11-06T12:15:25+00:00 complete

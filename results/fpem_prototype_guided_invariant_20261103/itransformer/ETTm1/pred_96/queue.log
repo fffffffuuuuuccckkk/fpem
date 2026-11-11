@@ -1,0 +1,368 @@
+stage=shared attempt=1
+BEGIN A0
+BEGIN linear
+linear epoch 1 VAL 0.441001
+linear epoch 2 VAL 0.432254
+linear epoch 3 VAL 0.433858
+linear epoch 4 VAL 0.438642
+linear epoch 5 VAL 0.432158
+linear epoch 6 VAL 0.43793
+linear epoch 7 VAL 0.44183
+linear epoch 8 VAL 0.439413
+linear epoch 9 VAL 0.442127
+linear epoch 10 VAL 0.448165
+BEGIN head_init
+head_init epoch 1 VAL 0.421406
+head_init epoch 2 VAL 0.424426
+head_init epoch 3 VAL 0.42362
+head_init epoch 4 VAL 0.420543
+head_init epoch 5 VAL 0.420918
+head_init epoch 6 VAL 0.422915
+head_init epoch 7 VAL 0.427954
+head_init epoch 8 VAL 0.421857
+head_init epoch 9 VAL 0.426217
+head_init epoch 10 VAL 0.432394
+BEGIN p01
+p01 epoch 1 VAL 0.554467
+p01 epoch 2 VAL 0.476044
+p01 epoch 3 VAL 0.46551
+p01 epoch 4 VAL 0.456105
+p01 epoch 5 VAL 0.436944
+p01 epoch 6 VAL 0.442863
+p01 epoch 7 VAL 0.441707
+p01 epoch 8 VAL 0.435999
+p01 epoch 9 VAL 0.439669
+p01 epoch 10 VAL 0.439849
+BEGIN p02
+p02 epoch 1 VAL 0.612316
+p02 epoch 2 VAL 0.490739
+p02 epoch 3 VAL 0.464206
+p02 epoch 4 VAL 0.454405
+p02 epoch 5 VAL 0.437506
+p02 epoch 6 VAL 0.444087
+p02 epoch 7 VAL 0.441975
+p02 epoch 8 VAL 0.436678
+p02 epoch 9 VAL 0.440299
+p02 epoch 10 VAL 0.442432
+BEGIN risk_var
+risk_var epoch 1 VAL 0.590209
+risk_var epoch 2 VAL 0.480074
+risk_var epoch 3 VAL 0.465424
+risk_var epoch 4 VAL 0.459007
+risk_var epoch 5 VAL 0.44321
+risk_var epoch 6 VAL 0.447471
+risk_var epoch 7 VAL 0.444521
+risk_var epoch 8 VAL 0.437978
+risk_var epoch 9 VAL 0.441642
+risk_var epoch 10 VAL 0.441763
+BEGIN risk_dro
+risk_dro epoch 1 VAL 0.60495
+risk_dro epoch 2 VAL 0.480006
+risk_dro epoch 3 VAL 0.46028
+risk_dro epoch 4 VAL 0.454641
+risk_dro epoch 5 VAL 0.439273
+risk_dro epoch 6 VAL 0.444886
+risk_dro epoch 7 VAL 0.441603
+risk_dro epoch 8 VAL 0.436818
+risk_dro epoch 9 VAL 0.441064
+risk_dro epoch 10 VAL 0.441545
+BEGIN risk_incremental
+risk_incremental epoch 1 VAL 0.577713
+risk_incremental epoch 2 VAL 0.480763
+risk_incremental epoch 3 VAL 0.465337
+risk_incremental epoch 4 VAL 0.455419
+risk_incremental epoch 5 VAL 0.438956
+risk_incremental epoch 6 VAL 0.443365
+risk_incremental epoch 7 VAL 0.442109
+risk_incremental epoch 8 VAL 0.436346
+risk_incremental epoch 9 VAL 0.441178
+risk_incremental epoch 10 VAL 0.441978
+BEGIN shared_grad_norm
+shared_grad_norm epoch 1 VAL 0.597231
+shared_grad_norm epoch 2 VAL 0.489545
+shared_grad_norm epoch 3 VAL 0.465478
+shared_grad_norm epoch 4 VAL 0.45504
+shared_grad_norm epoch 5 VAL 0.437563
+shared_grad_norm epoch 6 VAL 0.44384
+shared_grad_norm epoch 7 VAL 0.442805
+shared_grad_norm epoch 8 VAL 0.43696
+shared_grad_norm epoch 9 VAL 0.440927
+shared_grad_norm epoch 10 VAL 0.44218
+BEGIN shared_grad_variance
+shared_grad_variance epoch 1 VAL 0.603071
+shared_grad_variance epoch 2 VAL 0.487765
+shared_grad_variance epoch 3 VAL 0.474049
+shared_grad_variance epoch 4 VAL 0.466234
+shared_grad_variance epoch 5 VAL 0.447166
+shared_grad_variance epoch 6 VAL 0.450131
+shared_grad_variance epoch 7 VAL 0.446764
+shared_grad_variance epoch 8 VAL 0.440983
+shared_grad_variance epoch 9 VAL 0.442912
+shared_grad_variance epoch 10 VAL 0.44291
+BEGIN shared_irm
+shared_irm epoch 1 VAL 0.590752
+shared_irm epoch 2 VAL 0.480075
+shared_irm epoch 3 VAL 0.465453
+shared_irm epoch 4 VAL 0.455486
+shared_irm epoch 5 VAL 0.439848
+shared_irm epoch 6 VAL 0.444093
+shared_irm epoch 7 VAL 0.443691
+shared_irm epoch 8 VAL 0.43746
+shared_irm epoch 9 VAL 0.441846
+shared_irm epoch 10 VAL 0.441428
+BEGIN conditional
+conditional epoch 1 VAL 0.597362
+conditional epoch 2 VAL 0.480723
+conditional epoch 3 VAL 0.462632
+conditional epoch 4 VAL 0.452778
+conditional epoch 5 VAL 0.438253
+conditional epoch 6 VAL 0.443563
+conditional epoch 7 VAL 0.445217
+conditional epoch 8 VAL 0.434153
+conditional epoch 9 VAL 0.437969
+conditional epoch 10 VAL 0.439403
+BEGIN subspace
+subspace epoch 1 VAL 0.592187
+subspace epoch 2 VAL 0.486582
+subspace epoch 3 VAL 0.463926
+subspace epoch 4 VAL 0.455665
+subspace epoch 5 VAL 0.440122
+subspace epoch 6 VAL 0.444163
+subspace epoch 7 VAL 0.441886
+subspace epoch 8 VAL 0.439404
+subspace epoch 9 VAL 0.442285
+subspace epoch 10 VAL 0.442016
+BEGIN ref_global
+ref_global epoch 1 VAL 0.637994
+ref_global epoch 2 VAL 0.51409
+ref_global epoch 3 VAL 0.472345
+ref_global epoch 4 VAL 0.46891
+ref_global epoch 5 VAL 0.454235
+ref_global epoch 6 VAL 0.451228
+ref_global epoch 7 VAL 0.457954
+ref_global epoch 8 VAL 0.458977
+ref_global epoch 9 VAL 0.45967
+ref_global epoch 10 VAL 0.439703
+BEGIN ref_prototype
+ref_prototype epoch 1 VAL 0.580796
+ref_prototype epoch 2 VAL 0.492268
+ref_prototype epoch 3 VAL 0.466404
+ref_prototype epoch 4 VAL 0.464184
+ref_prototype epoch 5 VAL 0.454213
+ref_prototype epoch 6 VAL 0.451544
+ref_prototype epoch 7 VAL 0.454099
+ref_prototype epoch 8 VAL 0.450614
+ref_prototype epoch 9 VAL 0.45441
+ref_prototype epoch 10 VAL 0.438163
+BEGIN residual_risk
+residual_risk epoch 1 VAL 0.427207
+residual_risk epoch 2 VAL 0.425659
+residual_risk epoch 3 VAL 0.426624
+residual_risk epoch 4 VAL 0.426816
+residual_risk epoch 5 VAL 0.426851
+residual_risk epoch 6 VAL 0.429094
+residual_risk epoch 7 VAL 0.435737
+residual_risk epoch 8 VAL 0.428176
+residual_risk epoch 9 VAL 0.432078
+residual_risk epoch 10 VAL 0.43969
+BEGIN risk_var_shuffled
+risk_var_shuffled epoch 1 VAL 0.586156
+risk_var_shuffled epoch 2 VAL 0.48661
+risk_var_shuffled epoch 3 VAL 0.47176
+risk_var_shuffled epoch 4 VAL 0.461329
+risk_var_shuffled epoch 5 VAL 0.442822
+risk_var_shuffled epoch 6 VAL 0.452812
+risk_var_shuffled epoch 7 VAL 0.448786
+risk_var_shuffled epoch 8 VAL 0.442158
+risk_var_shuffled epoch 9 VAL 0.445571
+risk_var_shuffled epoch 10 VAL 0.44393
+BEGIN risk_var_random
+risk_var_random epoch 1 VAL 0.565826
+risk_var_random epoch 2 VAL 0.475951
+risk_var_random epoch 3 VAL 0.46384
+risk_var_random epoch 4 VAL 0.45765
+risk_var_random epoch 5 VAL 0.442697
+risk_var_random epoch 6 VAL 0.446659
+risk_var_random epoch 7 VAL 0.445479
+risk_var_random epoch 8 VAL 0.43987
+risk_var_random epoch 9 VAL 0.441394
+risk_var_random epoch 10 VAL 0.441491
+BEGIN risk_var_time
+risk_var_time epoch 1 VAL 0.604981
+risk_var_time epoch 2 VAL 0.487799
+risk_var_time epoch 3 VAL 0.470031
+risk_var_time epoch 4 VAL 0.462004
+risk_var_time epoch 5 VAL 0.444001
+risk_var_time epoch 6 VAL 0.447497
+risk_var_time epoch 7 VAL 0.444336
+risk_var_time epoch 8 VAL 0.43948
+risk_var_time epoch 9 VAL 0.442575
+risk_var_time epoch 10 VAL 0.442933
+BEGIN risk_var_uniform
+risk_var_uniform epoch 1 VAL 0.626431
+risk_var_uniform epoch 2 VAL 0.483784
+risk_var_uniform epoch 3 VAL 0.459654
+risk_var_uniform epoch 4 VAL 0.453371
+risk_var_uniform epoch 5 VAL 0.438438
+risk_var_uniform epoch 6 VAL 0.444841
+risk_var_uniform epoch 7 VAL 0.443343
+risk_var_uniform epoch 8 VAL 0.438186
+risk_var_uniform epoch 9 VAL 0.441973
+risk_var_uniform epoch 10 VAL 0.442342
+BEGIN risk_var_sample
+risk_var_sample epoch 1 VAL 0.556612
+risk_var_sample epoch 2 VAL 0.474826
+risk_var_sample epoch 3 VAL 0.461671
+risk_var_sample epoch 4 VAL 0.452475
+risk_var_sample epoch 5 VAL 0.436071
+risk_var_sample epoch 6 VAL 0.442017
+risk_var_sample epoch 7 VAL 0.442807
+risk_var_sample epoch 8 VAL 0.436275
+risk_var_sample epoch 9 VAL 0.439204
+risk_var_sample epoch 10 VAL 0.440678
+BEGIN risk_var_hcluster
+risk_var_hcluster epoch 1 VAL 0.593171
+risk_var_hcluster epoch 2 VAL 0.481693
+risk_var_hcluster epoch 3 VAL 0.465347
+risk_var_hcluster epoch 4 VAL 0.457311
+risk_var_hcluster epoch 5 VAL 0.440583
+risk_var_hcluster epoch 6 VAL 0.44568
+risk_var_hcluster epoch 7 VAL 0.444018
+risk_var_hcluster epoch 8 VAL 0.439463
+risk_var_hcluster epoch 9 VAL 0.443864
+risk_var_hcluster epoch 10 VAL 0.444457
+BEGIN risk_var_eiil
+risk_var_eiil epoch 1 VAL 0.606945
+risk_var_eiil epoch 2 VAL 0.48205
+risk_var_eiil epoch 3 VAL 0.464822
+risk_var_eiil epoch 4 VAL 0.457713
+risk_var_eiil epoch 5 VAL 0.439409
+risk_var_eiil epoch 6 VAL 0.443824
+risk_var_eiil epoch 7 VAL 0.442134
+risk_var_eiil epoch 8 VAL 0.438698
+risk_var_eiil epoch 9 VAL 0.441977
+risk_var_eiil epoch 10 VAL 0.441537
+BEGIN map_global
+BEGIN map_consensus
+BEGIN map_spectral
+BEGIN pairwise
+pairwise epoch 1 VAL 0.617107
+pairwise epoch 2 VAL 0.485988
+pairwise epoch 3 VAL 0.461102
+pairwise epoch 4 VAL 0.454337
+pairwise epoch 5 VAL 0.439229
+pairwise epoch 6 VAL 0.443517
+pairwise epoch 7 VAL 0.442321
+pairwise epoch 8 VAL 0.436286
+pairwise epoch 9 VAL 0.438692
+pairwise epoch 10 VAL 0.44218
+BEGIN shared_private
+shared_private epoch 1 VAL 0.55048
+shared_private epoch 2 VAL 0.485115
+shared_private epoch 3 VAL 0.47417
+shared_private epoch 4 VAL 0.463924
+shared_private epoch 5 VAL 0.451747
+shared_private epoch 6 VAL 0.454307
+shared_private epoch 7 VAL 0.455354
+shared_private epoch 8 VAL 0.453737
+shared_private epoch 9 VAL 0.460147
+shared_private epoch 10 VAL 0.438712
+BEGIN shared_private_irm
+shared_private_irm epoch 1 VAL 0.588365
+shared_private_irm epoch 2 VAL 0.485341
+shared_private_irm epoch 3 VAL 0.473348
+shared_private_irm epoch 4 VAL 0.459886
+shared_private_irm epoch 5 VAL 0.44773
+shared_private_irm epoch 6 VAL 0.453202
+shared_private_irm epoch 7 VAL 0.453986
+shared_private_irm epoch 8 VAL 0.452865
+shared_private_irm epoch 9 VAL 0.460255
+shared_private_irm epoch 10 VAL 0.437491
+BEGIN adversarial_weak
+adversarial_weak epoch 1 VAL 0.60069
+adversarial_weak epoch 2 VAL 0.490712
+adversarial_weak epoch 3 VAL 0.468833
+adversarial_weak epoch 4 VAL 0.458537
+adversarial_weak epoch 5 VAL 0.441312
+adversarial_weak epoch 6 VAL 0.445507
+adversarial_weak epoch 7 VAL 0.443869
+adversarial_weak epoch 8 VAL 0.43729
+adversarial_weak epoch 9 VAL 0.4422
+adversarial_weak epoch 10 VAL 0.441289
+BEGIN adversarial_strong
+adversarial_strong epoch 1 VAL 0.601417
+adversarial_strong epoch 2 VAL 0.489033
+adversarial_strong epoch 3 VAL 0.468163
+adversarial_strong epoch 4 VAL 0.458053
+adversarial_strong epoch 5 VAL 0.442138
+adversarial_strong epoch 6 VAL 0.447119
+adversarial_strong epoch 7 VAL 0.445284
+adversarial_strong epoch 8 VAL 0.440333
+adversarial_strong epoch 9 VAL 0.444182
+adversarial_strong epoch 10 VAL 0.444682
+BEGIN map_projection
+map_projection epoch 1 VAL 0.61595
+map_projection epoch 2 VAL 0.484474
+map_projection epoch 3 VAL 0.46472
+map_projection epoch 4 VAL 0.456504
+map_projection epoch 5 VAL 0.438826
+map_projection epoch 6 VAL 0.443698
+map_projection epoch 7 VAL 0.44262
+map_projection epoch 8 VAL 0.438922
+map_projection epoch 9 VAL 0.442368
+map_projection epoch 10 VAL 0.443766
+BEGIN map_shared_irm
+map_shared_irm epoch 1 VAL 0.600447
+map_shared_irm epoch 2 VAL 0.479046
+map_shared_irm epoch 3 VAL 0.462153
+map_shared_irm epoch 4 VAL 0.452346
+map_shared_irm epoch 5 VAL 0.43591
+map_shared_irm epoch 6 VAL 0.442534
+map_shared_irm epoch 7 VAL 0.440703
+map_shared_irm epoch 8 VAL 0.435569
+map_shared_irm epoch 9 VAL 0.44029
+map_shared_irm epoch 10 VAL 0.440024
+BEGIN map_consensus_shuffled
+BEGIN map_consensus_random
+BEGIN map_consensus_time
+BEGIN map_consensus_uniform
+BEGIN map_consensus_hcluster
+BEGIN map_consensus_eiil
+COMPLETE results/fpem_prototype_guided_invariant_20261103/itransformer/ETTm1/pred_96/shared
+stage=finetune attempt=1
+partial 1 {'mse': 0.43120964190553684, 'mae': 0.4394864953513789}
+partial 2 {'mse': 0.43172418058463957, 'mae': 0.4397612093790318}
+partial 3 {'mse': 0.42953503011657745, 'mae': 0.43887776969414877}
+partial 4 {'mse': 0.427493860489635, 'mae': 0.43768711567902613}
+partial 5 {'mse': 0.4263027833398506, 'mae': 0.4371275690147626}
+partial 6 {'mse': 0.4305436573861164, 'mae': 0.43939886533918165}
+partial 7 {'mse': 0.43150697739253013, 'mae': 0.4402766947225942}
+partial 8 {'mse': 0.424791569117437, 'mae': 0.4359160534117201}
+partial 9 {'mse': 0.4268968847510572, 'mae': 0.4373348239962454}
+partial 10 {'mse': 0.42847339065459944, 'mae': 0.43807471415033966}
+full 1 {'mse': 0.4307402352590367, 'mae': 0.43940719883487667}
+full 2 {'mse': 0.4321560269246779, 'mae': 0.44037783032848743}
+full 3 {'mse': 0.43075765810690436, 'mae': 0.43995393065449984}
+full 4 {'mse': 0.4300863312818961, 'mae': 0.439493521103464}
+full 5 {'mse': 0.42870128958464115, 'mae': 0.4388520052121584}
+full 6 {'mse': 0.4343957471031307, 'mae': 0.4418196266869007}
+full 7 {'mse': 0.436326730556702, 'mae': 0.4433267490604348}
+full 8 {'mse': 0.4304033052401318, 'mae': 0.43958411235889755}
+full 9 {'mse': 0.43389073890441754, 'mae': 0.441670164969837}
+full 10 {'mse': 0.43776353971201976, 'mae': 0.44368022869934187}
+stage=forward attempt=1
+conditional epoch 1 VAL 0.402017
+conditional epoch 2 VAL 0.368383
+conditional epoch 3 VAL 0.331944
+conditional epoch 4 VAL 0.305644
+conditional epoch 5 VAL 0.305254
+conditional epoch 6 VAL 0.30191
+conditional epoch 7 VAL 0.293001
+conditional epoch 8 VAL 0.300867
+conditional epoch 9 VAL 0.296917
+conditional epoch 10 VAL 0.301732
+FORWARD OOF COMPLETE {'mse': 0.4011889943529622, 'mae': 0.4319516481457216, 'prediction_std': 0.8122670650482178}
+stage=fusion attempt=1
+FUSION COMPLETE results/fpem_prototype_guided_invariant_20261103/itransformer/ETTm1/pred_96/fusion
+stage=analysis attempt=1
+all stages complete

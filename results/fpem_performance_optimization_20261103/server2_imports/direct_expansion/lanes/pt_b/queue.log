@@ -1,0 +1,8 @@
+START patchtst/ETTh2/96 on gpu=1
+COMPLETE patchtst/ETTh2/96
+START patchtst/ETTh2/192 on gpu=1
+COMPLETE patchtst/ETTh2/192
+START patchtst/ETTh2/336 on gpu=1
+COMPLETE patchtst/ETTh2/336
+START patchtst/ETTh2/720 on gpu=1
+COMPLETE patchtst/ETTh2/720

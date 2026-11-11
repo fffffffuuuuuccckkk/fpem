@@ -1,0 +1,6 @@
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_itransformer_search_20261012/itransformer/Electricity/pred_96/shared_reference.pt
+TRIAL itransformer Electricity 96 inherited 0.16998538374900818 pruned False
+TRIAL itransformer Electricity 96 head_0.0001 0.16998545825481415 pruned False
+TRIAL itransformer Electricity 96 head_0.0003 0.16998545825481415 pruned False
+TRIAL itransformer Electricity 96 head_0.001 0.16998545825481415 pruned True
+COMPLETE itransformer Electricity 96 {'mse': 0.16998538374900818, 'mae': 0.25813916325569153}

@@ -1,0 +1,9 @@
+2026-11-07T06:04:07+00:00 START itransformer ETTm1 720 gpu=1 attempt=1
+METHOD_START P0_Raw
+METHOD_COMPLETE P0_Raw Ridge_C 4.998281955718994 gain 0.02253506889663095
+METHOD_START P1_Relation_Fingerprint
+METHOD_COMPLETE P1_Relation_Fingerprint Ridge_C 5.023779392242432 gain 0.01754878555857759
+METHOD_START P2_Local_Operator
+METHOD_NOT_ESTIMABLE P2_Local_Operator P2 insufficient independent local operators (128) or shared reference (0)
+COMPLETE results/fpem_relation_operator_prototype_pilot/pilots/itransformer/ETTm1/pred_720/seed_2022
+2026-11-07T06:08:11+00:00 COMPLETE itransformer ETTm1 720

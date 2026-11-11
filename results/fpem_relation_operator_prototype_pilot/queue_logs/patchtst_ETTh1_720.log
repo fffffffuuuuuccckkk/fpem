@@ -1,0 +1,9 @@
+2026-11-07T06:02:27+00:00 START patchtst ETTh1 720 gpu=1 attempt=1
+METHOD_START P0_Raw
+METHOD_COMPLETE P0_Raw Ridge_C 2.897279739379883 gain 0.08772926559488002
+METHOD_START P1_Relation_Fingerprint
+METHOD_COMPLETE P1_Relation_Fingerprint Ridge_C 2.9504926204681396 gain 0.07097404743269228
+METHOD_START P2_Local_Operator
+METHOD_NOT_ESTIMABLE P2_Local_Operator P2 insufficient independent local operators (0) or shared reference (0)
+COMPLETE results/fpem_relation_operator_prototype_pilot/pilots/patchtst/ETTh1/pred_720/seed_2022
+2026-11-07T06:04:07+00:00 COMPLETE patchtst ETTh1 720

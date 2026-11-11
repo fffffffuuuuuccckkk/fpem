@@ -1,0 +1,37 @@
+[Traffic 96->720] create shared CycleNet reference on GPU=2
+[Electricity 96->720] create shared CycleNet reference on GPU=3
+[Traffic 96->336] create shared CycleNet reference on GPU=0
+[Electricity 96->336] create shared CycleNet reference on GPU=1
+Traceback (most recent call last):
+  File "tools/run_predictive_env_iv_patchtst.py", line 31, in <module>
+    from data_provider.data_loader import (
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/data_provider/data_loader.py", line 10, in <module>
+    from data_provider.m4 import M4Dataset, M4Meta
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/data_provider/m4.py", line 26, in <module>
+    import patoolib
+ModuleNotFoundError: No module named 'patoolib'
+Traceback (most recent call last):
+  File "tools/run_predictive_env_iv_patchtst.py", line 31, in <module>
+    from data_provider.data_loader import (
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/data_provider/data_loader.py", line 10, in <module>
+    from data_provider.m4 import M4Dataset, M4Meta
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/data_provider/m4.py", line 26, in <module>
+    import patoolib
+ModuleNotFoundError: No module named 'patoolib'
+Traceback (most recent call last):
+  File "tools/run_predictive_env_iv_patchtst.py", line 31, in <module>
+Traceback (most recent call last):
+  File "tools/run_predictive_env_iv_patchtst.py", line 31, in <module>
+    from data_provider.data_loader import (
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/data_provider/data_loader.py", line 10, in <module>
+    from data_provider.m4 import M4Dataset, M4Meta
+      File "/data/OuXiaoyu/Time-Series-Library-FPEM/data_provider/m4.py", line 26, in <module>
+from data_provider.data_loader import (
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/data_provider/data_loader.py", line 10, in <module>
+    import patoolib
+ModuleNotFoundError: No module named 'patoolib'
+    from data_provider.m4 import M4Dataset, M4Meta
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/data_provider/m4.py", line 26, in <module>
+    import patoolib
+ModuleNotFoundError: No module named 'patoolib'
+one or more CycleNet FiLM jobs failed

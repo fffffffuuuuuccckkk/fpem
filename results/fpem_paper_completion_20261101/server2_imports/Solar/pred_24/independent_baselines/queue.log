@@ -1,0 +1,86 @@
+RUN timegrad Solar 24 GPU2 attempt=1 2026-11-01T06:32:33+00:00
+EPOCH {'epoch': 1, 'train_loss': 1.0416241437326645, 'train_batches': 1147}
+EPOCH {'epoch': 2, 'train_loss': 1.0052347424867991, 'train_batches': 1147}
+EPOCH {'epoch': 3, 'train_loss': 1.000418679601957, 'train_batches': 1147}
+EPOCH {'epoch': 4, 'train_loss': 0.9933976280034472, 'train_batches': 1147}
+EPOCH {'epoch': 5, 'train_loss': 0.9762235098853772, 'train_batches': 1147}
+EPOCH {'epoch': 6, 'train_loss': 0.957406183274393, 'train_batches': 1147}
+EPOCH {'epoch': 7, 'train_loss': 0.9382174637594115, 'train_batches': 1147}
+EPOCH {'epoch': 8, 'train_loss': 0.9187030410808175, 'train_batches': 1147}
+EPOCH {'epoch': 9, 'train_loss': 0.90013664228145, 'train_batches': 1147}
+EPOCH {'epoch': 10, 'train_loss': 0.8827930421234736, 'train_batches': 1147}
+EPOCH {'epoch': 11, 'train_loss': 0.866797776719021, 'train_batches': 1147}
+EPOCH {'epoch': 12, 'train_loss': 0.851380868538006, 'train_batches': 1147}
+EPOCH {'epoch': 13, 'train_loss': 0.8389770425498849, 'train_batches': 1147}
+EVALUATE timegrad Solar 24 32
+EVALUATE timegrad Solar 24 672
+EVALUATE timegrad Solar 24 1312
+EVALUATE timegrad Solar 24 1952
+EVALUATE timegrad Solar 24 2592
+EVALUATE timegrad Solar 24 3232
+EVALUATE timegrad Solar 24 3872
+EVALUATE timegrad Solar 24 4512
+EVALUATE timegrad Solar 24 5152
+EVALUATE timegrad Solar 24 5792
+EVALUATE timegrad Solar 24 6432
+EVALUATE timegrad Solar 24 7072
+EVALUATE timegrad Solar 24 7712
+EVALUATE timegrad Solar 24 8352
+EVALUATE timegrad Solar 24 8992
+EVALUATE timegrad Solar 24 9632
+EVALUATE timegrad Solar 24 10272
+COMPLETE {'inv_MSE': 0.48689079904035015, 'inv_MAE': 0.3571622932666332, 'mean_MSE': 1.1205041530281121, 'mean_MAE': 0.8434696238268113, 'median_NMAE': 1.0389817564818637, 'CRPS_empirical': 0.6158260965920663, 'CRPS': 0.6158260965920663, 'quantile_CRPS_normalized': 0.7754347930802712, 'ProbTS_CRPS': 0.7677410208289032, 'PICP_95': 0.7917874284917559, 'MPIW_95': 2.680913347513299, 'WIS': 0.5063385688921314, 'EnergyScore': 40.787905119249395, 'sample_std_mean': 0.7080955412744941, 'correction_win_rate': 0.2584612451139289, 'sample_diversity': 0.804988218031185, 'max_boundary_jump': 7.632212292126312, 'quantile_crps_raw': 0.637907823720507, 'target_abs_mean': 0.7817239494270997, 'ProbTS_CRPS_Sum': 1.1328115054593662, 'CRPS_Sum': 109.07338071003555, 'method': 'timegrad', 'dataset': 'Solar', 'pred_len': 24, 'num_samples': 100, 'evaluated_windows': 10489, 'total_test_windows': 10489, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+RUN tsflow Solar 24 GPU2 attempt=1 2026-11-01T06:41:33+00:00
+EPOCH {'epoch': 1, 'train_loss': 1.425020644845605, 'train_batches': 1147}
+EPOCH {'epoch': 2, 'train_loss': 1.235169548414641, 'train_batches': 1147}
+EPOCH {'epoch': 3, 'train_loss': 1.1450533816995263, 'train_batches': 1147}
+EPOCH {'epoch': 4, 'train_loss': 1.0950468968284992, 'train_batches': 1147}
+EPOCH {'epoch': 5, 'train_loss': 1.0632284098120492, 'train_batches': 1147}
+EPOCH {'epoch': 6, 'train_loss': 1.0391420833733982, 'train_batches': 1147}
+EPOCH {'epoch': 7, 'train_loss': 1.0206053601001384, 'train_batches': 1147}
+EPOCH {'epoch': 8, 'train_loss': 1.009078167164544, 'train_batches': 1147}
+EPOCH {'epoch': 9, 'train_loss': 0.996714854198845, 'train_batches': 1147}
+EPOCH {'epoch': 10, 'train_loss': 0.9865216758839441, 'train_batches': 1147}
+EPOCH {'epoch': 11, 'train_loss': 0.9785729737103037, 'train_batches': 1147}
+EPOCH {'epoch': 12, 'train_loss': 0.9713985148261918, 'train_batches': 1147}
+EPOCH {'epoch': 13, 'train_loss': 0.9657774720902846, 'train_batches': 1147}
+EVALUATE tsflow Solar 24 32
+EVALUATE tsflow Solar 24 672
+EVALUATE tsflow Solar 24 1312
+EVALUATE tsflow Solar 24 1952
+EVALUATE tsflow Solar 24 2592
+EVALUATE tsflow Solar 24 3232
+EVALUATE tsflow Solar 24 3872
+EVALUATE tsflow Solar 24 4512
+EVALUATE tsflow Solar 24 5152
+EVALUATE tsflow Solar 24 5792
+EVALUATE tsflow Solar 24 6432
+EVALUATE tsflow Solar 24 7072
+EVALUATE tsflow Solar 24 7712
+EVALUATE tsflow Solar 24 8352
+EVALUATE tsflow Solar 24 8992
+EVALUATE tsflow Solar 24 9632
+EVALUATE tsflow Solar 24 10272
+COMPLETE {'inv_MSE': 0.48689079904035015, 'inv_MAE': 0.3571622932666332, 'mean_MSE': 0.15869531156533392, 'mean_MAE': 0.261027653970372, 'median_NMAE': 0.37117990273199153, 'CRPS_empirical': 0.2716713074730763, 'CRPS': 0.2716713074730763, 'quantile_CRPS_normalized': 0.38895371126110284, 'ProbTS_CRPS': 0.4001231721937742, 'PICP_95': 0.9954405024595149, 'MPIW_95': 3.3381191257844494, 'WIS': 0.22354080119513955, 'EnergyScore': 19.284683398834936, 'sample_std_mean': 0.8821833546991991, 'correction_win_rate': 0.4012775288397369, 'sample_diversity': 1.0030436275321064, 'max_boundary_jump': 6.428489778525768, 'quantile_crps_raw': 0.2817463148795498, 'target_abs_mean': 0.7817239494270997, 'ProbTS_CRPS_Sum': 0.23424844930156397, 'CRPS_Sum': 15.27405035917406, 'method': 'tsflow', 'dataset': 'Solar', 'pred_len': 24, 'num_samples': 100, 'evaluated_windows': 10489, 'total_test_windows': 10489, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+RUN tsdiff Solar 24 GPU2 attempt=1 2026-11-01T06:46:55+00:00
+EPOCH {'epoch': 1, 'train_loss': 0.9306438924856776, 'train_batches': 1147}
+EPOCH {'epoch': 2, 'train_loss': 0.7676710020799479, 'train_batches': 1147}
+EPOCH {'epoch': 3, 'train_loss': 0.7280538607495914, 'train_batches': 1147}
+EPOCH {'epoch': 4, 'train_loss': 0.7120647413790901, 'train_batches': 1147}
+EPOCH {'epoch': 5, 'train_loss': 0.6997126379320698, 'train_batches': 1147}
+EPOCH {'epoch': 6, 'train_loss': 0.6902112232776133, 'train_batches': 1147}
+EPOCH {'epoch': 7, 'train_loss': 0.6825342569646361, 'train_batches': 1147}
+EPOCH {'epoch': 8, 'train_loss': 0.6767610734508883, 'train_batches': 1147}
+EPOCH {'epoch': 9, 'train_loss': 0.672430396599674, 'train_batches': 1147}
+EPOCH {'epoch': 10, 'train_loss': 0.6689845695117296, 'train_batches': 1147}
+EPOCH {'epoch': 11, 'train_loss': 0.6660170470930331, 'train_batches': 1147}
+EPOCH {'epoch': 12, 'train_loss': 0.6639316261802015, 'train_batches': 1147}
+EPOCH {'epoch': 13, 'train_loss': 0.6619343293056139, 'train_batches': 1147}
+EVALUATE tsdiff Solar 24 32
+EVALUATE tsdiff Solar 24 672
+EVALUATE tsdiff Solar 24 1312
+EVALUATE tsdiff Solar 24 1952
+EVALUATE tsdiff Solar 24 2592
+EVALUATE tsdiff Solar 24 3232
+EVALUATE tsdiff Solar 24 3872
+EVALUATE tsdiff Solar 24 4512

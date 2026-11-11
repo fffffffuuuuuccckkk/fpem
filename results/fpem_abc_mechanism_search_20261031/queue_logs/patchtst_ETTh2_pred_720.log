@@ -1,0 +1,3 @@
+START {'backbone': 'patchtst', 'dataset': 'ETTh2', 'pred_len': 720, 'seq_len': 96, 'span': 816, 'sha': '56ba849de958e95d01ef045ce9ffefc957f68fd72008ee8a1f4a812890804e9e', 'selected_r3_gain': 4.3064355850219727e-05, 'source': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_dual_pattern_memory/g1_r3_full_testlr_search/patchtst/ETTh2/pred_720', 'train_cutoff': 8544, 'test_start_absolute': 11424, 'train_size': 484, 'val_size': 541, 'test_size': 541}
+A COMPLETE 98
+B COMPLETE 39

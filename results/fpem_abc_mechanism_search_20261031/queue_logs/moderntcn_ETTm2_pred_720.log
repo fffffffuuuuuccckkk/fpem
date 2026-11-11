@@ -1,0 +1,71 @@
+START {'backbone': 'moderntcn', 'dataset': 'ETTm2', 'pred_len': 720, 'seq_len': 96, 'span': 816, 'sha': 'e6ad2c723815043fb6e296902a09eba793ce4409e6a929fe59d3b3f8412445ae', 'selected_r3_gain': 0.0012418627738952637, 'source': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_dual_pattern_memory/g1_r3_full_testlr_search/moderntcn/ETTm2/pred_720', 'train_cutoff': 34464, 'test_start_absolute': 45984, 'train_size': 2104, 'val_size': 2701, 'test_size': 10801}
+A COMPLETE 98
+B COMPLETE 84
+C OOF READY 1052
+C RISK MODELS READY 76
+C SHUFFLE READY
+C GMM READY
+C12 EPOCH base_condition 1 {'epoch': 1, 'flow_loss': 248.8747039391212}
+C12 EPOCH base_condition 2 {'epoch': 2, 'flow_loss': 101.86200082604272}
+C12 EPOCH base_condition 3 {'epoch': 3, 'flow_loss': 86.3177997630812}
+C12 EPOCH base_condition 4 {'epoch': 4, 'flow_loss': 105.97262908659961}
+C12 EPOCH base_condition 5 {'epoch': 5, 'flow_loss': 104.66344597312434}
+C12 EPOCH base_condition 6 {'epoch': 6, 'flow_loss': 93.03882948920149}
+C12 EPOCH base_condition 7 {'epoch': 7, 'flow_loss': 88.92394913164533}
+C12 EPOCH base_condition 8 {'epoch': 8, 'flow_loss': 75.69813622630595}
+C12 COMPLETE base_condition {'CRPS': 0.34792194308261193, 'ProbTS_CRPS': 0.2662124398809213, 'WIS': 0.284025595958769, 'PICP_95': 0.8145498862633338, 'MPIW_95': 1.6497311380487927, 'inv_MSE': 0.44038371810105426, 'inv_MAE': 0.41907717754854956, 'mean_MSE': 0.5066002473323303, 'mean_MAE': 0.46368510448015654, 'sample_std_mean': 0.4257506747570264, 'sample_diversity': 0.47652157038979276, 'PICP_95_bin1': 0.8957781661191636, 'PICP_95_bin2': 0.8185240085837404, 'PICP_95_bin3': 0.7862555304398904, 'PICP_95_bin4': 0.7576418341793252, 'trajectory_coverage_95': 0.0, 'high_risk_PICP_95': 0.8037148037148037, 'evaluated_windows': 676}
+C12 EPOCH history_key 1 {'epoch': 1, 'flow_loss': 248.95845417680243}
+C12 EPOCH history_key 2 {'epoch': 2, 'flow_loss': 100.50870640498452}
+C12 EPOCH history_key 3 {'epoch': 3, 'flow_loss': 85.65324872633954}
+C12 EPOCH history_key 4 {'epoch': 4, 'flow_loss': 105.91503603950954}
+C12 EPOCH history_key 5 {'epoch': 5, 'flow_loss': 104.81441123343541}
+C12 EPOCH history_key 6 {'epoch': 6, 'flow_loss': 92.80943535610146}
+C12 EPOCH history_key 7 {'epoch': 7, 'flow_loss': 88.29753772931407}
+C12 EPOCH history_key 8 {'epoch': 8, 'flow_loss': 75.1323421518159}
+C12 COMPLETE history_key {'CRPS': 0.3339799393916271, 'ProbTS_CRPS': 0.25564376586640375, 'WIS': 0.2743188790844742, 'PICP_95': 0.807974089884899, 'MPIW_95': 1.4859655552361843, 'inv_MSE': 0.44038371810105426, 'inv_MAE': 0.41907717754854956, 'mean_MSE': 0.45633159710105353, 'mean_MAE': 0.43715509357889726, 'sample_std_mean': 0.37780265986214023, 'sample_diversity': 0.42118488613670396, 'PICP_95_bin1': 0.8912686769073531, 'PICP_95_bin2': 0.8113964147998031, 'PICP_95_bin3': 0.7805074294643289, 'PICP_95_bin4': 0.7487238293745109, 'trajectory_coverage_95': 0.0, 'high_risk_PICP_95': 0.7962380212380212, 'evaluated_windows': 676}
+C12 EPOCH expert_disagreement 1 {'epoch': 1, 'flow_loss': 248.95486036452957}
+C12 EPOCH expert_disagreement 2 {'epoch': 2, 'flow_loss': 100.50668334945829}
+C12 EPOCH expert_disagreement 3 {'epoch': 3, 'flow_loss': 85.65149441871353}
+C12 EPOCH expert_disagreement 4 {'epoch': 4, 'flow_loss': 105.83752644349111}
+C12 EPOCH expert_disagreement 5 {'epoch': 5, 'flow_loss': 104.57927617555336}
+C12 EPOCH expert_disagreement 6 {'epoch': 6, 'flow_loss': 92.72740129705315}
+C12 EPOCH expert_disagreement 7 {'epoch': 7, 'flow_loss': 88.23402650984823}
+C12 EPOCH expert_disagreement 8 {'epoch': 8, 'flow_loss': 75.07661146084165}
+C12 COMPLETE expert_disagreement {'CRPS': 0.3359709761199161, 'ProbTS_CRPS': 0.2572167976015418, 'WIS': 0.27618600242942043, 'PICP_95': 0.8044959934505486, 'MPIW_95': 1.4655435790677043, 'inv_MSE': 0.44038371810105426, 'inv_MAE': 0.41907717754854956, 'mean_MSE': 0.4604120471421078, 'mean_MAE': 0.43911905198760287, 'sample_std_mean': 0.37201114122331497, 'sample_diversity': 0.4142194563115137, 'PICP_95_bin1': 0.8896121086453544, 'PICP_95_bin2': 0.8074880372843093, 'PICP_95_bin3': 0.776449952605208, 'PICP_95_bin4': 0.7444338863770638, 'trajectory_coverage_95': 0.0, 'high_risk_PICP_95': 0.7927836052836053, 'evaluated_windows': 676}
+C12 EPOCH retrieved_future 1 {'epoch': 1, 'flow_loss': 248.9564208138276}
+C12 EPOCH retrieved_future 2 {'epoch': 2, 'flow_loss': 100.49774037069241}
+C12 EPOCH retrieved_future 3 {'epoch': 3, 'flow_loss': 85.6432644121245}
+C12 EPOCH retrieved_future 4 {'epoch': 4, 'flow_loss': 105.81063555825044}
+C12 EPOCH retrieved_future 5 {'epoch': 5, 'flow_loss': 104.41630842477197}
+C12 EPOCH retrieved_future 6 {'epoch': 6, 'flow_loss': 92.72605288738836}
+C12 EPOCH retrieved_future 7 {'epoch': 7, 'flow_loss': 88.35204434832995}
+C12 EPOCH retrieved_future 8 {'epoch': 8, 'flow_loss': 75.17910127917774}
+C12 COMPLETE retrieved_future {'CRPS': 0.33253790023764207, 'ProbTS_CRPS': 0.2546017632417425, 'WIS': 0.27298783762215156, 'PICP_95': 0.8112652166002601, 'MPIW_95': 1.4978367866143671, 'inv_MSE': 0.44038371810105426, 'inv_MAE': 0.41907717754854956, 'mean_MSE': 0.45528448734586763, 'mean_MAE': 0.4355730669209238, 'sample_std_mean': 0.3806968907103736, 'sample_diversity': 0.42426291319745535, 'PICP_95_bin1': 0.8936836797104785, 'PICP_95_bin2': 0.8145170116565636, 'PICP_95_bin3': 0.7842009585990003, 'PICP_95_bin4': 0.7526592122027155, 'trajectory_coverage_95': 0.0, 'high_risk_PICP_95': 0.7998075998075999, 'evaluated_windows': 676}
+C12 EPOCH OOF_residual 1 {'epoch': 1, 'flow_loss': 248.95335811958265}
+C12 EPOCH OOF_residual 2 {'epoch': 2, 'flow_loss': 100.48495601263035}
+C12 EPOCH OOF_residual 3 {'epoch': 3, 'flow_loss': 85.63668413110861}
+C12 EPOCH OOF_residual 4 {'epoch': 4, 'flow_loss': 105.81123494437136}
+C12 EPOCH OOF_residual 5 {'epoch': 5, 'flow_loss': 104.44272538947817}
+C12 EPOCH OOF_residual 6 {'epoch': 6, 'flow_loss': 92.71926576012442}
+C12 EPOCH OOF_residual 7 {'epoch': 7, 'flow_loss': 88.32422203920942}
+C12 EPOCH OOF_residual 8 {'epoch': 8, 'flow_loss': 75.16737559721044}
+C12 COMPLETE OOF_residual {'CRPS': 0.33493467451199976, 'ProbTS_CRPS': 0.25642947204543287, 'WIS': 0.2746900201901882, 'PICP_95': 0.8117401120225354, 'MPIW_95': 1.5187557597132124, 'inv_MSE': 0.44038371810105426, 'inv_MAE': 0.41907717754854956, 'mean_MSE': 0.4614868864593421, 'mean_MAE': 0.43992527534623116, 'sample_std_mean': 0.3866636618178272, 'sample_diversity': 0.4312860798200912, 'PICP_95_bin1': 0.8937963871560859, 'PICP_95_bin2': 0.8149514050173337, 'PICP_95_bin3': 0.7845919163974785, 'PICP_95_bin4': 0.7536207459558396, 'trajectory_coverage_95': 0.0, 'high_risk_PICP_95': 0.8004477004477004, 'evaluated_windows': 676}
+C12 EPOCH all_fused 1 {'epoch': 1, 'flow_loss': 248.94796423676348}
+C12 EPOCH all_fused 2 {'epoch': 2, 'flow_loss': 100.47874572416072}
+C12 EPOCH all_fused 3 {'epoch': 3, 'flow_loss': 85.63135263161364}
+C12 EPOCH all_fused 4 {'epoch': 4, 'flow_loss': 105.79787421861076}
+C12 EPOCH all_fused 5 {'epoch': 5, 'flow_loss': 104.40313047329282}
+C12 EPOCH all_fused 6 {'epoch': 6, 'flow_loss': 92.73734882001793}
+C12 EPOCH all_fused 7 {'epoch': 7, 'flow_loss': 88.34077419527583}
+C12 EPOCH all_fused 8 {'epoch': 8, 'flow_loss': 75.25801506513878}
+C12 COMPLETE all_fused {'CRPS': 0.33587183939987386, 'ProbTS_CRPS': 0.257225705498069, 'WIS': 0.27552113823107716, 'PICP_95': 0.8112264726994306, 'MPIW_95': 1.5089058466916958, 'inv_MSE': 0.44038371810105426, 'inv_MAE': 0.41907717754854956, 'mean_MSE': 0.464938911063784, 'mean_MAE': 0.44059580396971054, 'sample_std_mean': 0.38392658293599913, 'sample_diversity': 0.4280611601983302, 'PICP_95_bin1': 0.8944843735920607, 'PICP_95_bin2': 0.8140156977099074, 'PICP_95_bin3': 0.7838276127386375, 'PICP_95_bin4': 0.752578201378591, 'trajectory_coverage_95': 0.0, 'high_risk_PICP_95': 0.8003075628075628, 'evaluated_windows': 676}
+C12 EPOCH shuffled_fused 1 {'epoch': 1, 'flow_loss': 248.96214683880825}
+C12 EPOCH shuffled_fused 2 {'epoch': 2, 'flow_loss': 100.5209119730878}
+C12 EPOCH shuffled_fused 3 {'epoch': 3, 'flow_loss': 85.6719067695023}
+C12 EPOCH shuffled_fused 4 {'epoch': 4, 'flow_loss': 105.92359496432113}
+C12 EPOCH shuffled_fused 5 {'epoch': 5, 'flow_loss': 104.8199343868686}
+C12 EPOCH shuffled_fused 6 {'epoch': 6, 'flow_loss': 92.81888298692208}
+C12 EPOCH shuffled_fused 7 {'epoch': 7, 'flow_loss': 88.28828992166748}
+C12 EPOCH shuffled_fused 8 {'epoch': 8, 'flow_loss': 75.1006018214957}
+C12 COMPLETE shuffled_fused {'CRPS': 0.3328532495442227, 'ProbTS_CRPS': 0.2547737980735372, 'WIS': 0.27345400528442226, 'PICP_95': 0.8072268118167064, 'MPIW_95': 1.4700198307545227, 'inv_MSE': 0.44038371810105426, 'inv_MAE': 0.41907717754854956, 'mean_MSE': 0.4516049203788035, 'mean_MAE': 0.43482063005309135, 'sample_std_mean': 0.37321403375744117, 'sample_diversity': 0.4157479525317807, 'PICP_95_bin1': 0.8906687483985043, 'PICP_95_bin2': 0.8105581515639492, 'PICP_95_bin3': 0.7798300100677817, 'PICP_95_bin4': 0.7478503445549124, 'trajectory_coverage_95': 0.0, 'high_risk_PICP_95': 0.7955817330817331, 'evaluated_windows': 676}
+C COMPLETE

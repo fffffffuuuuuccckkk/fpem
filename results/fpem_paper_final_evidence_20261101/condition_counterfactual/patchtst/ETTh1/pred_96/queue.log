@@ -1,0 +1,39 @@
+RUN patchtst:ETTh1:96 GPU0 attempt=1 2026-11-01T10:39:25+00:00
+C12 EPOCH all_fused 1 {'epoch': 1, 'flow_loss': 2.108922268794133}
+C12 EPOCH all_fused 2 {'epoch': 2, 'flow_loss': 1.8169571821506207}
+C12 EPOCH all_fused 3 {'epoch': 3, 'flow_loss': 1.5360139088752942}
+C12 EPOCH all_fused 4 {'epoch': 4, 'flow_loss': 1.4297334866646008}
+C12 EPOCH all_fused 5 {'epoch': 5, 'flow_loss': 1.3990114089770196}
+C12 EPOCH all_fused 6 {'epoch': 6, 'flow_loss': 1.3810236013852633}
+C12 EPOCH all_fused 7 {'epoch': 7, 'flow_loss': 1.3240083566078773}
+C12 EPOCH all_fused 8 {'epoch': 8, 'flow_loss': 1.3365266861059726}
+P3 trained_correct 2021 correct 0.31134217212155696
+P3 trained_correct 2021 zero 0.3118087947796202
+P3 trained_correct 2021 far_time 0.31132229581111814
+P3 trained_correct 2021 variable 0.31186494513426827
+P3 trained_correct 2021 scale_stratum 0.3111918651989235
+P3 trained_correct 2022 correct 0.3114842398351371
+P3 trained_correct 2022 zero 0.31194470576952654
+P3 trained_correct 2022 far_time 0.31146175178085883
+P3 trained_correct 2022 variable 0.31199185774692334
+P3 trained_correct 2022 scale_stratum 0.3113303346134498
+P3 trained_correct 2023 correct 0.31163467627173685
+P3 trained_correct 2023 zero 0.31210155188609745
+P3 trained_correct 2023 far_time 0.311620130301206
+P3 trained_correct 2023 variable 0.3121455594833133
+P3 trained_correct 2023 scale_stratum 0.31148777053380117
+P3 trained_wrong 2021 correct 0.31144759525014476
+P3 trained_wrong 2021 zero 0.3116718277955158
+P3 trained_wrong 2021 far_time 0.31161381242264974
+P3 trained_wrong 2021 variable 0.31119221436070915
+P3 trained_wrong 2021 scale_stratum 0.31151622636417403
+P3 trained_wrong 2022 correct 0.3115966675356779
+P3 trained_wrong 2022 zero 0.3118095826811907
+P3 trained_wrong 2022 far_time 0.31175009844292867
+P3 trained_wrong 2022 variable 0.31134462852560124
+P3 trained_wrong 2022 scale_stratum 0.31165975969354254
+P3 trained_wrong 2023 correct 0.31176324964766866
+P3 trained_wrong 2023 zero 0.31196402229229725
+P3 trained_wrong 2023 far_time 0.3119133132773116
+P3 trained_wrong 2023 variable 0.31148073658710573
+P3 trained_wrong 2023 scale_stratum 0.31181648194020245

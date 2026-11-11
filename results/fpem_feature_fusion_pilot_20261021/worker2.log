@@ -1,0 +1,17 @@
+START moderntcn_ETTm2_720 O3 F1 attempt=1
+DONE moderntcn_ETTm2_720 O3 F1
+START moderntcn_ETTm2_720 O3 F2 attempt=1
+DONE moderntcn_ETTm2_720 O3 F2
+START moderntcn_ETTm2_720 O3 F3_F1_swap attempt=1
+DONE moderntcn_ETTm2_720 O3 F3_F1_swap
+START moderntcn_ETTm2_720 O3 F3_F2_swap attempt=1
+DONE moderntcn_ETTm2_720 O3 F3_F2_swap
+START moderntcn_ETTm2_720 O4 F1 attempt=1
+DONE moderntcn_ETTm2_720 O4 F1
+START moderntcn_ETTm2_720 O4 F2 attempt=1
+DONE moderntcn_ETTm2_720 O4 F2
+START moderntcn_ETTm2_720 O4 F3_F1_swap attempt=1
+DONE moderntcn_ETTm2_720 O4 F3_F1_swap
+START moderntcn_ETTm2_720 O4 F3_F2_swap attempt=1
+DONE moderntcn_ETTm2_720 O4 F3_F2_swap
+QUEUE COMPLETE

@@ -1,0 +1,14 @@
+attempt=1 lane=pt_e gpu=0 case=patchtst/ExchangeRate/336 method=P02
+BEGIN patchtst ExchangeRate 336 F00
+BEGIN patchtst ExchangeRate 336 P02
+P02 epoch 1 val 0.424445
+P02 epoch 2 val 0.394459
+P02 epoch 3 val 0.399487
+P02 epoch 4 val 0.388492
+P02 epoch 5 val 0.385218
+P02 epoch 6 val 0.392616
+P02 epoch 7 val 0.397428
+P02 epoch 8 val 0.396277
+P02 epoch 9 val 0.383584
+P02 epoch 10 val 0.383899
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_expansion/patchtst/ExchangeRate/pred_336

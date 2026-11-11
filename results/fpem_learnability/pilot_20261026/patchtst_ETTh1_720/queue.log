@@ -1,0 +1,12 @@
+
+ATTEMPT 1: /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_learnability_pilot.py patchtst_ETTh1_720 --gpu 0 --output results/fpem_learnability/pilot_20261026
+{"mode": "P0", "val_mse": 1.9580676233649323, "test_mse": 0.5054772188784266}
+{"mode": "P1", "val_mse": 1.9580400574340462, "test_mse": 0.5067034897359761}
+{"mode": "P2", "val_mse": 1.9557488529265874, "test_mse": 0.5059851744093297}
+{"mode": "P3", "val_mse": 2.0792891503389552, "test_mse": 0.6217646241136388}
+{"mode": "P4", "val_mse": 1.9584782073274911, "test_mse": 0.505965596606142}
+{"mode": "P5", "val_mse": 1.9568279889357363, "test_mse": 0.505382713396943}
+{"mode": "P6", "val_mse": 1.9557488529265874, "test_mse": 0.5059851744093297}
+{"mode": "P7", "val_mse": 1.9553681112443049, "test_mse": 0.5055213170847932}
+{"mode": "P8", "val_mse": 1.9584820710932906, "test_mse": 0.5039297364059527}
+{"mode": "P9_density", "val_mse": 1.9557859720614712, "test_mse": 0.5059236718382739}

@@ -1,0 +1,24 @@
+QUEUE cases=22 GPUs=0 1 2 3 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010
+FAILED patchtst:ETTh1:48:head_crps GPU=3
+DONE patchtst:ETTh1:96:inv_mse GPU=3
+FAILED patchtst:ETTh2:48:head_crps GPU=1
+FAILED patchtst:ETTh2:24:head_crps GPU=0
+FAILED patchtst:ETTh1:24:head_crps GPU=2
+DONE patchtst:ETTh2:96:inv_mse GPU=3
+DONE patchtst:ETTh1:336:inv_mse GPU=2
+DONE patchtst:ETTh1:192:inv_mse GPU=1
+DONE patchtst:ETTh2:192:inv_mse GPU=0
+DONE patchtst:ETTh2:336:inv_mse GPU=3
+DONE patchtst:ETTh1:720:inv_mse GPU=2
+DONE patchtst:ETTh2:720:inv_mse GPU=1
+DONE csdi:ETTh1:24:csdi_crps GPU=0
+FAILED moderntcn:ETTh1:24:head_crps GPU=0
+DONE csdi:ETTh2:24:csdi_crps GPU=3
+FAILED moderntcn:ETTh1:48:head_crps GPU=0
+DONE moderntcn:ETTh1:96:inv_mse GPU=3
+DONE moderntcn:ETTh1:192:inv_mse GPU=0
+DONE moderntcn:ETTh1:336:inv_mse GPU=3
+DONE moderntcn:ETTh1:720:inv_mse GPU=0
+DONE csdi:ETTh1:48:csdi_crps GPU=2
+DONE csdi:ETTh2:48:csdi_crps GPU=1
+QUEUE_COMPLETE gpu-39

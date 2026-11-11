@@ -1,0 +1,5 @@
+reference_checkpoint: results/fpem_no_future_anchor_moderntcn_search/moderntcn/ETTm1/pred_96/shared_reference.pt
+reference_checkpoint_sha256: af551a6605d9dfd31acd4fc6f894695235351faa89b3aeb334d12e964dfd93a0
+reference_source: created
+seed: 2021
+signature: {'backbone': 'moderntcn', 'dataset_name': 'ETTm1', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'ett_minute', 'data_path': 'ETTm1.csv', 'target': 'OT', 'freq': '15min', 'seq_len': 96, 'pred_len': 96, 'd_model': 64, 'd_ff': 512, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.3, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 7, 'cyclenet_cycle_len': 96, 'protocol_version': 4, 'modern_tcn_patch_size': 8, 'modern_tcn_patch_stride': 4, 'modern_tcn_num_stages': 3, 'modern_tcn_ffn_ratio': 8, 'modern_tcn_large_size': 51, 'modern_tcn_small_size': 5, 'modern_tcn_downsample_ratio': 2, 'modern_tcn_head_dropout': 0.0}

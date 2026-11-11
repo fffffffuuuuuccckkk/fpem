@@ -1,0 +1,14 @@
+attempt=1 lane=pt_a gpu=0 case=patchtst/ETTh1/192 method=P02
+BEGIN patchtst ETTh1 192 F00
+BEGIN patchtst ETTh1 192 P02
+P02 epoch 1 val 1.14367
+P02 epoch 2 val 1.081973
+P02 epoch 3 val 1.046344
+P02 epoch 4 val 1.024279
+P02 epoch 5 val 1.026988
+P02 epoch 6 val 1.021967
+P02 epoch 7 val 1.013748
+P02 epoch 8 val 1.012438
+P02 epoch 9 val 1.010549
+P02 epoch 10 val 1.012639
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_expansion/patchtst/ETTh1/pred_192

@@ -1,0 +1,7 @@
+RUN patchtst:ETTh1:720 GPU2 attempt=1 2026-11-01T11:13:29+00:00
+ABC all_fused true_test_condition 0.36478935850267885
+ABC all_fused test_condition_roll_1 0.364485849058777
+ABC all_fused test_condition_roll_7 0.3642033238562099
+ABC shuffled_fused true_test_condition 0.378959027444362
+ABC shuffled_fused test_condition_roll_1 0.3788540264706212
+ABC shuffled_fused test_condition_roll_7 0.3785936364775617

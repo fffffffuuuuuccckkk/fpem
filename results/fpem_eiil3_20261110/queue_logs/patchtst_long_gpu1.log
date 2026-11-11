@@ -1,0 +1,126 @@
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py --manifest results/fpem_eiil3_20261110/manifest.jsonl --case-key patchtst/ETTh1/pred_720/seed_2021 --output-root results/fpem_eiil3_20261110 --gpu 1 --seed 2021 --pilot-search --resume --batch-size 32 --generate-missing-q
+{"case": "patchtst/ETTh1/pred_720/seed_2021", "status": "complete", "test": {"A0": {"mse": 1.8704878091812134, "mae": 0.942912220954895}, "I3_ERM": {"mse": 2.001837730407715, "mae": 1.0341306924819946}, "I3_SoftIRM_EIIL3": {"mse": 2.001610040664673, "mae": 1.0340279340744019}, "I3_SoftIRM_ShuffleQ": {"mse": 2.008934497833252, "mae": 1.0377758741378784}, "I3_GlobalRidge": {"mse": 2.223954677581787, "mae": 1.110851764678955}, "I3_R3_EIIL3": {"mse": 2.179102897644043, "mae": 1.09696364402771}, "I3_R3_ShuffleQ": {"mse": 2.1780078411102295, "mae": 1.096482515335083}}, "u_test": {"mean": 0.0017131682252511382, "std": 0.0027030918281525373, "p10_p50_p90": [7.544424588559196e-05, 0.0007268617628142238, 0.00440474273636937], "candidate_spread": 0.03389376774430275}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_20261110/patchtst/ETTh1/pred_720/seed_2021 --gpu 1 --seed 2021 --lrs 0.00003,0.0001,0.0003 --resume
+FLOW_SKIPPED empty purged VAL quarter
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py --manifest results/fpem_eiil3_20261110/manifest.jsonl --case-key patchtst/ETTh1/pred_336/seed_2021 --output-root results/fpem_eiil3_20261110 --gpu 1 --seed 2021 --router-lr 0.001 --lr-i3 2e-05 --lambda-inv 0.001 --ridge-alpha 1000.0 --resume --batch-size 32 --generate-missing-q
+{"case": "patchtst/ETTh1/pred_336/seed_2021", "status": "complete", "test": {"A0": {"mse": 2.0944104194641113, "mae": 0.9255188703536987}, "I3_ERM": {"mse": 2.0946743488311768, "mae": 0.9455273747444153}, "I3_SoftIRM_EIIL3": {"mse": 2.0945823192596436, "mae": 0.9454583525657654}, "I3_SoftIRM_ShuffleQ": {"mse": 2.0950965881347656, "mae": 0.9458349347114563}, "I3_GlobalRidge": {"mse": 2.138195514678955, "mae": 0.9735921025276184}, "I3_R3_EIIL3": {"mse": 2.113342761993408, "mae": 0.9618985056877136}, "I3_R3_ShuffleQ": {"mse": 2.11348557472229, "mae": 0.9619742631912231}}, "u_test": {"mean": 0.001198464771732688, "std": 0.0020555544178932905, "p10_p50_p90": [4.6871911399648526e-05, 0.0004468453553272411, 0.0031557012116536515], "candidate_spread": 0.026551250368356705}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_20261110/patchtst/ETTh1/pred_336/seed_2021 --gpu 1 --seed 2021 --lrs 0.0001 --resume
+FLOW_SKIPPED {'V0': 1, 'V1': 1, 'V2': 1, 'V3': 2}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py --manifest results/fpem_eiil3_20261110/manifest.jsonl --case-key patchtst/ETTh2/pred_336/seed_2021 --output-root results/fpem_eiil3_20261110 --gpu 1 --seed 2021 --router-lr 0.001 --lr-i3 2e-05 --lambda-inv 0.001 --ridge-alpha 1000.0 --resume --batch-size 32 --generate-missing-q
+{"case": "patchtst/ETTh2/pred_336/seed_2021", "status": "complete", "test": {"A0": {"mse": 4.8225908279418945, "mae": 1.3849492073059082}, "I3_ERM": {"mse": 4.886088848114014, "mae": 1.3972725868225098}, "I3_SoftIRM_EIIL3": {"mse": 4.885777473449707, "mae": 1.3971513509750366}, "I3_SoftIRM_ShuffleQ": {"mse": 4.888218879699707, "mae": 1.3975799083709717}, "I3_GlobalRidge": {"mse": 4.893086910247803, "mae": 1.4092129468917847}, "I3_R3_EIIL3": {"mse": 4.883831024169922, "mae": 1.406185269355774}, "I3_R3_ShuffleQ": {"mse": 4.883490562438965, "mae": 1.4061981439590454}}, "u_test": {"mean": 0.0012793595669791102, "std": 0.0016591440653428435, "p10_p50_p90": [0.00010089616989716887, 0.0007300270372070372, 0.0030535459518432617], "candidate_spread": 0.03198404610157013}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_20261110/patchtst/ETTh2/pred_336/seed_2021 --gpu 1 --seed 2021 --lrs 0.0001 --resume
+FLOW_SKIPPED {'V0': 1, 'V1': 1, 'V2': 1, 'V3': 2}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py --manifest results/fpem_eiil3_20261110/manifest.jsonl --case-key patchtst/ETTh2/pred_720/seed_2021 --output-root results/fpem_eiil3_20261110 --gpu 1 --seed 2021 --router-lr 0.001 --lr-i3 2e-05 --lambda-inv 0.001 --ridge-alpha 1000.0 --resume --batch-size 32 --generate-missing-q
+{"case": "patchtst/ETTh2/pred_720/seed_2021", "status": "complete", "test": {"A0": {"mse": 5.472705364227295, "mae": 1.4891988039016724}, "I3_ERM": {"mse": 5.472704887390137, "mae": 1.489198923110962}, "I3_SoftIRM_EIIL3": {"mse": 5.472704887390137, "mae": 1.489198923110962}, "I3_SoftIRM_ShuffleQ": {"mse": 5.472704887390137, "mae": 1.489198923110962}, "I3_GlobalRidge": {"mse": 5.705929279327393, "mae": 1.5403128862380981}, "I3_R3_EIIL3": {"mse": 5.7145466804504395, "mae": 1.5417280197143555}, "I3_R3_ShuffleQ": {"mse": 5.71407413482666, "mae": 1.541600227355957}}, "u_test": {"mean": 0.0024482214357703924, "std": 0.002967939479276538, "p10_p50_p90": [0.00019511332939146095, 0.001427148876246065, 0.005975108267739415], "candidate_spread": 0.049566905945539474}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_20261110/patchtst/ETTh2/pred_720/seed_2021 --gpu 1 --seed 2021 --lrs 0.0001 --resume
+FLOW_SKIPPED empty purged VAL quarter
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py --manifest results/fpem_eiil3_20261110/manifest.jsonl --case-key patchtst/ETTm1/pred_336/seed_2021 --output-root results/fpem_eiil3_20261110 --gpu 1 --seed 2021 --router-lr 0.001 --lr-i3 2e-05 --lambda-inv 0.001 --ridge-alpha 1000.0 --resume --batch-size 32 --generate-missing-q
+{"case": "patchtst/ETTm1/pred_336/seed_2021", "status": "complete", "test": {"A0": {"mse": 4.055710315704346, "mae": 1.0962392091751099}, "I3_ERM": {"mse": 4.0557098388671875, "mae": 1.0962392091751099}, "I3_SoftIRM_EIIL3": {"mse": 4.0557098388671875, "mae": 1.0962392091751099}, "I3_SoftIRM_ShuffleQ": {"mse": 4.0557098388671875, "mae": 1.0962392091751099}, "I3_GlobalRidge": {"mse": 4.004144668579102, "mae": 1.07982337474823}, "I3_R3_EIIL3": {"mse": 3.998699426651001, "mae": 1.0773820877075195}, "I3_R3_ShuffleQ": {"mse": 3.99872088432312, "mae": 1.0773907899856567}}, "u_test": {"mean": 0.00036870234180241823, "std": 0.0004967764834873378, "p10_p50_p90": [2.761661326076137e-05, 0.0002089029221679084, 0.0008811486419290308], "candidate_spread": 0.016237474977970123}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_20261110/patchtst/ETTm1/pred_336/seed_2021 --gpu 1 --seed 2021 --lrs 0.0001 --resume
+ETTm1 336 Flow_U0 {'lr': 0.0001, 'epoch': 1, 'train_loss': 16.478712026677076, 'V2_CRPS': 0.9293568581342697}
+ETTm1 336 Flow_U0 {'lr': 0.0001, 'epoch': 2, 'train_loss': 14.660532656783763, 'V2_CRPS': 0.9157546758651733}
+ETTm1 336 Flow_U0 {'lr': 0.0001, 'epoch': 3, 'train_loss': 12.946856195862228, 'V2_CRPS': 0.9125741422176361}
+ETTm1 336 Flow_U0 {'lr': 0.0001, 'epoch': 4, 'train_loss': 11.346801924429345, 'V2_CRPS': 0.9233321249485016}
+ETTm1 336 Flow_U0 {'lr': 0.0001, 'epoch': 5, 'train_loss': 9.392681905201503, 'V2_CRPS': 0.9147280901670456}
+ETTm1 336 Flow_U1 {'lr': 0.0001, 'epoch': 1, 'train_loss': 16.47871191068966, 'V2_CRPS': 0.9293568581342697}
+ETTm1 336 Flow_U1 {'lr': 0.0001, 'epoch': 2, 'train_loss': 14.660532207562657, 'V2_CRPS': 0.9157546609640121}
+ETTm1 336 Flow_U1 {'lr': 0.0001, 'epoch': 3, 'train_loss': 12.946854962345256, 'V2_CRPS': 0.912574052810669}
+ETTm1 336 Flow_U1 {'lr': 0.0001, 'epoch': 4, 'train_loss': 11.346800431321487, 'V2_CRPS': 0.923332080245018}
+ETTm1 336 Flow_U1 {'lr': 0.0001, 'epoch': 5, 'train_loss': 9.392679594658517, 'V2_CRPS': 0.9147280603647232}
+ETTm1 336 Flow_Ushuffle {'lr': 0.0001, 'epoch': 1, 'train_loss': 16.478711969603903, 'V2_CRPS': 0.9293568581342697}
+ETTm1 336 Flow_Ushuffle {'lr': 0.0001, 'epoch': 2, 'train_loss': 14.660531878011106, 'V2_CRPS': 0.9157546609640121}
+ETTm1 336 Flow_Ushuffle {'lr': 0.0001, 'epoch': 3, 'train_loss': 12.946855006530939, 'V2_CRPS': 0.9125741422176361}
+ETTm1 336 Flow_Ushuffle {'lr': 0.0001, 'epoch': 4, 'train_loss': 11.346800064948535, 'V2_CRPS': 0.9233322739601135}
+ETTm1 336 Flow_Ushuffle {'lr': 0.0001, 'epoch': 5, 'train_loss': 9.392679095728518, 'V2_CRPS': 0.914728194475174}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py --manifest results/fpem_eiil3_20261110/manifest.jsonl --case-key patchtst/ETTm1/pred_720/seed_2021 --output-root results/fpem_eiil3_20261110 --gpu 1 --seed 2021 --router-lr 0.001 --lr-i3 2e-05 --lambda-inv 0.001 --ridge-alpha 1000.0 --resume --batch-size 32 --generate-missing-q
+{"case": "patchtst/ETTm1/pred_720/seed_2021", "status": "complete", "test": {"A0": {"mse": 5.211112022399902, "mae": 1.2191057205200195}, "I3_ERM": {"mse": 5.211111068725586, "mae": 1.2191057205200195}, "I3_SoftIRM_EIIL3": {"mse": 5.211111068725586, "mae": 1.2191057205200195}, "I3_SoftIRM_ShuffleQ": {"mse": 5.211111068725586, "mae": 1.2191057205200195}, "I3_GlobalRidge": {"mse": 5.200398921966553, "mae": 1.2117409706115723}, "I3_R3_EIIL3": {"mse": 5.1899919509887695, "mae": 1.2078399658203125}, "I3_R3_ShuffleQ": {"mse": 5.190540790557861, "mae": 1.207854986190796}}, "u_test": {"mean": 0.0007666057790629566, "std": 0.0008906169678084552, "p10_p50_p90": [7.290467547136361e-05, 0.0004899596096947789, 0.0017790333484299483], "candidate_spread": 0.02487591654062271}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_20261110/patchtst/ETTm1/pred_720/seed_2021 --gpu 1 --seed 2021 --lrs 0.0001 --resume
+ETTm1 720 Flow_U0 {'lr': 0.0001, 'epoch': 1, 'train_loss': 31.004862354107686, 'V2_CRPS': 1.1065219640731812}
+ETTm1 720 Flow_U0 {'lr': 0.0001, 'epoch': 2, 'train_loss': 27.416366185749414, 'V2_CRPS': 1.076333373785019}
+ETTm1 720 Flow_U0 {'lr': 0.0001, 'epoch': 3, 'train_loss': 23.45965046224525, 'V2_CRPS': 1.0575161129236221}
+ETTm1 720 Flow_U0 {'lr': 0.0001, 'epoch': 4, 'train_loss': 20.162513970174167, 'V2_CRPS': 1.0599398463964462}
+ETTm1 720 Flow_U0 {'lr': 0.0001, 'epoch': 5, 'train_loss': 16.801397209883312, 'V2_CRPS': 1.0702503323554993}
+ETTm1 720 Flow_U1 {'lr': 0.0001, 'epoch': 1, 'train_loss': 31.00486221902307, 'V2_CRPS': 1.1065219640731812}
+ETTm1 720 Flow_U1 {'lr': 0.0001, 'epoch': 2, 'train_loss': 27.41636477024734, 'V2_CRPS': 1.0763331800699234}
+ETTm1 720 Flow_U1 {'lr': 0.0001, 'epoch': 3, 'train_loss': 23.459648117314817, 'V2_CRPS': 1.057515874505043}
+ETTm1 720 Flow_U1 {'lr': 0.0001, 'epoch': 4, 'train_loss': 20.16250870360589, 'V2_CRPS': 1.0599398910999298}
+ETTm1 720 Flow_U1 {'lr': 0.0001, 'epoch': 5, 'train_loss': 16.80139121940003, 'V2_CRPS': 1.0702503621578217}
+ETTm1 720 Flow_Ushuffle {'lr': 0.0001, 'epoch': 1, 'train_loss': 31.00486222652777, 'V2_CRPS': 1.1065219640731812}
+ETTm1 720 Flow_Ushuffle {'lr': 0.0001, 'epoch': 2, 'train_loss': 27.416363964935194, 'V2_CRPS': 1.0763330906629562}
+ETTm1 720 Flow_Ushuffle {'lr': 0.0001, 'epoch': 3, 'train_loss': 23.45964754118469, 'V2_CRPS': 1.0575157552957535}
+ETTm1 720 Flow_Ushuffle {'lr': 0.0001, 'epoch': 4, 'train_loss': 20.162505492748416, 'V2_CRPS': 1.0599398016929626}
+ETTm1 720 Flow_Ushuffle {'lr': 0.0001, 'epoch': 5, 'train_loss': 16.801385368619645, 'V2_CRPS': 1.0702506303787231}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py --manifest results/fpem_eiil3_20261110/manifest.jsonl --case-key patchtst/ETTm2/pred_336/seed_2021 --output-root results/fpem_eiil3_20261110 --gpu 1 --seed 2021 --router-lr 0.001 --lr-i3 2e-05 --lambda-inv 0.001 --ridge-alpha 1000.0 --resume --batch-size 32 --generate-missing-q
+{"case": "patchtst/ETTm2/pred_336/seed_2021", "status": "complete", "test": {"A0": {"mse": 5.993120193481445, "mae": 1.3781254291534424}, "I3_ERM": {"mse": 5.937981605529785, "mae": 1.3563268184661865}, "I3_SoftIRM_EIIL3": {"mse": 5.937973499298096, "mae": 1.3563209772109985}, "I3_SoftIRM_ShuffleQ": {"mse": 5.938338279724121, "mae": 1.356514573097229}, "I3_GlobalRidge": {"mse": 5.963532447814941, "mae": 1.3646562099456787}, "I3_R3_EIIL3": {"mse": 5.942821979522705, "mae": 1.3578497171401978}, "I3_R3_ShuffleQ": {"mse": 5.942999839782715, "mae": 1.357908010482788}}, "u_test": {"mean": 0.000700637698173523, "std": 0.0010768912034109235, "p10_p50_p90": [3.2031147929956207e-05, 0.0003303070552647114, 0.0017625807086005824], "candidate_spread": 0.02298305369913578}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_20261110/patchtst/ETTm2/pred_336/seed_2021 --gpu 1 --seed 2021 --lrs 0.0001 --resume
+ETTm2 336 Flow_U0 {'lr': 0.0001, 'epoch': 1, 'train_loss': 4.364286891281835, 'V2_CRPS': 1.1449440717697144}
+ETTm2 336 Flow_U0 {'lr': 0.0001, 'epoch': 2, 'train_loss': 3.5454543640254546, 'V2_CRPS': 1.124602347612381}
+ETTm2 336 Flow_U0 {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.9601322868155697, 'V2_CRPS': 1.1073770374059677}
+ETTm2 336 Flow_U0 {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.70072117045119, 'V2_CRPS': 1.1058661937713623}
+ETTm2 336 Flow_U0 {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.4737202021145914, 'V2_CRPS': 1.1079075634479523}
+ETTm2 336 Flow_U1 {'lr': 0.0001, 'epoch': 1, 'train_loss': 4.364286844334547, 'V2_CRPS': 1.1449440717697144}
+ETTm2 336 Flow_U1 {'lr': 0.0001, 'epoch': 2, 'train_loss': 3.5454537399026878, 'V2_CRPS': 1.124602347612381}
+ETTm2 336 Flow_U1 {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.9601313147305524, 'V2_CRPS': 1.107376977801323}
+ETTm2 336 Flow_U1 {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.70071998296097, 'V2_CRPS': 1.1058660298585892}
+ETTm2 336 Flow_U1 {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.4737192429170647, 'V2_CRPS': 1.1079072505235672}
+ETTm2 336 Flow_Ushuffle {'lr': 0.0001, 'epoch': 1, 'train_loss': 4.36428681211582, 'V2_CRPS': 1.1449440717697144}
+ETTm2 336 Flow_Ushuffle {'lr': 0.0001, 'epoch': 2, 'train_loss': 3.5454537537107136, 'V2_CRPS': 1.1246023774147034}
+ETTm2 336 Flow_Ushuffle {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.960131374565331, 'V2_CRPS': 1.1073768585920334}
+ETTm2 336 Flow_Ushuffle {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.700720084219826, 'V2_CRPS': 1.1058659851551056}
+ETTm2 336 Flow_Ushuffle {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.473719199651917, 'V2_CRPS': 1.1079072058200836}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py --manifest results/fpem_eiil3_20261110/manifest.jsonl --case-key patchtst/ETTm2/pred_720/seed_2021 --output-root results/fpem_eiil3_20261110 --gpu 1 --seed 2021 --router-lr 0.001 --lr-i3 2e-05 --lambda-inv 0.001 --ridge-alpha 1000.0 --resume --batch-size 32 --generate-missing-q
+{"case": "patchtst/ETTm2/pred_720/seed_2021", "status": "complete", "test": {"A0": {"mse": 8.685608863830566, "mae": 1.6924920082092285}, "I3_ERM": {"mse": 8.516154289245605, "mae": 1.6436290740966797}, "I3_SoftIRM_EIIL3": {"mse": 8.51617431640625, "mae": 1.6436268091201782}, "I3_SoftIRM_ShuffleQ": {"mse": 8.516901016235352, "mae": 1.6446202993392944}, "I3_GlobalRidge": {"mse": 8.54012393951416, "mae": 1.6521508693695068}, "I3_R3_EIIL3": {"mse": 8.527359008789062, "mae": 1.6485196352005005}, "I3_R3_ShuffleQ": {"mse": 8.527558326721191, "mae": 1.6485602855682373}}, "u_test": {"mean": 0.00044775090645998716, "std": 0.0007180037209764123, "p10_p50_p90": [2.114692142640706e-05, 0.00021902974549448118, 0.0010983070824295282], "candidate_spread": 0.06404202431440353}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_20261110/patchtst/ETTm2/pred_720/seed_2021 --gpu 1 --seed 2021 --lrs 0.0001 --resume
+ETTm2 720 Flow_U0 {'lr': 0.0001, 'epoch': 1, 'train_loss': 4.9962020601545065, 'V2_CRPS': 1.3748684525489807}
+ETTm2 720 Flow_U0 {'lr': 0.0001, 'epoch': 2, 'train_loss': 4.2082971931947055, 'V2_CRPS': 1.3730526268482208}
+ETTm2 720 Flow_U0 {'lr': 0.0001, 'epoch': 3, 'train_loss': 3.4922158550696567, 'V2_CRPS': 1.340835064649582}
+ETTm2 720 Flow_U0 {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.9692533258664406, 'V2_CRPS': 1.3221217393875122}
+ETTm2 720 Flow_U0 {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.878121731067685, 'V2_CRPS': 1.312840849161148}
+ETTm2 720 Flow_U1 {'lr': 0.0001, 'epoch': 1, 'train_loss': 4.996202013971731, 'V2_CRPS': 1.3748684525489807}
+ETTm2 720 Flow_U1 {'lr': 0.0001, 'epoch': 2, 'train_loss': 4.208296744067213, 'V2_CRPS': 1.3730526268482208}
+ETTm2 720 Flow_U1 {'lr': 0.0001, 'epoch': 3, 'train_loss': 3.492215175028286, 'V2_CRPS': 1.3408350050449371}
+ETTm2 720 Flow_U1 {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.9692523040725303, 'V2_CRPS': 1.322121649980545}
+ETTm2 720 Flow_U1 {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.878120591507697, 'V2_CRPS': 1.3128406405448914}
+ETTm2 720 Flow_Ushuffle {'lr': 0.0001, 'epoch': 1, 'train_loss': 4.996202004735175, 'V2_CRPS': 1.374868482351303}
+ETTm2 720 Flow_Ushuffle {'lr': 0.0001, 'epoch': 2, 'train_loss': 4.2082967146256935, 'V2_CRPS': 1.3730527460575104}
+ETTm2 720 Flow_Ushuffle {'lr': 0.0001, 'epoch': 3, 'train_loss': 3.492215232179471, 'V2_CRPS': 1.3408350050449371}
+ETTm2 720 Flow_Ushuffle {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.969252510740451, 'V2_CRPS': 1.3221214711666107}
+ETTm2 720 Flow_Ushuffle {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.8781209009322937, 'V2_CRPS': 1.3128403425216675}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py --manifest results/fpem_eiil3_20261110/manifest.jsonl --case-key patchtst/Electricity/pred_336/seed_2021 --output-root results/fpem_eiil3_20261110 --gpu 1 --seed 2021 --router-lr 0.001 --lr-i3 2e-05 --lambda-inv 0.001 --ridge-alpha 1000.0 --resume --batch-size 32 --generate-missing-q
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py", line 796, in _savez
+    format.write_array(fid, val,
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/numpy/lib/format.py", line 759, in write_array
+    fp.write(chunk.tobytes('C'))
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/zipfile.py", line 1180, in write
+    self._fileobj.write(data)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py", line 795, in _savez
+    with zipf.open(fname, 'w', force_zip64=True) as fid:
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/zipfile.py", line 1218, in close
+    self._fileobj.seek(self._zinfo.header_offset)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/zipfile.py", line 1912, in close
+    self.fp.seek(self.start_dir)
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 358, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 274, in main
+    data,meta,initial=get_data(args)
+                      ^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 157, in get_data
+    np.savez_compressed(cache,**{f"{space}_{field}":value for space in SPACES
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.1

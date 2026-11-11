@@ -1,0 +1,36 @@
+attempt=1 gpu=1 case=patchtst/ExchangeRate/720
+BEGIN patchtst ExchangeRate 720 F00
+BEGIN patchtst ExchangeRate 720 F03
+F03 epoch 1 val 1.124286
+F03 epoch 2 val 1.135164
+F03 epoch 3 val 1.090632
+F03 epoch 4 val 1.108658
+F03 epoch 5 val 1.089613
+F03 epoch 6 val 1.092563
+F03 epoch 7 val 1.10156
+F03 epoch 8 val 1.131329
+F03 epoch 9 val 1.112724
+F03 epoch 10 val 1.110899
+BEGIN patchtst ExchangeRate 720 F01
+F01 epoch 1 val 1.206919
+F01 epoch 2 val 1.008105
+F01 epoch 3 val 1.088588
+F01 epoch 4 val 1.180746
+F01 epoch 5 val 1.067123
+F01 epoch 6 val 1.148757
+F01 epoch 7 val 1.109412
+F01 epoch 8 val 1.152434
+F01 epoch 9 val 1.134603
+F01 epoch 10 val 1.143307
+BEGIN patchtst ExchangeRate 720 P01
+P01 epoch 1 val 1.326903
+P01 epoch 2 val 1.378989
+P01 epoch 3 val 1.277298
+P01 epoch 4 val 1.210031
+P01 epoch 5 val 1.166717
+P01 epoch 6 val 1.157904
+P01 epoch 7 val 1.146966
+P01 epoch 8 val 1.162532
+P01 epoch 9 val 1.154191
+P01 epoch 10 val 1.152379
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_shared_pilot/patchtst/ExchangeRate/pred_720

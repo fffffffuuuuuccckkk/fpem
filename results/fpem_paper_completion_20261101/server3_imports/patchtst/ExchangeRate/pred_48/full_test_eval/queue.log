@@ -1,0 +1,12 @@
+RUN ExchangeRate:48 GPU1 attempt=1 2026-11-01T04:52:27+00:00
+FULL_TEST 256 / 1470
+FULL_TEST 512 / 1470
+FULL_TEST 768 / 1470
+FULL_TEST 1024 / 1470
+FULL_TEST 1280 / 1470
+FULL_TEST 256 / 1470
+FULL_TEST 512 / 1470
+FULL_TEST 768 / 1470
+FULL_TEST 1024 / 1470
+FULL_TEST 1280 / 1470
+COMPLETE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/ExchangeRate/pred_48/full_test_eval windows 1470

@@ -1,0 +1,32 @@
+dataset: Electricity
+D_within_grad: 0.2256808876991272
+D_between_grad: 0.22568100690841675
+gradient_separation: 1.0000004768371582
+gradient_separation_gain: 5.28220580688731e-07
+conflict_ours: 4.2154821300322e-10
+random_partition_conflict_mean: 2.854755819757526e-14
+random_partition_conflict_std: 3.541260099287728e-14
+random_partition_z_score: 421.5196533203125
+random_partition_p_value: 0.0009990009712055326
+min_environment_mass: 0.49905842542648315
+normalized_assignment_entropy: 0.9999974370002747
+max_q_mean: 0.5009415149688721
+max_q_p10: 0.5009159445762634
+max_q_p50: 0.5009419322013855
+max_q_p90: 0.5009663105010986
+environment_similarity_correlation: 0.7924010011593176
+stage_ARI_to_previous: 1.0
+stage_NMI_to_previous: 1.0
+mean_q_change: 2.0451570890145376e-05
+final_stage_ARI: 1.0
+final_stage_NMI: 1.0
+var_acc: 1.0
+inv_acc: 1.0
+env_acc_gap_var_minus_inv: 0.0
+train_only: True
+random_partition_repeats: 1000
+environment_mass: [0.49905842542648315, 0.5009415149688721]
+per_env_MSE: [0.16454339027404785, 0.1645430028438568]
+per_env_MAE: [0.26219382882118225, 0.262193888425827]
+env_gradient_scale: [-0.058884166181087494, -0.05889426916837692]
+env_gradient_bias: [-0.023930948227643967, -0.023948822170495987]

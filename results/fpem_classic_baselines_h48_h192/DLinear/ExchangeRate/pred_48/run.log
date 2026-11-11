@@ -1,0 +1,88 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMH48H192_ExchangeRate_96_48Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               custom              Root Path:          ./dataset/all_datasets/exchange_rate
+  Data Path:          exchange_rate.csv   Features:           M                   
+  Target:             OT                  Freq:               d                   
+  Checkpoints:        results/fpem_classic_baselines_h48_h192/DLinear/ExchangeRate/pred_48/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           48                  Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             8                   Dec In:             8                   
+  C Out:              8                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMH48H192_DLinear_ExchangeRate_48Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: DLinear ...
+>>>>>>>start training : long_term_forecast_FPEMH48H192_ExchangeRate_96_48_DLinear_custom_ftM_sl96_ll48_pl48_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMH48H192_DLinear_ExchangeRate_48_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 5168
+val 713
+test 1470
+	iters: 100, epoch: 1 | loss: 0.0812898
+	speed: 0.0197s/iter; left time: 29.9033s
+Epoch: 1 cost time: 0.8800370693206787
+Epoch: 1, Steps: 162 | Train Loss: 0.1247774 Vali Loss: 0.1464747 Test Loss: 0.0707476
+Validation loss decreased (inf --> 0.146475).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 0.1449312
+	speed: 0.0084s/iter; left time: 11.4398s
+Epoch: 2 cost time: 0.6965305805206299
+Epoch: 2, Steps: 162 | Train Loss: 0.0937941 Vali Loss: 0.1161503 Test Loss: 0.0572437
+Validation loss decreased (0.146475 --> 0.116150).  Saving model ...
+Updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 0.0543824
+	speed: 0.0090s/iter; left time: 10.7521s
+Epoch: 3 cost time: 0.7465786933898926
+Epoch: 3, Steps: 162 | Train Loss: 0.0836226 Vali Loss: 0.1062316 Test Loss: 0.0535048
+Validation loss decreased (0.116150 --> 0.106232).  Saving model ...
+Updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 0.0713696
+	speed: 0.0089s/iter; left time: 9.1919s
+Epoch: 4 cost time: 0.7162666320800781
+Epoch: 4, Steps: 162 | Train Loss: 0.0805678 Vali Loss: 0.1143528 Test Loss: 0.0539698
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1.25e-05
+	iters: 100, epoch: 5 | loss: 0.0619427
+	speed: 0.0087s/iter; left time: 7.5523s
+Epoch: 5 cost time: 0.7023444175720215
+Epoch: 5, Steps: 162 | Train Loss: 0.0795097 Vali Loss: 0.1137101 Test Loss: 0.0538151
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 6.25e-06
+	iters: 100, epoch: 6 | loss: 0.0785671
+	speed: 0.0088s/iter; left time: 6.2374s
+Epoch: 6 cost time: 0.6737968921661377
+Epoch: 6, Steps: 162 | Train Loss: 0.0785837 Vali Loss: 0.1122525 Test Loss: 0.0532851
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : long_term_forecast_FPEMH48H192_ExchangeRate_96_48_DLinear_custom_ftM_sl96_ll48_pl48_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMH48H192_DLinear_ExchangeRate_48_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 1470
+test shape: (1470, 48, 8) (1470, 48, 8)
+test shape: (1470, 48, 8) (1470, 48, 8)
+mse:0.05346949025988579, mae:0.16901059448719025, dtw:Not calculated

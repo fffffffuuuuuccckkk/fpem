@@ -1,0 +1,67 @@
+RUN timegrad Electricity 24 GPU0 attempt=1 2026-11-01T06:44:29+00:00
+EPOCH {'epoch': 1, 'train_loss': 1.039726753439103, 'train_batches': 572}
+EPOCH {'epoch': 2, 'train_loss': 0.9990619536671606, 'train_batches': 572}
+EPOCH {'epoch': 3, 'train_loss': 0.9855118493933778, 'train_batches': 572}
+EPOCH {'epoch': 4, 'train_loss': 0.9704739092946886, 'train_batches': 572}
+EPOCH {'epoch': 5, 'train_loss': 0.9617225100527277, 'train_batches': 572}
+EPOCH {'epoch': 6, 'train_loss': 0.9557395493025547, 'train_batches': 572}
+EPOCH {'epoch': 7, 'train_loss': 0.9505364026848253, 'train_batches': 572}
+EPOCH {'epoch': 8, 'train_loss': 0.9461699716903113, 'train_batches': 572}
+EPOCH {'epoch': 9, 'train_loss': 0.9419762122255939, 'train_batches': 572}
+EPOCH {'epoch': 10, 'train_loss': 0.9381050712370372, 'train_batches': 572}
+EPOCH {'epoch': 11, 'train_loss': 0.9348545174498658, 'train_batches': 572}
+EPOCH {'epoch': 12, 'train_loss': 0.9317576375666198, 'train_batches': 572}
+EPOCH {'epoch': 13, 'train_loss': 0.9288777307822154, 'train_batches': 572}
+EVALUATE timegrad Electricity 24 32
+EVALUATE timegrad Electricity 24 672
+EVALUATE timegrad Electricity 24 1312
+EVALUATE timegrad Electricity 24 1952
+EVALUATE timegrad Electricity 24 2592
+EVALUATE timegrad Electricity 24 3232
+EVALUATE timegrad Electricity 24 3872
+EVALUATE timegrad Electricity 24 4512
+EVALUATE timegrad Electricity 24 5152
+COMPLETE {'inv_MSE': 1.4976828019992754, 'inv_MAE': 0.9038634586930616, 'mean_MSE': 0.8419012432337855, 'mean_MAE': 0.7597862668043788, 'median_NMAE': 0.9203335801244397, 'CRPS_empirical': 0.5124751200470188, 'CRPS': 0.5124751200470188, 'quantile_CRPS_normalized': 0.6491910675474768, 'ProbTS_CRPS': 0.6492065329667333, 'PICP_95': 0.9670015280998365, 'MPIW_95': 3.4661845779382525, 'WIS': 0.38218020025341254, 'EnergyScore': 56.55575122363426, 'sample_std_mean': 0.9160490517901263, 'correction_win_rate': 0.9973267137674241, 'sample_diversity': 1.0414632284302099, 'max_boundary_jump': 12.457307456808508, 'quantile_crps_raw': 0.5371606081001445, 'target_abs_mean': 0.8292861213569357, 'ProbTS_CRPS_Sum': 0.9539026543000101, 'CRPS_Sum': 175.90776910175458, 'method': 'timegrad', 'dataset': 'Electricity', 'pred_len': 24, 'num_samples': 100, 'evaluated_windows': 5237, 'total_test_windows': 5237, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+RUN tsflow Electricity 24 GPU0 attempt=1 2026-11-01T06:50:13+00:00
+EPOCH {'epoch': 1, 'train_loss': 2.4075552173010952, 'train_batches': 572}
+EPOCH {'epoch': 2, 'train_loss': 1.683726154215686, 'train_batches': 572}
+EPOCH {'epoch': 3, 'train_loss': 1.5619783707848796, 'train_batches': 572}
+EPOCH {'epoch': 4, 'train_loss': 1.5073660732982876, 'train_batches': 572}
+EPOCH {'epoch': 5, 'train_loss': 1.4767993707340081, 'train_batches': 572}
+EPOCH {'epoch': 6, 'train_loss': 1.450078866906933, 'train_batches': 572}
+EPOCH {'epoch': 7, 'train_loss': 1.426671506850036, 'train_batches': 572}
+EPOCH {'epoch': 8, 'train_loss': 1.4082343269895006, 'train_batches': 572}
+EPOCH {'epoch': 9, 'train_loss': 1.3929442042237394, 'train_batches': 572}
+EPOCH {'epoch': 10, 'train_loss': 1.381712828899597, 'train_batches': 572}
+EPOCH {'epoch': 11, 'train_loss': 1.3712828301049613, 'train_batches': 572}
+EPOCH {'epoch': 12, 'train_loss': 1.3631771194351303, 'train_batches': 572}
+EPOCH {'epoch': 13, 'train_loss': 1.3573396595624776, 'train_batches': 572}
+EVALUATE tsflow Electricity 24 32
+EVALUATE tsflow Electricity 24 672
+EVALUATE tsflow Electricity 24 1312
+EVALUATE tsflow Electricity 24 1952
+EVALUATE tsflow Electricity 24 2592
+EVALUATE tsflow Electricity 24 3232
+EVALUATE tsflow Electricity 24 3872
+EVALUATE tsflow Electricity 24 4512
+EVALUATE tsflow Electricity 24 5152
+COMPLETE {'inv_MSE': 1.4976828019992754, 'inv_MAE': 0.9038634586930616, 'mean_MSE': 0.32458578550066686, 'mean_MAE': 0.4130308856849386, 'median_NMAE': 0.5062119002011707, 'CRPS_empirical': 0.35924317222959967, 'CRPS': 0.35924317222959967, 'quantile_CRPS_normalized': 0.4518886085842228, 'ProbTS_CRPS': 0.45201130451217325, 'PICP_95': 0.9942051481376606, 'MPIW_95': 4.056955183556181, 'WIS': 0.2907516001255111, 'EnergyScore': 39.74369067501107, 'sample_std_mean': 1.0721772421355555, 'correction_win_rate': 0.9973267137674241, 'sample_diversity': 1.2187264945549388, 'max_boundary_jump': 10.379550755194678, 'quantile_crps_raw': 0.37326459162376846, 'target_abs_mean': 0.8292861213569357, 'ProbTS_CRPS_Sum': 0.1198809117289338, 'CRPS_Sum': 21.4323800833416, 'method': 'tsflow', 'dataset': 'Electricity', 'pred_len': 24, 'num_samples': 100, 'evaluated_windows': 5237, 'total_test_windows': 5237, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+RUN tsdiff Electricity 24 GPU0 attempt=1 2026-11-01T06:54:30+00:00
+EPOCH {'epoch': 1, 'train_loss': 1.0097239125858655, 'train_batches': 572}
+EPOCH {'epoch': 2, 'train_loss': 0.9575779577652057, 'train_batches': 572}
+EPOCH {'epoch': 3, 'train_loss': 0.9193795662034642, 'train_batches': 572}
+EPOCH {'epoch': 4, 'train_loss': 0.9053971743458634, 'train_batches': 572}
+EPOCH {'epoch': 5, 'train_loss': 0.8977194103327665, 'train_batches': 572}
+EPOCH {'epoch': 6, 'train_loss': 0.8922999949305208, 'train_batches': 572}
+EPOCH {'epoch': 7, 'train_loss': 0.8872375742538826, 'train_batches': 572}
+EPOCH {'epoch': 8, 'train_loss': 0.8840740444985303, 'train_batches': 572}
+EPOCH {'epoch': 9, 'train_loss': 0.8809242970668353, 'train_batches': 572}
+EPOCH {'epoch': 10, 'train_loss': 0.879386691884561, 'train_batches': 572}
+EPOCH {'epoch': 11, 'train_loss': 0.8773306208057003, 'train_batches': 572}
+EPOCH {'epoch': 12, 'train_loss': 0.8756446485127602, 'train_batches': 572}
+EPOCH {'epoch': 13, 'train_loss': 0.874026704293031, 'train_batches': 572}
+EVALUATE tsdiff Electricity 24 32
+EVALUATE tsdiff Electricity 24 672
+EVALUATE tsdiff Electricity 24 1312
+EVALUATE tsdiff Electricity 24 1952
+EVALUATE tsdiff Electricity 24 2592

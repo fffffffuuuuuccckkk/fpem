@@ -1,0 +1,6 @@
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_no_future_anchor_moderntcn_search/moderntcn/Weather/pred_96/shared_reference.pt
+TRIAL moderntcn Weather 96 inherited 0.1573175310593587 pruned False
+TRIAL moderntcn Weather 96 head_0.0001 0.15724693789268213 pruned False
+TRIAL moderntcn Weather 96 head_0.0003 0.1572441969378007 pruned False
+TRIAL moderntcn Weather 96 head_0.001 0.15723128367718864 pruned True
+COMPLETE moderntcn Weather 96 {'mse': 0.15723128367718864, 'mae': 0.2064545826273807}

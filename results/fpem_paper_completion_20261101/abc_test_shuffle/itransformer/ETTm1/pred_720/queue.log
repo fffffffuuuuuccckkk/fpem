@@ -1,0 +1,7 @@
+RUN itransformer:ETTm1:720 GPU3 attempt=1 2026-11-01T06:30:30+00:00
+ABC all_fused true_test_condition 0.35624760453065957
+ABC all_fused test_condition_roll_1 0.35627361172416144
+ABC all_fused test_condition_roll_7 0.35639141503721133
+ABC shuffled_fused true_test_condition 0.35911379676595373
+ABC shuffled_fused test_condition_roll_1 0.3591169893973382
+ABC shuffled_fused test_condition_roll_7 0.35912118420182815

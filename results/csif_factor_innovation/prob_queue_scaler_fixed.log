@@ -1,0 +1,7 @@
+START strict OOF + Flow patchtst_ETTh1_720 attempt=1
+DONE patchtst_ETTh1_720
+START strict OOF + Flow itransformer_ETTm1_720 attempt=1
+DONE itransformer_ETTm1_720
+START strict OOF + Flow moderntcn_ETTm2_720 attempt=1
+DONE moderntcn_ETTm2_720
+PROBABILITY QUEUE COMPLETE

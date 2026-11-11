@@ -1,0 +1,6 @@
+MAE=0.3546521067619324
+MSE=0.5772178769111633
+RMSE=0.7597485780715942
+MAPE=3.6459758281707764
+MSPE=209537.578125
+source=results/long_term_forecast_FPEMFinal_Traffic_96_96_FEDformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_FEDformer_Traffic_96_0/metrics.npy

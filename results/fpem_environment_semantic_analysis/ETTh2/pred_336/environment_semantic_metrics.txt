@@ -1,0 +1,12 @@
+ETTh2 pred_len=336
+Environment source: /data/OuXiaoyu/Time-Series-Library-FPEM/results/server2_imports/gpu-47/fpem_no_future_anchor_patchtst_search/patchtst/ETTh2/pred_336/compact_future_5e-4/A2/environment_gradient_stage_4.npz
+Samples: 8209; exact alignment: PASS
+Physical columns: {'aggregate_load': ['HUFL', 'HULL', 'MUFL', 'MULL', 'LUFL', 'LULL'], 'OT': 'OT'}
+
+load_regime: NMI=0.188809, p=0.000999001, z=1226.102, ARI=0.190090, Cramer's V=0.449528
+month: NMI=0.147211, p=0.000999001, z=640.662, ARI=0.069951, Cramer's V=0.493363
+season: NMI=0.039941, p=0.000999001, z=250.024, ARI=0.027497, Cramer's V=0.201923
+ot_regime: NMI=0.035054, p=0.000999001, z=229.002, ARI=0.036557, Cramer's V=0.198344
+hour: NMI=0.000807, p=0.982018, z=-1.862, ARI=-0.000158, Cramer's V=0.041607
+weekday_weekend: NMI=0.000162, p=0.327672, z=0.117, ARI=0.000607, Cramer's V=0.016610
+day_night: NMI=0.000102, p=0.475524, z=-0.242, ARI=-0.000049, Cramer's V=0.013487

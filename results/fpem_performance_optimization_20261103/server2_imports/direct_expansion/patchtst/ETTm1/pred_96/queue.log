@@ -1,0 +1,14 @@
+attempt=1 lane=pt_c gpu=2 case=patchtst/ETTm1/96 method=P02
+BEGIN patchtst ETTm1 96 F00
+BEGIN patchtst ETTm1 96 P02
+P02 epoch 1 val 0.425137
+P02 epoch 2 val 0.420862
+P02 epoch 3 val 0.417989
+P02 epoch 4 val 0.420484
+P02 epoch 5 val 0.428552
+P02 epoch 6 val 0.425404
+P02 epoch 7 val 0.419001
+P02 epoch 8 val 0.419025
+P02 epoch 9 val 0.42154
+P02 epoch 10 val 0.422723
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_expansion/patchtst/ETTm1/pred_96

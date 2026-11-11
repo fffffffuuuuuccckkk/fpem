@@ -1,0 +1,5 @@
+reference_checkpoint: results/predictive_env_cyclenet_itransformer_all_datasets_k3/itransformer/ETTm2/shared_reference.pt
+reference_checkpoint_sha256: 52bbf97d63dacde0896bf36cf9c3c670391ff2c73d0aac8424b9b34ac730e51d
+reference_source: loaded
+seed: 2021
+signature: {'backbone': 'itransformer', 'dataset_name': 'ETTm2', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'ett_minute', 'data_path': 'ETTm2.csv', 'target': 'OT', 'freq': '15min', 'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 7, 'cyclenet_cycle_len': 96, 'protocol_version': 4}

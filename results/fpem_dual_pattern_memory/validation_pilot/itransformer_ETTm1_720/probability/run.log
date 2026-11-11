@@ -1,0 +1,85 @@
+{"mode": "U0", "epoch": 1, "train": 26652.17918274911, "val_crps": 0.6196713596322357}
+{"mode": "U0", "epoch": 2, "train": 22356.606351494655, "val_crps": 0.6368534731407232}
+{"mode": "U0", "epoch": 3, "train": 15952.258538848619, "val_crps": 0.6494498952937168}
+{"mode": "U0", "epoch": 4, "train": 23221.95940047746, "val_crps": 0.6585448679707645}
+{"mode": "U0", "epoch": 5, "train": 8809.071071932753, "val_crps": 0.6585655898947991}
+{"mode": "U0", "epoch": 6, "train": 18463.33925065035, "val_crps": 0.6688528618471369}
+{"mode": "U0", "epoch": 7, "train": 13720.366059862085, "val_crps": 0.6701618379947403}
+{"mode": "U0", "epoch": 8, "train": 23299.496550261538, "val_crps": 0.6692562222896862}
+{"mode": "U0", "epoch": 9, "train": 17876.79893338963, "val_crps": 0.6584945258669829}
+{"mode": "U0", "epoch": 10, "train": 22070.911935961, "val_crps": 0.6616404939696426}
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_probability.py", line 367, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_probability.py", line 352, in main
+    factor = float(torch.quantile(ratio, .95).clamp(.1, 10))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: quantile() input tensor is too large
+{"mode": "U0", "epoch": 1, "train": 26652.179182744803, "val_crps": 0.6196713594241916}
+{"mode": "U0", "epoch": 2, "train": 22356.606351493218, "val_crps": 0.6368534731407232}
+{"mode": "U0", "epoch": 3, "train": 15952.258538848619, "val_crps": 0.6494499000787319}
+{"mode": "U0", "epoch": 4, "train": 23221.959400486794, "val_crps": 0.6585448696351176}
+{"mode": "U0", "epoch": 5, "train": 8809.071071949984, "val_crps": 0.658565588230446}
+{"mode": "U0", "epoch": 6, "train": 18463.339250654662, "val_crps": 0.6688528616390927}
+{"mode": "U0", "epoch": 7, "train": 13720.366059852033, "val_crps": 0.670161833001681}
+{"mode": "U0", "epoch": 8, "train": 23299.496550273787, "val_crps": 0.6692562019013609}
+{"mode": "U0", "epoch": 9, "train": 17876.798933365957, "val_crps": 0.6584945256589387}
+{"mode": "U0", "epoch": 10, "train": 22070.911935930802, "val_crps": 0.6616405156062327}
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_probability.py", line 367, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_probability.py", line 352, in main
+    factor = float(torch.quantile(ratio, .95).clamp(.1, 10))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: quantile() input tensor is too large
+{"mode": "U0", "epoch": 1, "train": 26652.179182737622, "val_crps": 0.6196713592161475}
+{"mode": "U0", "epoch": 2, "train": 22356.606351494655, "val_crps": 0.6368534762613852}
+{"mode": "U0", "epoch": 3, "train": 15952.258538857952, "val_crps": 0.6494498967500257}
+{"mode": "U0", "epoch": 4, "train": 23221.959400490385, "val_crps": 0.6585448712994707}
+{"mode": "U0", "epoch": 5, "train": 8809.071071954293, "val_crps": 0.6585655988406969}
+{"mode": "U0", "epoch": 6, "train": 18463.339250674766, "val_crps": 0.6688528706890127}
+{"mode": "U0", "epoch": 7, "train": 13720.366059872855, "val_crps": 0.6701618404912699}
+{"mode": "U0", "epoch": 8, "train": 23299.496550286713, "val_crps": 0.6692562025254933}
+{"mode": "U0", "epoch": 9, "train": 17876.798933385344, "val_crps": 0.6584945316922186}
+{"mode": "U0", "epoch": 10, "train": 22070.911935970966, "val_crps": 0.6616405276727926}
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_probability.py", line 367, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_probability.py", line 352, in main
+    factor = float(torch.quantile(ratio, .95).clamp(.1, 10))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: quantile() input tensor is too large
+{"mode": "U0", "epoch": 1, "train": 26652.179182746957, "val_crps": 0.619671360048324}
+{"mode": "U0", "epoch": 2, "train": 22356.606351493938, "val_crps": 0.636853472724635}
+{"mode": "U0", "epoch": 3, "train": 15952.258538834236, "val_crps": 0.6494498992465554}
+{"mode": "U0", "epoch": 4, "train": 23221.959400469517, "val_crps": 0.6585448673466321}
+{"mode": "U0", "epoch": 5, "train": 8809.070319058126, "val_crps": 0.6585655855258722}
+{"mode": "U0", "epoch": 6, "train": 18463.339250649635, "val_crps": 0.668852865071821}
+{"mode": "U0", "epoch": 7, "train": 13720.366059857059, "val_crps": 0.6701618340419017}
+{"mode": "U0", "epoch": 8, "train": 23299.496550264408, "val_crps": 0.669256198780699}
+{"mode": "U0", "epoch": 9, "train": 17876.798933364524, "val_crps": 0.6584945244106739}
+{"mode": "U0", "epoch": 10, "train": 22070.911935960914, "val_crps": 0.6616405276727926}
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_probability.py", line 367, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_probability.py", line 352, in main
+    factor = float(torch.quantile(ratio, .95).clamp(.1, 10))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: quantile() input tensor is too large
+{"mode": "U0", "epoch": 1, "train": 26652.179182753418, "val_crps": 0.6196713596322357}
+{"mode": "U0", "epoch": 2, "train": 22356.606351499682, "val_crps": 0.6368534752211645}
+{"mode": "U0", "epoch": 3, "train": 15952.258538848619, "val_crps": 0.649449894045452}
+{"mode": "U0", "epoch": 4, "train": 23221.959400493255, "val_crps": 0.6585448700512059}
+{"mode": "U0", "epoch": 5, "train": 8809.071071931316, "val_crps": 0.6585655869821812}
+{"mode": "U0", "epoch": 6, "train": 18463.339250652505, "val_crps": 0.6688528677763947}
+{"mode": "U0", "epoch": 7, "train": 13720.366059867829, "val_crps": 0.6701618450682408}
+{"mode": "U0", "epoch": 8, "train": 23299.496550273787, "val_crps": 0.6692562108472587}
+{"mode": "U0", "epoch": 9, "train": 17876.798933370268, "val_crps": 0.6584945061027899}
+{"mode": "U0", "epoch": 10, "train": 22070.911935921467, "val_crps": 0.6616405024994523}
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_probability.py", line 367, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_dppm_probability.py", line 352, in main
+    factor = float(torch.quantile(ratio, .95).clamp(.1, 10))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: quantile() input tensor is too large

@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_FPEMH48H192_Electricity_96_48_TimesNet_custom_ftM_sl96_ll48_pl48_dm16_nh8_el2_dl1_df32_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMH48H192_TimesNet_Electricity_48_0
+MAE: 0.2863580287
+MSE: 0.1793902665
+RMSE: 0.4235448837
+MAPE: 2.608913422
+MSPE: 220198.7656
+DTW: Not calculated
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

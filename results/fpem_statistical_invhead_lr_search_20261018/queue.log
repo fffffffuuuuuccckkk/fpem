@@ -1,0 +1,97 @@
+START gpu=0 itransformer_ETTm1_720 frozen_groupnorm_g1 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/itransformer_ETTm1_720/frozen_groupnorm_g1/lr_2e-5
+START gpu=1 itransformer_ETTm1_720 frozen_c8_mixed_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/itransformer_ETTm1_720/frozen_c8_mixed_g4/lr_2e-5
+START gpu=2 itransformer_ETTm1_720 frozen_layernorm_g1 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/itransformer_ETTm1_720/frozen_layernorm_g1/lr_2e-5
+START gpu=3 itransformer_ETTm1_720 frozen_c1_covariance_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/itransformer_ETTm1_720/frozen_c1_covariance_g4/lr_2e-5
+DONE gpu=0 itransformer_ETTm1_720 frozen_groupnorm_g1 lr=2e-5
+START gpu=0 itransformer_ETTm1_720 frozen_groupnorm_g1 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/itransformer_ETTm1_720/frozen_groupnorm_g1/lr_1e-4
+DONE gpu=2 itransformer_ETTm1_720 frozen_layernorm_g1 lr=2e-5
+START gpu=2 itransformer_ETTm1_720 frozen_layernorm_g1 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/itransformer_ETTm1_720/frozen_layernorm_g1/lr_1e-4
+DONE gpu=3 itransformer_ETTm1_720 frozen_c1_covariance_g4 lr=2e-5
+START gpu=3 itransformer_ETTm1_720 frozen_c1_covariance_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/itransformer_ETTm1_720/frozen_c1_covariance_g4/lr_1e-4
+DONE gpu=1 itransformer_ETTm1_720 frozen_c8_mixed_g4 lr=2e-5
+START gpu=1 itransformer_ETTm1_720 frozen_c8_mixed_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/itransformer_ETTm1_720/frozen_c8_mixed_g4/lr_1e-4
+DONE gpu=0 itransformer_ETTm1_720 frozen_groupnorm_g1 lr=1e-4
+START gpu=0 moderntcn_ETTm2_720 frozen_a1_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/moderntcn_ETTm2_720/frozen_a1_g4/lr_2e-5
+DONE gpu=2 itransformer_ETTm1_720 frozen_layernorm_g1 lr=1e-4
+START gpu=2 moderntcn_ETTm2_720 joint_c8_mixed_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/moderntcn_ETTm2_720/joint_c8_mixed_g4/lr_2e-5
+DONE gpu=1 itransformer_ETTm1_720 frozen_c8_mixed_g4 lr=1e-4
+START gpu=1 moderntcn_ETTm2_720 joint_t4_learned_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/moderntcn_ETTm2_720/joint_t4_learned_g4/lr_2e-5
+DONE gpu=3 itransformer_ETTm1_720 frozen_c1_covariance_g4 lr=1e-4
+START gpu=3 moderntcn_ETTm2_720 frozen_c8_mixed_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/moderntcn_ETTm2_720/frozen_c8_mixed_g4/lr_2e-5
+DONE gpu=3 moderntcn_ETTm2_720 frozen_c8_mixed_g4 lr=2e-5
+START gpu=3 moderntcn_ETTm2_720 frozen_c8_mixed_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/moderntcn_ETTm2_720/frozen_c8_mixed_g4/lr_1e-4
+DONE gpu=3 moderntcn_ETTm2_720 frozen_c8_mixed_g4 lr=1e-4
+START gpu=3 moderntcn_ETTm2_720 frozen_t2_orthogonal_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/moderntcn_ETTm2_720/frozen_t2_orthogonal_g4/lr_2e-5
+DONE gpu=0 moderntcn_ETTm2_720 frozen_a1_g4 lr=2e-5
+START gpu=0 moderntcn_ETTm2_720 frozen_a1_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/moderntcn_ETTm2_720/frozen_a1_g4/lr_1e-4
+DONE gpu=2 moderntcn_ETTm2_720 joint_c8_mixed_g4 lr=2e-5
+START gpu=2 moderntcn_ETTm2_720 joint_c8_mixed_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/moderntcn_ETTm2_720/joint_c8_mixed_g4/lr_1e-4
+DONE gpu=1 moderntcn_ETTm2_720 joint_t4_learned_g4 lr=2e-5
+START gpu=1 moderntcn_ETTm2_720 joint_t4_learned_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/moderntcn_ETTm2_720/joint_t4_learned_g4/lr_1e-4
+DONE gpu=3 moderntcn_ETTm2_720 frozen_t2_orthogonal_g4 lr=2e-5
+START gpu=3 moderntcn_ETTm2_720 frozen_t2_orthogonal_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/moderntcn_ETTm2_720/frozen_t2_orthogonal_g4/lr_1e-4
+DONE gpu=0 moderntcn_ETTm2_720 frozen_a1_g4 lr=1e-4
+START gpu=0 patchtst_ETTh1_720 frozen_t2_orthogonal_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_720/frozen_t2_orthogonal_g4/lr_2e-5
+DONE gpu=0 patchtst_ETTh1_720 frozen_t2_orthogonal_g4 lr=2e-5
+START gpu=0 patchtst_ETTh1_720 frozen_t2_orthogonal_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_720/frozen_t2_orthogonal_g4/lr_1e-4
+DONE gpu=2 moderntcn_ETTm2_720 joint_c8_mixed_g4 lr=1e-4
+START gpu=2 patchtst_ETTh1_96 frozen_a1_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_a1_g4/lr_2e-5
+DONE gpu=3 moderntcn_ETTm2_720 frozen_t2_orthogonal_g4 lr=1e-4
+START gpu=3 patchtst_ETTh1_720 frozen_gate_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_720/frozen_gate_g4/lr_2e-5
+DONE gpu=0 patchtst_ETTh1_720 frozen_t2_orthogonal_g4 lr=1e-4
+START gpu=0 patchtst_ETTh1_96 frozen_groupnorm_g1 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_groupnorm_g1/lr_2e-5
+DONE gpu=2 patchtst_ETTh1_96 frozen_a1_g4 lr=2e-5
+START gpu=2 patchtst_ETTh1_96 frozen_a1_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_a1_g4/lr_1e-4
+DONE gpu=1 moderntcn_ETTm2_720 joint_t4_learned_g4 lr=1e-4
+START gpu=1 patchtst_ETTh1_720 frozen_mlp_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_720/frozen_mlp_g4/lr_2e-5
+DONE gpu=3 patchtst_ETTh1_720 frozen_gate_g4 lr=2e-5
+START gpu=3 patchtst_ETTh1_720 frozen_gate_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_720/frozen_gate_g4/lr_1e-4
+DONE gpu=0 patchtst_ETTh1_96 frozen_groupnorm_g1 lr=2e-5
+START gpu=0 patchtst_ETTh1_96 frozen_groupnorm_g1 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_groupnorm_g1/lr_1e-4
+DONE gpu=1 patchtst_ETTh1_720 frozen_mlp_g4 lr=2e-5
+START gpu=1 patchtst_ETTh1_720 frozen_mlp_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_720/frozen_mlp_g4/lr_1e-4
+DONE gpu=3 patchtst_ETTh1_720 frozen_gate_g4 lr=1e-4
+START gpu=3 patchtst_ETTh1_96 frozen_c8_mixed_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_c8_mixed_g4/lr_2e-5
+DONE gpu=0 patchtst_ETTh1_96 frozen_groupnorm_g1 lr=1e-4
+START gpu=0 patchtst_ETTh1_96 frozen_mlp_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_mlp_g4/lr_2e-5
+DONE gpu=2 patchtst_ETTh1_96 frozen_a1_g4 lr=1e-4
+START gpu=2 patchtst_ETTh1_96 frozen_c3_dual_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_c3_dual_g4/lr_2e-5
+DONE gpu=1 patchtst_ETTh1_720 frozen_mlp_g4 lr=1e-4
+START gpu=1 patchtst_ETTh1_720 frozen_t1_group_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_720/frozen_t1_group_g4/lr_2e-5
+DONE gpu=3 patchtst_ETTh1_96 frozen_c8_mixed_g4 lr=2e-5
+START gpu=3 patchtst_ETTh1_96 frozen_c8_mixed_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_c8_mixed_g4/lr_1e-4
+DONE gpu=0 patchtst_ETTh1_96 frozen_mlp_g4 lr=2e-5
+START gpu=0 patchtst_ETTh1_96 frozen_mlp_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_mlp_g4/lr_1e-4
+DONE gpu=2 patchtst_ETTh1_96 frozen_c3_dual_g4 lr=2e-5
+START gpu=2 patchtst_ETTh1_96 frozen_c3_dual_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_c3_dual_g4/lr_1e-4
+DONE gpu=1 patchtst_ETTh1_720 frozen_t1_group_g4 lr=2e-5
+START gpu=1 patchtst_ETTh1_720 frozen_t1_group_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_720/frozen_t1_group_g4/lr_1e-4
+DONE gpu=3 patchtst_ETTh1_96 frozen_c8_mixed_g4 lr=1e-4
+START gpu=3 patchtst_ETTh1_96 frozen_t2_orthogonal_g8 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_t2_orthogonal_g8/lr_2e-5
+DONE gpu=0 patchtst_ETTh1_96 frozen_mlp_g4 lr=1e-4
+START gpu=0 patchtst_ETTh1_96 frozen_t1_group_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_t1_group_g4/lr_2e-5
+DONE gpu=2 patchtst_ETTh1_96 frozen_c3_dual_g4 lr=1e-4
+START gpu=2 patchtst_ETTh1_96 frozen_layernorm_g1 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_layernorm_g1/lr_2e-5
+DONE gpu=1 patchtst_ETTh1_720 frozen_t1_group_g4 lr=1e-4
+START gpu=1 patchtst_ETTh1_720 frozen_t2_orthogonal_g8 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_720/frozen_t2_orthogonal_g8/lr_2e-5
+DONE gpu=0 patchtst_ETTh1_96 frozen_t1_group_g4 lr=2e-5
+START gpu=0 patchtst_ETTh1_96 frozen_t1_group_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_t1_group_g4/lr_1e-4
+DONE gpu=2 patchtst_ETTh1_96 frozen_layernorm_g1 lr=2e-5
+START gpu=2 patchtst_ETTh1_96 frozen_layernorm_g1 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_layernorm_g1/lr_1e-4
+DONE gpu=3 patchtst_ETTh1_96 frozen_t2_orthogonal_g8 lr=2e-5
+START gpu=3 patchtst_ETTh1_96 frozen_t2_orthogonal_g8 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_t2_orthogonal_g8/lr_1e-4
+DONE gpu=0 patchtst_ETTh1_96 frozen_t1_group_g4 lr=1e-4
+DONE gpu=1 patchtst_ETTh1_720 frozen_t2_orthogonal_g8 lr=2e-5
+START gpu=1 patchtst_ETTh1_720 frozen_t2_orthogonal_g8 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_720/frozen_t2_orthogonal_g8/lr_1e-4
+DONE gpu=2 patchtst_ETTh1_96 frozen_layernorm_g1 lr=1e-4
+START gpu=2 patchtst_ETTh1_96 frozen_linear_g4 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_linear_g4/lr_2e-5
+DONE gpu=3 patchtst_ETTh1_96 frozen_t2_orthogonal_g8 lr=1e-4
+DONE gpu=2 patchtst_ETTh1_96 frozen_linear_g4 lr=2e-5
+START gpu=2 patchtst_ETTh1_96 frozen_linear_g4 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_linear_g4/lr_1e-4
+DONE gpu=1 patchtst_ETTh1_720 frozen_t2_orthogonal_g8 lr=1e-4
+START gpu=1 patchtst_ETTh1_96 frozen_t1_group_g8 lr=2e-5 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_t1_group_g8/lr_2e-5
+DONE gpu=2 patchtst_ETTh1_96 frozen_linear_g4 lr=1e-4
+DONE gpu=1 patchtst_ETTh1_96 frozen_t1_group_g8 lr=2e-5
+START gpu=1 patchtst_ETTh1_96 frozen_t1_group_g8 lr=1e-4 output=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_statistical_invhead_lr_search_20261018/patchtst_ETTh1_96/frozen_t1_group_g8/lr_1e-4
+DONE gpu=1 patchtst_ETTh1_96 frozen_t1_group_g8 lr=1e-4
+SEARCH_END shard=0 failures=0 incomplete=0

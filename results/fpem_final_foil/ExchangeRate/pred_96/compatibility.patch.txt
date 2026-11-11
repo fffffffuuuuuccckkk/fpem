@@ -1,0 +1,2 @@
+Only the hardcoded CUDA_VISIBLE_DEVICES=7 assignment is replaced by FOIL_GPU.
+No model, loss, split, normalization, seed, or optimization logic is changed.

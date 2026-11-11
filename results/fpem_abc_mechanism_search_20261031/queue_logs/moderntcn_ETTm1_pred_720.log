@@ -1,0 +1,3 @@
+START {'backbone': 'moderntcn', 'dataset': 'ETTm1', 'pred_len': 720, 'seq_len': 96, 'span': 816, 'sha': '5c0ba0541becf6c8c3de14e721f16c8621b52391163159b984a64c0d18ae9bc7', 'selected_r3_gain': 0.0016842484474182129, 'source': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_dual_pattern_memory/g1_r3_full_testlr_search/moderntcn/ETTm1/pred_720', 'train_cutoff': 34464, 'test_start_absolute': 45984, 'train_size': 2104, 'val_size': 2701, 'test_size': 2701}
+A COMPLETE 98
+B COMPLETE 39

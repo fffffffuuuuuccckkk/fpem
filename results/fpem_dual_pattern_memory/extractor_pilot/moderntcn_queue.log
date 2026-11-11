@@ -1,0 +1,27 @@
+START case=moderntcn_ETTm2_720 mode=P0 gpu=2 attempt=1 2026-10-28T12:51:40+00:00
+END case=moderntcn_ETTm2_720 mode=P0 status=0 2026-10-28T12:54:04+00:00
+summarized 7 completed, 0 blocked
+START case=moderntcn_ETTm2_720 mode=P1 gpu=2 attempt=1 2026-10-28T12:54:04+00:00
+END case=moderntcn_ETTm2_720 mode=P1 status=0 2026-10-28T12:56:19+00:00
+summarized 9 completed, 0 blocked
+START case=moderntcn_ETTm2_720 mode=P2 gpu=2 attempt=1 2026-10-28T12:56:19+00:00
+END case=moderntcn_ETTm2_720 mode=P2 status=0 2026-10-28T12:58:34+00:00
+summarized 11 completed, 0 blocked
+START case=moderntcn_ETTm2_720 mode=P7 gpu=2 attempt=1 2026-10-28T12:58:34+00:00
+END case=moderntcn_ETTm2_720 mode=P7 status=0 2026-10-28T13:00:54+00:00
+summarized 13 completed, 0 blocked
+START case=moderntcn_ETTm2_720 mode=P8 gpu=2 attempt=1 2026-10-28T13:00:55+00:00
+END case=moderntcn_ETTm2_720 mode=P8 status=0 2026-10-28T13:03:15+00:00
+summarized 15 completed, 0 blocked
+START case=moderntcn_ETTm2_720 mode=P3 gpu=2 attempt=1 2026-10-28T13:03:15+00:00
+END case=moderntcn_ETTm2_720 mode=P3 status=0 2026-10-28T13:05:35+00:00
+summarized 16 completed, 0 blocked
+START case=moderntcn_ETTm2_720 mode=P4 gpu=2 attempt=1 2026-10-28T13:05:36+00:00
+END case=moderntcn_ETTm2_720 mode=P4 status=0 2026-10-28T13:07:09+00:00
+summarized 17 completed, 0 blocked
+START case=moderntcn_ETTm2_720 mode=P5 gpu=2 attempt=1 2026-10-28T13:07:09+00:00
+END case=moderntcn_ETTm2_720 mode=P5 status=0 2026-10-28T13:07:17+00:00
+summarized 17 completed, 1 blocked
+START case=moderntcn_ETTm2_720 mode=P6 gpu=2 attempt=1 2026-10-28T13:07:17+00:00
+END case=moderntcn_ETTm2_720 mode=P6 status=0 2026-10-28T13:09:25+00:00
+summarized 18 completed, 1 blocked

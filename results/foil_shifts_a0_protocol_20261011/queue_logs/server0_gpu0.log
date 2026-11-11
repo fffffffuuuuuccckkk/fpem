@@ -1,0 +1,6 @@
+DONE itransformer ETTh1 24 foil GPU=0
+DONE itransformer ETTh1 24 shifts GPU=0
+DONE itransformer ETTm1 24 foil GPU=0
+DONE itransformer ETTm1 24 shifts GPU=0
+DONE itransformer ExchangeRate 24 foil GPU=0
+DONE itransformer ExchangeRate 24 shifts GPU=0

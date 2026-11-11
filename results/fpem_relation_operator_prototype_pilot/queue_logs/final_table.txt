@@ -1,0 +1,28 @@
+# 历史—未来映射原型提取质量总表
+
+已完成 6/6 个运行配置。完整列见 `summary.csv`；失败与待运行见 `run_status.csv`。
+
+| Case | Method | FVE | FutureLift | Future_MSE | Operator_Within | Operator_Between | Operator_Drift | Route_Agreement | K_eff | Independent_Events | Ridge_MSE | Ridge_MAE | Gain_vs_Global | Gain_vs_Random | Train_Time | Peak_VRAM |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| itransformer/ETTm1-720 | P0_Raw | 0.0374 | 0.1961 | 5.1686 | 0.8168 | 0.2083 | 0.2115 | 1.0000 | 7.9876 | 10.0000 | 4.9983 | 1.2528 | 0.0225 | 0.0362 | 79.0918 | 43123712.0000 |
+| itransformer/ETTm1-720 | P1_Relation_Fingerprint | -0.0256 | 0.1852 | 5.5069 | 0.3645 | 0.2633 | 0.3325 | 0.6710 | 5.2251 | 10.0000 | 5.0238 | 1.2607 | 0.0175 | 0.0313 | 86.0380 | 43123712.0000 |
+| itransformer/ETTm1-720 | P2_Local_Operator | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA |
+| itransformer/ETTm1-96 | P0_Raw | 0.0559 | 0.0365 | 3.1218 | NA | 0.0218 | 0.1008 | 1.0000 | 7.9878 | 45.0000 | 2.8238 | 0.9285 | 0.0155 | 0.0314 | 30.8023 | 38723072.0000 |
+| itransformer/ETTm1-96 | P1_Relation_Fingerprint | -0.0024 | 0.3622 | 3.3146 | NA | 0.0218 | 0.5640 | 0.4023 | 7.0518 | 45.0000 | 2.8255 | 0.9295 | 0.0149 | 0.0308 | 69.7220 | 38723072.0000 |
+| itransformer/ETTm1-96 | P2_Local_Operator | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA |
+| moderntcn/ETTm2-720 | P0_Raw | 0.0001 | -0.3736 | 900.6225 | 0.0914 | 0.0649 | 1.1247 | 1.0000 | 7.9103 | 10.0000 | 900.5653 | 6.3801 | 0.0002 | 0.0002 | 59.9666 | 46846976.0000 |
+| moderntcn/ETTm2-720 | P1_Relation_Fingerprint | -0.0000 | 0.3924 | 900.7283 | 0.0630 | 0.0763 | 0.9945 | 0.4380 | 7.1075 | 10.0000 | 900.6286 | 6.3811 | 0.0001 | 0.0001 | 62.2501 | 46846976.0000 |
+| moderntcn/ETTm2-720 | P2_Local_Operator | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA |
+| moderntcn/ETTm2-96 | P0_Raw | 0.0009 | 0.3601 | 114.1096 | 0.0363 | 0.0336 | 0.1634 | 1.0000 | 7.9637 | 45.0000 | 113.8895 | 1.6926 | 0.0004 | 0.0005 | 36.6374 | 44203520.0000 |
+| moderntcn/ETTm2-96 | P1_Relation_Fingerprint | 0.0001 | -0.4623 | 114.2026 | 0.0345 | NA | 1.1400 | 0.4905 | 5.8421 | 45.0000 | 113.9190 | 1.7030 | 0.0001 | 0.0003 | 43.3307 | 44203520.0000 |
+| moderntcn/ETTm2-96 | P2_Local_Operator | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA |
+| patchtst/ETTh1-720 | P0_Raw | 0.0194 | 0.1041 | 2.5014 | NA | NA | NA | 1.0000 | 7.9748 | 2.0000 | 2.8973 | 1.2421 | 0.0877 | 0.0899 | 35.0886 | 34086912.0000 |
+| patchtst/ETTh1-720 | P1_Relation_Fingerprint | -0.0164 | -0.0323 | 2.5927 | NA | NA | NA | 0.4034 | 7.2781 | 2.0000 | 2.9505 | 1.2548 | 0.0710 | 0.0732 | 32.8743 | 34086912.0000 |
+| patchtst/ETTh1-720 | P2_Local_Operator | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA |
+| patchtst/ETTh1-96 | P0_Raw | 0.0368 | 0.0562 | 1.6564 | 0.7609 | 1.0087 | 0.6280 | 1.0000 | 7.9921 | 11.0000 | 1.3407 | 0.7793 | 0.0214 | 0.0883 | 34.3616 | 25790976.0000 |
+| patchtst/ETTh1-96 | P1_Relation_Fingerprint | -0.0068 | 0.0528 | 1.7314 | 0.8670 | 0.9942 | 0.8781 | 0.3061 | 7.6687 | 11.0000 | 1.3334 | 0.7749 | 0.0268 | 0.0933 | 32.1887 | 25790976.0000 |
+| patchtst/ETTh1-96 | P2_Local_Operator | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA | NA |
+
+不做综合加权排名。`NA` 表示无法可靠估计或尚无结果；看 `operator_diagnostics.csv` 和 `FutureLift_reason` 确认原因。
+P2 若独立事件不足，将明确列为 `not_estimable`，不会把重叠窗口当成有效局部算子样本。
+A0 来自完整原始 TRAIN 预训练；这里只检验新增原型/映射在 TRAIN 时间块的外推，不是完整流水线 OOF。

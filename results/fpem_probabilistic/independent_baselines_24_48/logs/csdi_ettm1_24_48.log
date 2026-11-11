@@ -1,0 +1,28 @@
+EPOCH {'epoch': 1, 'train_diffusion_loss': 0.2628221618467575, 'train_batches': 8611}
+EPOCH {'epoch': 2, 'train_diffusion_loss': 0.15933625364883558, 'train_batches': 8611}
+EPOCH {'epoch': 3, 'train_diffusion_loss': 0.14441767283894305, 'train_batches': 8611}
+EPOCH {'epoch': 4, 'train_diffusion_loss': 0.13842013726857122, 'train_batches': 8611}
+EPOCH {'epoch': 5, 'train_diffusion_loss': 0.13258828867320177, 'train_batches': 8611}
+EPOCH {'epoch': 6, 'train_diffusion_loss': 0.1288560600271695, 'train_batches': 8611}
+EPOCH {'epoch': 7, 'train_diffusion_loss': 0.12556443369811965, 'train_batches': 8611}
+EPOCH {'epoch': 8, 'train_diffusion_loss': 0.12202832292015703, 'train_batches': 8611}
+EPOCH {'epoch': 9, 'train_diffusion_loss': 0.12019216245207776, 'train_batches': 8611}
+EPOCH {'epoch': 10, 'train_diffusion_loss': 0.12085530206889285, 'train_batches': 8611}
+EPOCH {'epoch': 11, 'train_diffusion_loss': 0.11921214576103643, 'train_batches': 8611}
+EPOCH {'epoch': 12, 'train_diffusion_loss': 0.11834163989732978, 'train_batches': 8611}
+EPOCH {'epoch': 13, 'train_diffusion_loss': 0.11681276204241808, 'train_batches': 8611}
+COMPLETE {'inv_MSE': 0.7197897554946888, 'inv_MAE': 0.4760055523338194, 'mean_MSE': 0.2851599231258656, 'mean_MAE': 0.33271013758379947, 'median_NMAE': 0.4310866463875951, 'CRPS_empirical': 0.23941448416680453, 'CRPS': 0.23941448416680453, 'quantile_CRPS_normalized': 0.3274810943586304, 'ProbTS_CRPS': 0.32759252377745485, 'PICP_95': 0.8672697385974767, 'MPIW_95': 1.2314935391743702, 'WIS': 0.18817795208197857, 'EnergyScore': 4.39165920152388, 'sample_std_mean': 0.3255297481194573, 'correction_win_rate': 0.7450639297207967, 'sample_diversity': 0.35607454964334245, 'max_boundary_jump': 3.238574932189136, 'quantile_crps_raw': 0.2506654101192324, 'target_abs_mean': 0.7914477625628954, 'ProbTS_CRPS_Sum': 0.6485821997651725, 'CRPS_Sum': 1.2010508448785, 'dataset': 'ETTm1', 'pred_len': 24, 'split': 'test', 'evaluated_windows': 11497, 'total_split_windows': 11497, 'num_samples': 100, 'model': 'ProbTS CSDI independent raw-history baseline', 'ProbTS_CRPS_definition': 'quantiles_num=20; mean per-sequence normalized twice-pinball', 'not_shared_FPEM_encoder': True, 'naive_inv_MSE_not_FPEM_invariant': True}
+EPOCH {'epoch': 1, 'train_diffusion_loss': 0.2784387749110558, 'train_batches': 8605}
+EPOCH {'epoch': 2, 'train_diffusion_loss': 0.1664677424768158, 'train_batches': 8605}
+EPOCH {'epoch': 3, 'train_diffusion_loss': 0.14566197322336832, 'train_batches': 8605}
+EPOCH {'epoch': 4, 'train_diffusion_loss': 0.13773496413621283, 'train_batches': 8605}
+EPOCH {'epoch': 5, 'train_diffusion_loss': 0.1321719780863836, 'train_batches': 8605}
+EPOCH {'epoch': 6, 'train_diffusion_loss': 0.12885896896438556, 'train_batches': 8605}
+EPOCH {'epoch': 7, 'train_diffusion_loss': 0.12578796866085523, 'train_batches': 8605}
+EPOCH {'epoch': 8, 'train_diffusion_loss': 0.12210896547966545, 'train_batches': 8605}
+EPOCH {'epoch': 9, 'train_diffusion_loss': 0.12154699446842343, 'train_batches': 8605}
+EPOCH {'epoch': 10, 'train_diffusion_loss': 0.12099743059589833, 'train_batches': 8605}
+EPOCH {'epoch': 11, 'train_diffusion_loss': 0.1177255773714585, 'train_batches': 8605}
+EPOCH {'epoch': 12, 'train_diffusion_loss': 0.1191273249371761, 'train_batches': 8605}
+EPOCH {'epoch': 13, 'train_diffusion_loss': 0.11583618353147229, 'train_batches': 8605}
+COMPLETE {'inv_MSE': 1.165488524893371, 'inv_MAE': 0.6379855279646347, 'mean_MSE': 0.3636113297329643, 'mean_MAE': 0.3771420855380015, 'median_NMAE': 0.4712138736579471, 'CRPS_empirical': 0.27445084794318053, 'CRPS': 0.27445084794318053, 'quantile_CRPS_normalized': 0.36066775593721884, 'ProbTS_CRPS': 0.36067837714151446, 'PICP_95': 0.8733857177788239, 'MPIW_95': 1.3993548121477684, 'WIS': 0.2174389123238651, 'EnergyScore': 7.283139743977828, 'sample_std_mean': 0.37040800194394086, 'correction_win_rate': 0.8612394317092303, 'sample_diversity': 0.41032609929288677, 'max_boundary_jump': 3.4866729040751845, 'quantile_crps_raw': 0.28698053315072763, 'target_abs_mean': 0.7915389004159304, 'ProbTS_CRPS_Sum': 0.6308475472159657, 'CRPS_Sum': 1.3371167745251897, 'dataset': 'ETTm1', 'pred_len': 48, 'split': 'test', 'evaluated_windows': 11473, 'total_split_windows': 11473, 'num_samples': 100, 'model': 'ProbTS CSDI independent raw-history baseline', 'ProbTS_CRPS_definition': 'quantiles_num=20; mean per-sequence normalized twice-pinball', 'not_shared_FPEM_encoder': True, 'naive_inv_MSE_not_FPEM_invariant': True}

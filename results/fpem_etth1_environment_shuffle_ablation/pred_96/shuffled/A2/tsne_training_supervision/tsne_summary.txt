@@ -1,0 +1,15 @@
+dataset: ETTh1-96-shuffled
+source_split: TRAIN only
+checkpoint: results/fpem_etth1_environment_shuffle_ablation/pred_96/shuffled/A2/trained_checkpoint.pt
+checkpoint_sha256: 85704a5490df3c682c86019f10b93fd90b0b15e4947f8b64a225719c76a85a0c
+environment_payload: results/fpem_etth1_environment_shuffle_ablation/pred_96/shuffled/A2/environment_gradient_stage_4.npz
+environment_source: saved training-stage TRAIN environment payload
+label_mode: training_supervision
+environment_supervision: shuffled
+supervision_stage: 4
+sample_count: 1500
+selection: deterministic hard-environment-stratified evenly spaced
+seed: 2021
+perplexity: {'H': 30.0, 'Zinv': 30.0, 'Zvar': 30.0, 'Zfinal': 30.0}
+backbone: patchtst
+representations: ['H', 'Zinv', 'Zvar', 'Zfinal']

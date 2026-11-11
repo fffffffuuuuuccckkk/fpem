@@ -1,0 +1,5 @@
+server_role=secondary
+seq_len=96
+pred_lengths=168 336 720
+dataset_archive=dataset/all_datasets.zip
+sha256=3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c

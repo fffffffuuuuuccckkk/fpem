@@ -1,0 +1,14 @@
+attempt=1 lane=pt_e gpu=0 case=patchtst/ExchangeRate/192 method=P02
+BEGIN patchtst ExchangeRate 192 F00
+BEGIN patchtst ExchangeRate 192 P02
+P02 epoch 1 val 0.259594
+P02 epoch 2 val 0.240853
+P02 epoch 3 val 0.236334
+P02 epoch 4 val 0.233212
+P02 epoch 5 val 0.23126
+P02 epoch 6 val 0.232366
+P02 epoch 7 val 0.23183
+P02 epoch 8 val 0.232843
+P02 epoch 9 val 0.231957
+P02 epoch 10 val 0.231607
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_expansion/patchtst/ExchangeRate/pred_192

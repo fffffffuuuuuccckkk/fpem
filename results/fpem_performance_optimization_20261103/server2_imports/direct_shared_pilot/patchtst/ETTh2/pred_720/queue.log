@@ -1,0 +1,36 @@
+attempt=1 gpu=1 case=patchtst/ETTh2/720
+BEGIN patchtst ETTh2 720 F00
+BEGIN patchtst ETTh2 720 F03
+F03 epoch 1 val 0.59535
+F03 epoch 2 val 0.594264
+F03 epoch 3 val 0.59992
+F03 epoch 4 val 0.602232
+F03 epoch 5 val 0.601279
+F03 epoch 6 val 0.605056
+F03 epoch 7 val 0.603753
+F03 epoch 8 val 0.609401
+F03 epoch 9 val 0.608854
+F03 epoch 10 val 0.609253
+BEGIN patchtst ETTh2 720 F01
+F01 epoch 1 val 0.622749
+F01 epoch 2 val 0.63312
+F01 epoch 3 val 0.631049
+F01 epoch 4 val 0.617677
+F01 epoch 5 val 0.629156
+F01 epoch 6 val 0.625992
+F01 epoch 7 val 0.63478
+F01 epoch 8 val 0.633428
+F01 epoch 9 val 0.630993
+F01 epoch 10 val 0.655617
+BEGIN patchtst ETTh2 720 P01
+P01 epoch 1 val 0.650339
+P01 epoch 2 val 0.627235
+P01 epoch 3 val 0.614755
+P01 epoch 4 val 0.613323
+P01 epoch 5 val 0.614008
+P01 epoch 6 val 0.612727
+P01 epoch 7 val 0.610353
+P01 epoch 8 val 0.614845
+P01 epoch 9 val 0.615821
+P01 epoch 10 val 0.616747
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_shared_pilot/patchtst/ETTh2/pred_720

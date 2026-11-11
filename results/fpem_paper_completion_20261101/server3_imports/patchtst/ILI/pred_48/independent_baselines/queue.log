@@ -1,0 +1,49 @@
+RUN timegrad ILI 48 GPU3 attempt=1 2026-11-01T05:07:37+00:00
+EPOCH {'epoch': 1, 'train_loss': 1.003659591955297, 'train_batches': 17}
+EPOCH {'epoch': 2, 'train_loss': 1.0021681329783272, 'train_batches': 17}
+EPOCH {'epoch': 3, 'train_loss': 1.0010517029201282, 'train_batches': 17}
+EPOCH {'epoch': 4, 'train_loss': 0.9979236862238716, 'train_batches': 17}
+EPOCH {'epoch': 5, 'train_loss': 0.9977173068944145, 'train_batches': 17}
+EPOCH {'epoch': 6, 'train_loss': 0.99473835440243, 'train_batches': 17}
+EPOCH {'epoch': 7, 'train_loss': 0.996499124695273, 'train_batches': 17}
+EPOCH {'epoch': 8, 'train_loss': 0.9907081758274752, 'train_batches': 17}
+EPOCH {'epoch': 9, 'train_loss': 0.9929125694667592, 'train_batches': 17}
+EPOCH {'epoch': 10, 'train_loss': 0.992142000619103, 'train_batches': 17}
+EPOCH {'epoch': 11, 'train_loss': 0.9896836526253644, 'train_batches': 17}
+EPOCH {'epoch': 12, 'train_loss': 0.9833851281334373, 'train_batches': 17}
+EPOCH {'epoch': 13, 'train_loss': 0.9858699195525226, 'train_batches': 17}
+EVALUATE timegrad ILI 48 32
+COMPLETE {'inv_MSE': 7.8512747255090165, 'inv_MAE': 1.952148920869174, 'mean_MSE': 4.151092957143915, 'mean_MAE': 1.4887372304315436, 'median_NMAE': 0.7794728132143413, 'CRPS_empirical': 1.0855080934420025, 'CRPS': 1.0855080934420025, 'quantile_CRPS_normalized': 0.5940575420039974, 'ProbTS_CRPS': 0.595434744064122, 'PICP_95': 0.8270548100340857, 'MPIW_95': 5.820900995437413, 'WIS': 0.8583154368073973, 'EnergyScore': 26.369533721714802, 'sample_std_mean': 1.537693629526112, 'correction_win_rate': 0.7328767139617711, 'sample_diversity': 1.747876666996577, 'max_boundary_jump': 16.17428886727111, 'quantile_crps_raw': 1.1347333372455755, 'target_abs_mean': 1.9281221317918333, 'ProbTS_CRPS_Sum': 0.6129513301261483, 'CRPS_Sum': 7.038716068006542, 'method': 'timegrad', 'dataset': 'ILI', 'pred_len': 48, 'num_samples': 100, 'evaluated_windows': 146, 'total_test_windows': 146, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+RUN tsflow ILI 48 GPU3 attempt=1 2026-11-01T05:07:57+00:00
+EPOCH {'epoch': 1, 'train_loss': 3.3885607719421387, 'train_batches': 17}
+EPOCH {'epoch': 2, 'train_loss': 2.9123960102305695, 'train_batches': 17}
+EPOCH {'epoch': 3, 'train_loss': 2.580627539578606, 'train_batches': 17}
+EPOCH {'epoch': 4, 'train_loss': 2.3643513497184303, 'train_batches': 17}
+EPOCH {'epoch': 5, 'train_loss': 2.2783839422113754, 'train_batches': 17}
+EPOCH {'epoch': 6, 'train_loss': 2.0842339992523193, 'train_batches': 17}
+EPOCH {'epoch': 7, 'train_loss': 2.014924533226911, 'train_batches': 17}
+EPOCH {'epoch': 8, 'train_loss': 1.9134236293680527, 'train_batches': 17}
+EPOCH {'epoch': 9, 'train_loss': 1.8151096456191118, 'train_batches': 17}
+EPOCH {'epoch': 10, 'train_loss': 1.7267271350411808, 'train_batches': 17}
+EPOCH {'epoch': 11, 'train_loss': 1.6965028608546537, 'train_batches': 17}
+EPOCH {'epoch': 12, 'train_loss': 1.6099862000521492, 'train_batches': 17}
+EPOCH {'epoch': 13, 'train_loss': 1.534592123592601, 'train_batches': 17}
+EVALUATE tsflow ILI 48 32
+COMPLETE {'inv_MSE': 7.8512747255090165, 'inv_MAE': 1.952148920869174, 'mean_MSE': 5.059924974833449, 'mean_MAE': 1.6238387970075214, 'median_NMAE': 0.869913008115063, 'CRPS_empirical': 1.1903562529446328, 'CRPS': 1.1903562529446328, 'quantile_CRPS_normalized': 0.6704573500646304, 'ProbTS_CRPS': 0.6772942902290657, 'PICP_95': 0.81294846534729, 'MPIW_95': 5.092582617720512, 'WIS': 0.9427117452229539, 'EnergyScore': 28.755181142728624, 'sample_std_mean': 1.343279296404695, 'correction_win_rate': 0.8356164399891683, 'sample_diversity': 1.5261773311928526, 'max_boundary_jump': 11.417233924343162, 'quantile_crps_raw': 1.2453911010533163, 'target_abs_mean': 1.9281221317918333, 'ProbTS_CRPS_Sum': 0.7309833928330304, 'CRPS_Sum': 7.903637729278983, 'method': 'tsflow', 'dataset': 'ILI', 'pred_len': 48, 'num_samples': 100, 'evaluated_windows': 146, 'total_test_windows': 146, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+RUN tsdiff ILI 48 GPU3 attempt=1 2026-11-01T05:08:07+00:00
+EPOCH {'epoch': 1, 'train_loss': 1.0801344128216015, 'train_batches': 17}
+EPOCH {'epoch': 2, 'train_loss': 1.0168534832842209, 'train_batches': 17}
+EPOCH {'epoch': 3, 'train_loss': 0.9973903193193323, 'train_batches': 17}
+EPOCH {'epoch': 4, 'train_loss': 0.9774200425428503, 'train_batches': 17}
+EPOCH {'epoch': 5, 'train_loss': 0.9571751356124878, 'train_batches': 17}
+EPOCH {'epoch': 6, 'train_loss': 0.929736267117893, 'train_batches': 17}
+EPOCH {'epoch': 7, 'train_loss': 0.9054381005904254, 'train_batches': 17}
+EPOCH {'epoch': 8, 'train_loss': 0.8634947924052968, 'train_batches': 17}
+EPOCH {'epoch': 9, 'train_loss': 0.8126150019028607, 'train_batches': 17}
+EPOCH {'epoch': 10, 'train_loss': 0.7497046695036047, 'train_batches': 17}
+EPOCH {'epoch': 11, 'train_loss': 0.6868319336105796, 'train_batches': 17}
+EPOCH {'epoch': 12, 'train_loss': 0.6339684269007515, 'train_batches': 17}
+EPOCH {'epoch': 13, 'train_loss': 0.5797437569674324, 'train_batches': 17}
+EVALUATE tsdiff ILI 48 32
+COMPLETE {'inv_MSE': 7.8512747255090165, 'inv_MAE': 1.952148920869174, 'mean_MSE': 4.122401097049452, 'mean_MAE': 1.4807011950505924, 'median_NMAE': 0.7732715606689453, 'CRPS_empirical': 1.115048643660872, 'CRPS': 1.115048643660872, 'quantile_CRPS_normalized': 0.6064172068687335, 'ProbTS_CRPS': 0.6071506428391966, 'PICP_95': 0.7255585585554986, 'MPIW_95': 3.84070389891324, 'WIS': 0.9116886609221158, 'EnergyScore': 27.701458238575558, 'sample_std_mean': 1.0119074844334224, 'correction_win_rate': 0.7465753440987574, 'sample_diversity': 1.1486398144944074, 'max_boundary_jump': 9.827635856523905, 'quantile_crps_raw': 1.1615102013496503, 'target_abs_mean': 1.9281221317918333, 'ProbTS_CRPS_Sum': 0.6299850001727065, 'CRPS_Sum': 7.239163712279438, 'method': 'tsdiff', 'dataset': 'ILI', 'pred_len': 48, 'num_samples': 100, 'evaluated_windows': 146, 'total_test_windows': 146, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+COMPLETE independent baselines ILI 48 2026-11-01T05:08:50+00:00

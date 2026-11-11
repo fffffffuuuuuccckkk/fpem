@@ -1,0 +1,7 @@
+RUN moderntcn:ETTm2:720 GPU2 attempt=1 2026-11-01T05:25:05+00:00
+ABC all_fused true_test_condition 0.33574501154555425
+ABC all_fused test_condition_roll_1 0.33574245209142506
+ABC all_fused test_condition_roll_7 0.33561760465554225
+ABC shuffled_fused true_test_condition 0.33150471636414824
+ABC shuffled_fused test_condition_roll_1 0.3315001226925053
+ABC shuffled_fused test_condition_roll_7 0.3315268698615858

@@ -1,0 +1,55 @@
+RUN timegrad ExchangeRate 24 GPU0 attempt=1 2026-11-01T05:07:35+00:00
+EPOCH {'epoch': 1, 'train_loss': 1.0034092024791461, 'train_batches': 163}
+EPOCH {'epoch': 2, 'train_loss': 0.9927074521597178, 'train_batches': 163}
+EPOCH {'epoch': 3, 'train_loss': 0.9873018081934174, 'train_batches': 163}
+EPOCH {'epoch': 4, 'train_loss': 0.9689294278987346, 'train_batches': 163}
+EPOCH {'epoch': 5, 'train_loss': 0.9309392673837626, 'train_batches': 163}
+EPOCH {'epoch': 6, 'train_loss': 0.862547351904442, 'train_batches': 163}
+EPOCH {'epoch': 7, 'train_loss': 0.8104131700802435, 'train_batches': 163}
+EPOCH {'epoch': 8, 'train_loss': 0.7788813216554606, 'train_batches': 163}
+EPOCH {'epoch': 9, 'train_loss': 0.7542055947648967, 'train_batches': 163}
+EPOCH {'epoch': 10, 'train_loss': 0.7343047217357378, 'train_batches': 163}
+EPOCH {'epoch': 11, 'train_loss': 0.7180296175318993, 'train_batches': 163}
+EPOCH {'epoch': 12, 'train_loss': 0.7103776119969374, 'train_batches': 163}
+EPOCH {'epoch': 13, 'train_loss': 0.7030831399870796, 'train_batches': 163}
+EVALUATE timegrad ExchangeRate 24 32
+EVALUATE timegrad ExchangeRate 24 672
+EVALUATE timegrad ExchangeRate 24 1312
+COMPLETE {'inv_MSE': 0.02385153915418918, 'inv_MAE': 0.1007703477678848, 'mean_MSE': 0.06823731948892116, 'mean_MAE': 0.18870927219888772, 'median_NMAE': 0.14302929246441587, 'CRPS_empirical': 0.15393570308864038, 'CRPS': 0.15393570308864038, 'quantile_CRPS_normalized': 0.1207166506224368, 'ProbTS_CRPS': 0.12079218642379705, 'PICP_95': 0.4889453833840458, 'MPIW_95': 0.31375269980794457, 'WIS': 0.1331692363323776, 'EnergyScore': 2.743734204625509, 'sample_std_mean': 0.08291956959878265, 'correction_win_rate': 0.07965194109772424, 'sample_diversity': 0.09408903957769733, 'max_boundary_jump': 0.8511400031277454, 'quantile_crps_raw': 0.15927627128131258, 'target_abs_mean': 1.4652671277762417, 'ProbTS_CRPS_Sum': 0.16183067022397654, 'CRPS_Sum': 0.9503433607029946, 'method': 'timegrad', 'dataset': 'ExchangeRate', 'pred_len': 24, 'num_samples': 100, 'evaluated_windows': 1494, 'total_test_windows': 1494, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+RUN tsflow ExchangeRate 24 GPU0 attempt=1 2026-11-01T05:08:49+00:00
+EPOCH {'epoch': 1, 'train_loss': 0.8390203984968502, 'train_batches': 163}
+EPOCH {'epoch': 2, 'train_loss': 0.4289665271533779, 'train_batches': 163}
+EPOCH {'epoch': 3, 'train_loss': 0.34204853220951337, 'train_batches': 163}
+EPOCH {'epoch': 4, 'train_loss': 0.2938780391508816, 'train_batches': 163}
+EPOCH {'epoch': 5, 'train_loss': 0.27323037925307736, 'train_batches': 163}
+EPOCH {'epoch': 6, 'train_loss': 0.256432173168001, 'train_batches': 163}
+EPOCH {'epoch': 7, 'train_loss': 0.24170003538848434, 'train_batches': 163}
+EPOCH {'epoch': 8, 'train_loss': 0.23514925016581648, 'train_batches': 163}
+EPOCH {'epoch': 9, 'train_loss': 0.2396811142655238, 'train_batches': 163}
+EPOCH {'epoch': 10, 'train_loss': 0.22313005381200943, 'train_batches': 163}
+EPOCH {'epoch': 11, 'train_loss': 0.22153091055849577, 'train_batches': 163}
+EPOCH {'epoch': 12, 'train_loss': 0.21811931703719625, 'train_batches': 163}
+EPOCH {'epoch': 13, 'train_loss': 0.2128854516002298, 'train_batches': 163}
+EVALUATE tsflow ExchangeRate 24 32
+EVALUATE tsflow ExchangeRate 24 672
+EVALUATE tsflow ExchangeRate 24 1312
+COMPLETE {'inv_MSE': 0.02385153915418918, 'inv_MAE': 0.1007703477678848, 'mean_MSE': 0.02671544351072675, 'mean_MAE': 0.11065615738531352, 'median_NMAE': 0.08391403153518756, 'CRPS_empirical': 0.08054076130171538, 'CRPS': 0.08054076130171538, 'quantile_CRPS_normalized': 0.06380346061355138, 'ProbTS_CRPS': 0.06383427033023821, 'PICP_95': 0.9524765933852598, 'MPIW_95': 0.5968483572344544, 'WIS': 0.06256043400311247, 'EnergyScore': 1.4938197806178326, 'sample_std_mean': 0.15579229467604533, 'correction_win_rate': 0.2951807230112543, 'sample_diversity': 0.17328394418819204, 'max_boundary_jump': 1.192417800506275, 'quantile_crps_raw': 0.08418472925103812, 'target_abs_mean': 1.4652671277762417, 'ProbTS_CRPS_Sum': 0.07527310653543536, 'CRPS_Sum': 0.4397009903168583, 'method': 'tsflow', 'dataset': 'ExchangeRate', 'pred_len': 24, 'num_samples': 100, 'evaluated_windows': 1494, 'total_test_windows': 1494, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+RUN tsdiff ExchangeRate 24 GPU0 attempt=1 2026-11-01T05:09:33+00:00
+EPOCH {'epoch': 1, 'train_loss': 0.9524120856647843, 'train_batches': 163}
+EPOCH {'epoch': 2, 'train_loss': 0.6933047453318637, 'train_batches': 163}
+EPOCH {'epoch': 3, 'train_loss': 0.5662548209260578, 'train_batches': 163}
+EPOCH {'epoch': 4, 'train_loss': 0.5262779052272165, 'train_batches': 163}
+EPOCH {'epoch': 5, 'train_loss': 0.5048114295386098, 'train_batches': 163}
+EPOCH {'epoch': 6, 'train_loss': 0.49973037144157784, 'train_batches': 163}
+EPOCH {'epoch': 7, 'train_loss': 0.49369590450649614, 'train_batches': 163}
+EPOCH {'epoch': 8, 'train_loss': 0.4970640302435752, 'train_batches': 163}
+EPOCH {'epoch': 9, 'train_loss': 0.48527860476926793, 'train_batches': 163}
+EPOCH {'epoch': 10, 'train_loss': 0.4886711486643809, 'train_batches': 163}
+EPOCH {'epoch': 11, 'train_loss': 0.4811400202520055, 'train_batches': 163}
+EPOCH {'epoch': 12, 'train_loss': 0.47362600806300625, 'train_batches': 163}
+EPOCH {'epoch': 13, 'train_loss': 0.47534155827358454, 'train_batches': 163}
+EVALUATE tsdiff ExchangeRate 24 32
+EVALUATE tsdiff ExchangeRate 24 672
+EVALUATE tsdiff ExchangeRate 24 1312
+COMPLETE {'inv_MSE': 0.02385153915418918, 'inv_MAE': 0.1007703477678848, 'mean_MSE': 0.07414441772174324, 'mean_MAE': 0.19807950316503184, 'median_NMAE': 0.15001877308530182, 'CRPS_empirical': 0.16250969238150392, 'CRPS': 0.16250969238150392, 'quantile_CRPS_normalized': 0.1273165093847068, 'ProbTS_CRPS': 0.1273918818517861, 'PICP_95': 0.42870789937864506, 'MPIW_95': 0.30844463745114636, 'WIS': 0.14132070509465025, 'EnergyScore': 2.886957921177508, 'sample_std_mean': 0.08129916241370051, 'correction_win_rate': 0.06492637215528782, 'sample_diversity': 0.09225717966894867, 'max_boundary_jump': 0.8779299946993071, 'quantile_crps_raw': 0.16807941240638774, 'target_abs_mean': 1.4652671277762417, 'ProbTS_CRPS_Sum': 0.16741551630388463, 'CRPS_Sum': 0.9886275295272888, 'method': 'tsdiff', 'dataset': 'ExchangeRate', 'pred_len': 24, 'num_samples': 100, 'evaluated_windows': 1494, 'total_test_windows': 1494, 'implementation': 'independent project PyTorch adapter, not bit-for-bit upstream', 'split': 'test', 'selection': 'fixed final epoch; no test selection'}
+COMPLETE independent baselines ExchangeRate 24 2026-11-01T05:15:05+00:00

@@ -1,0 +1,5 @@
+reference_checkpoint: results/fpem_no_future_anchor_timefilter_search/timefilter/ExchangeRate/pred_192/shared_reference.pt
+reference_checkpoint_sha256: 38ffb461304b02b5c48f5c7210da3c8d8490b13c8902e50d72052e596ce22e68
+reference_source: created
+seed: 2021
+signature: {'backbone': 'timefilter', 'dataset_name': 'ExchangeRate', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'custom', 'data_path': 'exchange_rate.csv', 'target': 'OT', 'freq': 'd', 'seq_len': 96, 'pred_len': 192, 'd_model': 128, 'd_ff': 256, 'n_heads': 4, 'e_layers': 2, 'dropout': 0.3, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 8, 'cyclenet_cycle_len': 7, 'protocol_version': 4, 'timefilter_patch_len': 16, 'timefilter_alpha': 0.1, 'timefilter_top_p': 0.5, 'timefilter_pos': 1, 'lambda_timefilter_moe': 0.05}

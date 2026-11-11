@@ -1,0 +1,1414 @@
+START patchtst_ETTm2_720 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+START patchtst_ETTm1_336 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+SKIP/REUSE moderntcn_ETTm2_720 O3 r=0.0625 h=5e-05 b=0.0001
+SKIP/REUSE itransformer_ETTm1_720 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm2_720 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+START itransformer_ETTm1_720 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_336 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm1_336 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm2_720 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_720 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTm1_720 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm2_720 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm2_720 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_336 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm1_336 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm2_720 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_720 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTm1_720 O3 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_336 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm1_336 O3 r=0.125 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm2_720 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm2_720 O3 r=0.25 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_720 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm2_720 O3 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_720 O3 r=0.0625 h=2e-05 b=0.0001
+SKIP/REUSE itransformer_ETTm1_720 O3 r=0.0625 h=0.0001 b=0.0001
+SKIP/REUSE itransformer_ETTm1_720 O3 r=0.0625 h=0.0002 b=0.0001
+START itransformer_ETTm1_720 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_336 O3 r=0.125 h=2e-05 b=0.0001
+START patchtst_ETTm1_336 O3 r=0.125 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTm2_720 O3 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_720 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTm1_720 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm2_720 O3 r=0.25 h=2e-05 b=0.0001
+SKIP/REUSE moderntcn_ETTm2_720 O3 r=0.25 h=0.0001 b=0.0001
+START moderntcn_ETTm2_720 O3 r=0.25 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_336 O3 r=0.125 h=0.0001 b=0.0001
+START patchtst_ETTm1_336 O3 r=0.125 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTm2_720 O3 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_720 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTm1_720 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_336 O3 r=0.125 h=0.0002 b=0.0001
+START patchtst_ETTm1_336 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTm2_720 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_720 O3 r=0.25 h=0.0002 b=0.0001
+START moderntcn_ETTm2_720 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTm1_720 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTm1_720 O4 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_336 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm1_336 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm2_720 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_720 O4 r=0.0625 h=2e-05 b=0.0001
+SKIP/REUSE itransformer_ETTm1_720 O4 r=0.0625 h=0.0001 b=0.0001
+START itransformer_ETTm1_720 O4 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_336 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm1_336 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm2_720 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_720 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm2_720 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTm1_720 O4 r=0.0625 h=0.0002 b=0.0001
+START itransformer_ETTm1_720 O4 r=0.0625 h=2e-05 b=5e-05 gpu=1 attempt=1
+DONE patchtst_ETTm1_336 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm1_336 O4 r=0.0625 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm2_720 O4 r=0.125 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_720 O4 r=0.0625 h=2e-05 b=5e-05
+START itransformer_ETTm1_720 O4 r=0.0625 h=2e-05 b=0.0002 gpu=1 attempt=1
+DONE moderntcn_ETTm2_720 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm2_720 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_336 O4 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTm1_336 O4 r=0.0625 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O4 r=0.125 h=2e-05 b=0.0001
+START patchtst_ETTm2_720 O4 r=0.125 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_720 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE itransformer_ETTm1_720
+START moderntcn_ETTm2_96 O3 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_336 O4 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTm1_336 O4 r=0.0625 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O4 r=0.125 h=0.0001 b=0.0001
+START patchtst_ETTm2_720 O4 r=0.125 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_720 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm2_720 O4 r=0.125 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm2_96 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm2_96 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_336 O4 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTm1_336 O4 r=0.0625 h=2e-05 b=5e-05 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O4 r=0.125 h=0.0002 b=0.0001
+START patchtst_ETTm2_720 O4 r=0.125 h=0.0002 b=5e-05 gpu=2 attempt=1
+DONE patchtst_ETTm1_336 O4 r=0.0625 h=2e-05 b=5e-05
+START patchtst_ETTm1_336 O4 r=0.0625 h=2e-05 b=0.0002 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O4 r=0.125 h=0.0002 b=5e-05
+START patchtst_ETTm2_720 O4 r=0.125 h=0.0002 b=0.0002 gpu=2 attempt=1
+DONE moderntcn_ETTm2_720 O4 r=0.125 h=2e-05 b=0.0001
+START moderntcn_ETTm2_720 O4 r=0.125 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm2_96 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm2_96 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_336 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE patchtst_ETTm1_336
+START patchtst_ETTm2_336 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_720 O4 r=0.125 h=0.0002 b=0.0002
+CASE COMPLETE patchtst_ETTm2_720
+START moderntcn_ETTm1_96 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_336 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm2_336 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm2_720 O4 r=0.125 h=0.0001 b=0.0001
+START moderntcn_ETTm2_720 O4 r=0.125 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm2_96 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm2_96 O3 r=0.25 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_336 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm2_336 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm1_96 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm1_96 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_336 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm2_336 O3 r=0.25 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm2_96 O3 r=0.25 h=2e-05 b=0.0001
+START moderntcn_ETTm2_96 O3 r=0.25 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm2_720 O4 r=0.125 h=0.0002 b=0.0001
+START moderntcn_ETTm2_720 O4 r=0.125 h=0.0002 b=5e-05 gpu=0 attempt=1
+DONE moderntcn_ETTm1_96 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm1_96 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_336 O3 r=0.25 h=2e-05 b=0.0001
+START patchtst_ETTm2_336 O3 r=0.25 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm2_96 O3 r=0.25 h=0.0001 b=0.0001
+START moderntcn_ETTm2_96 O3 r=0.25 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_336 O3 r=0.25 h=0.0001 b=0.0001
+START patchtst_ETTm2_336 O3 r=0.25 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm1_96 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm1_96 O3 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_720 O4 r=0.125 h=0.0002 b=5e-05
+START moderntcn_ETTm2_720 O4 r=0.125 h=0.0002 b=0.0002 gpu=0 attempt=1
+DONE patchtst_ETTm2_336 O3 r=0.25 h=0.0002 b=0.0001
+START patchtst_ETTm2_336 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm2_96 O3 r=0.25 h=0.0002 b=0.0001
+START moderntcn_ETTm2_96 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_336 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm2_336 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm1_96 O3 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTm1_96 O3 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_720 O4 r=0.125 h=0.0002 b=0.0002
+CASE COMPLETE moderntcn_ETTm2_720
+START moderntcn_ETTm1_48 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_336 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm2_336 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm2_96 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm2_96 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm1_96 O3 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTm1_96 O3 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_336 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm2_336 O4 r=0.25 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm1_48 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm1_48 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_336 O4 r=0.25 h=2e-05 b=0.0001
+START patchtst_ETTm2_336 O4 r=0.25 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm2_96 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm2_96 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm1_96 O3 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTm1_96 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm1_48 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm1_48 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_336 O4 r=0.25 h=0.0001 b=0.0001
+START patchtst_ETTm2_336 O4 r=0.25 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm1_96 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm1_96 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_96 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm2_96 O4 r=0.25 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_336 O4 r=0.25 h=0.0002 b=0.0001
+START patchtst_ETTm2_336 O4 r=0.25 h=0.0001 b=5e-05 gpu=3 attempt=1
+DONE moderntcn_ETTm1_48 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm1_48 O3 r=0.0625 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_336 O4 r=0.25 h=0.0001 b=5e-05
+START patchtst_ETTm2_336 O4 r=0.25 h=0.0001 b=0.0002 gpu=3 attempt=1
+DONE moderntcn_ETTm1_96 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm1_96 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_96 O4 r=0.25 h=2e-05 b=0.0001
+START moderntcn_ETTm2_96 O4 r=0.25 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm1_48 O3 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTm1_48 O3 r=0.0625 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_336 O4 r=0.25 h=0.0001 b=0.0002
+CASE COMPLETE patchtst_ETTm2_336
+START moderntcn_ETTm2_48 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm1_96 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm1_96 O4 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_96 O4 r=0.25 h=0.0001 b=0.0001
+START moderntcn_ETTm2_96 O4 r=0.25 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm1_48 O3 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTm1_48 O3 r=0.0625 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm2_48 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm2_48 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm1_48 O3 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTm1_48 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm1_96 O4 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTm1_96 O4 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_96 O4 r=0.25 h=0.0002 b=0.0001
+START moderntcn_ETTm2_96 O4 r=0.25 h=0.0002 b=5e-05 gpu=1 attempt=1
+DONE moderntcn_ETTm2_48 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm2_48 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm1_48 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm1_48 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm1_96 O4 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTm1_96 O4 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_96 O4 r=0.25 h=0.0002 b=5e-05
+START moderntcn_ETTm2_96 O4 r=0.25 h=0.0002 b=0.0002 gpu=1 attempt=1
+DONE moderntcn_ETTm2_48 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm2_48 O3 r=0.25 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm1_48 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm1_48 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm2_96 O4 r=0.25 h=0.0002 b=0.0002
+CASE COMPLETE moderntcn_ETTm2_96
+START patchtst_ETTm2_192 O3 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm1_96 O4 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTm1_96 O4 r=0.0625 h=5e-05 b=5e-05 gpu=2 attempt=1
+DONE moderntcn_ETTm2_48 O3 r=0.25 h=2e-05 b=0.0001
+START moderntcn_ETTm2_48 O3 r=0.25 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_192 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm2_192 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm1_48 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm1_48 O4 r=0.0625 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_192 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm2_192 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm2_48 O3 r=0.25 h=0.0001 b=0.0001
+START moderntcn_ETTm2_48 O3 r=0.25 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm1_96 O4 r=0.0625 h=5e-05 b=5e-05
+START moderntcn_ETTm1_96 O4 r=0.0625 h=5e-05 b=0.0002 gpu=2 attempt=1
+DONE patchtst_ETTm2_192 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm2_192 O3 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_192 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTm2_192 O3 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm1_48 O4 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTm1_48 O4 r=0.0625 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm2_48 O3 r=0.25 h=0.0002 b=0.0001
+START moderntcn_ETTm2_48 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTm1_96 O4 r=0.0625 h=5e-05 b=0.0002
+CASE COMPLETE moderntcn_ETTm1_96
+START patchtst_ETTm1_192 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_192 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTm2_192 O3 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_192 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm1_192 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_192 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTm2_192 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm1_48 O4 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTm1_48 O4 r=0.0625 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm2_48 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm2_48 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm1_192 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm1_192 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_192 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm2_192 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_192 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm1_192 O3 r=0.25 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm1_48 O4 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTm1_48 O4 r=0.0625 h=2e-05 b=5e-05 gpu=0 attempt=1
+DONE moderntcn_ETTm2_48 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm2_48 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_192 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm2_192 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_192 O3 r=0.25 h=2e-05 b=0.0001
+START patchtst_ETTm1_192 O3 r=0.25 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_192 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm2_192 O4 r=0.25 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_192 O3 r=0.25 h=0.0001 b=0.0001
+START patchtst_ETTm1_192 O3 r=0.25 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm1_48 O4 r=0.0625 h=2e-05 b=5e-05
+START moderntcn_ETTm1_48 O4 r=0.0625 h=2e-05 b=0.0002 gpu=0 attempt=1
+DONE moderntcn_ETTm2_48 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm2_48 O4 r=0.125 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm1_192 O3 r=0.25 h=0.0002 b=0.0001
+START patchtst_ETTm1_192 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_192 O4 r=0.25 h=2e-05 b=0.0001
+START patchtst_ETTm2_192 O4 r=0.25 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_192 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm1_192 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_192 O4 r=0.25 h=0.0001 b=0.0001
+START patchtst_ETTm2_192 O4 r=0.25 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm1_48 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE moderntcn_ETTm1_48
+START itransformer_ETTm1_96 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm2_48 O4 r=0.125 h=2e-05 b=0.0001
+START moderntcn_ETTm2_48 O4 r=0.125 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm1_192 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm1_192 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_96 O3 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTm1_96 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_192 O4 r=0.25 h=0.0002 b=0.0001
+START patchtst_ETTm2_192 O4 r=0.25 h=5e-05 b=5e-05 gpu=1 attempt=1
+DONE itransformer_ETTm1_96 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTm1_96 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_192 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm1_192 O4 r=0.25 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_48 O4 r=0.125 h=0.0001 b=0.0001
+START moderntcn_ETTm2_48 O4 r=0.125 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_192 O4 r=0.25 h=5e-05 b=5e-05
+START patchtst_ETTm2_192 O4 r=0.25 h=5e-05 b=0.0002 gpu=1 attempt=1
+DONE itransformer_ETTm1_96 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTm1_96 O3 r=0.25 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_192 O4 r=0.25 h=2e-05 b=0.0001
+START patchtst_ETTm1_192 O4 r=0.25 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_192 O4 r=0.25 h=5e-05 b=0.0002
+CASE COMPLETE patchtst_ETTm2_192
+START patchtst_ETTm2_96 O3 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTm1_96 O3 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTm1_96 O3 r=0.25 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm2_48 O4 r=0.125 h=0.0002 b=0.0001
+START moderntcn_ETTm2_48 O4 r=0.125 h=2e-05 b=5e-05 gpu=3 attempt=1
+DONE patchtst_ETTm1_192 O4 r=0.25 h=0.0001 b=0.0001
+START patchtst_ETTm1_192 O4 r=0.25 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_96 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm2_96 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTm1_96 O3 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTm1_96 O3 r=0.25 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_96 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm2_96 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTm1_96 O3 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTm1_96 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_192 O4 r=0.25 h=0.0002 b=0.0001
+START patchtst_ETTm1_192 O4 r=0.25 h=0.0001 b=5e-05 gpu=2 attempt=1
+DONE moderntcn_ETTm2_48 O4 r=0.125 h=2e-05 b=5e-05
+START moderntcn_ETTm2_48 O4 r=0.125 h=2e-05 b=0.0002 gpu=3 attempt=1
+DONE patchtst_ETTm2_96 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm2_96 O3 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTm1_96 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTm1_96 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_192 O4 r=0.25 h=0.0001 b=5e-05
+START patchtst_ETTm1_192 O4 r=0.25 h=0.0001 b=0.0002 gpu=2 attempt=1
+DONE patchtst_ETTm2_96 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTm2_96 O3 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_192 O4 r=0.25 h=0.0001 b=0.0002
+CASE COMPLETE patchtst_ETTm1_192
+START patchtst_ETTm1_96 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_96 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTm1_96 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm2_48 O4 r=0.125 h=2e-05 b=0.0002
+CASE COMPLETE moderntcn_ETTm2_48
+START moderntcn_ETTm2_24 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_96 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTm2_96 O3 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_96 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm1_96 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_96 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTm1_96 O4 r=0.0625 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_96 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTm2_96 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_96 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm1_96 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_24 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm2_24 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTm1_96 O4 r=0.0625 h=2e-05 b=0.0001
+START itransformer_ETTm1_96 O4 r=0.0625 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_96 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm2_96 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_96 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm1_96 O3 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_96 O4 r=0.0625 h=0.0001 b=0.0001
+START itransformer_ETTm1_96 O4 r=0.0625 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_96 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm2_96 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_96 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTm1_96 O3 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_24 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm2_24 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTm1_96 O4 r=0.0625 h=0.0002 b=0.0001
+START itransformer_ETTm1_96 O4 r=0.0625 h=2e-05 b=5e-05 gpu=0 attempt=1
+DONE patchtst_ETTm1_96 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTm1_96 O3 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_96 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm2_96 O4 r=0.25 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_96 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTm1_96 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_96 O4 r=0.0625 h=2e-05 b=5e-05
+START itransformer_ETTm1_96 O4 r=0.0625 h=2e-05 b=0.0002 gpu=0 attempt=1
+DONE moderntcn_ETTm2_24 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm2_24 O3 r=0.0625 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_96 O4 r=0.25 h=2e-05 b=0.0001
+START patchtst_ETTm2_96 O4 r=0.25 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_96 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm1_96 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTm1_96 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE itransformer_ETTm1_96
+START patchtst_ETTm1_48 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_96 O4 r=0.25 h=0.0001 b=0.0001
+START patchtst_ETTm2_96 O4 r=0.25 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm2_24 O3 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTm2_24 O3 r=0.0625 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm1_48 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm1_48 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_96 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm1_96 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_96 O4 r=0.25 h=0.0002 b=0.0001
+START patchtst_ETTm2_96 O4 r=0.25 h=5e-05 b=5e-05 gpu=1 attempt=1
+DONE patchtst_ETTm1_48 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm1_48 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_96 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm1_96 O4 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_24 O3 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTm2_24 O3 r=0.0625 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm1_48 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm1_48 O3 r=0.0625 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_96 O4 r=0.25 h=5e-05 b=5e-05
+START patchtst_ETTm2_96 O4 r=0.25 h=5e-05 b=0.0002 gpu=1 attempt=1
+DONE patchtst_ETTm1_96 O4 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTm1_96 O4 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm1_48 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTm1_48 O3 r=0.0625 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTm2_24 O3 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTm2_24 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm2_96 O4 r=0.25 h=5e-05 b=0.0002
+CASE COMPLETE patchtst_ETTm2_96
+START moderntcn_ETTh1_720 O3 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_720 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh1_720 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_48 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTm1_48 O3 r=0.0625 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_96 O4 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTm1_96 O4 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_720 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh1_720 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_720 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh1_720 O3 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_720 O3 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTh1_720 O3 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_48 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTm1_48 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_720 O3 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTh1_720 O3 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_96 O4 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTm1_96 O4 r=0.0625 h=5e-05 b=5e-05 gpu=2 attempt=1
+DONE moderntcn_ETTh1_720 O3 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTh1_720 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm2_24 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTm2_24 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_720 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh1_720 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_720 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh1_720 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_48 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm1_48 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_720 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh1_720 O4 r=0.25 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_96 O4 r=0.0625 h=5e-05 b=5e-05
+START patchtst_ETTm1_96 O4 r=0.0625 h=5e-05 b=0.0002 gpu=2 attempt=1
+DONE moderntcn_ETTh1_720 O4 r=0.25 h=2e-05 b=0.0001
+START moderntcn_ETTh1_720 O4 r=0.25 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_720 O4 r=0.25 h=0.0001 b=0.0001
+START moderntcn_ETTh1_720 O4 r=0.25 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_48 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm1_48 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_720 O4 r=0.25 h=0.0002 b=0.0001
+START moderntcn_ETTh1_720 O4 r=0.25 h=5e-05 b=5e-05 gpu=1 attempt=1
+DONE moderntcn_ETTm2_24 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTm2_24 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm1_96 O4 r=0.0625 h=5e-05 b=0.0002
+CASE COMPLETE patchtst_ETTm1_96
+START patchtst_ETTm1_24 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_720 O4 r=0.25 h=5e-05 b=5e-05
+START moderntcn_ETTh1_720 O4 r=0.25 h=5e-05 b=0.0002 gpu=1 attempt=1
+DONE moderntcn_ETTh1_720 O4 r=0.25 h=5e-05 b=0.0002
+CASE COMPLETE moderntcn_ETTh1_720
+START patchtst_ExchangeRate_720 O3 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_720 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_720 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_720 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_720 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_48 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm1_48 O4 r=0.125 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_720 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_720 O3 r=0.125 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_720 O3 r=0.125 h=2e-05 b=0.0001
+START patchtst_ExchangeRate_720 O3 r=0.125 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_720 O3 r=0.125 h=0.0001 b=0.0001
+START patchtst_ExchangeRate_720 O3 r=0.125 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_24 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm1_24 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_720 O3 r=0.125 h=0.0002 b=0.0001
+START patchtst_ExchangeRate_720 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_720 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_720 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm2_24 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTm2_24 O4 r=0.0625 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_720 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_720 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_720 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_720 O4 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_48 O4 r=0.125 h=2e-05 b=0.0001
+START patchtst_ETTm1_48 O4 r=0.125 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_720 O4 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ExchangeRate_720 O4 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_720 O4 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ExchangeRate_720 O4 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_720 O4 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ExchangeRate_720 O4 r=0.0625 h=0.0001 b=5e-05 gpu=1 attempt=1
+DONE patchtst_ETTm1_24 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm1_24 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_720 O4 r=0.0625 h=0.0001 b=5e-05
+START patchtst_ExchangeRate_720 O4 r=0.0625 h=0.0001 b=0.0002 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_720 O4 r=0.0625 h=0.0001 b=0.0002
+CASE COMPLETE patchtst_ExchangeRate_720
+START moderntcn_ETTh1_192 O3 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_192 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh1_192 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_48 O4 r=0.125 h=0.0001 b=0.0001
+START patchtst_ETTm1_48 O4 r=0.125 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_192 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh1_192 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm2_24 O4 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTm2_24 O4 r=0.0625 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_192 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh1_192 O3 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_24 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm1_24 O3 r=0.125 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_192 O3 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTh1_192 O3 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_192 O3 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTh1_192 O3 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_48 O4 r=0.125 h=0.0002 b=0.0001
+START patchtst_ETTm1_48 O4 r=0.125 h=0.0002 b=5e-05 gpu=0 attempt=1
+DONE moderntcn_ETTh1_192 O3 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTh1_192 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_192 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh1_192 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_24 O3 r=0.125 h=2e-05 b=0.0001
+START patchtst_ETTm1_24 O3 r=0.125 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_192 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh1_192 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm2_24 O4 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTm2_24 O4 r=0.0625 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm1_48 O4 r=0.125 h=0.0002 b=5e-05
+START patchtst_ETTm1_48 O4 r=0.125 h=0.0002 b=0.0002 gpu=0 attempt=1
+DONE moderntcn_ETTh1_192 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh1_192 O4 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_192 O4 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTh1_192 O4 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_192 O4 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTh1_192 O4 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_24 O3 r=0.125 h=0.0001 b=0.0001
+START patchtst_ETTm1_24 O3 r=0.125 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_192 O4 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTh1_192 O4 r=0.0625 h=2e-05 b=5e-05 gpu=1 attempt=1
+DONE patchtst_ETTm1_48 O4 r=0.125 h=0.0002 b=0.0002
+CASE COMPLETE patchtst_ETTm1_48
+START itransformer_ETTh1_720 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_192 O4 r=0.0625 h=2e-05 b=5e-05
+START moderntcn_ETTh1_192 O4 r=0.0625 h=2e-05 b=0.0002 gpu=1 attempt=1
+DONE itransformer_ETTh1_720 O3 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh1_720 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh1_720 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh1_720 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_192 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE moderntcn_ETTh1_192
+START patchtst_ExchangeRate_336 O3 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_24 O3 r=0.125 h=0.0002 b=0.0001
+START patchtst_ETTm1_24 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTm2_24 O4 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTm2_24 O4 r=0.0625 h=5e-05 b=5e-05 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_336 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_336 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_720 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh1_720 O3 r=0.25 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_336 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_336 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_720 O3 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTh1_720 O3 r=0.25 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_336 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_336 O3 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_336 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ExchangeRate_336 O3 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_720 O3 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTh1_720 O3 r=0.25 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_336 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ExchangeRate_336 O3 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_336 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ExchangeRate_336 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_720 O3 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTh1_720 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_336 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_336 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_24 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm1_24 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_720 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh1_720 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_336 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_336 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_336 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_336 O4 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_720 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh1_720 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_336 O4 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ExchangeRate_336 O4 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm2_24 O4 r=0.0625 h=5e-05 b=5e-05
+START moderntcn_ETTm2_24 O4 r=0.0625 h=5e-05 b=0.0002 gpu=3 attempt=1
+DONE itransformer_ETTh1_720 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh1_720 O4 r=0.0625 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_336 O4 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ExchangeRate_336 O4 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_336 O4 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ExchangeRate_336 O4 r=0.0625 h=2e-05 b=5e-05 gpu=1 attempt=1
+DONE itransformer_ETTh1_720 O4 r=0.0625 h=2e-05 b=0.0001
+START itransformer_ETTh1_720 O4 r=0.0625 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_336 O4 r=0.0625 h=2e-05 b=5e-05
+START patchtst_ExchangeRate_336 O4 r=0.0625 h=2e-05 b=0.0002 gpu=1 attempt=1
+DONE itransformer_ETTh1_720 O4 r=0.0625 h=0.0001 b=0.0001
+START itransformer_ETTh1_720 O4 r=0.0625 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_24 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm1_24 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_336 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE patchtst_ExchangeRate_336
+START moderntcn_ETTh2_48 O3 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_720 O4 r=0.0625 h=0.0002 b=0.0001
+START itransformer_ETTh1_720 O4 r=0.0625 h=0.0002 b=5e-05 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh2_48 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_720 O4 r=0.0625 h=0.0002 b=5e-05
+START itransformer_ETTh1_720 O4 r=0.0625 h=0.0002 b=0.0002 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh2_48 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_720 O4 r=0.0625 h=0.0002 b=0.0002
+CASE COMPLETE itransformer_ETTh1_720
+START patchtst_ETTh2_720 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh2_48 O3 r=0.125 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTh2_720 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh2_720 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O3 r=0.125 h=2e-05 b=0.0001
+START moderntcn_ETTh2_48 O3 r=0.125 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTm2_24 O4 r=0.0625 h=5e-05 b=0.0002
+CASE COMPLETE moderntcn_ETTm2_24
+START patchtst_ETTm2_48 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm1_24 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm1_24 O4 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh2_720 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh2_720 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O3 r=0.125 h=0.0001 b=0.0001
+START moderntcn_ETTh2_48 O3 r=0.125 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTh2_720 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh2_720 O3 r=0.25 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O3 r=0.125 h=0.0002 b=0.0001
+START moderntcn_ETTh2_48 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTh2_720 O3 r=0.25 h=2e-05 b=0.0001
+START patchtst_ETTh2_720 O3 r=0.25 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh2_48 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_48 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm2_48 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh2_720 O3 r=0.25 h=0.0001 b=0.0001
+START patchtst_ETTh2_720 O3 r=0.25 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh2_720 O3 r=0.25 h=0.0002 b=0.0001
+START patchtst_ETTh2_720 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh2_48 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_24 O4 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTm1_24 O4 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh2_720 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh2_720 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh2_48 O4 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTh2_720 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh2_720 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_48 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm2_48 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh2_48 O4 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTh2_48 O4 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTh2_720 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh2_720 O4 r=0.25 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O4 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTh2_48 O4 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTh2_720 O4 r=0.25 h=2e-05 b=0.0001
+START patchtst_ETTh2_720 O4 r=0.25 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O4 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTh2_48 O4 r=0.0625 h=5e-05 b=5e-05 gpu=1 attempt=1
+DONE patchtst_ETTm2_48 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm2_48 O3 r=0.0625 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTm1_24 O4 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTm1_24 O4 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh2_720 O4 r=0.25 h=0.0001 b=0.0001
+START patchtst_ETTh2_720 O4 r=0.25 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O4 r=0.0625 h=5e-05 b=5e-05
+START moderntcn_ETTh2_48 O4 r=0.0625 h=5e-05 b=0.0002 gpu=1 attempt=1
+DONE patchtst_ETTh2_720 O4 r=0.25 h=0.0002 b=0.0001
+START patchtst_ETTh2_720 O4 r=0.25 h=2e-05 b=5e-05 gpu=0 attempt=1
+DONE moderntcn_ETTh2_48 O4 r=0.0625 h=5e-05 b=0.0002
+CASE COMPLETE moderntcn_ETTh2_48
+START patchtst_ExchangeRate_192 O3 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTh2_720 O4 r=0.25 h=2e-05 b=5e-05
+START patchtst_ETTh2_720 O4 r=0.25 h=2e-05 b=0.0002 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_192 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_192 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_48 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTm2_48 O3 r=0.0625 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_192 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_192 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTh2_720 O4 r=0.25 h=2e-05 b=0.0002
+CASE COMPLETE patchtst_ETTh2_720
+START itransformer_ETTh2_336 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_192 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_192 O3 r=0.25 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm1_24 O4 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTm1_24 O4 r=0.0625 h=2e-05 b=5e-05 gpu=2 attempt=1
+DONE itransformer_ETTh2_336 O3 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh2_336 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_192 O3 r=0.25 h=2e-05 b=0.0001
+START patchtst_ExchangeRate_192 O3 r=0.25 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_192 O3 r=0.25 h=0.0001 b=0.0001
+START patchtst_ExchangeRate_192 O3 r=0.25 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh2_336 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh2_336 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_192 O3 r=0.25 h=0.0002 b=0.0001
+START patchtst_ExchangeRate_192 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_48 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTm2_48 O3 r=0.0625 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_192 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_192 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh2_336 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh2_336 O3 r=0.125 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_192 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_192 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh2_336 O3 r=0.125 h=2e-05 b=0.0001
+START itransformer_ETTh2_336 O3 r=0.125 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_192 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_192 O4 r=0.125 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh2_336 O3 r=0.125 h=0.0001 b=0.0001
+START itransformer_ETTh2_336 O3 r=0.125 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_24 O4 r=0.0625 h=2e-05 b=5e-05
+START patchtst_ETTm1_24 O4 r=0.0625 h=2e-05 b=0.0002 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_192 O4 r=0.125 h=2e-05 b=0.0001
+START patchtst_ExchangeRate_192 O4 r=0.125 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_48 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTm2_48 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_192 O4 r=0.125 h=0.0001 b=0.0001
+START patchtst_ExchangeRate_192 O4 r=0.125 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh2_336 O3 r=0.125 h=0.0002 b=0.0001
+START itransformer_ETTh2_336 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_192 O4 r=0.125 h=0.0002 b=0.0001
+START patchtst_ExchangeRate_192 O4 r=0.125 h=0.0002 b=5e-05 gpu=1 attempt=1
+DONE itransformer_ETTh2_336 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh2_336 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_192 O4 r=0.125 h=0.0002 b=5e-05
+START patchtst_ExchangeRate_192 O4 r=0.125 h=0.0002 b=0.0002 gpu=1 attempt=1
+DONE patchtst_ExchangeRate_192 O4 r=0.125 h=0.0002 b=0.0002
+CASE COMPLETE patchtst_ExchangeRate_192
+START itransformer_ExchangeRate_24 O3 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh2_336 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh2_336 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ExchangeRate_24 O3 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ExchangeRate_24 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ExchangeRate_24 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ExchangeRate_24 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh2_336 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh2_336 O4 r=0.0625 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm1_24 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE patchtst_ETTm1_24
+START moderntcn_ETTh1_336 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_48 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTm2_48 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ExchangeRate_24 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ExchangeRate_24 O3 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh2_336 O4 r=0.0625 h=2e-05 b=0.0001
+START itransformer_ETTh2_336 O4 r=0.0625 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ExchangeRate_24 O3 r=0.0625 h=2e-05 b=0.0001
+START itransformer_ExchangeRate_24 O3 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_336 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh1_336 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ExchangeRate_24 O3 r=0.0625 h=0.0001 b=0.0001
+START itransformer_ExchangeRate_24 O3 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh2_336 O4 r=0.0625 h=0.0001 b=0.0001
+START itransformer_ETTh2_336 O4 r=0.0625 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_336 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh1_336 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ExchangeRate_24 O3 r=0.0625 h=0.0002 b=0.0001
+START itransformer_ExchangeRate_24 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ExchangeRate_24 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ExchangeRate_24 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_336 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh1_336 O3 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_336 O4 r=0.0625 h=0.0002 b=0.0001
+START itransformer_ETTh2_336 O4 r=0.0625 h=0.0001 b=5e-05 gpu=0 attempt=1
+DONE itransformer_ExchangeRate_24 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ExchangeRate_24 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_48 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTm2_48 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_336 O3 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTh1_336 O3 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_336 O4 r=0.0625 h=0.0001 b=5e-05
+START itransformer_ETTh2_336 O4 r=0.0625 h=0.0001 b=0.0002 gpu=0 attempt=1
+DONE itransformer_ExchangeRate_24 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ExchangeRate_24 O4 r=0.25 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_336 O3 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTh1_336 O3 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ExchangeRate_24 O4 r=0.25 h=2e-05 b=0.0001
+START itransformer_ExchangeRate_24 O4 r=0.25 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh2_336 O4 r=0.0625 h=0.0001 b=0.0002
+CASE COMPLETE itransformer_ETTh2_336
+START itransformer_ETTh1_192 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ExchangeRate_24 O4 r=0.25 h=0.0001 b=0.0001
+START itransformer_ExchangeRate_24 O4 r=0.25 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_336 O3 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTh1_336 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_192 O3 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh1_192 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ExchangeRate_24 O4 r=0.25 h=0.0002 b=0.0001
+START itransformer_ExchangeRate_24 O4 r=0.25 h=0.0001 b=5e-05 gpu=1 attempt=1
+DONE itransformer_ExchangeRate_24 O4 r=0.25 h=0.0001 b=5e-05
+START itransformer_ExchangeRate_24 O4 r=0.25 h=0.0001 b=0.0002 gpu=1 attempt=1
+DONE itransformer_ETTh1_192 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh1_192 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_336 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh1_336 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_48 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTm2_48 O4 r=0.125 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ExchangeRate_24 O4 r=0.25 h=0.0001 b=0.0002
+CASE COMPLETE itransformer_ExchangeRate_24
+START patchtst_ETTh1_96 O3 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_192 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh1_192 O3 r=0.25 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_336 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh1_336 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_96 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_96 O3 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_192 O3 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTh1_192 O3 r=0.25 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_336 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh1_336 O4 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_96 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_96 O3 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_192 O3 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTh1_192 O3 r=0.25 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_336 O4 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTh1_336 O4 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_192 O3 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTh1_192 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_96 O3 r=0.25 h=5e-05 b=0.0001
+SKIP/REUSE patchtst_ETTh1_96 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTh1_96 O3 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_48 O4 r=0.125 h=2e-05 b=0.0001
+START patchtst_ETTm2_48 O4 r=0.125 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_336 O4 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTh1_336 O4 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_192 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh1_192 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_96 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTh1_96 O3 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_336 O4 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTh1_336 O4 r=0.0625 h=2e-05 b=5e-05 gpu=2 attempt=1
+DONE itransformer_ETTh1_192 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh1_192 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_96 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTh1_96 O4 r=0.0625 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE moderntcn_ETTh1_336 O4 r=0.0625 h=2e-05 b=5e-05
+START moderntcn_ETTh1_336 O4 r=0.0625 h=2e-05 b=0.0002 gpu=2 attempt=1
+DONE itransformer_ETTh1_192 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh1_192 O4 r=0.0625 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_96 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_96 O4 r=0.125 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTm2_48 O4 r=0.125 h=0.0001 b=0.0001
+START patchtst_ETTm2_48 O4 r=0.125 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_336 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE moderntcn_ETTh1_336
+START patchtst_ETTh1_336 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_192 O4 r=0.0625 h=2e-05 b=0.0001
+START itransformer_ETTh1_192 O4 r=0.0625 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_96 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_96 O4 r=0.25 h=5e-05 b=0.0001 gpu=1 attempt=1
+DONE patchtst_ETTh1_336 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_336 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_192 O4 r=0.0625 h=0.0001 b=0.0001
+START itransformer_ETTh1_192 O4 r=0.0625 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_336 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_336 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_96 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh1_96 O4 r=0.0625 h=2e-05 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_192 O4 r=0.0625 h=0.0002 b=0.0001
+START itransformer_ETTh1_192 O4 r=0.0625 h=2e-05 b=5e-05 gpu=0 attempt=1
+DONE patchtst_ETTh1_336 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh1_336 O3 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_96 O4 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTh1_96 O4 r=0.0625 h=0.0001 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_192 O4 r=0.0625 h=2e-05 b=5e-05
+START itransformer_ETTh1_192 O4 r=0.0625 h=2e-05 b=0.0002 gpu=0 attempt=1
+DONE patchtst_ETTh1_336 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTh1_336 O3 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTm2_48 O4 r=0.125 h=0.0002 b=0.0001
+START patchtst_ETTm2_48 O4 r=0.125 h=5e-05 b=5e-05 gpu=3 attempt=1
+DONE patchtst_ETTh1_96 O4 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTh1_96 O4 r=0.0625 h=0.0002 b=0.0001 gpu=1 attempt=1
+DONE itransformer_ETTh1_192 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE itransformer_ETTh1_192
+START moderntcn_ExchangeRate_96 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_336 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTh1_336 O3 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ExchangeRate_96 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ExchangeRate_96 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_96 O4 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTh1_96 O4 r=0.0625 h=2e-05 b=5e-05 gpu=1 attempt=1
+DONE patchtst_ETTh1_336 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTh1_336 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ExchangeRate_96 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ExchangeRate_96 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_336 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_336 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_96 O4 r=0.0625 h=2e-05 b=5e-05
+START patchtst_ETTh1_96 O4 r=0.0625 h=2e-05 b=0.0002 gpu=1 attempt=1
+DONE moderntcn_ExchangeRate_96 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ExchangeRate_96 O3 r=0.25 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_48 O4 r=0.125 h=5e-05 b=5e-05
+START patchtst_ETTm2_48 O4 r=0.125 h=5e-05 b=0.0002 gpu=3 attempt=1
+DONE patchtst_ETTh1_336 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_336 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_96 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE patchtst_ETTh1_96
+DONE moderntcn_ExchangeRate_96 O3 r=0.25 h=2e-05 b=0.0001
+START moderntcn_ExchangeRate_96 O3 r=0.25 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_336 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh1_336 O4 r=0.125 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ExchangeRate_96 O3 r=0.25 h=0.0001 b=0.0001
+START moderntcn_ExchangeRate_96 O3 r=0.25 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_336 O4 r=0.125 h=2e-05 b=0.0001
+START patchtst_ETTh1_336 O4 r=0.125 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ExchangeRate_96 O3 r=0.25 h=0.0002 b=0.0001
+START moderntcn_ExchangeRate_96 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_336 O4 r=0.125 h=0.0001 b=0.0001
+START patchtst_ETTh1_336 O4 r=0.125 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ExchangeRate_96 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ExchangeRate_96 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTm2_48 O4 r=0.125 h=5e-05 b=0.0002
+CASE COMPLETE patchtst_ETTm2_48
+START patchtst_ETTh1_720 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ExchangeRate_96 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ExchangeRate_96 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_336 O4 r=0.125 h=0.0002 b=0.0001
+START patchtst_ETTh1_336 O4 r=0.125 h=5e-05 b=5e-05 gpu=2 attempt=1
+DONE patchtst_ETTh1_720 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_720 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ExchangeRate_96 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ExchangeRate_96 O4 r=0.25 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_336 O4 r=0.125 h=5e-05 b=5e-05
+START patchtst_ETTh1_336 O4 r=0.125 h=5e-05 b=0.0002 gpu=2 attempt=1
+DONE patchtst_ETTh1_720 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_720 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ExchangeRate_96 O4 r=0.25 h=2e-05 b=0.0001
+START moderntcn_ExchangeRate_96 O4 r=0.25 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_336 O4 r=0.125 h=5e-05 b=0.0002
+CASE COMPLETE patchtst_ETTh1_336
+START itransformer_ETTh2_192 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_720 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh1_720 O3 r=0.25 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ExchangeRate_96 O4 r=0.25 h=0.0001 b=0.0001
+START moderntcn_ExchangeRate_96 O4 r=0.25 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_192 O3 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh2_192 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ExchangeRate_96 O4 r=0.25 h=0.0002 b=0.0001
+START moderntcn_ExchangeRate_96 O4 r=0.25 h=0.0002 b=5e-05 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 O3 r=0.25 h=2e-05 b=0.0001
+START patchtst_ETTh1_720 O3 r=0.25 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_192 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh2_192 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ExchangeRate_96 O4 r=0.25 h=0.0002 b=5e-05
+START moderntcn_ExchangeRate_96 O4 r=0.25 h=0.0002 b=0.0002 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 O3 r=0.25 h=0.0001 b=0.0001
+START patchtst_ETTh1_720 O3 r=0.25 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_192 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh2_192 O3 r=0.25 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ExchangeRate_96 O4 r=0.25 h=0.0002 b=0.0002
+CASE COMPLETE moderntcn_ExchangeRate_96
+START moderntcn_ETTh1_24 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 O3 r=0.25 h=0.0002 b=0.0001
+START patchtst_ETTh1_720 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_192 O3 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTh2_192 O3 r=0.25 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_24 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh1_24 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_192 O3 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTh2_192 O3 r=0.25 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_720 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_720 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_24 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh1_24 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_192 O3 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTh2_192 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_720 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_720 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_24 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh1_24 O3 r=0.0625 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_192 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh2_192 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_24 O3 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTh1_24 O3 r=0.0625 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh1_720 O4 r=0.125 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_192 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh2_192 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_24 O3 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTh1_24 O3 r=0.0625 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 O4 r=0.125 h=2e-05 b=0.0001
+START patchtst_ETTh1_720 O4 r=0.125 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_24 O3 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTh1_24 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_192 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh2_192 O4 r=0.25 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_720 O4 r=0.125 h=0.0001 b=0.0001
+START patchtst_ETTh1_720 O4 r=0.125 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_192 O4 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTh2_192 O4 r=0.25 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_24 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh1_24 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 O4 r=0.125 h=0.0002 b=0.0001
+START patchtst_ETTh1_720 O4 r=0.125 h=2e-05 b=5e-05 gpu=3 attempt=1
+DONE itransformer_ETTh2_192 O4 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTh2_192 O4 r=0.25 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_24 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh1_24 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_720 O4 r=0.125 h=2e-05 b=5e-05
+START patchtst_ETTh1_720 O4 r=0.125 h=2e-05 b=0.0002 gpu=3 attempt=1
+DONE moderntcn_ETTh1_24 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_192 O4 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTh2_192 O4 r=0.25 h=2e-05 b=5e-05 gpu=2 attempt=1
+DONE patchtst_ETTh1_720 O4 r=0.125 h=2e-05 b=0.0002
+CASE COMPLETE patchtst_ETTh1_720
+START itransformer_ETTh1_336 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTh1_24 O4 r=0.0625 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_192 O4 r=0.25 h=2e-05 b=5e-05
+START itransformer_ETTh2_192 O4 r=0.25 h=2e-05 b=0.0002 gpu=2 attempt=1
+DONE itransformer_ETTh1_336 O3 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh1_336 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_24 O4 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTh1_24 O4 r=0.0625 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_192 O4 r=0.25 h=2e-05 b=0.0002
+CASE COMPLETE itransformer_ETTh2_192
+START patchtst_ETTh1_192 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_336 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh1_336 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_192 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_192 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_24 O4 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTh1_24 O4 r=0.0625 h=2e-05 b=5e-05 gpu=0 attempt=1
+DONE itransformer_ETTh1_336 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh1_336 O3 r=0.25 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_192 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_192 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_336 O3 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTh1_336 O3 r=0.25 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_24 O4 r=0.0625 h=2e-05 b=5e-05
+START moderntcn_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0002 gpu=0 attempt=1
+DONE patchtst_ETTh1_192 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh1_192 O3 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_336 O3 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTh1_336 O3 r=0.25 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE moderntcn_ETTh1_24
+START itransformer_ETTh1_24 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_192 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTh1_192 O3 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_336 O3 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTh1_336 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O3 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh1_24 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_192 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTh1_192 O3 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_336 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh1_336 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh1_24 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_192 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTh1_192 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_336 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh1_336 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh1_24 O3 r=0.25 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_192 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_192 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_24 O3 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTh1_24 O3 r=0.25 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh1_336 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh1_336 O4 r=0.25 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_192 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_192 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_24 O3 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTh1_24 O3 r=0.25 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh1_336 O4 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTh1_336 O4 r=0.25 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O3 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTh1_24 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_192 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh1_192 O4 r=0.125 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_336 O4 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTh1_336 O4 r=0.25 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh1_24 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_192 O4 r=0.125 h=2e-05 b=0.0001
+START patchtst_ETTh1_192 O4 r=0.125 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_336 O4 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTh1_336 O4 r=0.25 h=2e-05 b=5e-05 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh1_24 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_192 O4 r=0.125 h=0.0001 b=0.0001
+START patchtst_ETTh1_192 O4 r=0.125 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh1_336 O4 r=0.25 h=2e-05 b=5e-05
+START itransformer_ETTh1_336 O4 r=0.25 h=2e-05 b=0.0002 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_192 O4 r=0.125 h=0.0002 b=0.0001
+START patchtst_ETTh1_192 O4 r=0.125 h=5e-05 b=5e-05 gpu=2 attempt=1
+DONE itransformer_ETTh1_336 O4 r=0.25 h=2e-05 b=0.0002
+CASE COMPLETE itransformer_ETTh1_336
+START patchtst_ETTh2_336 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0001
+START itransformer_ETTh1_24 O4 r=0.0625 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh1_192 O4 r=0.125 h=5e-05 b=5e-05
+START patchtst_ETTh1_192 O4 r=0.125 h=5e-05 b=0.0002 gpu=2 attempt=1
+DONE patchtst_ETTh2_336 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh2_336 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O4 r=0.0625 h=0.0001 b=0.0001
+START itransformer_ETTh1_24 O4 r=0.0625 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh2_336 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh2_336 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_192 O4 r=0.125 h=5e-05 b=0.0002
+CASE COMPLETE patchtst_ETTh1_192
+START moderntcn_ETTh2_24 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh2_336 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh2_336 O3 r=0.0625 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O4 r=0.0625 h=0.0002 b=0.0001
+START itransformer_ETTh1_24 O4 r=0.0625 h=2e-05 b=5e-05 gpu=0 attempt=1
+DONE moderntcn_ETTh2_24 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh2_24 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh2_336 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTh2_336 O3 r=0.0625 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O4 r=0.0625 h=2e-05 b=5e-05
+START itransformer_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0002 gpu=0 attempt=1
+DONE moderntcn_ETTh2_24 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh2_24 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh2_336 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTh2_336 O3 r=0.0625 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE itransformer_ETTh1_24
+START patchtst_ETTh1_48 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_24 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh2_24 O3 r=0.25 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh2_336 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTh2_336 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_48 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_48 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_24 O3 r=0.25 h=2e-05 b=0.0001
+START moderntcn_ETTh2_24 O3 r=0.25 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh2_336 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh2_336 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_48 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_48 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_24 O3 r=0.25 h=0.0001 b=0.0001
+START moderntcn_ETTh2_24 O3 r=0.25 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh2_336 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh2_336 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_48 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh1_48 O3 r=0.0625 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_24 O3 r=0.25 h=0.0002 b=0.0001
+START moderntcn_ETTh2_24 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_48 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTh1_48 O3 r=0.0625 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh2_336 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh2_336 O4 r=0.0625 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh2_24 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh2_24 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_48 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTh1_48 O3 r=0.0625 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh2_336 O4 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTh2_336 O4 r=0.0625 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh2_24 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh2_24 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_48 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTh1_48 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh2_336 O4 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTh2_336 O4 r=0.0625 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh2_24 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh2_24 O4 r=0.25 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_48 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_48 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh2_336 O4 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTh2_336 O4 r=0.0625 h=0.0001 b=5e-05 gpu=3 attempt=1
+DONE moderntcn_ETTh2_24 O4 r=0.25 h=2e-05 b=0.0001
+START moderntcn_ETTh2_24 O4 r=0.25 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_48 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_48 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh2_336 O4 r=0.0625 h=0.0001 b=5e-05
+START patchtst_ETTh2_336 O4 r=0.0625 h=0.0001 b=0.0002 gpu=3 attempt=1
+DONE moderntcn_ETTh2_24 O4 r=0.25 h=0.0001 b=0.0001
+START moderntcn_ETTh2_24 O4 r=0.25 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_48 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh1_48 O4 r=0.125 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ETTh2_336 O4 r=0.0625 h=0.0001 b=0.0002
+CASE COMPLETE patchtst_ETTh2_336
+START moderntcn_ETTh1_96 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh2_24 O4 r=0.25 h=0.0002 b=0.0001
+START moderntcn_ETTh2_24 O4 r=0.25 h=2e-05 b=5e-05 gpu=2 attempt=1
+DONE moderntcn_ETTh1_96 O3 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh1_96 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_48 O4 r=0.125 h=2e-05 b=0.0001
+START patchtst_ETTh1_48 O4 r=0.125 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh2_24 O4 r=0.25 h=2e-05 b=5e-05
+START moderntcn_ETTh2_24 O4 r=0.25 h=2e-05 b=0.0002 gpu=2 attempt=1
+DONE moderntcn_ETTh1_96 O3 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh1_96 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_48 O4 r=0.125 h=0.0001 b=0.0001
+START patchtst_ETTh1_48 O4 r=0.125 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_96 O3 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh1_96 O3 r=0.0625 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE moderntcn_ETTh2_24 O4 r=0.25 h=2e-05 b=0.0002
+CASE COMPLETE moderntcn_ETTh2_24
+START itransformer_ETTh2_24 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_48 O4 r=0.125 h=0.0002 b=0.0001
+START patchtst_ETTh1_48 O4 r=0.125 h=5e-05 b=5e-05 gpu=0 attempt=1
+DONE moderntcn_ETTh1_96 O3 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTh1_96 O3 r=0.0625 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_24 O3 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh2_24 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ETTh1_48 O4 r=0.125 h=5e-05 b=5e-05
+START patchtst_ETTh1_48 O4 r=0.125 h=5e-05 b=0.0002 gpu=0 attempt=1
+DONE moderntcn_ETTh1_96 O3 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTh1_96 O3 r=0.0625 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_24 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh2_24 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_96 O3 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTh1_96 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_48 O4 r=0.125 h=5e-05 b=0.0002
+CASE COMPLETE patchtst_ETTh1_48
+START patchtst_ExchangeRate_24 O3 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_24 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh2_24 O3 r=0.25 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_24 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_24 O3 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_24 O3 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTh2_24 O3 r=0.25 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_96 O4 r=0.0625 h=5e-05 b=0.0001
+START moderntcn_ETTh1_96 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_24 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_24 O3 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_24 O3 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTh2_24 O3 r=0.25 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE moderntcn_ETTh1_96 O4 r=0.125 h=5e-05 b=0.0001
+START moderntcn_ETTh1_96 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_24 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_24 O3 r=0.125 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_24 O3 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTh2_24 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_24 O3 r=0.125 h=2e-05 b=0.0001
+START patchtst_ExchangeRate_24 O3 r=0.125 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_96 O4 r=0.25 h=5e-05 b=0.0001
+START moderntcn_ETTh1_96 O4 r=0.0625 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_24 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh2_24 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_24 O3 r=0.125 h=0.0001 b=0.0001
+START patchtst_ExchangeRate_24 O3 r=0.125 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_96 O4 r=0.0625 h=2e-05 b=0.0001
+START moderntcn_ETTh1_96 O4 r=0.0625 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_24 O3 r=0.125 h=0.0002 b=0.0001
+START patchtst_ExchangeRate_24 O4 r=0.0625 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_24 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh2_24 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_24 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_24 O4 r=0.125 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_96 O4 r=0.0625 h=0.0001 b=0.0001
+START moderntcn_ETTh1_96 O4 r=0.0625 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_24 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh2_24 O4 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_24 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_24 O4 r=0.25 h=5e-05 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_96 O4 r=0.0625 h=0.0002 b=0.0001
+START moderntcn_ETTh1_96 O4 r=0.0625 h=2e-05 b=5e-05 gpu=3 attempt=1
+DONE itransformer_ETTh2_24 O4 r=0.0625 h=2e-05 b=0.0001
+START itransformer_ETTh2_24 O4 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_24 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_24 O4 r=0.25 h=2e-05 b=0.0001 gpu=0 attempt=1
+DONE patchtst_ExchangeRate_24 O4 r=0.25 h=2e-05 b=0.0001
+START patchtst_ExchangeRate_24 O4 r=0.25 h=0.0001 b=0.0001 gpu=0 attempt=1
+DONE moderntcn_ETTh1_96 O4 r=0.0625 h=2e-05 b=5e-05
+START moderntcn_ETTh1_96 O4 r=0.0625 h=2e-05 b=0.0002 gpu=3 attempt=1
+DONE itransformer_ETTh2_24 O4 r=0.0625 h=0.0001 b=0.0001
+START itransformer_ETTh2_24 O4 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_24 O4 r=0.25 h=0.0001 b=0.0001
+START patchtst_ExchangeRate_24 O4 r=0.25 h=0.0002 b=0.0001 gpu=0 attempt=1
+DONE itransformer_ETTh2_24 O4 r=0.0625 h=0.0002 b=0.0001
+START itransformer_ETTh2_24 O4 r=0.0625 h=2e-05 b=5e-05 gpu=2 attempt=1
+DONE moderntcn_ETTh1_96 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE moderntcn_ETTh1_96
+START itransformer_ETTh2_96 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_24 O4 r=0.25 h=0.0002 b=0.0001
+START patchtst_ExchangeRate_24 O4 r=0.25 h=2e-05 b=5e-05 gpu=0 attempt=1
+DONE itransformer_ETTh2_96 O3 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh2_96 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_24 O4 r=0.0625 h=2e-05 b=5e-05
+START itransformer_ETTh2_24 O4 r=0.0625 h=2e-05 b=0.0002 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_24 O4 r=0.25 h=2e-05 b=5e-05
+START patchtst_ExchangeRate_24 O4 r=0.25 h=2e-05 b=0.0002 gpu=0 attempt=1
+DONE itransformer_ETTh2_96 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh2_96 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_24 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE itransformer_ETTh2_24
+START patchtst_ETTh1_24 O3 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE patchtst_ExchangeRate_24 O4 r=0.25 h=2e-05 b=0.0002
+CASE COMPLETE patchtst_ExchangeRate_24
+DONE itransformer_ETTh2_96 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh2_96 O3 r=0.25 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_24 O3 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_96 O3 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTh2_96 O3 r=0.25 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_96 O3 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTh2_96 O3 r=0.25 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_24 O3 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_96 O3 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTh2_96 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh1_24 O3 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_96 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh2_96 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O3 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTh1_24 O3 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_96 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh2_96 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O3 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTh1_24 O3 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_96 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh2_96 O4 r=0.0625 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O3 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTh1_24 O4 r=0.0625 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_96 O4 r=0.0625 h=2e-05 b=0.0001
+START itransformer_ETTh2_96 O4 r=0.0625 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_96 O4 r=0.0625 h=0.0001 b=0.0001
+START itransformer_ETTh2_96 O4 r=0.0625 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ETTh1_24 O4 r=0.125 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_96 O4 r=0.0625 h=0.0002 b=0.0001
+START itransformer_ETTh2_96 O4 r=0.0625 h=2e-05 b=5e-05 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ETTh1_24 O4 r=0.25 h=5e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_96 O4 r=0.0625 h=2e-05 b=5e-05
+START itransformer_ETTh2_96 O4 r=0.0625 h=2e-05 b=0.0002 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_96 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE itransformer_ETTh2_96
+START itransformer_ETTh2_48 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_48 O3 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh2_48 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ETTh1_24 O4 r=0.0625 h=0.0001 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_48 O3 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh2_48 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O4 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ETTh1_24 O4 r=0.0625 h=0.0002 b=0.0001 gpu=2 attempt=1
+DONE itransformer_ETTh2_48 O3 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh2_48 O3 r=0.25 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O4 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ETTh1_24 O4 r=0.0625 h=2e-05 b=5e-05 gpu=2 attempt=1
+DONE itransformer_ETTh2_48 O3 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTh2_48 O3 r=0.25 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_48 O3 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTh2_48 O3 r=0.25 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O4 r=0.0625 h=2e-05 b=5e-05
+START patchtst_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0002 gpu=2 attempt=1
+DONE itransformer_ETTh2_48 O3 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTh2_48 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ETTh1_24 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE patchtst_ETTh1_24
+DONE itransformer_ETTh2_48 O4 r=0.0625 h=5e-05 b=0.0001
+START itransformer_ETTh2_48 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_48 O4 r=0.125 h=5e-05 b=0.0001
+START itransformer_ETTh2_48 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_48 O4 r=0.25 h=5e-05 b=0.0001
+START itransformer_ETTh2_48 O4 r=0.25 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_48 O4 r=0.25 h=2e-05 b=0.0001
+START itransformer_ETTh2_48 O4 r=0.25 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_48 O4 r=0.25 h=0.0001 b=0.0001
+START itransformer_ETTh2_48 O4 r=0.25 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE itransformer_ETTh2_48 O4 r=0.25 h=0.0002 b=0.0001
+START itransformer_ETTh2_48 O4 r=0.25 h=2e-05 b=5e-05 gpu=3 attempt=1
+DONE itransformer_ETTh2_48 O4 r=0.25 h=2e-05 b=5e-05
+START itransformer_ETTh2_48 O4 r=0.25 h=2e-05 b=0.0002 gpu=3 attempt=1
+DONE itransformer_ETTh2_48 O4 r=0.25 h=2e-05 b=0.0002
+CASE COMPLETE itransformer_ETTh2_48
+START patchtst_ExchangeRate_48 O3 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O3 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_48 O3 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O3 r=0.125 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_48 O3 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O3 r=0.25 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_48 O3 r=0.25 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O3 r=0.25 h=2e-05 b=0.0001
+START patchtst_ExchangeRate_48 O3 r=0.25 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O3 r=0.25 h=0.0001 b=0.0001
+START patchtst_ExchangeRate_48 O3 r=0.25 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O3 r=0.25 h=0.0002 b=0.0001
+START patchtst_ExchangeRate_48 O4 r=0.0625 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O4 r=0.0625 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_48 O4 r=0.125 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O4 r=0.125 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_48 O4 r=0.25 h=5e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O4 r=0.25 h=5e-05 b=0.0001
+START patchtst_ExchangeRate_48 O4 r=0.0625 h=2e-05 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O4 r=0.0625 h=2e-05 b=0.0001
+START patchtst_ExchangeRate_48 O4 r=0.0625 h=0.0001 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O4 r=0.0625 h=0.0001 b=0.0001
+START patchtst_ExchangeRate_48 O4 r=0.0625 h=0.0002 b=0.0001 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O4 r=0.0625 h=0.0002 b=0.0001
+START patchtst_ExchangeRate_48 O4 r=0.0625 h=2e-05 b=5e-05 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O4 r=0.0625 h=2e-05 b=5e-05
+START patchtst_ExchangeRate_48 O4 r=0.0625 h=2e-05 b=0.0002 gpu=3 attempt=1
+DONE patchtst_ExchangeRate_48 O4 r=0.0625 h=2e-05 b=0.0002
+CASE COMPLETE patchtst_ExchangeRate_48

@@ -1,0 +1,4 @@
+TRAIN anchor patchtst/ETTh1/336 GPU=3
+ARCHIVE incomplete anchor /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/patchtst/ETTh1/pred_336/anchor -> /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/patchtst/ETTh1/pred_336/anchor.incomplete.20261010_122841
+/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/unified_lr_search_20261010/patchtst/ETTh1/pred_336/anchor/A2/trained_checkpoint.pt
+COMPLETE inv patchtst/ETTh1/336

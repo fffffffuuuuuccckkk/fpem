@@ -1,0 +1,22 @@
+attempt=1 case=patchtst/ETTh1/720 gpu=0
+F03 lr=0.0003 epoch=1 val_mse=1.578042
+F03 lr=0.0003 epoch=2 val_mse=1.578585
+F03 lr=0.0003 epoch=3 val_mse=1.575685
+F03 lr=0.0003 epoch=4 val_mse=1.580671
+F03 lr=0.0003 epoch=5 val_mse=1.579688
+F03 lr=0.0003 epoch=6 val_mse=1.581420
+F03 lr=0.0003 epoch=7 val_mse=1.581073
+F03 lr=0.0003 epoch=8 val_mse=1.582467
+F03 lr=0.0003 epoch=9 val_mse=1.580153
+F03 lr=0.0003 epoch=10 val_mse=1.583819
+F03 lr=0.0003 epoch=1 val_mse=1.569059
+F03 lr=0.0003 epoch=2 val_mse=1.566656
+F03 lr=0.0003 epoch=3 val_mse=1.568213
+F03 lr=0.0003 epoch=4 val_mse=1.566710
+F03 lr=0.0003 epoch=5 val_mse=1.567314
+F03 lr=0.0003 epoch=6 val_mse=1.566819
+F03 lr=0.0003 epoch=7 val_mse=1.569829
+F03 lr=0.0003 epoch=8 val_mse=1.567831
+F03 lr=0.0003 epoch=9 val_mse=1.567746
+F03 lr=0.0003 epoch=10 val_mse=1.566146
+F03 ANCHOR SEARCH COMPLETE results/fpem_performance_optimization_20261103/f03_anchor_search/patchtst/ETTh1/pred_720

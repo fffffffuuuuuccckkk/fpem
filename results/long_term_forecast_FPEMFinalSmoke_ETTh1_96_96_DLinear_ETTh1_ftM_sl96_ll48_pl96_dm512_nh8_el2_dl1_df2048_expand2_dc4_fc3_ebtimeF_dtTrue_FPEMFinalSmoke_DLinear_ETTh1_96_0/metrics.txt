@@ -1,0 +1,8 @@
+Experiment: long_term_forecast_FPEMFinalSmoke_ETTh1_96_96_DLinear_ETTh1_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinalSmoke_DLinear_ETTh1_96_0
+MAE: 0.4402311146
+MSE: 0.4355882704
+RMSE: 0.6599910855
+MAPE: 8.451973915
+MSPE: 29712.58984
+DTW: Not calculated
+metrics.npy order: MAE, MSE, RMSE, MAPE, MSPE

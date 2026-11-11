@@ -1,0 +1,17 @@
+# backbone,dataset,pred_len,kind
+patchtst,ETTm1,24,head_crps
+patchtst,ETTm1,48,head_crps
+patchtst,ETTm1,96,inv_mse
+patchtst,ETTm1,192,inv_mse
+patchtst,ETTm1,336,inv_mse
+patchtst,ETTm1,720,inv_mse
+csdi,ETTm1,24,csdi_crps
+csdi,ETTm2,24,csdi_crps
+csdi,ETTm1,48,csdi_crps
+csdi,ETTm2,48,csdi_crps
+moderntcn,ETTm1,24,head_crps
+moderntcn,ETTm1,48,head_crps
+moderntcn,ETTm1,96,inv_mse
+moderntcn,ETTm1,192,inv_mse
+moderntcn,ETTm1,336,inv_mse
+moderntcn,ETTm1,720,inv_mse

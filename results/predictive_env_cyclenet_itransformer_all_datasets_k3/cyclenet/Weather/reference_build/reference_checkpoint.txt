@@ -1,0 +1,5 @@
+reference_checkpoint: results/predictive_env_cyclenet_itransformer_all_datasets_k3/cyclenet/Weather/shared_reference.pt
+reference_checkpoint_sha256: c5f0a52a35781f2ea04b804f4bc70ebe2bb67b1bb97a0d985b14aa696ce623bf
+reference_source: created
+seed: 2021
+signature: {'backbone': 'cyclenet', 'dataset_name': 'Weather', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'custom', 'data_path': 'weather.csv', 'target': 'OT', 'freq': '10min', 'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 21, 'cyclenet_cycle_len': 144, 'protocol_version': 4}

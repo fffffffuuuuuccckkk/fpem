@@ -1,0 +1,9 @@
+2026-11-07T06:04:07+00:00 START itransformer ETTm1 96 gpu=3 attempt=1
+METHOD_START P0_Raw
+METHOD_COMPLETE P0_Raw Ridge_C 2.823762893676758 gain 0.015505653786116123
+METHOD_START P1_Relation_Fingerprint
+METHOD_COMPLETE P1_Relation_Fingerprint Ridge_C 2.8255200386047363 gain 0.014893031794748856
+METHOD_START P2_Local_Operator
+METHOD_NOT_ESTIMABLE P2_Local_Operator P2 insufficient independent local operators (128) or shared reference (0)
+COMPLETE results/fpem_relation_operator_prototype_pilot/pilots/itransformer/ETTm1/pred_96/seed_2022
+2026-11-07T06:06:23+00:00 COMPLETE itransformer ETTm1 96

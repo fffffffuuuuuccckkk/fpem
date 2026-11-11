@@ -1,0 +1,9 @@
+[Traffic] start final-checkpoint t-SNE on sustained-idle GPU 3
+[Electricity] start final-checkpoint t-SNE on sustained-idle GPU 2
+[Weather] start final-checkpoint t-SNE on sustained-idle GPU 3
+[ETTm1] start final-checkpoint t-SNE on sustained-idle GPU 3
+[ETTm2] start final-checkpoint t-SNE on sustained-idle GPU 2
+[ETTh1] start final-checkpoint t-SNE on sustained-idle GPU 3
+[ETTh2] start final-checkpoint t-SNE on sustained-idle GPU 2
+[ExchangeRate] start final-checkpoint t-SNE on sustained-idle GPU 3
+scripts/run_patchtst_tsne_dynamic.sh: line 1: 17507 Hangup                  worker "$gpu"

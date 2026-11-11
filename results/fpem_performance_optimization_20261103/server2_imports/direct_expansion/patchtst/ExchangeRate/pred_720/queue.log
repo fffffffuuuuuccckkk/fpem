@@ -1,0 +1,14 @@
+attempt=1 lane=pt_e gpu=0 case=patchtst/ExchangeRate/720 method=P02
+BEGIN patchtst ExchangeRate 720 F00
+BEGIN patchtst ExchangeRate 720 P02
+P02 epoch 1 val 1.357105
+P02 epoch 2 val 1.412315
+P02 epoch 3 val 1.282243
+P02 epoch 4 val 1.216365
+P02 epoch 5 val 1.177026
+P02 epoch 6 val 1.162809
+P02 epoch 7 val 1.162482
+P02 epoch 8 val 1.187961
+P02 epoch 9 val 1.171404
+P02 epoch 10 val 1.173933
+PILOT COMPLETE results/fpem_performance_optimization_20261103/direct_expansion/patchtst/ExchangeRate/pred_720

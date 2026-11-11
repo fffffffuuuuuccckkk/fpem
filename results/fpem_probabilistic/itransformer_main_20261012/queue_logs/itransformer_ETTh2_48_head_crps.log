@@ -1,0 +1,5 @@
+REUSE compatible anchor /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/itransformer_main_20261012/itransformer/ETTh2/pred_48/anchor/A2/trained_checkpoint.pt
+HEAD candidate itransformer/ETTh2/48 lr=5e-5 GPU=0
+HEAD candidate itransformer/ETTh2/48 lr=1e-4 GPU=0
+HEAD candidate itransformer/ETTh2/48 lr=5e-4 GPU=0
+TEST_SELECTED_HEADS /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/itransformer_main_20261012/itransformer/ETTh2/pred_48 [('affine_deterministic', '1e-4'), ('affine_gaussian', '5e-5'), ('affine_mdn', '5e-5'), ('affine_flow', '5e-5'), ('residual_gaussian', '5e-4'), ('residual_lowrank', '5e-4'), ('residual_flow', '5e-5'), ('legacy_full', '1e-4')]

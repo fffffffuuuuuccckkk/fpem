@@ -1,0 +1,11 @@
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_ptm.py --base_run_config results/fpem_latent_decomposition_search/pilot_20261015/moderntcn_ETTm2_720_A0_complementary_gate_predictive_sub0_orth0_refnone_fp0_rank8_bias-4/run_config.json --output /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_ptm/pilot_20261022/moderntcn_ETTm2_720/T1 --bank_checkpoint /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_ptm/pilot_20261022/moderntcn_ETTm2_720/prototype_bank.pt --mode T1 --seed 2021 --lr_head 0.0002 --epochs 10 --gpu 2 --allow_legacy_reference_signature
+{"epoch": 1, "train_mse": 0.45983240075739495, "val_mse": 0.30748128507076133, "val_mae": 0.3750616667093766, "gate_mean": 0.104887423609354, "ema": null}
+{"epoch": 2, "train_mse": 0.45803345475201784, "val_mse": 0.308235749181388, "val_mae": 0.37549964970857846, "gate_mean": 0.09298923935691471, "ema": null}
+{"epoch": 3, "train_mse": 0.4573540208780919, "val_mse": 0.308418532801121, "val_mae": 0.3756010972865396, "gate_mean": 0.09096955682602977, "ema": null}
+{"epoch": 4, "train_mse": 0.45725973971526984, "val_mse": 0.3083005227087797, "val_mae": 0.37553482182696746, "gate_mean": 0.09309784652713568, "ema": null}
+{"epoch": 5, "train_mse": 0.45722190228492743, "val_mse": 0.3080095490782505, "val_mae": 0.37536877733404267, "gate_mean": 0.09788514791666474, "ema": null}
+{"epoch": 6, "train_mse": 0.4571842462111445, "val_mse": 0.30774650145149335, "val_mae": 0.3752142393964431, "gate_mean": 0.1028568709814432, "ema": null}
+{"epoch": 7, "train_mse": 0.45714308602719117, "val_mse": 0.30785442852594025, "val_mae": 0.3752766264764304, "gate_mean": 0.10158865024559537, "ema": null}
+{"epoch": 8, "train_mse": 0.4571026156965689, "val_mse": 0.3079910453161235, "val_mae": 0.37535339219399144, "gate_mean": 0.10003881128911488, "ema": null}
+{"epoch": 9, "train_mse": 0.4570668174966492, "val_mse": 0.3079763019187223, "val_mae": 0.3753429984494473, "gate_mean": 0.10105782756177012, "ema": null}
+{"epoch": 10, "train_mse": 0.4570366970113974, "val_mse": 0.30812809828249527, "val_mae": 0.37542710668743423, "gate_mean": 0.0990847895886369, "ema": null}

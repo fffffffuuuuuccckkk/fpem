@@ -1,0 +1,9 @@
+2026-11-07T06:06:23+00:00 START moderntcn ETTm2 96 gpu=3 attempt=1
+METHOD_START P0_Raw
+METHOD_COMPLETE P0_Raw Ridge_C 113.88945770263672 gain 0.00037446484573983626
+METHOD_START P1_Relation_Fingerprint
+METHOD_COMPLETE P1_Relation_Fingerprint Ridge_C 113.91899871826172 gain 0.00011517874368249613
+METHOD_START P2_Local_Operator
+METHOD_NOT_ESTIMABLE P2_Local_Operator P2 insufficient independent local operators (128) or shared reference (0)
+COMPLETE results/fpem_relation_operator_prototype_pilot/pilots/moderntcn/ETTm2/pred_96/seed_2022
+2026-11-07T06:08:30+00:00 COMPLETE moderntcn ETTm2 96

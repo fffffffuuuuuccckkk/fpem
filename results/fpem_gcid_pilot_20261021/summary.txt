@@ -1,0 +1,1 @@
+Completed 18/18 GCID pilot runs. Same A0 checkpoint per case; no A0 retraining. Each mode selects one checkpoint by VAL MSE and then evaluates TEST. A0 MSE/MAE, invariant, full and Gaussian residual interval metrics accompany each row.

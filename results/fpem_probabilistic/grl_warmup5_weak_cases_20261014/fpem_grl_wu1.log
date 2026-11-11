@@ -1,0 +1,10 @@
+QUEUE cases=9 GPUs=1 3 root=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/grl_warmup5_weak_cases_20261014
+DONE patchtst:ETTh1:720 GPU=3
+DONE patchtst:ETTh2:720 GPU=3
+DONE patchtst:ETTm1:96 GPU=1
+DONE patchtst:ETTh2:336 GPU=3
+DONE patchtst:ETTh2:48 GPU=1
+DONE patchtst:ExchangeRate:336 GPU=3
+DONE patchtst:ETTm2:192 GPU=1
+DONE patchtst:ETTm2:96 GPU=3
+DONE patchtst:ETTm2:336 GPU=1

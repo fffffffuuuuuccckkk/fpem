@@ -1,0 +1,82 @@
+2026-11-08T04:35:45+00:00 START_POINT patchtst/ETTh1-96 G3 GPU=3
+{"case": "patchtst/ETTh1-96", "method": "G3_KerHRM_lite", "C": {"a0": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03_r3": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "null_only": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "mean_beta": 0.0, "active_ratio": 0.0}, "TEST": {"a0": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03_r3": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "null_only": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "mean_beta": 0.0, "active_ratio": 0.0, "hard_route": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}}}
+2026-11-08T04:36:18+00:00 START_POINT patchtst/ETTh1-96 G4 GPU=3
+{"case": "patchtst/ETTh1-96", "method": "G4_ANM_MM_lite", "C": {"a0": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03_r3": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "null_only": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "mean_beta": 0.0, "active_ratio": 0.0}, "TEST": {"a0": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03_r3": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "null_only": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "mean_beta": 0.0, "active_ratio": 0.0, "hard_route": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}}}
+2026-11-08T04:36:38+00:00 START_POINT patchtst/ETTh1-96 G7 GPU=3
+{"case": "patchtst/ETTh1-96", "method": "G7_Ridge_Update", "C": {"a0": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03_r3": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "null_only": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "mean_beta": 0.0, "active_ratio": 0.0}, "TEST": {"a0": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03_r3": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "null_only": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "mean_beta": 0.0, "active_ratio": 0.0, "hard_route": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}}}
+2026-11-08T04:36:58+00:00 START_POINT patchtst/ETTh1-96 Raw GPU=3
+{"case": "patchtst/ETTh1-96", "method": "B0_Raw_History", "C": {"a0": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03_r3": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "null_only": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "mean_beta": 0.0, "active_ratio": 0.0}, "TEST": {"a0": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03_r3": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "null_only": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "mean_beta": 0.0, "active_ratio": 0.0, "hard_route": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}}}
+2026-11-08T04:37:18+00:00 START_POINT patchtst/ETTh1-96 Random GPU=3
+{"case": "patchtst/ETTh1-96", "method": "B1_Random_Balanced", "C": {"a0": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03_r3": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "null_only": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "mean_beta": 0.0, "active_ratio": 0.0}, "TEST": {"a0": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03_r3": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "null_only": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "mean_beta": 0.0, "active_ratio": 0.0, "hard_route": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}}}
+2026-11-08T04:37:37+00:00 START_POINT patchtst/ETTh1-96 ShuffleY GPU=3
+{"case": "patchtst/ETTh1-96", "method": "B2_ShuffleY_G1", "C": {"a0": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "f03_r3": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "null_only": {"mse": 1.2725105285644531, "mae": 0.7422713041305542}, "mean_beta": 0.0, "active_ratio": 0.0}, "TEST": {"a0": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "f03_r3": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "null_only": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}, "mean_beta": 0.0, "active_ratio": 0.0, "hard_route": {"mse": 1.4508107900619507, "mae": 0.7750124335289001}}}
+2026-11-08T04:37:58+00:00 START_FLOW patchtst/ETTh1-96 G3
+U0_original_condition epoch 1 val_crps 0.6968271136283875
+U0_original_condition epoch 2 val_crps 0.697889655828476
+U0_original_condition epoch 3 val_crps 0.6978112161159515
+U0_original_condition epoch 4 val_crps 0.6968366950750351
+U0_original_condition epoch 5 val_crps 0.6956675797700882
+2026-11-08T05:35:22+00:00 START_FLOW patchtst/ETTh1-96 G3
+U0_original_condition epoch 1 val_crps 0.7770407050848007
+U0_original_condition epoch 2 val_crps 0.7769009619951248
+U0_original_condition epoch 3 val_crps 0.7765064537525177
+U0_original_condition epoch 4 val_crps 0.7758114784955978
+U0_original_condition epoch 5 val_crps 0.7748026996850967
+U1_mapping_disagreement epoch 1 val_crps 0.7770343124866486
+U1_mapping_disagreement epoch 2 val_crps 0.7768921107053757
+U1_mapping_disagreement epoch 3 val_crps 0.7764979153871536
+U1_mapping_disagreement epoch 4 val_crps 0.7758055627346039
+U1_mapping_disagreement epoch 5 val_crps 0.7748021930456161
+U2_oof_residual_summary epoch 1 val_crps 0.7770299017429352
+U2_oof_residual_summary epoch 2 val_crps 0.7768861800432205
+U2_oof_residual_summary epoch 3 val_crps 0.7764924317598343
+U2_oof_residual_summary epoch 4 val_crps 0.7758022397756577
+U2_oof_residual_summary epoch 5 val_crps 0.7748029381036758
+U3_both epoch 1 val_crps 0.7770298719406128
+U3_both epoch 2 val_crps 0.776886060833931
+U3_both epoch 3 val_crps 0.7764922827482224
+U3_both epoch 4 val_crps 0.7758019268512726
+U3_both epoch 5 val_crps 0.7748024761676788
+2026-11-08T05:45:03+00:00 START_FLOW patchtst/ETTh1-96 G4
+U0_original_condition epoch 1 val_crps 0.7770407050848007
+U0_original_condition epoch 2 val_crps 0.7769009619951248
+U0_original_condition epoch 3 val_crps 0.7765064537525177
+U0_original_condition epoch 4 val_crps 0.7758114784955978
+U0_original_condition epoch 5 val_crps 0.7748027145862579
+U1_mapping_disagreement epoch 1 val_crps 0.7770346254110336
+U1_mapping_disagreement epoch 2 val_crps 0.7768925875425339
+U1_mapping_disagreement epoch 3 val_crps 0.7764984667301178
+U1_mapping_disagreement epoch 4 val_crps 0.7758061736822128
+U1_mapping_disagreement epoch 5 val_crps 0.7748029083013535
+U2_oof_residual_summary epoch 1 val_crps 0.7770297825336456
+U2_oof_residual_summary epoch 2 val_crps 0.7768860012292862
+U2_oof_residual_summary epoch 3 val_crps 0.7764923423528671
+U2_oof_residual_summary epoch 4 val_crps 0.7758022844791412
+U2_oof_residual_summary epoch 5 val_crps 0.7748031616210938
+U3_both epoch 1 val_crps 0.7770295590162277
+U3_both epoch 2 val_crps 0.7768856585025787
+U3_both epoch 3 val_crps 0.7764917761087418
+U3_both epoch 4 val_crps 0.7758015543222427
+U3_both epoch 5 val_crps 0.7748022377490997
+2026-11-08T05:54:44+00:00 START_FLOW patchtst/ETTh1-96 G7
+U0_original_condition epoch 1 val_crps 0.7770407050848007
+U0_original_condition epoch 2 val_crps 0.7769009619951248
+U0_original_condition epoch 3 val_crps 0.7765064537525177
+U0_original_condition epoch 4 val_crps 0.7758114784955978
+U0_original_condition epoch 5 val_crps 0.7748027145862579
+U1_mapping_disagreement epoch 1 val_crps 0.7770345360040665
+U1_mapping_disagreement epoch 2 val_crps 0.776892364025116
+U1_mapping_disagreement epoch 3 val_crps 0.7764981091022491
+U1_mapping_disagreement epoch 4 val_crps 0.7758056074380875
+U1_mapping_disagreement epoch 5 val_crps 0.774802103638649
+U2_oof_residual_summary epoch 1 val_crps 0.7770297974348068
+U2_oof_residual_summary epoch 2 val_crps 0.7768860459327698
+U2_oof_residual_summary epoch 3 val_crps 0.7764923870563507
+U2_oof_residual_summary epoch 4 val_crps 0.7758023738861084
+U2_oof_residual_summary epoch 5 val_crps 0.7748032957315445
+U3_both epoch 1 val_crps 0.7770296931266785
+U3_both epoch 2 val_crps 0.7768858671188354
+U3_both epoch 3 val_crps 0.7764921635389328
+U3_both epoch 4 val_crps 0.7758020162582397
+U3_both epoch 5 val_crps 0.7748027294874191
+2026-11-08T06:04:24+00:00 CASE_END patchtst/ETTh1-96

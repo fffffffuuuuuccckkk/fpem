@@ -1,0 +1,11 @@
+# FPEM result storage policy
+
+`config/storage_policy.yaml` is the operational default. The policy preserves raw data, tracked source, A0 checkpoints, EIIL3 Teacher/Router, selected I3/R3/Flow weights, all formal baseline/ablation/seed results, paper figures, metrics and configuration. Unknown dependencies are protected, not guessed away.
+
+Before deletion, run `python -m tools.storage.audit_results --root results --report-root results/storage_audit_YYYYMMDD`. This reads NPZ ZIP central directories without loading arrays. A candidate is emitted only after `check_reproducibility` actually regenerates the cache and checks values and downstream A0 metrics. `cleanup_results` defaults to a dry run; `--apply` requires the exact candidate manifest, unchanged device/inode/size/mtime/SHA, completed run, proof and no open file handle. Never recursively delete a run, old baseline or imported mirror.
+
+For a new Trick search, keep one comparison directory per `(backbone, dataset, horizon, seed, objective, protocol)`. Append each trial with `record_trial` immediately, including its selection split. Use `promote_if_best` to keep one validated `best_model.pt`; other candidates have metrics/config only. Formal baselines, ablations, independent seeds and distinct objectives are separate comparison units. `prune_run_artifacts` can clear only a completed run's owned `scratch` after validating the winner and trial ledger. It cannot touch other runs.
+
+The EIIL3 point entry now keeps frozen A0 features in memory by default, rather than writing a giant permanent `features.npz`. `--persist-features` explicitly opts back into the old cache behavior. Existing caches are read unchanged for resume. No dtype, loss, split, or prediction formula changes. A preflight rejects new runs when free space is below the greater of 20 GiB and 5% of the target filesystem; those initial thresholds are configurable. If this interrupts a run, preserve its partial artifacts and only resume after safe space recovery. The optional `flow_input.npz` remains a downstream dependency and is not auto-deleted.
+
+Small demonstration: `PYTHONPATH=. python -m unittest tests.test_storage_policy`. The tests operate only in temporary directories and cover an active file, partial cache, symlink, changed file identity, low-space stop, failed winner replacement and formal-ablation protection.

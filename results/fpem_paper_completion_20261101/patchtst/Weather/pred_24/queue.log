@@ -1,0 +1,148 @@
+RUN reference Weather/24 GPU0 attempt=1 2026-11-01T04:51:21+00:00
+reference warmup 1 {'loss': 0.40981292100809674, 'timefilter_moe_loss': nan, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_gain_loss': nan, 'inv_acc': nan, 'var_acc': nan, 'loss/inv': nan, 'loss/full': nan, 'loss/mod': nan, 'loss/anchor': nan, 'loss/variant_total': nan, 'variant/lambda_maturity': nan, 'maturity': nan, 'G_inv_L2': nan, 'G_var_L2': nan, 'G_inv': nan, 'G_var': nan, 'lr/backbone': nan, 'lr/inv_head': nan, 'lr/decomposer': nan, 'lr/env_head': nan, 'lr/variant': nan, 'lr/reliability': nan, 'lr/gamma_beta_mean': nan, 'lr/gamma_beta_min': nan, 'lr/gamma_beta_max': nan, 'lr/variant_min': nan, 'lr/variant_max': nan, 'variant/gamma_abs_mean': nan, 'variant/beta_abs_mean': nan, 'variant/full_inv_distance': nan, 'variant/inv_error': nan, 'variant/effect_abs_mean': nan, 'r_pred_mean': nan, 'r_target_mean': nan, 'corr_r_pred_r_target': nan, 'raw_variant_gain': nan, 'gated_variant_gain': nan, 'reliability_environment_disagreement_mean': nan, 'reliability_environment_disagreement_p90': nan, 'r_pred_bin1': nan, 'r_target_bin1': nan, 'variant_effect_raw_bin1': nan, 'variant_effect_gated_bin1': nan, 'r_pred_bin2': nan, 'r_target_bin2': nan, 'variant_effect_raw_bin2': nan, 'variant_effect_gated_bin2': nan, 'r_pred_bin3': nan, 'r_target_bin3': nan, 'variant_effect_raw_bin3': nan, 'variant_effect_gated_bin3': nan, 'r_pred_bin4': nan, 'r_target_bin4': nan, 'variant_effect_raw_bin4': nan, 'variant_effect_gated_bin4': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'horizon_future_var_loss': nan, 'horizon_reliability_loss': nan, 'reliability_objective': 'mse', 'reliability_fraction_mse': nan, 'reliability_ranking_loss': nan, 'reliability_usefulness_bce': nan, 'reliability_usefulness_accuracy': nan, 'reliability_environment_correction_loss': nan, 'train/correction_cosine_mean': nan, 'train/correction_beneficial_ratio': nan, 'train/correction_magnitude_ratio_mean': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan, 'gamma_mean': nan, 'gamma_std': nan, 'gamma_abs_mean': nan, 'beta_mean': nan, 'beta_std': nan, 'beta_abs_mean': nan, 'y_gamma_mean': nan, 'y_gamma_std': nan, 'y_gamma_abs_mean': nan, 'y_beta_mean': nan, 'y_beta_std': nan, 'y_beta_abs_mean': nan, 'decay_rho_mean': nan, 'decay_rho_std': nan, 'decay_rho_abs_mean': nan}
+reference warmup 2 {'loss': 0.4081433948171564, 'timefilter_moe_loss': nan, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_gain_loss': nan, 'inv_acc': nan, 'var_acc': nan, 'loss/inv': nan, 'loss/full': nan, 'loss/mod': nan, 'loss/anchor': nan, 'loss/variant_total': nan, 'variant/lambda_maturity': nan, 'maturity': nan, 'G_inv_L2': nan, 'G_var_L2': nan, 'G_inv': nan, 'G_var': nan, 'lr/backbone': nan, 'lr/inv_head': nan, 'lr/decomposer': nan, 'lr/env_head': nan, 'lr/variant': nan, 'lr/reliability': nan, 'lr/gamma_beta_mean': nan, 'lr/gamma_beta_min': nan, 'lr/gamma_beta_max': nan, 'lr/variant_min': nan, 'lr/variant_max': nan, 'variant/gamma_abs_mean': nan, 'variant/beta_abs_mean': nan, 'variant/full_inv_distance': nan, 'variant/inv_error': nan, 'variant/effect_abs_mean': nan, 'r_pred_mean': nan, 'r_target_mean': nan, 'corr_r_pred_r_target': nan, 'raw_variant_gain': nan, 'gated_variant_gain': nan, 'reliability_environment_disagreement_mean': nan, 'reliability_environment_disagreement_p90': nan, 'r_pred_bin1': nan, 'r_target_bin1': nan, 'variant_effect_raw_bin1': nan, 'variant_effect_gated_bin1': nan, 'r_pred_bin2': nan, 'r_target_bin2': nan, 'variant_effect_raw_bin2': nan, 'variant_effect_gated_bin2': nan, 'r_pred_bin3': nan, 'r_target_bin3': nan, 'variant_effect_raw_bin3': nan, 'variant_effect_gated_bin3': nan, 'r_pred_bin4': nan, 'r_target_bin4': nan, 'variant_effect_raw_bin4': nan, 'variant_effect_gated_bin4': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'horizon_future_var_loss': nan, 'horizon_reliability_loss': nan, 'reliability_objective': 'mse', 'reliability_fraction_mse': nan, 'reliability_ranking_loss': nan, 'reliability_usefulness_bce': nan, 'reliability_usefulness_accuracy': nan, 'reliability_environment_correction_loss': nan, 'train/correction_cosine_mean': nan, 'train/correction_beneficial_ratio': nan, 'train/correction_magnitude_ratio_mean': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan, 'gamma_mean': nan, 'gamma_std': nan, 'gamma_abs_mean': nan, 'beta_mean': nan, 'beta_std': nan, 'beta_abs_mean': nan, 'y_gamma_mean': nan, 'y_gamma_std': nan, 'y_gamma_abs_mean': nan, 'y_beta_mean': nan, 'y_beta_std': nan, 'y_beta_abs_mean': nan, 'decay_rho_mean': nan, 'decay_rho_std': nan, 'decay_rho_abs_mean': nan}
+reference warmup 3 {'loss': 0.38466846903995183, 'timefilter_moe_loss': nan, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_gain_loss': nan, 'inv_acc': nan, 'var_acc': nan, 'loss/inv': nan, 'loss/full': nan, 'loss/mod': nan, 'loss/anchor': nan, 'loss/variant_total': nan, 'variant/lambda_maturity': nan, 'maturity': nan, 'G_inv_L2': nan, 'G_var_L2': nan, 'G_inv': nan, 'G_var': nan, 'lr/backbone': nan, 'lr/inv_head': nan, 'lr/decomposer': nan, 'lr/env_head': nan, 'lr/variant': nan, 'lr/reliability': nan, 'lr/gamma_beta_mean': nan, 'lr/gamma_beta_min': nan, 'lr/gamma_beta_max': nan, 'lr/variant_min': nan, 'lr/variant_max': nan, 'variant/gamma_abs_mean': nan, 'variant/beta_abs_mean': nan, 'variant/full_inv_distance': nan, 'variant/inv_error': nan, 'variant/effect_abs_mean': nan, 'r_pred_mean': nan, 'r_target_mean': nan, 'corr_r_pred_r_target': nan, 'raw_variant_gain': nan, 'gated_variant_gain': nan, 'reliability_environment_disagreement_mean': nan, 'reliability_environment_disagreement_p90': nan, 'r_pred_bin1': nan, 'r_target_bin1': nan, 'variant_effect_raw_bin1': nan, 'variant_effect_gated_bin1': nan, 'r_pred_bin2': nan, 'r_target_bin2': nan, 'variant_effect_raw_bin2': nan, 'variant_effect_gated_bin2': nan, 'r_pred_bin3': nan, 'r_target_bin3': nan, 'variant_effect_raw_bin3': nan, 'variant_effect_gated_bin3': nan, 'r_pred_bin4': nan, 'r_target_bin4': nan, 'variant_effect_raw_bin4': nan, 'variant_effect_gated_bin4': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'horizon_future_var_loss': nan, 'horizon_reliability_loss': nan, 'reliability_objective': 'mse', 'reliability_fraction_mse': nan, 'reliability_ranking_loss': nan, 'reliability_usefulness_bce': nan, 'reliability_usefulness_accuracy': nan, 'reliability_environment_correction_loss': nan, 'train/correction_cosine_mean': nan, 'train/correction_beneficial_ratio': nan, 'train/correction_magnitude_ratio_mean': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan, 'gamma_mean': nan, 'gamma_std': nan, 'gamma_abs_mean': nan, 'beta_mean': nan, 'beta_std': nan, 'beta_abs_mean': nan, 'y_gamma_mean': nan, 'y_gamma_std': nan, 'y_gamma_abs_mean': nan, 'y_beta_mean': nan, 'y_beta_std': nan, 'y_beta_abs_mean': nan, 'decay_rho_mean': nan, 'decay_rho_std': nan, 'decay_rho_abs_mean': nan}
+shared_reference source=created path=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/Weather/pred_24/shared_reference.pt sha256=5f0e6cb3339c851317022441da3a90006cfcf322e93d6f6b93993749cd385872
+reference preparation complete; no experiment was run
+RETRY reference code=0
+RUN reference Weather/24 GPU0 attempt=2 2026-11-01T04:54:45+00:00
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/Weather/pred_24/shared_reference.pt
+RETRY reference code=0
+RUN reference Weather/24 GPU0 attempt=3 2026-11-01T04:55:48+00:00
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/Weather/pred_24/shared_reference.pt
+RETRY reference code=0
+FAILED reference
+RUN reference Weather/24 GPU0 attempt=1 2026-11-01T04:58:19+00:00
+REUSE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/Weather/pred_24/shared_reference.pt
+RUN point Weather/24 GPU0 attempt=1 2026-11-01T04:58:22+00:00
+TRIAL patchtst Weather 24 inherited 0.10711657908890594 pruned False
+TRIAL patchtst Weather 24 head_0.0003 0.1071180112680309 pruned False
+TRIAL patchtst Weather 24 head_0.001 0.107125686790692 pruned False
+TRIAL patchtst Weather 24 head_0.003 0.10715502072897264 pruned True
+COMPLETE patchtst Weather 24 {'mse': 0.10711657908890594, 'mae': 0.14224264650769153}
+RUN flow Weather/24 GPU0 attempt=1 2026-11-01T04:59:04+00:00
+EPOCH 5e-05 1 {'epoch': 1, 'prob_loss': 742.8778513008388, 'maturity': 0.07338619322201559, 'prob_loss_weight': 0.11971688356091481, 'effective_prob_lr': 5.985844178045741e-06, 'inv_loss_ema': 0.33337458801269526, 'inv_loss_relative_change': 0.00014415120871979394}
+EPOCH 5e-05 2 {'epoch': 2, 'prob_loss': 710.7446739186792, 'maturity': 0.14403657370301376, 'prob_loss_weight': 0.18683474501786307, 'effective_prob_lr': 9.341737250893153e-06, 'inv_loss_ema': 0.3333361373901367, 'inv_loss_relative_change': 0.00011533759302914795}
+EPOCH 5e-05 3 {'epoch': 3, 'prob_loss': 655.8995459458383, 'maturity': 0.22348077221300694, 'prob_loss_weight': 0.26230673360235657, 'effective_prob_lr': 1.3115336680117829e-05, 'inv_loss_ema': 0.3333053768920898, 'inv_loss_relative_change': 9.228071785929916e-05}
+EPOCH 5e-05 4 {'epoch': 4, 'prob_loss': 627.4132662836794, 'maturity': 0.3053790544529038, 'prob_loss_weight': 0.3401101017302586, 'effective_prob_lr': 1.700550508651293e-05, 'inv_loss_ema': 0.3332807684936523, 'inv_loss_relative_change': 7.383138750077853e-05}
+EPOCH 5e-05 5 {'epoch': 5, 'prob_loss': 465.1920457185875, 'maturity': 0.38557445688041536, 'prob_loss_weight': 0.4162957340363946, 'effective_prob_lr': 2.081478670181973e-05, 'inv_loss_ema': 0.33326108177490227, 'inv_loss_relative_change': 5.906947118173904e-05}
+EPOCH 5e-05 6 {'epoch': 6, 'prob_loss': 484.8369985158323, 'maturity': 0.46147376073226454, 'prob_loss_weight': 0.4884000726956513, 'effective_prob_lr': 2.4420003634782566e-05, 'inv_loss_ema': 0.3332453323999023, 'inv_loss_relative_change': 4.725836847212586e-05}
+EPOCH 5e-05 7 {'epoch': 7, 'prob_loss': 415.0875354245903, 'maturity': 0.5315885883062248, 'prob_loss_weight': 0.5550091588909136, 'effective_prob_lr': 2.775045794454568e-05, 'inv_loss_ema': 0.3332327328999023, 'inv_loss_relative_change': 3.7808481544852903e-05}
+EPOCH 5e-05 8 {'epoch': 8, 'prob_loss': 418.0118643463594, 'maturity': 0.5951973973889518, 'prob_loss_weight': 0.6154375275195043, 'effective_prob_lr': 3.0771876375975215e-05, 'inv_loss_ema': 0.3332226532999023, 'inv_loss_relative_change': 3.024792886414255e-05}
+EPOCH 5e-05 9 {'epoch': 9, 'prob_loss': 195.42249380117104, 'maturity': 0.6520984115560692, 'prob_loss_weight': 0.6694934909782657, 'effective_prob_lr': 3.3474674548913286e-05, 'inv_loss_ema': 0.3332145896199023, 'inv_loss_relative_change': 2.419907506324845e-05}
+EPOCH 5e-05 10 {'epoch': 10, 'prob_loss': 151.92707422599327, 'maturity': 0.7024306583751704, 'prob_loss_weight': 0.7173091254564119, 'effective_prob_lr': 3.5865456272820595e-05, 'inv_loss_ema': 0.33320813867590227, 'inv_loss_relative_change': 1.9359728538222814e-05}
+TRIAL 5e-05 0.8 {'CRPS': 0.1079856494617136, 'ProbTS_CRPS': 0.22007842278136308, 'inv_MSE': 0.1061644902081996, 'inv_MAE': 0.14233227378736876, 'mean_MSE': 0.10522785743749431, 'mean_MAE': 0.13850846988542465, 'PICP_95': 0.899144283000459, 'MPIW_95': 0.7249426089883938, 'WIS': 0.0882887680842159, 'sample_std_mean': 0.1768513397514639, 'sample_diversity': 0.18554981202340054, 'samples_evaluated': 658}
+TRIAL 5e-05 1.0 {'CRPS': 0.10831325487615852, 'ProbTS_CRPS': 0.22025536355140723, 'inv_MSE': 0.1061644902081996, 'inv_MAE': 0.14233227378736876, 'mean_MSE': 0.10601101555552979, 'mean_MAE': 0.13894563261136458, 'PICP_95': 0.9354375278333763, 'MPIW_95': 0.9061782416239336, 'WIS': 0.08812208112476444, 'sample_std_mean': 0.22106416885794838, 'sample_diversity': 0.23193726038679163, 'samples_evaluated': 658}
+TRIAL 5e-05 1.2 {'CRPS': 0.11010822180466087, 'ProbTS_CRPS': 0.223234248718411, 'inv_MSE': 0.1061644902081996, 'inv_MAE': 0.14233227378736876, 'mean_MSE': 0.10720110052098211, 'mean_MAE': 0.13989665498532422, 'PICP_95': 0.9570488328267014, 'MPIW_95': 1.087413943103744, 'WIS': 0.08978382768647286, 'sample_std_mean': 0.2652770133638092, 'sample_diversity': 0.27832472704826516, 'samples_evaluated': 658}
+EPOCH 0.0001 1 {'epoch': 1, 'prob_loss': 722.1252699838675, 'maturity': 0.07338619322201559, 'prob_loss_weight': 0.11971688356091481, 'effective_prob_lr': 1.1971688356091482e-05, 'inv_loss_ema': 0.33337458801269526, 'inv_loss_relative_change': 0.00014415120871979394}
+EPOCH 0.0001 2 {'epoch': 2, 'prob_loss': 659.1351623917958, 'maturity': 0.14403657370301376, 'prob_loss_weight': 0.18683474501786307, 'effective_prob_lr': 1.8683474501786306e-05, 'inv_loss_ema': 0.3333361373901367, 'inv_loss_relative_change': 0.00011533759302914795}
+EPOCH 0.0001 3 {'epoch': 3, 'prob_loss': 556.4725918969559, 'maturity': 0.22348077221300694, 'prob_loss_weight': 0.26230673360235657, 'effective_prob_lr': 2.6230673360235657e-05, 'inv_loss_ema': 0.3333053768920898, 'inv_loss_relative_change': 9.228071785929916e-05}
+EPOCH 0.0001 4 {'epoch': 4, 'prob_loss': 512.0348107076233, 'maturity': 0.3053790544529038, 'prob_loss_weight': 0.3401101017302586, 'effective_prob_lr': 3.401101017302586e-05, 'inv_loss_ema': 0.3332807684936523, 'inv_loss_relative_change': 7.383138750077853e-05}
+EPOCH 0.0001 5 {'epoch': 5, 'prob_loss': 288.17231940120513, 'maturity': 0.38557445688041536, 'prob_loss_weight': 0.4162957340363946, 'effective_prob_lr': 4.162957340363946e-05, 'inv_loss_ema': 0.33326108177490227, 'inv_loss_relative_change': 5.906947118173904e-05}
+EPOCH 0.0001 6 {'epoch': 6, 'prob_loss': 349.40418758411056, 'maturity': 0.46147376073226454, 'prob_loss_weight': 0.4884000726956513, 'effective_prob_lr': 4.884000726956513e-05, 'inv_loss_ema': 0.3332453323999023, 'inv_loss_relative_change': 4.725836847212586e-05}
+EPOCH 0.0001 7 {'epoch': 7, 'prob_loss': 256.69703644274836, 'maturity': 0.5315885883062248, 'prob_loss_weight': 0.5550091588909136, 'effective_prob_lr': 5.550091588909136e-05, 'inv_loss_ema': 0.3332327328999023, 'inv_loss_relative_change': 3.7808481544852903e-05}
+EPOCH 0.0001 8 {'epoch': 8, 'prob_loss': 292.73097603233697, 'maturity': 0.5951973973889518, 'prob_loss_weight': 0.6154375275195043, 'effective_prob_lr': 6.154375275195043e-05, 'inv_loss_ema': 0.3332226532999023, 'inv_loss_relative_change': 3.024792886414255e-05}
+EPOCH 0.0001 9 {'epoch': 9, 'prob_loss': 106.44084010063874, 'maturity': 0.6520984115560692, 'prob_loss_weight': 0.6694934909782657, 'effective_prob_lr': 6.694934909782657e-05, 'inv_loss_ema': 0.3332145896199023, 'inv_loss_relative_change': 2.419907506324845e-05}
+EPOCH 0.0001 10 {'epoch': 10, 'prob_loss': 120.44178725589217, 'maturity': 0.7024306583751704, 'prob_loss_weight': 0.7173091254564119, 'effective_prob_lr': 7.173091254564119e-05, 'inv_loss_ema': 0.33320813867590227, 'inv_loss_relative_change': 1.9359728538222814e-05}
+TRIAL 0.0001 0.8 {'CRPS': 0.10680538590284104, 'ProbTS_CRPS': 0.21736280994891757, 'inv_MSE': 0.1061644902081996, 'inv_MAE': 0.14233227378736876, 'mean_MSE': 0.103994797954851, 'mean_MAE': 0.13767425061449817, 'PICP_95': 0.9001122245672626, 'MPIW_95': 0.7202415626643277, 'WIS': 0.08701885943400099, 'sample_std_mean': 0.17728695726322186, 'sample_diversity': 0.18523819479627088, 'samples_evaluated': 658}
+TRIAL 0.0001 1.0 {'CRPS': 0.1070261686406237, 'ProbTS_CRPS': 0.21722870220438686, 'inv_MSE': 0.1061644902081996, 'inv_MAE': 0.14233227378736876, 'mean_MSE': 0.10465076069225837, 'mean_MAE': 0.1380958658017467, 'PICP_95': 0.936824607450549, 'MPIW_95': 0.900301941078847, 'WIS': 0.08677416170259378, 'sample_std_mean': 0.22160869175539916, 'sample_diversity': 0.23154774095330918, 'samples_evaluated': 658}
+TRIAL 0.0001 1.2 {'CRPS': 0.10877378632549457, 'ProbTS_CRPS': 0.22003327325937597, 'inv_MSE': 0.1061644902081996, 'inv_MAE': 0.14233227378736876, 'mean_MSE': 0.10578608031647908, 'mean_MAE': 0.13910051557521327, 'PICP_95': 0.9584117892303003, 'MPIW_95': 1.0803623650574032, 'WIS': 0.08841251087089078, 'sample_std_mean': 0.26593044169224506, 'sample_diversity': 0.277857301898278, 'samples_evaluated': 658}
+EPOCH 0.0005 1 {'epoch': 1, 'prob_loss': 567.4487512544396, 'maturity': 0.07338619322201559, 'prob_loss_weight': 0.11971688356091481, 'effective_prob_lr': 5.9858441780457406e-05, 'inv_loss_ema': 0.33337458801269526, 'inv_loss_relative_change': 0.00014415120871979394}
+EPOCH 0.0005 2 {'epoch': 2, 'prob_loss': 354.6818604019924, 'maturity': 0.14403657370301376, 'prob_loss_weight': 0.18683474501786307, 'effective_prob_lr': 9.341737250893154e-05, 'inv_loss_ema': 0.3333361373901367, 'inv_loss_relative_change': 0.00011533759302914795}
+EPOCH 0.0005 3 {'epoch': 3, 'prob_loss': 176.9828107602517, 'maturity': 0.22348077221300694, 'prob_loss_weight': 0.26230673360235657, 'effective_prob_lr': 0.00013115336680117828, 'inv_loss_ema': 0.3333053768920898, 'inv_loss_relative_change': 9.228071785929916e-05}
+EPOCH 0.0005 4 {'epoch': 4, 'prob_loss': 215.7863112021283, 'maturity': 0.3053790544529038, 'prob_loss_weight': 0.3401101017302586, 'effective_prob_lr': 0.00017005505086512929, 'inv_loss_ema': 0.3332807684936523, 'inv_loss_relative_change': 7.383138750077853e-05}
+EPOCH 0.0005 5 {'epoch': 5, 'prob_loss': 139.56191778339016, 'maturity': 0.38557445688041536, 'prob_loss_weight': 0.4162957340363946, 'effective_prob_lr': 0.0002081478670181973, 'inv_loss_ema': 0.33326108177490227, 'inv_loss_relative_change': 5.906947118173904e-05}
+EPOCH 0.0005 6 {'epoch': 6, 'prob_loss': 222.07988364596642, 'maturity': 0.46147376073226454, 'prob_loss_weight': 0.4884000726956513, 'effective_prob_lr': 0.00024420003634782566, 'inv_loss_ema': 0.3332453323999023, 'inv_loss_relative_change': 4.725836847212586e-05}
+EPOCH 0.0005 7 {'epoch': 7, 'prob_loss': 108.44653253936019, 'maturity': 0.5315885883062248, 'prob_loss_weight': 0.5550091588909136, 'effective_prob_lr': 0.0002775045794454568, 'inv_loss_ema': 0.3332327328999023, 'inv_loss_relative_change': 3.7808481544852903e-05}
+EPOCH 0.0005 8 {'epoch': 8, 'prob_loss': 174.39949569777045, 'maturity': 0.5951973973889518, 'prob_loss_weight': 0.6154375275195043, 'effective_prob_lr': 0.0003077187637597522, 'inv_loss_ema': 0.3332226532999023, 'inv_loss_relative_change': 3.024792886414255e-05}
+EPOCH 0.0005 9 {'epoch': 9, 'prob_loss': 230.50049054456215, 'maturity': 0.6520984115560692, 'prob_loss_weight': 0.6694934909782657, 'effective_prob_lr': 0.00033474674548913285, 'inv_loss_ema': 0.3332145896199023, 'inv_loss_relative_change': 2.419907506324845e-05}
+EPOCH 0.0005 10 {'epoch': 10, 'prob_loss': 195.65311818836454, 'maturity': 0.7024306583751704, 'prob_loss_weight': 0.7173091254564119, 'effective_prob_lr': 0.00035865456272820596, 'inv_loss_ema': 0.33320813867590227, 'inv_loss_relative_change': 1.9359728538222814e-05}
+TRIAL 0.0005 0.8 {'CRPS': 0.10650384025280236, 'ProbTS_CRPS': 0.2165589121292065, 'inv_MSE': 0.1061644902081996, 'inv_MAE': 0.14233227378736876, 'mean_MSE': 0.10580917824297509, 'mean_MAE': 0.143285899493832, 'PICP_95': 0.8885813696043832, 'MPIW_95': 0.7076193820741764, 'WIS': 0.08658304690499437, 'sample_std_mean': 0.17810379027595635, 'sample_diversity': 0.18227001177684876, 'samples_evaluated': 658}
+TRIAL 0.0005 1.0 {'CRPS': 0.10658159558760359, 'ProbTS_CRPS': 0.21604446776913291, 'inv_MSE': 0.1061644902081996, 'inv_MAE': 0.14233227378736876, 'mean_MSE': 0.1077302801833236, 'mean_MAE': 0.1461016390370743, 'PICP_95': 0.9285262542292703, 'MPIW_95': 0.884524210245776, 'WIS': 0.08611769496398132, 'sample_std_mean': 0.22262973431214736, 'sample_diversity': 0.22783751024844798, 'samples_evaluated': 658}
+TRIAL 0.0005 1.2 {'CRPS': 0.10824815081970307, 'ProbTS_CRPS': 0.21861522558702887, 'inv_MSE': 0.1061644902081996, 'inv_MAE': 0.14233227378736876, 'mean_MSE': 0.11045535574001926, 'mean_MAE': 0.14976846525236104, 'PICP_95': 0.952887595243367, 'MPIW_95': 1.0614291067181387, 'WIS': 0.08762503695025994, 'sample_std_mean': 0.2671556920266079, 'sample_diversity': 0.2734050262934531, 'samples_evaluated': 658}
+COMPLETE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/Weather/pred_24 {'lr': 0.0005, 'sample_scale': 1.0, 'test': {'CRPS': 0.10658159558760359, 'ProbTS_CRPS': 0.21604446776913291, 'inv_MSE': 0.1061644902081996, 'inv_MAE': 0.14233227378736876, 'mean_MSE': 0.1077302801833236, 'mean_MAE': 0.1461016390370743, 'PICP_95': 0.9285262542292703, 'MPIW_95': 0.884524210245776, 'WIS': 0.08611769496398132, 'sample_std_mean': 0.22262973431214736, 'sample_diversity': 0.22783751024844798, 'samples_evaluated': 658}, 'checkpoint': '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/Weather/pred_24/probability_search_ema_lr/flow_lr_0.0005.pt'}
+RUN full_eval Weather/24 GPU0 attempt=1 2026-11-01T05:03:40+00:00
+FULL_TEST 256 / 10516
+FULL_TEST 512 / 10516
+FULL_TEST 768 / 10516
+FULL_TEST 1024 / 10516
+FULL_TEST 1280 / 10516
+FULL_TEST 1536 / 10516
+FULL_TEST 1792 / 10516
+FULL_TEST 2048 / 10516
+FULL_TEST 2304 / 10516
+FULL_TEST 2560 / 10516
+FULL_TEST 2816 / 10516
+FULL_TEST 3072 / 10516
+FULL_TEST 3328 / 10516
+FULL_TEST 3584 / 10516
+FULL_TEST 3840 / 10516
+FULL_TEST 4096 / 10516
+FULL_TEST 4352 / 10516
+FULL_TEST 4608 / 10516
+FULL_TEST 4864 / 10516
+FULL_TEST 5120 / 10516
+FULL_TEST 5376 / 10516
+FULL_TEST 5632 / 10516
+FULL_TEST 5888 / 10516
+FULL_TEST 6144 / 10516
+FULL_TEST 6400 / 10516
+FULL_TEST 6656 / 10516
+FULL_TEST 6912 / 10516
+FULL_TEST 7168 / 10516
+FULL_TEST 7424 / 10516
+FULL_TEST 7680 / 10516
+FULL_TEST 7936 / 10516
+FULL_TEST 8192 / 10516
+FULL_TEST 8448 / 10516
+FULL_TEST 8704 / 10516
+FULL_TEST 8960 / 10516
+FULL_TEST 9216 / 10516
+FULL_TEST 9472 / 10516
+FULL_TEST 9728 / 10516
+FULL_TEST 9984 / 10516
+FULL_TEST 10240 / 10516
+FULL_TEST 10496 / 10516
+FULL_TEST 256 / 10516
+FULL_TEST 512 / 10516
+FULL_TEST 768 / 10516
+FULL_TEST 1024 / 10516
+FULL_TEST 1280 / 10516
+FULL_TEST 1536 / 10516
+FULL_TEST 1792 / 10516
+FULL_TEST 2048 / 10516
+FULL_TEST 2304 / 10516
+FULL_TEST 2560 / 10516
+FULL_TEST 2816 / 10516
+FULL_TEST 3072 / 10516
+FULL_TEST 3328 / 10516
+FULL_TEST 3584 / 10516
+FULL_TEST 3840 / 10516
+FULL_TEST 4096 / 10516
+FULL_TEST 4352 / 10516
+FULL_TEST 4608 / 10516
+FULL_TEST 4864 / 10516
+FULL_TEST 5120 / 10516
+FULL_TEST 5376 / 10516
+FULL_TEST 5632 / 10516
+FULL_TEST 5888 / 10516
+FULL_TEST 6144 / 10516
+FULL_TEST 6400 / 10516
+FULL_TEST 6656 / 10516
+FULL_TEST 6912 / 10516
+FULL_TEST 7168 / 10516
+FULL_TEST 7424 / 10516
+FULL_TEST 7680 / 10516
+FULL_TEST 7936 / 10516
+FULL_TEST 8192 / 10516
+FULL_TEST 8448 / 10516
+FULL_TEST 8704 / 10516
+FULL_TEST 8960 / 10516
+FULL_TEST 9216 / 10516
+FULL_TEST 9472 / 10516
+FULL_TEST 9728 / 10516
+FULL_TEST 9984 / 10516
+FULL_TEST 10240 / 10516
+FULL_TEST 10496 / 10516
+COMPLETE /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_paper_completion_20261101/patchtst/Weather/pred_24/full_test_eval windows 10516
+PAPER WEATHER COMPLETE 24 2026-11-01T05:39:38+00:00

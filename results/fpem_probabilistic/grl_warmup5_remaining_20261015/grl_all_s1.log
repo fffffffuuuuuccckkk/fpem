@@ -1,0 +1,17 @@
+QUEUE cases=16 GPUs=0 1 2 3 root=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_probabilistic/grl_warmup5_remaining_20261015
+DONE patchtst:ETTh1:48 GPU=1
+DONE patchtst:ETTh1:96 GPU=2
+DONE patchtst:ETTh1:192 GPU=0
+DONE patchtst:ETTh1:336 GPU=3
+DONE patchtst:ETTm1:48 GPU=3
+DONE patchtst:ETTm1:192 GPU=1
+DONE patchtst:ETTh2:192 GPU=3
+DONE patchtst:ETTm1:336 GPU=0
+DONE patchtst:ExchangeRate:192 GPU=3
+DONE patchtst:ETTh2:96 GPU=1
+DONE patchtst:ExchangeRate:96 GPU=0
+DONE patchtst:ExchangeRate:48 GPU=1
+DONE patchtst:ExchangeRate:720 GPU=3
+DONE patchtst:ETTm1:720 GPU=2
+DONE patchtst:ETTm2:48 GPU=1
+DONE patchtst:ETTm2:720 GPU=0
