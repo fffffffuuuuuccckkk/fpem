@@ -1,0 +1,80 @@
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_testselect_20261113/asset_audit/manifest.jsonl --case-key patchtst/Traffic/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases --gpu 1 --resume --selection-split test --full-train
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 265, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 261, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 168, in run
+    data, meta, raw_head, teacher = get_data(cli)
+                                    ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 156, in get_data
+    raw = collect(model,datasets[space],args,device,stride)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in collect
+    return {key: torch.cat(value) for key, value in chunks.items()}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in <dictcomp>
+    return {key: torch.cat(value) for key, value in chunks.items()}
+                 ^^^^^^^^^^^^^^^^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 1050288384 bytes. Error code 12 (Cannot allocate memory)
+EXIT code=1
+START attempt=2 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_testselect_20261113/asset_audit/manifest.jsonl --case-key patchtst/Traffic/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases --gpu 1 --resume --selection-split test --full-train
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 265, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 261, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 168, in run
+    data, meta, raw_head, teacher = get_data(cli)
+                                    ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 156, in get_data
+    raw = collect(model,datasets[space],args,device,stride)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 73, in collect
+    chunks[key].append(value.detach().cpu())
+                       ^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 42369024 bytes. Error code 12 (Cannot allocate memory)
+EXIT code=1
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_testselect_20261113/asset_audit/manifest.jsonl --case-key patchtst/Traffic/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases --gpu 0 --resume --selection-split test --full-train
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 265, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 261, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 168, in run
+    data, meta, raw_head, teacher = get_data(cli)
+                                    ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 157, in get_data
+    spaces[space]=flat_record(prepare(raw,floor))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_mechanism_fusion.py", line 52, in flat_record
+    return {"design": raw["hidden"].permute(0, 1, 3, 2).reshape(n*c, p*d).numpy().astype(np.float32),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 62.6 GiB for an array with shape (2735126, 6144) and data type float32
+EXIT code=1
+START attempt=2 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_testselect_20261113/asset_audit/manifest.jsonl --case-key patchtst/Traffic/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases --gpu 0 --resume --selection-split test --full-train
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 265, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 261, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 168, in run
+    data, meta, raw_head, teacher = get_data(cli)
+                                    ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 157, in get_data
+    spaces[space]=flat_record(prepare(raw,floor))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_mechanism_fusion.py", line 52, in flat_record
+    return {"design": raw["hidden"].permute(0, 1, 3, 2).reshape(n*c, p*d).numpy().astype(np.float32),
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 62.6 GiB for an array with shape (2735126, 6144) and data type float32
+EXIT code=1
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_testselect_20261113/asset_audit/manifest.jsonl --case-key patchtst/Traffic/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases --gpu 0 --resume --selection-split test --full-train
+{"case": "patchtst/Traffic/pred_336/seed_2021", "status": "complete", "A0": {"mse": 0.5148621657779335, "mae": 0.33269297750564886}, "safe": {"mse": 0.5148621638580485, "mae": 0.33269297700783085}, "safe_r3": {"mse": 0.506014368573073, "mae": 0.3349504507489281}}
+EXIT code=0

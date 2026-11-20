@@ -1,0 +1,34 @@
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_testselect_20261113/asset_audit/manifest.jsonl --case-key patchtst/Electricity/pred_720/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_environment_ablation_20261115/random/cases --gpu 1 --resume --selection-split test --environment-supervision random --full-train
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 299, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 295, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 195, in run
+    data, meta, raw_head, teacher = get_data(cli)
+                                    ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 145, in get_data
+    train = flat_record(prepare(raw_train,floor), release_hidden=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_mechanism_fusion.py", line 54, in flat_record
+    design = np.empty((n*c, p*d), dtype=np.float32)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 16.2 GiB for an array with shape (706200, 6144) and data type float32
+EXIT code=1
+START attempt=2 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_testselect_20261113/asset_audit/manifest.jsonl --case-key patchtst/Electricity/pred_720/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_environment_ablation_20261115/random/cases --gpu 1 --resume --selection-split test --environment-supervision random --full-train
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 299, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 295, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 195, in run
+    data, meta, raw_head, teacher = get_data(cli)
+                                    ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 158, in get_data
+    spaces[space]=flat_record(prepare(raw,floor), release_hidden=True)
+                              ^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 83, in prepare
+    raw["target_norm"] = ((raw["truth"]-raw["mean"])/raw["std"]).transpose(1, 2).float()
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 8396127360 bytes. Error code 12 (Cannot allocate memory)
+EXIT code=1

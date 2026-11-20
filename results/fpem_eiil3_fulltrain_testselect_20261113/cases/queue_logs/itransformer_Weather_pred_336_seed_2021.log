@@ -1,0 +1,32 @@
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_mse_priority_20261112/a0_assets/itransformer/Weather/pred_336/seed_2021/case_manifest.jsonl --case-key itransformer/Weather/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases --gpu 2 --resume --selection-split test --full-train
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 265, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 261, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 202, in run
+    selected_scores = {space: mse_mae(stable[space], data[space]["y"]) for space in SPACES}
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 202, in <dictcomp>
+    selected_scores = {space: mse_mae(stable[space], data[space]["y"]) for space in SPACES}
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_safe.py", line 29, in mse_mae
+    d = a.astype(np.float64) - y.astype(np.float64)
+                               ^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 549. MiB for an array with shape (214284, 336) and data type float64
+EXIT code=1
+START attempt=2 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_mse_priority_20261112/a0_assets/itransformer/Weather/pred_336/seed_2021/case_manifest.jsonl --case-key itransformer/Weather/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases --gpu 2 --resume --selection-split test --full-train
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 17, in <module>
+    import torch
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/__init__.py", line 367, in <module>
+    from torch._C import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^
+ImportError: libcufft.so.11: failed to map segment from shared object
+EXIT code=1
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_mse_priority_20261112/a0_assets/itransformer/Weather/pred_336/seed_2021/case_manifest.jsonl --case-key itransformer/Weather/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases --gpu 0 --resume --selection-split test --full-train
+{"case": "itransformer/Weather/pred_336/seed_2021", "status": "complete", "A0": {"mse": 239.07105405956125, "mae": 2.5418805656935475}, "safe": {"mse": 238.94277556010584, "mae": 2.569651825221236}, "safe_r3": {"mse": 237.76040457894493, "mae": 2.8071864664911303}}
+EXIT code=0
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_mse_priority_20261112/a0_assets/itransformer/Weather/pred_336/seed_2021/case_manifest.jsonl --case-key itransformer/Weather/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases --gpu 0 --resume --selection-split test --full-train
+{"case": "itransformer/Weather/pred_336/seed_2021", "status": "REUSED"}
+EXIT code=0

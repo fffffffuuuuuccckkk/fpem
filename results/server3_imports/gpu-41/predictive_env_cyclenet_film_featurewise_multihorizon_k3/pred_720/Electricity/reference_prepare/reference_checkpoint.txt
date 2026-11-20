@@ -1,0 +1,5 @@
+reference_checkpoint: results/predictive_env_cyclenet_film_featurewise_multihorizon_k3/pred_720/Electricity/shared_reference.pt
+reference_checkpoint_sha256: c0ddf5005398a9eaf1623f27c3f4d54d1b4bb9f64accb892a0a01c439a2893dd
+reference_source: created
+seed: 2021
+signature: {'backbone': 'cyclenet', 'dataset_name': 'Electricity', 'dataset_archive_sha256': '3730ee9f111b7761c465d373cfe004756c365b28245c1c7942a590bd54a2bf7c', 'data_class': 'custom', 'data_path': 'electricity.csv', 'target': 'OT', 'freq': 'h', 'seq_len': 96, 'pred_len': 720, 'd_model': 512, 'd_ff': 2048, 'n_heads': 2, 'e_layers': 1, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 3, 'enc_in': 321, 'cyclenet_cycle_len': 168, 'protocol_version': 4}

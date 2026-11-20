@@ -1,0 +1,9 @@
+# Reproducibility asset graph
+
+`raw TRAIN/VAL/TEST + base_run_config + A0 checkpoint (SHA)` → frozen A0 features and predictions. TRAIN features and labels → EIIL3 Teacher `q` (`teacher_q.npz` and metadata). Historical keys → Router checkpoint. Frozen H and Teacher/Router → I3 heads. I3 residuals and Router `q` → R3 Ridge parameters. I3+R3 point prediction plus training residuals → `flow_input.npz` → Residual Flow and probabilistic metrics. Figures may read point and Flow inputs. TEST future must never influence routing or training.
+
+The current EIIL3 `features.npz` is not universally disposable: `tools/run_fpem_eiil3.py` resumes from it, and `tools/context_shift_viz/core.py` can inspect it. `flow_input.npz` is consumed by `tools/run_fpem_eiil3_flow.py`. A cache may be removed only after its producer, current consumers, completion markers and exact reconstruction have been validated for that run. Incomplete or recently touched Electricity caches remain blocked.
+
+The one validated G1 cache was produced by `tools/run_fpem_g1_stability_search.py:_cache_source` from a fixed A0 checkpoint and base config. The original producer was run again into isolated scratch; reconstructed fields matched exactly in the checked samples and A0 MSE/MAE matched. Only that cache file was eligible; all G1 metrics, trial selections, source configs and A0 checkpoint remain. The proof, dry-run manifest and journal are saved in the storage audit result.
+
+Formal A0, EIIL3, COSA, FOIL, ShifTS, classic baseline, orthogonal/spectral, ABC, probabilistic and figure result families are listed separately in `paper_artifact_manifest.json`. That list is protective, not a claim that every experiment has a full reproducibility bundle. Any missing config/hash/metric leaves its dependent artifact protected until investigated.

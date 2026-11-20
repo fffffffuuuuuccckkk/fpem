@@ -1,0 +1,80 @@
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+WAIT_GPU 3
+{"case": "itransformer/ETTh1/pred_96/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/ETTh1/pred_96/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/itransformer_ETTh1_pred_96_seed_2021.log"}
+{"case": "itransformer/ETTh1/pred_96/seed_2021", "status": "START", "attempt": 2}
+{"case": "itransformer/ETTh1/pred_96/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/itransformer_ETTh1_pred_96_seed_2021.log"}
+{"case": "itransformer/ExchangeRate/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/ExchangeRate/pred_720/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/itransformer_ExchangeRate_pred_720_seed_2021.log"}
+{"case": "itransformer/ExchangeRate/pred_720/seed_2021", "status": "START", "attempt": 2}
+{"case": "itransformer/ExchangeRate/pred_720/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/itransformer_ExchangeRate_pred_720_seed_2021.log"}
+{"case": "itransformer/Weather/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/Weather/pred_336/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "itransformer/Weather/pred_96/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/Weather/pred_96/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "moderntcn/Weather/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "moderntcn/Weather/pred_336/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/ETTh1/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTh1/pred_336/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTh1_pred_336_seed_2021.log"}
+{"case": "patchtst/ETTh1/pred_336/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/ETTh1/pred_336/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTh1_pred_336_seed_2021.log"}
+{"case": "patchtst/ETTh2/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTh2/pred_336/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTh2_pred_336_seed_2021.log"}
+{"case": "patchtst/ETTh2/pred_336/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/ETTh2/pred_336/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTh2_pred_336_seed_2021.log"}
+{"case": "patchtst/ETTh2/pred_96/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTh2/pred_96/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTh2_pred_96_seed_2021.log"}
+{"case": "patchtst/ETTh2/pred_96/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/ETTh2/pred_96/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTh2_pred_96_seed_2021.log"}
+{"case": "patchtst/ETTm1/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTm1/pred_720/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTm1_pred_720_seed_2021.log"}
+{"case": "patchtst/ETTm1/pred_720/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/ETTm1/pred_720/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTm1_pred_720_seed_2021.log"}
+{"case": "patchtst/ETTm2/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTm2/pred_336/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTm2_pred_336_seed_2021.log"}
+{"case": "patchtst/ETTm2/pred_336/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/ETTm2/pred_336/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTm2_pred_336_seed_2021.log"}
+{"case": "patchtst/ETTm2/pred_96/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTm2/pred_96/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTm2_pred_96_seed_2021.log"}
+{"case": "patchtst/ETTm2/pred_96/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/ETTm2/pred_96/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ETTm2_pred_96_seed_2021.log"}
+{"case": "patchtst/Electricity/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Electricity/pred_720/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_Electricity_pred_720_seed_2021.log"}
+{"case": "patchtst/Electricity/pred_720/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/Electricity/pred_720/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_Electricity_pred_720_seed_2021.log"}
+{"case": "patchtst/ExchangeRate/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ExchangeRate/pred_720/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ExchangeRate_pred_720_seed_2021.log"}
+{"case": "patchtst/ExchangeRate/pred_720/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/ExchangeRate/pred_720/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_ExchangeRate_pred_720_seed_2021.log"}
+{"case": "patchtst/Traffic/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Traffic/pred_720/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_Traffic_pred_720_seed_2021.log"}
+{"case": "patchtst/Traffic/pred_720/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/Traffic/pred_720/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_Traffic_pred_720_seed_2021.log"}
+{"case": "patchtst/Weather/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Weather/pred_336/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_Weather_pred_336_seed_2021.log"}
+{"case": "patchtst/Weather/pred_336/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/Weather/pred_336/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_Weather_pred_336_seed_2021.log"}
+{"case": "patchtst/Weather/pred_96/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Weather/pred_96/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_Weather_pred_96_seed_2021.log"}
+{"case": "patchtst/Weather/pred_96/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/Weather/pred_96/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases/queue_logs/patchtst_Weather_pred_96_seed_2021.log"}
+{"case": "itransformer/Weather/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/Weather/pred_720/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/ETTh2/pred_720/seed_2021", "status": "START", "attempt": 1}

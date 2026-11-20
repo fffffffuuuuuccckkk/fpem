@@ -1,0 +1,76 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMFinal_ExchangeRate_96_336Model:              PatchTST            
+
+[1mData Loader[0m
+  Data:               custom              Root Path:          ./dataset/all_datasets/exchange_rate
+  Data Path:          exchange_rate.csv   Features:           M                   
+  Target:             OT                  Freq:               d                   
+  Checkpoints:        results/fpem_final_baselines/PatchTST/ExchangeRate/pred_336/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           336                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             8                   Dec In:             8                   
+  C Out:              8                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               256                 
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMFinal_PatchTST_ExchangeRate_336Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: PatchTST ...
+>>>>>>>start training : long_term_forecast_FPEMFinal_ExchangeRate_96_336_PatchTST_custom_ftM_sl96_ll48_pl336_dm128_nh8_el1_dl1_df256_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_PatchTST_ExchangeRate_336_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 4880
+val 425
+test 1182
+	iters: 100, epoch: 1 | loss: 0.3377712
+	speed: 0.0227s/iter; left time: 32.4215s
+Epoch: 1 cost time: 3.1230735778808594
+Epoch: 1, Steps: 153 | Train Loss: 0.4485190 Vali Loss: 0.3883347 Test Loss: 0.3250212
+Validation loss decreased (inf --> 0.388335).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 0.3671597
+	speed: 0.0276s/iter; left time: 35.3232s
+Epoch: 2 cost time: 1.7285137176513672
+Epoch: 2, Steps: 153 | Train Loss: 0.4342938 Vali Loss: 0.3897791 Test Loss: 0.3290476
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 0.5214911
+	speed: 0.0213s/iter; left time: 24.0167s
+Epoch: 3 cost time: 1.7771899700164795
+Epoch: 3, Steps: 153 | Train Loss: 0.4326538 Vali Loss: 0.3971655 Test Loss: 0.3321144
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 0.3970129
+	speed: 0.0220s/iter; left time: 21.3546s
+Epoch: 4 cost time: 1.73232102394104
+Epoch: 4, Steps: 153 | Train Loss: 0.4313494 Vali Loss: 0.3921328 Test Loss: 0.3282774
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : long_term_forecast_FPEMFinal_ExchangeRate_96_336_PatchTST_custom_ftM_sl96_ll48_pl336_dm128_nh8_el1_dl1_df256_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_PatchTST_ExchangeRate_336_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 1182
+test shape: (1182, 336, 8) (1182, 336, 8)
+test shape: (1182, 336, 8) (1182, 336, 8)
+mse:0.3250485956668854, mae:0.4128335118293762, dtw:Not calculated

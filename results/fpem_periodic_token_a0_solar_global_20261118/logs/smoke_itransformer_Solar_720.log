@@ -1,0 +1,3 @@
+{"arm": "baseline", "epoch": 1, "train": {"mse": 1.4362992954176805, "mae": 0.9434695055885036, "batches": 2, "values": 6312960}, "val": {"mse": 1.176916216798459, "mae": 0.8645242485300081, "batches": 1, "values": 3156480}, "seconds": 0.2113460348919034}
+{"arm": "token", "epoch": 1, "train": {"mse": 1.4369498618714518, "mae": 0.943614920734489, "batches": 2, "values": 6312960}, "val": {"mse": 1.1773570559610707, "mae": 0.8647770617903487, "batches": 1, "values": 3156480}, "seconds": 0.14495245181024075}
+{"comparison": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_periodic_token_a0_solar_global_20261118/smoke_itransformer_Solar_720/comparison.json", "delta_test_mse": 0.00029835449614767917}

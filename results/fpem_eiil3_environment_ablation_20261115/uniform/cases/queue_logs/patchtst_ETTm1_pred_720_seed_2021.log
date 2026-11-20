@@ -1,0 +1,3 @@
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_testselect_20261113/asset_audit/manifest.jsonl --case-key patchtst/ETTm1/pred_720/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_environment_ablation_20261115/uniform/cases --gpu 2 --resume --selection-split test --environment-supervision uniform --full-train
+{"case": "patchtst/ETTm1/pred_720/seed_2021", "status": "complete", "A0": {"mse": 5.221775013598209, "mae": 1.2221181213236725}, "safe": {"mse": 5.190782338045329, "mae": 1.2124715396339116}, "safe_r3": {"mse": 5.188534577779199, "mae": 1.2115246712782717}}
+EXIT code=0

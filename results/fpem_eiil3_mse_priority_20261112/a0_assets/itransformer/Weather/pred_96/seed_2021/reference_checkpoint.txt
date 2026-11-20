@@ -1,0 +1,5 @@
+reference_checkpoint: /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_mse_priority_20261112/a0_assets/itransformer/Weather/pred_96/seed_2021/shared_reference.pt
+reference_checkpoint_sha256: 2809b021c5a6130f045031b9661dd01e6e46c3c45c8f0c80a0010de343de5b9b
+reference_source: created
+seed: 2021
+signature: {'backbone': 'itransformer', 'dataset_name': 'Weather', 'dataset_archive_sha256': '', 'data_class': 'custom', 'data_path': 'weather.csv', 'target': 'OT', 'freq': '10min', 'seq_len': 96, 'pred_len': 96, 'd_model': 512, 'd_ff': 512, 'n_heads': 8, 'e_layers': 3, 'dropout': 0.1, 'seed': 2021, 'warmup_epochs': 10, 'enc_in': 21, 'cyclenet_cycle_len': 144, 'protocol_version': 4}

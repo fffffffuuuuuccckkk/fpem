@@ -1,0 +1,3 @@
+START moderntcn/Weather/pred_192/seed_2021 gpu=0 attempt=1 2026-11-16T09:28:44+00:00
+{"case": "moderntcn/Weather/pred_192/seed_2021", "status": "complete", "pure_R3_TEST": {"mse": 216.6846720863491, "mae": 2.2513140707744643}, "R3_then_F03_TEST": {"mse": 216.21888657585623, "mae": 2.2970828688115335}, "alpha": 0.5135260434211328, "r3_trick_TEST": {"mse": 219.09692796486655, "mae": 2.46312100426121}}
+COMPLETE moderntcn/Weather/pred_192/seed_2021 2026-11-16T11:15:06+00:00

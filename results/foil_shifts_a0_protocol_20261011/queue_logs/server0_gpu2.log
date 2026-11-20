@@ -1,0 +1,6 @@
+DONE itransformer ETTh1 96 foil GPU=2
+DONE itransformer ETTh1 96 shifts GPU=2
+DONE itransformer ETTm1 96 foil GPU=2
+DONE itransformer ETTm1 96 shifts GPU=2
+DONE itransformer ExchangeRate 96 foil GPU=2
+DONE itransformer ExchangeRate 96 shifts GPU=2

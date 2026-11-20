@@ -1,0 +1,22 @@
+/data/OuXiaoyu/Time-Series-Library-FPEM/tools/plot_fpem_visible_variation.py:172: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(truth, pred).statistic if np.std(pred) > 1e-10 else 0.
+/data/OuXiaoyu/Time-Series-Library-FPEM/tools/plot_fpem_visible_variation.py:172: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(truth, pred).statistic if np.std(pred) > 1e-10 else 0.
+/data/OuXiaoyu/Time-Series-Library-FPEM/tools/plot_fpem_visible_variation.py:172: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(truth, pred).statistic if np.std(pred) > 1e-10 else 0.
+/data/OuXiaoyu/Time-Series-Library-FPEM/tools/plot_fpem_visible_variation.py:172: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(truth, pred).statistic if np.std(pred) > 1e-10 else 0.
+/data/OuXiaoyu/Time-Series-Library-FPEM/tools/plot_fpem_visible_variation.py:172: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(truth, pred).statistic if np.std(pred) > 1e-10 else 0.
+/data/OuXiaoyu/Time-Series-Library-FPEM/tools/plot_fpem_visible_variation.py:172: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(truth, pred).statistic if np.std(pred) > 1e-10 else 0.
+/data/OuXiaoyu/Time-Series-Library-FPEM/tools/plot_fpem_visible_variation.py:172: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(truth, pred).statistic if np.std(pred) > 1e-10 else 0.
+/data/OuXiaoyu/Time-Series-Library-FPEM/tools/plot_fpem_visible_variation.py:172: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(truth, pred).statistic if np.std(pred) > 1e-10 else 0.
+/data/OuXiaoyu/Time-Series-Library-FPEM/tools/plot_fpem_visible_variation.py:172: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(truth, pred).statistic if np.std(pred) > 1e-10 else 0.
+/data/OuXiaoyu/Time-Series-Library-FPEM/tools/plot_fpem_visible_variation.py:172: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(truth, pred).statistic if np.std(pred) > 1e-10 else 0.
+/data/OuXiaoyu/Time-Series-Library-FPEM/tools/plot_fpem_visible_variation.py:172: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho = spearmanr(truth, pred).statistic if np.std(pred) > 1e-10 else 0.

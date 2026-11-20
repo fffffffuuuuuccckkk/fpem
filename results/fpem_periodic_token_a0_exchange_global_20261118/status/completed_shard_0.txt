@@ -1,0 +1,5 @@
+itransformer_ExchangeRate_96
+moderntcn_ExchangeRate_336
+patchtst_ExchangeRate_720
+patchtst_ExchangeRate_96
+itransformer_ExchangeRate_720

@@ -1,0 +1,14 @@
+{"cases": 63, "root": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_periodic_token_a0_exchange_global_20261118"}
+host=gpu-39 shard=0/2 cases=5 gpus=0 1 2 3
+start case=patchtst_ExchangeRate_96 gpu=3 time=2026-11-18T07:42:46+00:00
+start case=patchtst_ExchangeRate_720 gpu=2 time=2026-11-18T07:42:46+00:00
+start case=moderntcn_ExchangeRate_336 gpu=1 time=2026-11-18T07:42:46+00:00
+start case=itransformer_ExchangeRate_96 gpu=0 time=2026-11-18T07:42:46+00:00
+complete case=itransformer_ExchangeRate_96 gpu=0 time=2026-11-18T07:43:11+00:00
+start case=itransformer_ExchangeRate_720 gpu=0 time=2026-11-18T07:43:11+00:00
+complete case=moderntcn_ExchangeRate_336 gpu=1 time=2026-11-18T07:43:16+00:00
+complete case=patchtst_ExchangeRate_720 gpu=2 time=2026-11-18T07:43:21+00:00
+complete case=patchtst_ExchangeRate_96 gpu=3 time=2026-11-18T07:43:22+00:00
+complete case=itransformer_ExchangeRate_720 gpu=0 time=2026-11-18T07:43:30+00:00
+{"completed": 5, "summary": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_periodic_token_a0_exchange_global_20261118/summary.csv"}
+queue complete host=gpu-39 shard=0 time=2026-11-18T07:43:30+00:00

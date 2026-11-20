@@ -1,0 +1,15 @@
+QUEUE_START host=gpu-39 dataset=Solar gpu=0 lock=/tmp/fpem_periodic_gpu_0.lock time=2026-11-18T13:34:20+00:00
+{"prepared_cases": 9, "root": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_periodic_token_a0_solar_global_h192_20261118", "phase_alignment": "PASS", "batch_size": 32}
+START pilot_patchtst_Solar_192 GPU=0 2026-11-18T13:34:22.806923+00:00
+COMPLETE pilot_patchtst_Solar_192 GPU=0
+{"finished": 1, "success": 1, "shard": 0}
+{"prepared_cases": 9, "root": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_periodic_token_a0_solar_global_h192_20261118", "phase_alignment": "PASS", "batch_size": 32}
+START pilot_moderntcn_Solar_192 GPU=0 2026-11-18T15:50:12.250448+00:00
+COMPLETE pilot_moderntcn_Solar_192 GPU=0
+{"finished": 1, "success": 1, "shard": 0}
+{"prepared_cases": 9, "root": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_periodic_token_a0_solar_global_h192_20261118", "phase_alignment": "PASS", "batch_size": 32}
+START pilot_itransformer_Solar_192 GPU=0 2026-11-18T16:24:52.026372+00:00
+COMPLETE pilot_itransformer_Solar_192 GPU=0
+{"finished": 1, "success": 1, "shard": 0}
+{"completed": 3, "summary": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_periodic_token_a0_solar_global_h192_20261118/summary.csv"}
+QUEUE_COMPLETE host=gpu-39 dataset=Solar gpu=0 time=2026-11-18T16:28:45+00:00

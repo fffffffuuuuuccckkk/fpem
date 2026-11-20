@@ -1,0 +1,12 @@
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_testselect_20261113/asset_audit/manifest.jsonl --case-key patchtst/ETTh2/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases --gpu 2 --resume --selection-split test --full-train
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 17, in <module>
+    import torch
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/__init__.py", line 367, in <module>
+    from torch._C import *  # noqa: F403
+    ^^^^^^^^^^^^^^^^^^^^^^
+ImportError: libcufft.so.11: failed to map segment from shared object
+EXIT code=1
+START attempt=2 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_testselect_20261113/asset_audit/manifest.jsonl --case-key patchtst/ETTh2/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases --gpu 2 --resume --selection-split test --full-train
+{"case": "patchtst/ETTh2/pred_336/seed_2021", "status": "complete", "A0": {"mse": 4.8225912211079045, "mae": 1.3849495084393206}, "safe": {"mse": 4.787985679521298, "mae": 1.3711888412665896}, "safe_r3": {"mse": 4.773310415949167, "mae": 1.3656860791907353}}
+EXIT code=0

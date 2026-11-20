@@ -1,0 +1,3 @@
+START patchtst/ETTh1/pred_720/seed_2021 gpu=2 attempt=1 2026-11-16T12:06:04+00:00
+{"case": "patchtst/ETTh1/pred_720/seed_2021", "status": "complete", "pure_R3_TEST": {"mse": 1.816004441156279, "mae": 0.9205241176034398}, "R3_then_F03_TEST": {"mse": 1.816004498054683, "mae": 0.9205241254101286}, "alpha": 0.0, "r3_trick_TEST": {"mse": 1.84812389554196, "mae": 0.9332056164715682}}
+COMPLETE patchtst/ETTh1/pred_720/seed_2021 2026-11-16T12:30:49+00:00

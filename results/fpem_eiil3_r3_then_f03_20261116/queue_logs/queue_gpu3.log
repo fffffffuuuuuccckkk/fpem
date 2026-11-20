@@ -1,0 +1,13 @@
+START patchtst/ETTh1/pred_720/seed_2021 attempt=1 2026-11-16T01:22:06+00:00
+{"case": "patchtst/ETTh1/pred_720/seed_2021", "status": "complete", "pure_R3_TEST": {"mse": 1.816004441156279, "mae": 0.9205241176034398}, "R3_then_F03_TEST": {"mse": 1.816004498054683, "mae": 0.9205241254101286}, "alpha": 0.0}
+COMPLETE patchtst/ETTh1/pred_720/seed_2021 2026-11-16T01:46:29+00:00
+summary cases=1
+START patchtst/ETTh2/pred_336/seed_2021 attempt=1 2026-11-16T01:46:30+00:00
+{"case": "patchtst/ETTh2/pred_336/seed_2021", "status": "complete", "pure_R3_TEST": {"mse": 4.757848231469771, "mae": 1.3600288488314483}, "R3_then_F03_TEST": {"mse": 4.757848556644136, "mae": 1.3600288426766882}, "alpha": 0.0}
+COMPLETE patchtst/ETTh2/pred_336/seed_2021 2026-11-16T02:16:02+00:00
+summary cases=2
+START itransformer/ETTh1/pred_96/seed_2021 attempt=1 2026-11-16T02:16:02+00:00
+{"case": "itransformer/ETTh1/pred_96/seed_2021", "status": "complete", "pure_R3_TEST": {"mse": 1.4442593365595886, "mae": 0.7769297718644151}, "R3_then_F03_TEST": {"mse": 1.4425061604415867, "mae": 0.7771360855497145}, "alpha": 0.5280013507305041}
+COMPLETE itransformer/ETTh1/pred_96/seed_2021 2026-11-16T02:22:20+00:00
+summary cases=3
+QUEUE_COMPLETE 2026-11-16T02:22:21+00:00

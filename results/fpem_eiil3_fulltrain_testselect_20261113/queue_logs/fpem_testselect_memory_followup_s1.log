@@ -1,0 +1,6 @@
+{"case": "patchtst/Traffic/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Traffic/pred_336/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/Traffic/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Traffic/pred_720/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "itransformer/Weather/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/Weather/pred_336/seed_2021", "status": "COMPLETE_OR_REUSED"}

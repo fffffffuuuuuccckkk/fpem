@@ -1,0 +1,20 @@
+{"case": "itransformer/ETTm2/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/ETTm2/pred_336/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "moderntcn/Weather/pred_96/seed_2021", "status": "START", "attempt": 1}
+{"case": "moderntcn/Weather/pred_96/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/ETTm1/pred_96/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTm1/pred_96/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/Traffic/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Traffic/pred_336/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases/queue_logs/patchtst_Traffic_pred_336_seed_2021.log"}
+{"case": "patchtst/Traffic/pred_336/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/Traffic/pred_336/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases/queue_logs/patchtst_Traffic_pred_336_seed_2021.log"}
+{"case": "itransformer/ExchangeRate/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/ExchangeRate/pred_720/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/ETTh1/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTh1/pred_336/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/ETTm2/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTm2/pred_336/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/Traffic/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Traffic/pred_720/seed_2021", "status": "FAILED", "attempt": 1, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases/queue_logs/patchtst_Traffic_pred_720_seed_2021.log"}
+{"case": "patchtst/Traffic/pred_720/seed_2021", "status": "START", "attempt": 2}
+{"case": "patchtst/Traffic/pred_720/seed_2021", "status": "FAILED", "attempt": 2, "exit_code": 1, "log": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_testselect_20261113/cases/queue_logs/patchtst_Traffic_pred_720_seed_2021.log"}

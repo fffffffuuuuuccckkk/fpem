@@ -1,0 +1,46 @@
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_20261113/asset_audit/manifest.jsonl --case-key patchtst/Traffic/pred_720/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases --gpu 3 --resume --stop-on-gain --full-train
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 255, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 251, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 165, in run
+    data, meta, raw_head, teacher = get_data(cli)
+                                    ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 137, in get_data
+    args, model, loaders, device, a0_sha = load_experiment(loader_cli)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_shared_factorization_g1r3.py", line 52, in load_experiment
+    saved = json.loads(Path(cli.base_run_config).read_text(encoding="utf-8"))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_safe_full_20261112/asset_audit/asset_bindings/patchtst/Traffic/pred_720/seed_2021/base_run_config.json'
+EXIT code=1
+START attempt=2 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_fulltrain_20261113/asset_audit/manifest.jsonl --case-key patchtst/Traffic/pred_720/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases --gpu 3 --resume --stop-on-gain --full-train
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 255, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 251, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py", line 165, in run
+    data, meta, raw_head, teacher = get_data(cli)
+                                    ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 137, in get_data
+    args, model, loaders, device, a0_sha = load_experiment(loader_cli)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_shared_factorization_g1r3.py", line 52, in load_experiment
+    saved = json.loads(Path(cli.base_run_config).read_text(encoding="utf-8"))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_safe_full_20261112/asset_audit/asset_bindings/patchtst/Traffic/pred_720/seed_2021/base_run_config.json'
+EXIT code=1

@@ -1,0 +1,3 @@
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_mse_priority_20261112/a0_assets/itransformer/Weather/pred_336/seed_2021/case_manifest.jsonl --case-key itransformer/Weather/pred_336/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases --gpu 3 --resume --stop-on-gain --full-train
+{"case": "itransformer/Weather/pred_336/seed_2021", "status": "complete", "A0": {"mse": 239.07105405956125, "mae": 2.5418805656935475}, "safe": {"mse": 238.97073990029594, "mae": 2.633839848896332}, "safe_r3": {"mse": 238.65861447989764, "mae": 2.6909955377268755}}
+EXIT code=0

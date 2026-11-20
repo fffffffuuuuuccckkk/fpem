@@ -1,0 +1,4 @@
+WAIT_GPU 0 2026-11-16T08:32:38+00:00
+START itransformer/ETTh1/pred_720/seed_2021 gpu=0 attempt=1 2026-11-16T08:37:38+00:00
+{"case": "itransformer/ETTh1/pred_720/seed_2021", "status": "complete", "pure_R3_TEST": {"mse": 1.8293095505064756, "mae": 0.9260863543319893}, "R3_then_F03_TEST": {"mse": 1.8293096129093445, "mae": 0.926086363772788}, "alpha": 0.0, "r3_trick_TEST": {"mse": 1.8292863060917095, "mae": 0.923860037236293}}
+COMPLETE itransformer/ETTh1/pred_720/seed_2021 2026-11-16T08:42:46+00:00

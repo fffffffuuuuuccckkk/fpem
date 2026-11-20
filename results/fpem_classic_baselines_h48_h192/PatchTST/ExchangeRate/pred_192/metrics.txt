@@ -1,0 +1,6 @@
+MAE=0.3010479807853699
+MSE=0.17914070188999176
+RMSE=0.4232501685619354
+MAPE=1.9129705429077148
+MSPE=2017.431396484375
+source=results/long_term_forecast_FPEMH48H192_ExchangeRate_96_192_PatchTST_custom_ftM_sl96_ll48_pl192_dm128_nh8_el1_dl1_df256_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMH48H192_PatchTST_ExchangeRate_192_0/metrics.npy

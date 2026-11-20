@@ -1,0 +1,85 @@
+START patchtst/Electricity/pred_720/seed_2021 gpu=0 attempt=1 2026-11-16T11:15:06+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 277, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 273, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 132, in run
+    data, meta, raw_head, _ = get_data(cli)
+                              ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 158, in get_data
+    spaces[space]=flat_record(prepare(raw,floor), release_hidden=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_mechanism_fusion.py", line 54, in flat_record
+    design = np.empty((n*c, p*d), dtype=np.float32)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 33.4 GiB for an array with shape (1457661, 6144) and data type float32
+RETRY_AFTER_60S patchtst/Electricity/pred_720/seed_2021 2026-11-16T11:28:48+00:00
+START patchtst/Electricity/pred_720/seed_2021 gpu=0 attempt=2 2026-11-16T11:29:48+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 277, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 273, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 132, in run
+    data, meta, raw_head, _ = get_data(cli)
+                              ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 158, in get_data
+    spaces[space]=flat_record(prepare(raw,floor), release_hidden=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_mechanism_fusion.py", line 54, in flat_record
+    design = np.empty((n*c, p*d), dtype=np.float32)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 33.4 GiB for an array with shape (1457661, 6144) and data type float32
+RETRY_AFTER_60S patchtst/Electricity/pred_720/seed_2021 2026-11-16T11:39:29+00:00
+START patchtst/Electricity/pred_720/seed_2021 gpu=0 attempt=3 2026-11-16T11:40:29+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 277, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 273, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 132, in run
+    data, meta, raw_head, _ = get_data(cli)
+                              ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 158, in get_data
+    spaces[space]=flat_record(prepare(raw,floor), release_hidden=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_mechanism_fusion.py", line 54, in flat_record
+    design = np.empty((n*c, p*d), dtype=np.float32)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 33.4 GiB for an array with shape (1457661, 6144) and data type float32
+RETRY_AFTER_60S patchtst/Electricity/pred_720/seed_2021 2026-11-16T11:51:28+00:00
+START patchtst/Electricity/pred_720/seed_2021 gpu=0 attempt=4 2026-11-16T11:52:28+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 277, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 273, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 132, in run
+    data, meta, raw_head, _ = get_data(cli)
+                              ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 158, in get_data
+    spaces[space]=flat_record(prepare(raw,floor), release_hidden=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_mechanism_fusion.py", line 54, in flat_record
+    design = np.empty((n*c, p*d), dtype=np.float32)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 33.4 GiB for an array with shape (1457661, 6144) and data type float32
+RETRY_AFTER_60S patchtst/Electricity/pred_720/seed_2021 2026-11-16T12:02:30+00:00
+START patchtst/Electricity/pred_720/seed_2021 gpu=0 attempt=5 2026-11-16T12:03:30+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 277, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 273, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 132, in run
+    data, meta, raw_head, _ = get_data(cli)
+                              ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 158, in get_data
+    spaces[space]=flat_record(prepare(raw,floor), release_hidden=True)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_mechanism_fusion.py", line 54, in flat_record
+    design = np.empty((n*c, p*d), dtype=np.float32)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 33.4 GiB for an array with shape (1457661, 6144) and data type float32
+FAILED patchtst/Electricity/pred_720/seed_2021 attempts=5 2026-11-16T12:15:01+00:00

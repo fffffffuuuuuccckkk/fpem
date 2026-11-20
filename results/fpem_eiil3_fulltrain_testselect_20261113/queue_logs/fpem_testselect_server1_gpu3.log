@@ -1,0 +1,16 @@
+{"case": "itransformer/Weather/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/Weather/pred_720/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/ETTh2/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTh2/pred_720/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/Electricity/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Electricity/pred_336/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/Weather/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Weather/pred_720/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "itransformer/Weather/pred_96/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/Weather/pred_96/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/ETTh2/pred_96/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTh2/pred_96/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/Electricity/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Electricity/pred_720/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/Weather/pred_96/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/Weather/pred_96/seed_2021", "status": "COMPLETE_OR_REUSED"}

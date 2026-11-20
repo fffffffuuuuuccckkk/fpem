@@ -1,0 +1,6 @@
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_mse_priority_20261112/a0_assets/moderntcn/Weather/pred_192/seed_2021/case_manifest.jsonl --case-key moderntcn/Weather/pred_192/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases --gpu 2 --resume --stop-on-gain --full-train
+{"case": "moderntcn/Weather/pred_192/seed_2021", "status": "complete", "A0": {"mse": 219.76517108349987, "mae": 2.4519884774881473}, "safe": {"mse": 217.14748780275508, "mae": 2.371301676555241}, "safe_r3": {"mse": 217.14748780275508, "mae": 2.371301676555241}}
+EXIT code=0
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_mse_priority_20261112/a0_assets/moderntcn/Weather/pred_192/seed_2021/case_manifest.jsonl --case-key moderntcn/Weather/pred_192/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases --gpu 0 --resume --stop-on-gain --full-train
+{"case": "moderntcn/Weather/pred_192/seed_2021", "status": "REUSED"}
+EXIT code=0

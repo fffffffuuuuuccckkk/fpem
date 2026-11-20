@@ -1,0 +1,24 @@
+mode: conservative
+preserve_raw_datasets: true
+preserve_tracked_source: true
+preserve_paper_baselines_and_ablations: true
+trick_search:
+  best_checkpoints_per_comparison: 1
+  keep_all_trial_metrics: true
+  keep_failed_trial_error_summary: true
+  keep_optimizer_on_success: false
+  resume_checkpoints_while_running: 1
+feature_cache:
+  persistent_by_default: false
+  auto_cleanup_after_consumers_done: true
+  require_rebuild_recipe: true
+  use_streaming_when_possible: true
+safety:
+  dry_run_by_default: true
+  block_active_jobs: true
+  block_unknown_dependencies: true
+  verify_best_checkpoint_loadable: true
+  min_free_gb_to_start: 20
+  min_free_ratio_to_start: 0.05
+  protect_recent_hours: 48
+  require_manifest_stability_for_apply: true

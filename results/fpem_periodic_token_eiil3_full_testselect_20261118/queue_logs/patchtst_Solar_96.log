@@ -1,0 +1,3 @@
+
+START attempt=1 case=patchtst/Solar/pred_96/seed_2021 source=/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_periodic_token_a0_solar_global_20261118/pilot_patchtst_Solar_96 a0_sha256=d0b98cc80c5d8b43821dc2b847e4ac2c9985e22d4f5b019cf25d463c5fa694e5
+{"case": "patchtst/Solar/pred_96/seed_2021", "status": "complete", "A0": {"mse": 1.8777819456484217, "mae": 0.6121622940807498}, "safe": {"mse": 1.7415556923889843, "mae": 0.577900833375954}, "safe_r3": {"mse": 1.6575802775670219, "mae": 0.5707757583112192}}

@@ -1,0 +1,115 @@
+START patchtst/Traffic/pred_336/seed_2021 gpu=2 attempt=1 2026-11-16T16:21:33+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 277, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 273, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 132, in run
+    data, meta, raw_head, _ = get_data(cli)
+                              ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 157, in get_data
+    raw = collect(model,datasets[space],args,device,stride)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in collect
+    return {key: torch.cat(value) for key, value in chunks.items()}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in <dictcomp>
+    return {key: torch.cat(value) for key, value in chunks.items()}
+                 ^^^^^^^^^^^^^^^^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 67218456576 bytes. Error code 12 (Cannot allocate memory)
+RETRY_AFTER_60S patchtst/Traffic/pred_336/seed_2021 2026-11-16T16:30:14+00:00
+START patchtst/Traffic/pred_336/seed_2021 gpu=2 attempt=2 2026-11-16T16:31:14+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 277, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 273, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 132, in run
+    data, meta, raw_head, _ = get_data(cli)
+                              ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 157, in get_data
+    raw = collect(model,datasets[space],args,device,stride)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in collect
+    return {key: torch.cat(value) for key, value in chunks.items()}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in <dictcomp>
+    return {key: torch.cat(value) for key, value in chunks.items()}
+                 ^^^^^^^^^^^^^^^^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 67218456576 bytes. Error code 12 (Cannot allocate memory)
+RETRY_AFTER_60S patchtst/Traffic/pred_336/seed_2021 2026-11-16T16:42:42+00:00
+START patchtst/Traffic/pred_336/seed_2021 gpu=2 attempt=3 2026-11-16T16:43:42+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 277, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 273, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 132, in run
+    data, meta, raw_head, _ = get_data(cli)
+                              ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 157, in get_data
+    raw = collect(model,datasets[space],args,device,stride)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in collect
+    return {key: torch.cat(value) for key, value in chunks.items()}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in <dictcomp>
+    return {key: torch.cat(value) for key, value in chunks.items()}
+                 ^^^^^^^^^^^^^^^^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 67218456576 bytes. Error code 12 (Cannot allocate memory)
+RETRY_AFTER_60S patchtst/Traffic/pred_336/seed_2021 2026-11-16T16:53:53+00:00
+START patchtst/Traffic/pred_336/seed_2021 gpu=2 attempt=4 2026-11-16T16:54:54+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 277, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 273, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 132, in run
+    data, meta, raw_head, _ = get_data(cli)
+                              ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 157, in get_data
+    raw = collect(model,datasets[space],args,device,stride)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in collect
+    return {key: torch.cat(value) for key, value in chunks.items()}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in <dictcomp>
+    return {key: torch.cat(value) for key, value in chunks.items()}
+                 ^^^^^^^^^^^^^^^^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 67218456576 bytes. Error code 12 (Cannot allocate memory)
+RETRY_AFTER_60S patchtst/Traffic/pred_336/seed_2021 2026-11-16T17:05:52+00:00
+START patchtst/Traffic/pred_336/seed_2021 gpu=2 attempt=5 2026-11-16T17:06:52+00:00
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 277, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 273, in main
+    run(cli)
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_r3_then_f03.py", line 132, in run
+    data, meta, raw_head, _ = get_data(cli)
+                              ^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3.py", line 157, in get_data
+    raw = collect(model,datasets[space],args,device,stride)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in collect
+    return {key: torch.cat(value) for key, value in chunks.items()}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_f03_r3_invariance.py", line 74, in <dictcomp>
+    return {key: torch.cat(value) for key, value in chunks.items()}
+                 ^^^^^^^^^^^^^^^^
+RuntimeError: [enforce fail at alloc_cpu.cpp:117] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 67218456576 bytes. Error code 12 (Cannot allocate memory)
+FAILED patchtst/Traffic/pred_336/seed_2021 attempts=5 2026-11-16T17:19:22+00:00

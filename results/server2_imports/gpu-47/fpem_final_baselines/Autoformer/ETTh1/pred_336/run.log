@@ -1,0 +1,84 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMFinal_ETTh1_96_336Model:              Autoformer          
+
+[1mData Loader[0m
+  Data:               ETTh1               Root Path:          ./dataset/all_datasets/ETT-small
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        results/fpem_final_baselines/Autoformer/ETTh1/pred_336/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           336                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0001              
+  Des:                FPEMFinal_Autoformer_ETTh1_336Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: Autoformer ...
+>>>>>>>start training : long_term_forecast_FPEMFinal_ETTh1_96_336_Autoformer_ETTh1_ftM_sl96_ll48_pl336_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_Autoformer_ETTh1_336_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 8209
+val 2545
+test 2545
+	iters: 100, epoch: 1 | loss: 0.5441970
+	speed: 0.2020s/iter; left time: 499.0774s
+	iters: 200, epoch: 1 | loss: 0.5225644
+	speed: 0.1840s/iter; left time: 436.1969s
+Epoch: 1 cost time: 48.080663204193115
+Epoch: 1, Steps: 257 | Train Loss: 0.5252874 Vali Loss: 1.3957537 Test Loss: 0.5589185
+Validation loss decreased (inf --> 1.395754).  Saving model ...
+Updating learning rate to 0.0001
+	iters: 100, epoch: 2 | loss: 0.4741135
+	speed: 0.5021s/iter; left time: 1111.6096s
+	iters: 200, epoch: 2 | loss: 0.5326908
+	speed: 0.1825s/iter; left time: 385.7751s
+Epoch: 2 cost time: 46.946908950805664
+Epoch: 2, Steps: 257 | Train Loss: 0.4674529 Vali Loss: 1.4631322 Test Loss: 0.5149501
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 5e-05
+	iters: 100, epoch: 3 | loss: 0.4122295
+	speed: 0.4910s/iter; left time: 960.9189s
+	iters: 200, epoch: 3 | loss: 0.3789882
+	speed: 0.1845s/iter; left time: 342.6512s
+Epoch: 3 cost time: 47.47097325325012
+Epoch: 3, Steps: 257 | Train Loss: 0.4188050 Vali Loss: 1.5664815 Test Loss: 0.5976658
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 2.5e-05
+	iters: 100, epoch: 4 | loss: 0.3829777
+	speed: 0.4858s/iter; left time: 825.8744s
+	iters: 200, epoch: 4 | loss: 0.3856429
+	speed: 0.1847s/iter; left time: 295.5683s
+Epoch: 4 cost time: 47.50433850288391
+Epoch: 4, Steps: 257 | Train Loss: 0.3890681 Vali Loss: 1.6186306 Test Loss: 0.6061696
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : long_term_forecast_FPEMFinal_ETTh1_96_336_Autoformer_ETTh1_ftM_sl96_ll48_pl336_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_Autoformer_ETTh1_336_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 2545
+test shape: (2545, 336, 7) (2545, 336, 7)
+test shape: (2545, 336, 7) (2545, 336, 7)
+mse:0.5562888383865356, mae:0.5098757743835449, dtw:Not calculated

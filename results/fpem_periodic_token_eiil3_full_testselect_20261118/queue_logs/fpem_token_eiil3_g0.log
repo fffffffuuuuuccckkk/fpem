@@ -1,0 +1,25 @@
+{"event": "WAIT_A0_SCREEN", "gpu": 0, "time": "2026-11-18T13:47:14+0000"}
+{"event": "A0_SCREEN_EXITED", "gpu": 0, "time": "2026-11-18T16:29:18+0000"}
+{"attempt": 1, "case": "patchtst/ETTh1/pred_96/seed_2021", "event": "START", "gpu": 0, "time": "2026-11-18T16:29:21+0000"}
+{"attempt": 1, "case": "patchtst/ETTh1/pred_96/seed_2021", "event": "START", "gpu": 0, "heavy": false, "mem_available_gib": 219.2, "time": "2026-11-19T01:29:59+0000"}
+{"attempt": 1, "case": "patchtst/ETTh1/pred_96/seed_2021", "event": "COMPLETE", "gpu": 0, "time": "2026-11-19T01:51:41+0000"}
+{"attempt": 1, "case": "itransformer/ETTh1/pred_96/seed_2021", "event": "START", "gpu": 0, "heavy": false, "mem_available_gib": 211.5, "time": "2026-11-19T01:51:42+0000"}
+{"attempt": 1, "case": "itransformer/ETTh1/pred_96/seed_2021", "event": "COMPLETE", "gpu": 0, "time": "2026-11-19T01:59:30+0000"}
+{"attempt": 1, "case": "itransformer/ETTh2/pred_336/seed_2021", "event": "START", "gpu": 0, "heavy": false, "mem_available_gib": 205.8, "time": "2026-11-19T01:59:30+0000"}
+{"attempt": 1, "case": "itransformer/ETTh2/pred_336/seed_2021", "event": "COMPLETE", "gpu": 0, "time": "2026-11-19T02:05:59+0000"}
+{"attempt": 1, "case": "moderntcn/ETTm1/pred_720/seed_2021", "event": "START", "gpu": 0, "heavy": false, "mem_available_gib": 205.8, "time": "2026-11-19T02:05:59+0000"}
+{"attempt": 1, "case": "moderntcn/ETTm1/pred_720/seed_2021", "event": "COMPLETE", "gpu": 0, "time": "2026-11-19T02:31:54+0000"}
+{"attempt": 1, "case": "moderntcn/ETTm2/pred_336/seed_2021", "event": "START", "gpu": 0, "heavy": false, "mem_available_gib": 203.0, "time": "2026-11-19T02:31:55+0000"}
+{"attempt": 1, "case": "moderntcn/ETTm2/pred_336/seed_2021", "event": "COMPLETE", "gpu": 0, "time": "2026-11-19T02:53:30+0000"}
+{"event": "WAIT_SLOT", "kind": "heavy", "time": "2026-11-19T02:53:30+0000"}
+{"event": "SLOT_ACQUIRED", "kind": "heavy", "slot": 0, "time": "2026-11-19T08:03:30+0000"}
+{"attempt": 1, "case": "moderntcn/Weather/pred_96/seed_2021", "event": "START", "gpu": 0, "heavy": true, "mem_available_gib": 198.7, "time": "2026-11-19T08:03:30+0000"}
+{"attempt": 1, "case": "moderntcn/Weather/pred_96/seed_2021", "event": "COMPLETE", "gpu": 0, "time": "2026-11-19T08:46:21+0000"}
+{"event": "WAIT_SLOT", "kind": "heavy", "time": "2026-11-19T08:46:22+0000"}
+{"event": "SLOT_ACQUIRED", "kind": "heavy", "slot": 1, "time": "2026-11-19T15:32:22+0000"}
+{"case": "patchtst/Electricity/pred_336/seed_2021", "event": "WAIT_RESOURCES", "gpu": 0, "gpu_busy": true, "mem_available_gib": 198.6, "minimum_gib": 190, "time": "2026-11-19T15:32:22+0000"}
+{"attempt": 1, "case": "patchtst/Electricity/pred_336/seed_2021", "event": "START", "gpu": 0, "heavy": true, "mem_available_gib": 197.8, "time": "2026-11-19T15:55:23+0000"}
+{"attempt": 1, "case": "patchtst/Electricity/pred_336/seed_2021", "event": "COMPLETE", "gpu": 0, "time": "2026-11-20T03:01:10+0000"}
+{"attempt": 1, "case": "patchtst/ExchangeRate/pred_720/seed_2021", "event": "START", "gpu": 0, "heavy": false, "mem_available_gib": 241.8, "time": "2026-11-20T03:01:11+0000"}
+{"attempt": 1, "case": "patchtst/ExchangeRate/pred_720/seed_2021", "event": "COMPLETE", "gpu": 0, "time": "2026-11-20T03:04:19+0000"}
+{"attempt": 1, "case": "patchtst/Solar/pred_96/seed_2021", "event": "START", "gpu": 0, "heavy": true, "mem_available_gib": 203.5, "time": "2026-11-20T03:04:19+0000"}

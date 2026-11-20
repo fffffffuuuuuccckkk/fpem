@@ -1,0 +1,6 @@
+QUEUE_START host=gpu-39 dataset=ETTm1 gpu=1 lock=/tmp/fpem_periodic_gpu_1.lock time=2026-11-18T13:34:38+00:00
+COMPLETE patchtst_ETTm1_192 GPU=1
+COMPLETE moderntcn_ETTm1_192 GPU=1
+COMPLETE itransformer_ETTm1_192 GPU=1
+{"completed": 6, "summary": "/data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_periodic_token_a0_global_h192_20261118/summary.csv"}
+QUEUE_COMPLETE host=gpu-39 dataset=ETTm1 gpu=1 time=2026-11-18T13:45:35+00:00

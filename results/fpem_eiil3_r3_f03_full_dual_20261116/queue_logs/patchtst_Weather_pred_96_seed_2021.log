@@ -1,0 +1,3 @@
+START patchtst/Weather/pred_96/seed_2021 gpu=3 attempt=1 2026-11-17T08:58:51+00:00
+{"case": "patchtst/Weather/pred_96/seed_2021", "status": "complete", "pure_R3_TEST": {"mse": 157.24826132444443, "mae": 1.8631473949290482}, "R3_then_F03_TEST": {"mse": 156.7909270095788, "mae": 1.9432751423817525}, "alpha": 0.6115787950007602, "r3_trick_TEST": {"mse": 157.56197687876295, "mae": 1.7631369997094632}}
+COMPLETE patchtst/Weather/pred_96/seed_2021 2026-11-17T09:35:45+00:00

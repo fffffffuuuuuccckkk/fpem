@@ -1,0 +1,60 @@
+Args in experiment:
+{'model': 'informer', 'data': 'custom', 'root_path': '../dataset/exchange_rate/', 'data_path': 'exchange_rate.csv', 'features': 'MS', 'target': 'OT', 'freq': 'w', 'checkpoints': './informer_checkpoints', 'seq_len': 96, 'label_len': 48, 'pred_len': 96, 'enc_in': 8, 'dec_in': 8, 'c_out': 1, 'factor': 3, 'd_model': 512, 'n_heads': 8, 'e_layers': 2, 'd_layers': 1, 'd_ff': 512, 'dropout': 0.05, 'attn': 'prob', 'embed': 'timeF', 'activation': 'gelu', 'distil': True, 'output_attention': False, 'mix': True, 'padding': 0, 'learning_rate': 0.01, 'loss': 'mse', 'use_amp': False, 'num_workers': 0, 'itr': 1, 'des': 'exp', 'use_gpu': True, 'gpu': 0, 'use_multi_gpu': False, 'devices': '0', 'detail_freq': 'w'}
+Use GPU: cuda:0
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_atprob_fc3_ebtimeF_dtTrue_mxTrue_exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 5120
+val 665
+test 1422
+Epoch: 0 | Vali Loss: 0.168 |Test Loss: 0.145 Test MAE:0.296
+Epoch: 1, Steps: 40 | Train Avg : 0.103 | Train Var : 0.0061684322 | Vali Loss: 0.317 |Test Loss: 0.130 Test MAE: 0.283 
+Validation loss decreased (inf --> 0.316956).  Saving model ...
+0
+Updating learning rate to 0.0001
+Epoch: 2, Steps: 40 | Train Avg : 0.076 | Train Var : 0.0016615638 | Vali Loss: 0.287 |Test Loss: 0.106 Test MAE: 0.249 
+Validation loss decreased (0.316956 --> 0.287049).  Saving model ...
+0
+Updating learning rate to 0.0001
+Epoch: 3, Steps: 40 | Train Avg : 0.069 | Train Var : 0.0013092721 | Vali Loss: 0.391 |Test Loss: 0.151 Test MAE: 0.302 
+EarlyStopping counter: 1 out of 10
+0
+Updating learning rate to 5e-05
+Epoch: 4, Steps: 40 | Train Avg : 0.063 | Train Var : 0.0009701192 | Vali Loss: 0.403 |Test Loss: 0.129 Test MAE: 0.267 
+EarlyStopping counter: 2 out of 10
+0
+Updating learning rate to 5e-05
+Epoch: 5, Steps: 40 | Train Avg : 0.060 | Train Var : 0.0008523774 | Vali Loss: 0.343 |Test Loss: 0.141 Test MAE: 0.282 
+EarlyStopping counter: 3 out of 10
+0
+Updating learning rate to 5e-05
+Epoch: 6, Steps: 40 | Train Avg : 0.058 | Train Var : 0.0007588682 | Vali Loss: 0.399 |Test Loss: 0.142 Test MAE: 0.279 
+EarlyStopping counter: 4 out of 10
+0
+Updating learning rate to 5e-05
+Epoch: 7, Steps: 40 | Train Avg : 0.056 | Train Var : 0.0007038055 | Vali Loss: 0.402 |Test Loss: 0.146 Test MAE: 0.280 
+EarlyStopping counter: 5 out of 10
+0
+Updating learning rate to 1e-08
+Epoch: 8, Steps: 40 | Train Avg : 0.054 | Train Var : 0.0006385701 | Vali Loss: 0.423 |Test Loss: 0.143 Test MAE: 0.275 
+EarlyStopping counter: 6 out of 10
+0
+Updating learning rate to 1e-08
+Epoch: 9, Steps: 40 | Train Avg : 0.054 | Train Var : 0.0006262595 | Vali Loss: 0.429 |Test Loss: 0.143 Test MAE: 0.274 
+EarlyStopping counter: 7 out of 10
+0
+Updating learning rate to 1e-08
+Epoch: 10, Steps: 40 | Train Avg : 0.054 | Train Var : 0.0006334713 | Vali Loss: 0.445 |Test Loss: 0.142 Test MAE: 0.273 
+EarlyStopping counter: 8 out of 10
+0
+Updating learning rate to 1e-08
+Epoch: 11, Steps: 40 | Train Avg : 0.054 | Train Var : 0.0006299270 | Vali Loss: 0.438 |Test Loss: 0.145 Test MAE: 0.277 
+EarlyStopping counter: 9 out of 10
+0
+Updating learning rate to 1e-09
+Epoch: 12, Steps: 40 | Train Avg : 0.054 | Train Var : 0.0006292911 | Vali Loss: 0.438 |Test Loss: 0.144 Test MAE: 0.275 
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : informer_custom_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_atprob_fc3_ebtimeF_dtTrue_mxTrue_exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 1422
+test shape: (1422, 96, 1) (1422, 96, 1)
+test shape: (1422, 96, 1) (1422, 96, 1)
+mse:0.11483097076416016, mae:0.2622411251068115,msev:0.030366016551852226,mse_w:0.37231510877609253,mae_w:0.5485178828239441

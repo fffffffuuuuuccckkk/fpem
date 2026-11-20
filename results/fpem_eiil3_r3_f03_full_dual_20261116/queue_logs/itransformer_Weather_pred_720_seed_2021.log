@@ -1,0 +1,3 @@
+START itransformer/Weather/pred_720/seed_2021 gpu=2 attempt=1 2026-11-16T08:57:25+00:00
+{"case": "itransformer/Weather/pred_720/seed_2021", "status": "complete", "pure_R3_TEST": {"mse": 300.51261043122275, "mae": 3.329564107841779}, "R3_then_F03_TEST": {"mse": 300.2486624284978, "mae": 3.285369642328868}, "alpha": 0.9170543736494253, "r3_trick_TEST": {"mse": 300.46709807685625, "mae": 3.265470686922374}}
+COMPLETE itransformer/Weather/pred_720/seed_2021 2026-11-16T10:21:18+00:00

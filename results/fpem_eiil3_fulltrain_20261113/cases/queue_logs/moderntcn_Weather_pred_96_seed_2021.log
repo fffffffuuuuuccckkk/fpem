@@ -1,0 +1,3 @@
+START attempt=1 command=/data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_safe_full.py --manifest results/fpem_eiil3_mse_priority_20261112/a0_assets/moderntcn/Weather/pred_96/seed_2021/case_manifest.jsonl --case-key moderntcn/Weather/pred_96/seed_2021 --output-root /data/OuXiaoyu/Time-Series-Library-FPEM/results/fpem_eiil3_fulltrain_20261113/cases --gpu 2 --resume --stop-on-gain --full-train
+{"case": "moderntcn/Weather/pred_96/seed_2021", "status": "complete", "A0": {"mse": 158.26490076791603, "mae": 1.7945843909670416}, "safe": {"mse": 157.00386088260458, "mae": 1.7886243611804873}, "safe_r3": {"mse": 157.01795631588826, "mae": 1.805932115335054}}
+EXIT code=0

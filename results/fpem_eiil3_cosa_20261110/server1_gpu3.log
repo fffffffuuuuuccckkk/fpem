@@ -1,0 +1,151 @@
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTh1/pred_96/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTh1/pred_96/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTh1/pred_96/seed_2021", "status": "SKIPPED_GOOD_RIDGE"}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTh1/pred_192/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTh1/pred_192/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTh1/pred_192/seed_2021", "status": "complete", "B2": {"A0": {"mse": 1.1759605407714844, "mae": 0.7460031509399414}, "I3_SoftIRM_EIIL3": {"mse": 1.1759604215621948, "mae": 0.7460031509399414}, "I3_R3_Ridge_EIIL3": {"mse": 1.1808934211730957, "mae": 0.7524725198745728}, "I3_R3_Linear_EIIL3": {"mse": 1.1717437505722046, "mae": 0.7451261878013611}, "I3_R3_Linear_ShuffleQ": {"mse": 1.1717432737350464, "mae": 0.7451266050338745}}, "test": {"A0": {"mse": 1.8536826372146606, "mae": 0.8555272221565247}, "I3_SoftIRM_EIIL3": {"mse": 1.8536826372146606, "mae": 0.8555272221565247}, "I3_R3_Ridge_EIIL3": {"mse": 1.8694096803665161, "mae": 0.8654616475105286}, "I3_R3_Linear_EIIL3": {"mse": 1.85325026512146, "mae": 0.8553935289382935}, "I3_R3_Linear_ShuffleQ": {"mse": 1.8532493114471436, "mae": 0.8553937077522278}}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_cosa_20261110/patchtst/ETTh1/pred_192/seed_2021 --gpu 3 --resume
+ETTh1 192 Flow_U0 {'lr': 0.0001, 'epoch': 1, 'train_loss': 15.527450235522522, 'V2_CRPS': 0.9265052676200867}
+ETTh1 192 Flow_U0 {'lr': 0.0001, 'epoch': 2, 'train_loss': 15.248502154391987, 'V2_CRPS': 0.9227402061223984}
+ETTh1 192 Flow_U0 {'lr': 0.0001, 'epoch': 3, 'train_loss': 14.821446044104439, 'V2_CRPS': 0.9182746857404709}
+ETTh1 192 Flow_U0 {'lr': 0.0001, 'epoch': 4, 'train_loss': 14.337757014672194, 'V2_CRPS': 0.9130972772836685}
+ETTh1 192 Flow_U0 {'lr': 0.0001, 'epoch': 5, 'train_loss': 14.065597121291535, 'V2_CRPS': 0.9071920365095139}
+ETTh1 192 Flow_U1 {'lr': 0.0001, 'epoch': 1, 'train_loss': 15.527450251509775, 'V2_CRPS': 0.9265052676200867}
+ETTh1 192 Flow_U1 {'lr': 0.0001, 'epoch': 2, 'train_loss': 15.248502154391987, 'V2_CRPS': 0.9227402061223984}
+ETTh1 192 Flow_U1 {'lr': 0.0001, 'epoch': 3, 'train_loss': 14.821445999618174, 'V2_CRPS': 0.9182746857404709}
+ETTh1 192 Flow_U1 {'lr': 0.0001, 'epoch': 4, 'train_loss': 14.337756998684942, 'V2_CRPS': 0.9130972772836685}
+ETTh1 192 Flow_U1 {'lr': 0.0001, 'epoch': 5, 'train_loss': 14.065597121291535, 'V2_CRPS': 0.9071920365095139}
+ETTh1 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 1, 'train_loss': 15.527450251509775, 'V2_CRPS': 0.9265052676200867}
+ETTh1 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 2, 'train_loss': 15.248502154391987, 'V2_CRPS': 0.922740213572979}
+ETTh1 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 3, 'train_loss': 14.821445999618174, 'V2_CRPS': 0.9182747006416321}
+ETTh1 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 4, 'train_loss': 14.337756998684942, 'V2_CRPS': 0.9130972772836685}
+ETTh1 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 5, 'train_loss': 14.065597121291535, 'V2_CRPS': 0.9071920365095139}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTh1/pred_336/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTh1/pred_336/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTh1/pred_336/seed_2021", "status": "complete", "B2": {"A0": {"mse": 1.2330349683761597, "mae": 0.7737830877304077}, "I3_SoftIRM_EIIL3": {"mse": 1.2728766202926636, "mae": 0.778278648853302}, "I3_R3_Ridge_EIIL3": {"mse": 1.3211675882339478, "mae": 0.801240861415863}, "I3_R3_Linear_EIIL3": {"mse": 1.269242763519287, "mae": 0.776469886302948}, "I3_R3_Linear_ShuffleQ": {"mse": 1.2693368196487427, "mae": 0.7764973640441895}}, "test": {"A0": {"mse": 2.0944104194641113, "mae": 0.9255188703536987}, "I3_SoftIRM_EIIL3": {"mse": 2.0945823192596436, "mae": 0.9454583525657654}, "I3_R3_Ridge_EIIL3": {"mse": 2.113342761993408, "mae": 0.9618985056877136}, "I3_R3_Linear_EIIL3": {"mse": 2.0880815982818604, "mae": 0.9424952268600464}, "I3_R3_Linear_ShuffleQ": {"mse": 2.088057041168213, "mae": 0.942481517791748}}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_cosa_20261110/patchtst/ETTh1/pred_336/seed_2021 --gpu 3 --resume
+FLOW_SKIPPED {'V0': 1, 'V1': 1, 'V2': 1, 'V3': 2}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTh1/pred_720/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTh1/pred_720/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTh1/pred_720/seed_2021", "status": "complete", "B2": {"A0": {"mse": 1.7493655681610107, "mae": 0.9217005372047424}, "I3_SoftIRM_EIIL3": {"mse": 2.073802947998047, "mae": 1.0114381313323975}, "I3_R3_Ridge_EIIL3": {"mse": 2.3525125980377197, "mae": 1.088104486465454}, "I3_R3_Linear_EIIL3": {"mse": 2.064239501953125, "mae": 1.0077694654464722}, "I3_R3_Linear_ShuffleQ": {"mse": 2.0645506381988525, "mae": 1.0078448057174683}}, "test": {"A0": {"mse": 1.8704878091812134, "mae": 0.942912220954895}, "I3_SoftIRM_EIIL3": {"mse": 2.001610517501831, "mae": 1.0340279340744019}, "I3_R3_Ridge_EIIL3": {"mse": 2.179102897644043, "mae": 1.09696364402771}, "I3_R3_Linear_EIIL3": {"mse": 1.9807180166244507, "mae": 1.024411916732788}, "I3_R3_Linear_ShuffleQ": {"mse": 1.980891466140747, "mae": 1.0245063304901123}}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_cosa_20261110/patchtst/ETTh1/pred_720/seed_2021 --gpu 3 --resume
+FLOW_SKIPPED empty purged VAL quarter
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTh2/pred_192/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTh2/pred_192/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTh2/pred_192/seed_2021", "status": "complete", "B2": {"A0": {"mse": 305.26300048828125, "mae": 2.3864500522613525}, "I3_SoftIRM_EIIL3": {"mse": 305.4290466308594, "mae": 2.3785722255706787}, "I3_R3_Ridge_EIIL3": {"mse": 305.5213317871094, "mae": 2.378471612930298}, "I3_R3_Linear_EIIL3": {"mse": 305.41949462890625, "mae": 2.37692928314209}, "I3_R3_Linear_ShuffleQ": {"mse": 305.419677734375, "mae": 2.3769421577453613}}, "test": {"A0": {"mse": 3.697244167327881, "mae": 1.1927553415298462}, "I3_SoftIRM_EIIL3": {"mse": 3.685868263244629, "mae": 1.1858363151550293}, "I3_R3_Ridge_EIIL3": {"mse": 3.6866471767425537, "mae": 1.186704397201538}, "I3_R3_Linear_EIIL3": {"mse": 3.6831724643707275, "mae": 1.185099720954895}, "I3_R3_Linear_ShuffleQ": {"mse": 3.6830623149871826, "mae": 1.1850500106811523}}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_cosa_20261110/patchtst/ETTh2/pred_192/seed_2021 --gpu 3 --resume
+ETTh2 192 Flow_U0 {'lr': 0.0001, 'epoch': 1, 'train_loss': 3.0008173962028657, 'V2_CRPS': 0.7659670561552048}
+ETTh2 192 Flow_U0 {'lr': 0.0001, 'epoch': 2, 'train_loss': 2.862995614810866, 'V2_CRPS': 0.769027978181839}
+ETTh2 192 Flow_U0 {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.8033910159119366, 'V2_CRPS': 0.7728957831859589}
+ETTh2 192 Flow_U0 {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.682066714450847, 'V2_CRPS': 0.7778702080249786}
+ETTh2 192 Flow_U0 {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.5869908207707084, 'V2_CRPS': 0.7840889096260071}
+ETTh2 192 Flow_U1 {'lr': 0.0001, 'epoch': 1, 'train_loss': 3.0008173962028657, 'V2_CRPS': 0.7659670412540436}
+ETTh2 192 Flow_U1 {'lr': 0.0001, 'epoch': 2, 'train_loss': 2.862995614810866, 'V2_CRPS': 0.769027978181839}
+ETTh2 192 Flow_U1 {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.803390983937433, 'V2_CRPS': 0.7728957831859589}
+ETTh2 192 Flow_U1 {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.682066714450847, 'V2_CRPS': 0.7778702080249786}
+ETTh2 192 Flow_U1 {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.5869908207707084, 'V2_CRPS': 0.7840889394283295}
+ETTh2 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 1, 'train_loss': 3.0008173962028657, 'V2_CRPS': 0.7659670412540436}
+ETTh2 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 2, 'train_loss': 2.862995614810866, 'V2_CRPS': 0.769027978181839}
+ETTh2 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.803390983937433, 'V2_CRPS': 0.7728957831859589}
+ETTh2 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.682066714450847, 'V2_CRPS': 0.7778702080249786}
+ETTh2 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.5869908207707084, 'V2_CRPS': 0.7840889543294907}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTh2/pred_336/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTh2/pred_336/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTh2/pred_336/seed_2021", "status": "SKIPPED_GOOD_RIDGE"}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTh2/pred_720/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTh2/pred_720/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTh2/pred_720/seed_2021", "status": "complete", "B2": {"A0": {"mse": 2.8670990467071533, "mae": 1.1958853006362915}, "I3_SoftIRM_EIIL3": {"mse": 2.867098569869995, "mae": 1.195885419845581}, "I3_R3_Ridge_EIIL3": {"mse": 3.1129519939422607, "mae": 1.2658714056015015}, "I3_R3_Linear_EIIL3": {"mse": 2.8628313541412354, "mae": 1.1953719854354858}, "I3_R3_Linear_ShuffleQ": {"mse": 2.8631539344787598, "mae": 1.195534586906433}}, "test": {"A0": {"mse": 5.472705364227295, "mae": 1.4891988039016724}, "I3_SoftIRM_EIIL3": {"mse": 5.472704887390137, "mae": 1.489198923110962}, "I3_R3_Ridge_EIIL3": {"mse": 5.7145466804504395, "mae": 1.5417280197143555}, "I3_R3_Linear_EIIL3": {"mse": 5.4683709144592285, "mae": 1.4866992235183716}, "I3_R3_Linear_ShuffleQ": {"mse": 5.4681620597839355, "mae": 1.4866446256637573}}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_cosa_20261110/patchtst/ETTh2/pred_720/seed_2021 --gpu 3 --resume
+FLOW_SKIPPED empty purged VAL quarter
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTm1/pred_96/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTm1/pred_96/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTm1/pred_96/seed_2021", "status": "SKIPPED_GOOD_RIDGE"}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTm1/pred_192/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTm1/pred_192/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTm1/pred_192/seed_2021", "status": "SKIPPED_GOOD_RIDGE"}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTm1/pred_336/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTm1/pred_336/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTm1/pred_336/seed_2021", "status": "SKIPPED_GOOD_RIDGE"}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTm1/pred_720/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTm1/pred_720/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTm1/pred_720/seed_2021", "status": "SKIPPED_GOOD_RIDGE"}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTm2/pred_96/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTm2/pred_96/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTm2/pred_96/seed_2021", "status": "complete", "B2": {"A0": {"mse": 97.98975372314453, "mae": 1.5197422504425049}, "I3_SoftIRM_EIIL3": {"mse": 97.98189544677734, "mae": 1.5142056941986084}, "I3_R3_Ridge_EIIL3": {"mse": 98.02767181396484, "mae": 1.5228091478347778}, "I3_R3_Linear_EIIL3": {"mse": 97.98189544677734, "mae": 1.5142056941986084}, "I3_R3_Linear_ShuffleQ": {"mse": 97.98189544677734, "mae": 1.5142056941986084}}, "test": {"A0": {"mse": 3.331691265106201, "mae": 1.015830159187317}, "I3_SoftIRM_EIIL3": {"mse": 3.303723096847534, "mae": 1.0021196603775024}, "I3_R3_Ridge_EIIL3": {"mse": 3.3189592361450195, "mae": 1.007279396057129}, "I3_R3_Linear_EIIL3": {"mse": 3.303723096847534, "mae": 1.0021196603775024}, "I3_R3_Linear_ShuffleQ": {"mse": 3.303723096847534, "mae": 1.0021196603775024}}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_cosa_20261110/patchtst/ETTm2/pred_96/seed_2021 --gpu 3 --resume
+ETTm2 96 Flow_U0 {'lr': 0.0001, 'epoch': 1, 'train_loss': 3.0702424606163343, 'V2_CRPS': 0.9824367463588715}
+ETTm2 96 Flow_U0 {'lr': 0.0001, 'epoch': 2, 'train_loss': 2.568236231294017, 'V2_CRPS': 0.9733103662729263}
+ETTm2 96 Flow_U0 {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.2670581400955303, 'V2_CRPS': 0.968060314655304}
+ETTm2 96 Flow_U0 {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.0559461462487514, 'V2_CRPS': 0.9667506068944931}
+ETTm2 96 Flow_U0 {'lr': 0.0001, 'epoch': 5, 'train_loss': 1.9887883038068042, 'V2_CRPS': 0.9666197597980499}
+ETTm2 96 Flow_U1 {'lr': 0.0001, 'epoch': 1, 'train_loss': 3.0702424671427626, 'V2_CRPS': 0.9824367463588715}
+ETTm2 96 Flow_U1 {'lr': 0.0001, 'epoch': 2, 'train_loss': 2.5682362182411604, 'V2_CRPS': 0.9733103960752487}
+ETTm2 96 Flow_U1 {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.267058120516246, 'V2_CRPS': 0.968060314655304}
+ETTm2 96 Flow_U1 {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.0559461429855372, 'V2_CRPS': 0.9667506068944931}
+ETTm2 96 Flow_U1 {'lr': 0.0001, 'epoch': 5, 'train_loss': 1.9887883070700183, 'V2_CRPS': 0.9666197597980499}
+ETTm2 96 Flow_Ushuffle {'lr': 0.0001, 'epoch': 1, 'train_loss': 3.0702424606163343, 'V2_CRPS': 0.9824367463588715}
+ETTm2 96 Flow_Ushuffle {'lr': 0.0001, 'epoch': 2, 'train_loss': 2.5682362182411604, 'V2_CRPS': 0.9733103960752487}
+ETTm2 96 Flow_Ushuffle {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.267058120516246, 'V2_CRPS': 0.968060314655304}
+ETTm2 96 Flow_Ushuffle {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.055946136459109, 'V2_CRPS': 0.9667506068944931}
+ETTm2 96 Flow_Ushuffle {'lr': 0.0001, 'epoch': 5, 'train_loss': 1.9887883070700183, 'V2_CRPS': 0.9666197597980499}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTm2/pred_192/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTm2/pred_192/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTm2/pred_192/seed_2021", "status": "complete", "B2": {"A0": {"mse": 199.47683715820312, "mae": 2.2603771686553955}, "I3_SoftIRM_EIIL3": {"mse": 199.42623901367188, "mae": 2.2469778060913086}, "I3_R3_Ridge_EIIL3": {"mse": 199.4640655517578, "mae": 2.2528297901153564}, "I3_R3_Linear_EIIL3": {"mse": 199.42623901367188, "mae": 2.2469778060913086}, "I3_R3_Linear_ShuffleQ": {"mse": 199.42623901367188, "mae": 2.2469778060913086}}, "test": {"A0": {"mse": 4.7437543869018555, "mae": 1.2048059701919556}, "I3_SoftIRM_EIIL3": {"mse": 4.710720062255859, "mae": 1.1897331476211548}, "I3_R3_Ridge_EIIL3": {"mse": 4.719965934753418, "mae": 1.1928359270095825}, "I3_R3_Linear_EIIL3": {"mse": 4.710720062255859, "mae": 1.1897331476211548}, "I3_R3_Linear_ShuffleQ": {"mse": 4.710720062255859, "mae": 1.1897331476211548}}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_cosa_20261110/patchtst/ETTm2/pred_192/seed_2021 --gpu 3 --resume
+ETTm2 192 Flow_U0 {'lr': 0.0001, 'epoch': 1, 'train_loss': 3.787237247009209, 'V2_CRPS': 1.1947454065084457}
+ETTm2 192 Flow_U0 {'lr': 0.0001, 'epoch': 2, 'train_loss': 3.140731387858, 'V2_CRPS': 1.175695925951004}
+ETTm2 192 Flow_U0 {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.6649959842239426, 'V2_CRPS': 1.1608536541461945}
+ETTm2 192 Flow_U0 {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.4980290601779886, 'V2_CRPS': 1.1660244166851044}
+ETTm2 192 Flow_U0 {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.3029709136704932, 'V2_CRPS': 1.1610927879810333}
+ETTm2 192 Flow_U1 {'lr': 0.0001, 'epoch': 1, 'train_loss': 3.7872372538425223, 'V2_CRPS': 1.1947454065084457}
+ETTm2 192 Flow_U1 {'lr': 0.0001, 'epoch': 2, 'train_loss': 3.1407314186079107, 'V2_CRPS': 1.1756959110498428}
+ETTm2 192 Flow_U1 {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.66499600814054, 'V2_CRPS': 1.1608536541461945}
+ETTm2 192 Flow_U1 {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.4980290742183127, 'V2_CRPS': 1.1660243570804596}
+ETTm2 192 Flow_U1 {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.30297092733712, 'V2_CRPS': 1.161092847585678}
+ETTm2 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 1, 'train_loss': 3.787237233342582, 'V2_CRPS': 1.1947454065084457}
+ETTm2 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 2, 'train_loss': 3.140731391274657, 'V2_CRPS': 1.1756959110498428}
+ETTm2 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 3, 'train_loss': 2.6649960047238834, 'V2_CRPS': 1.1608535647392273}
+ETTm2 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 4, 'train_loss': 2.4980290605516857, 'V2_CRPS': 1.1660243272781372}
+ETTm2 192 Flow_Ushuffle {'lr': 0.0001, 'epoch': 5, 'train_loss': 2.3029709410037476, 'V2_CRPS': 1.1610927879810333}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTm2/pred_336/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTm2/pred_336/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTm2/pred_336/seed_2021", "status": "SKIPPED_GOOD_RIDGE"}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/ETTm2/pred_720/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/ETTm2/pred_720/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/ETTm2/pred_720/seed_2021", "status": "SKIPPED_GOOD_RIDGE"}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/Weather/pred_96/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/Weather/pred_96/seed_2021 --gpu 3 --skip-good-ridge --resume
+{"case": "patchtst/Weather/pred_96/seed_2021", "status": "complete", "B2": {"A0": {"mse": 219.5923614501953, "mae": 1.498254418373108}, "I3_SoftIRM_EIIL3": {"mse": 219.29579162597656, "mae": 1.5878220796585083}, "I3_R3_Ridge_EIIL3": {"mse": 219.41847229003906, "mae": 1.9302228689193726}, "I3_R3_Linear_EIIL3": {"mse": 219.00843811035156, "mae": 1.722579002380371}, "I3_R3_Linear_ShuffleQ": {"mse": 219.0084686279297, "mae": 1.722657561302185}}, "test": {"A0": {"mse": 158.14781188964844, "mae": 1.6981152296066284}, "I3_SoftIRM_EIIL3": {"mse": 157.70835876464844, "mae": 1.7411613464355469}, "I3_R3_Ridge_EIIL3": {"mse": 158.18980407714844, "mae": 2.0928406715393066}, "I3_R3_Linear_EIIL3": {"mse": 157.68504333496094, "mae": 1.9130736589431763}, "I3_R3_Linear_ShuffleQ": {"mse": 157.6849822998047, "mae": 1.913115382194519}}}
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py --case-dir results/fpem_eiil3_cosa_20261110/patchtst/Weather/pred_96/seed_2021 --gpu 3 --resume
+Weather 96 Flow_U0 {'lr': 0.0001, 'epoch': 1, 'train_loss': 4618.693913225473, 'V2_CRPS': 1.0727842152118683}
+Weather 96 Flow_U0 {'lr': 0.0001, 'epoch': 2, 'train_loss': 4340.777367966187, 'V2_CRPS': 1.065561830997467}
+Weather 96 Flow_U0 {'lr': 0.0001, 'epoch': 3, 'train_loss': 4068.911562838005, 'V2_CRPS': 1.061209350824356}
+Weather 96 Flow_U0 {'lr': 0.0001, 'epoch': 4, 'train_loss': 3664.6100928579385, 'V2_CRPS': 1.0696310698986053}
+Weather 96 Flow_U0 {'lr': 0.0001, 'epoch': 5, 'train_loss': 3167.2770962214945, 'V2_CRPS': 1.0991398990154266}
+Weather 96 Flow_U1 {'lr': 0.0001, 'epoch': 1, 'train_loss': 4618.693913204412, 'V2_CRPS': 1.0727842152118683}
+Weather 96 Flow_U1 {'lr': 0.0001, 'epoch': 2, 'train_loss': 4340.777367629208, 'V2_CRPS': 1.065561830997467}
+Weather 96 Flow_U1 {'lr': 0.0001, 'epoch': 3, 'train_loss': 4068.9114758220517, 'V2_CRPS': 1.0612092912197113}
+Weather 96 Flow_U1 {'lr': 0.0001, 'epoch': 4, 'train_loss': 3664.6100862593876, 'V2_CRPS': 1.069630891084671}
+Weather 96 Flow_U1 {'lr': 0.0001, 'epoch': 5, 'train_loss': 3167.2770892084673, 'V2_CRPS': 1.0991397500038147}
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/serialization.py", line 850, in save
+    _save(
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/serialization.py", line 1114, in _save
+    zip_file.write_record(name, storage, num_bytes)
+RuntimeError: [enforce fail at inline_container.cc:778] . PytorchStreamWriter failed writing file data/13: file write failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py", line 133, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_flow.py", line 127, in main
+    torch.save({"bank":bank_state,"adapter":adapter_state},case/(mode+".pt"))
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/serialization.py", line 849, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/site-packages/torch/serialization.py", line 690, in __exit__
+    self.file_like.write_end_of_file()
+RuntimeError: [enforce fail at inline_container.cc:603] . unexpected pos 5248 vs 5136
+COMMAND /data/OuXiaoyu/miniconda3/envs/basicts/bin/python /data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py --source-case results/fpem_eiil3_20261110/patchtst/Weather/pred_192/seed_2021 --output-case results/fpem_eiil3_cosa_20261110/patchtst/Weather/pred_192/seed_2021 --gpu 3 --skip-good-ridge --resume
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/pathlib.py", line 1116, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'results/fpem_eiil3_cosa_20261110/patchtst/Weather/pred_192/seed_2021'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py", line 206, in <module>
+    main()
+  File "/data/OuXiaoyu/Time-Series-Library-FPEM/tools/run_fpem_eiil3_cosa.py", line 110, in main
+    dest.mkdir(parents=True, exist_ok=True)
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/pathlib.py", line 1120, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File "/data/OuXiaoyu/miniconda3/envs/basicts/lib/python3.11/pathlib.py", line 1116, in mkdir
+    os.mkdir(self, mode)
+OSE

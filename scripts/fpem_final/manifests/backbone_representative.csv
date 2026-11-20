@@ -1,0 +1,9 @@
+# backbone,dataset,pred_len
+itransformer,ETTh1,96
+itransformer,ETTm2,336
+itransformer,ETTh1,720
+itransformer,ExchangeRate,720
+cyclenet,ETTh1,96
+cyclenet,ETTm2,336
+cyclenet,ETTh1,720
+cyclenet,ExchangeRate,720

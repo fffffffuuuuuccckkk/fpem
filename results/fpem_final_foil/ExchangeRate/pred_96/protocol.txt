@@ -1,0 +1,6 @@
+upstream_commit=cf7b250a39ad054fa654c79154d86b2751636aee
+upstream=/data/OuXiaoyu/FOIL_upstream
+dataset=ExchangeRate
+pred_len=96
+seed=3407
+compatibility_patch=GPU id only; no algorithm change

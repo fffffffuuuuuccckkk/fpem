@@ -1,0 +1,3 @@
+patchtst:ETTm1:336
+patchtst:ETTm2:336
+patchtst:ExchangeRate:720

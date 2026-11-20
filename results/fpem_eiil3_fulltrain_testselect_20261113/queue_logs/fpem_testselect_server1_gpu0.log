@@ -1,0 +1,16 @@
+{"case": "itransformer/ETTh1/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/ETTh1/pred_720/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "moderntcn/Weather/pred_192/seed_2021", "status": "START", "attempt": 1}
+{"case": "moderntcn/Weather/pred_192/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/ETTm1/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTm1/pred_336/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/ExchangeRate/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ExchangeRate/pred_336/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "itransformer/ETTh1/pred_96/seed_2021", "status": "START", "attempt": 1}
+{"case": "itransformer/ETTh1/pred_96/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "moderntcn/Weather/pred_336/seed_2021", "status": "START", "attempt": 1}
+{"case": "moderntcn/Weather/pred_336/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/ETTm1/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ETTm1/pred_720/seed_2021", "status": "COMPLETE_OR_REUSED"}
+{"case": "patchtst/ExchangeRate/pred_720/seed_2021", "status": "START", "attempt": 1}
+{"case": "patchtst/ExchangeRate/pred_720/seed_2021", "status": "COMPLETE_OR_REUSED"}

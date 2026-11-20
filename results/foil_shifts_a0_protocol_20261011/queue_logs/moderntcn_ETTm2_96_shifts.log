@@ -1,0 +1,11 @@
+{'phase': 'train', 'epoch': 1, 'loss': 0.2536702858362087, 'forecast_loss': 0.20279804456372594, 'aux_loss': 0.05087224112173846}
+{'phase': 'train', 'epoch': 2, 'loss': 0.24292895155590635, 'forecast_loss': 0.19728795474351837, 'aux_loss': 0.0456409966235244}
+{'phase': 'train', 'epoch': 3, 'loss': 0.23278667833915975, 'forecast_loss': 0.1899478211860324, 'aux_loss': 0.042838856998917665}
+{'phase': 'train', 'epoch': 4, 'loss': 0.2231110829045606, 'forecast_loss': 0.18240143034347267, 'aux_loss': 0.040709652342768604}
+{'phase': 'train', 'epoch': 5, 'loss': 0.2145029747347499, 'forecast_loss': 0.17524435369081276, 'aux_loss': 0.039258621037872726}
+{'phase': 'train', 'epoch': 6, 'loss': 0.20710953948802727, 'forecast_loss': 0.16876373057448588, 'aux_loss': 0.03834580900797317}
+{'phase': 'train', 'epoch': 7, 'loss': 0.20194466773853745, 'forecast_loss': 0.16374137795941773, 'aux_loss': 0.03820328967169274}
+{'phase': 'train', 'epoch': 8, 'loss': 0.19765155352825342, 'forecast_loss': 0.15967021506193071, 'aux_loss': 0.0379813382376072}
+{'phase': 'train', 'epoch': 9, 'loss': 0.19392025378554367, 'forecast_loss': 0.15632147262262744, 'aux_loss': 0.0375987814860635}
+{'phase': 'train', 'epoch': 10, 'loss': 0.1911190164089203, 'forecast_loss': 0.15374684100234232, 'aux_loss': 0.0373721755018761}
+FINAL {"method": "shifts", "backbone": "moderntcn", "dataset": "ETTm2", "pred_len": 96, "val": {"MSE": 0.13345350200165756, "MAE": 0.24747185299169697, "windows": 11425, "elements": 7677600}, "test": {"MSE": 0.2017387371588911, "MAE": 0.2730555305588279, "windows": 11425, "elements": 7677600}, "diagnostics": {"auxiliary_source_split": "TRAIN only"}}

@@ -1,0 +1,63 @@
+Args in experiment:
+{'model': 'informer', 'data': 'custom', 'root_path': '../dataset/exchange_rate/', 'data_path': 'exchange_rate.csv', 'features': 'MS', 'target': 'OT', 'freq': 'w', 'checkpoints': './informer_checkpoints', 'seq_len': 96, 'label_len': 48, 'pred_len': 96, 'enc_in': 8, 'dec_in': 8, 'c_out': 1, 'factor': 3, 'd_model': 512, 'n_heads': 8, 'e_layers': 2, 'd_layers': 1, 'd_ff': 512, 'dropout': 0.05, 'attn': 'prob', 'embed': 'timeF', 'activation': 'gelu', 'distil': True, 'output_attention': False, 'mix': True, 'padding': 0, 'learning_rate': 0.01, 'loss': 'mse', 'use_amp': False, 'num_workers': 0, 'itr': 1, 'des': 'exp', 'use_gpu': True, 'gpu': 0, 'use_multi_gpu': False, 'devices': '0', 'detail_freq': 'w'}
+Use GPU: cuda:0
+train 5120
+val 665
+test 1422
+Epoch: 1 cost time: 6.968912363052368
+Epoch: 1, Steps: 80 | Train Inv : 0.102 | Vali Loss: 0.394 |Test Loss: 0.159
+Validation loss decreased (inf --> 0.102322).  Saving model ...
+Updating learning rate to 0.001
+Epoch: 2 cost time: 5.7379469871521
+Epoch: 2, Steps: 80 | Train Inv : 0.091 | Vali Loss: 0.229 |Test Loss: 0.150
+Validation loss decreased (0.102322 --> 0.091446).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 5.846934795379639
+Epoch: 3, Steps: 80 | Train Inv : 0.040 | Vali Loss: 0.261 |Test Loss: 0.159
+Validation loss decreased (0.091446 --> 0.039725).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 5.955796480178833
+Epoch: 4, Steps: 80 | Train Inv : 0.031 | Vali Loss: 0.294 |Test Loss: 0.155
+Validation loss decreased (0.039725 --> 0.031484).  Saving model ...
+Updating learning rate to 1e-06
+Epoch: 5 cost time: 5.9218056201934814
+Epoch: 5, Steps: 80 | Train Inv : 0.029 | Vali Loss: 0.289 |Test Loss: 0.152
+Validation loss decreased (0.031484 --> 0.028805).  Saving model ...
+Updating learning rate to 1e-06
+test 1422
+test shape: (1422, 96, 1) (1422, 96, 1)
+test shape: (1422, 96, 1) (1422, 96, 1)
+mse:0.15297482907772064, mae:0.30187955498695374,msev:0.06237490475177765,mse_w:0.5778250098228455,mae_w:0.6972590684890747
+Use GPU: cuda:0
+>>>>>>>start training : informer_custom_ftMS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df512_atprob_fc3_ebtimeF_dtTrue_mxTrue_exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 5120
+Epoch: 1 cost time: 2.997551679611206
+Epoch: 1, Steps: 40 | Train Inv : 0.979  Train Var : 1.570
+Validation loss decreased (inf --> 1.569914).  Saving model ...
+Updating learning rate to 0.001
+Epoch: 2 cost time: 2.9551289081573486
+Epoch: 2, Steps: 40 | Train Inv : 0.984  Train Var : 1.426
+Validation loss decreased (1.569914 --> 1.425870).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 3 cost time: 2.893493413925171
+Epoch: 3, Steps: 40 | Train Inv : 0.989  Train Var : 1.382
+Validation loss decreased (1.425870 --> 1.382301).  Saving model ...
+Updating learning rate to 0.0001
+Epoch: 4 cost time: 2.866670846939087
+Epoch: 4, Steps: 40 | Train Inv : 0.988  Train Var : 1.401
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 1e-05
+Epoch: 5 cost time: 2.8274378776550293
+Epoch: 5, Steps: 40 | Train Inv : 0.983  Train Var : 1.404
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 1e-05
+train 5120
+CHANGED RATIO {} 0.128125
+(5120, 6)
+Saved env_softmax2 for iteration 0 as 1-EXE_NEW_6class.csv
+Class 0: 0.2010 (Total soft score: 1029.0000)
+Class 1: 0.1105 (Total soft score: 566.0000)
+Class 2: 0.1949 (Total soft score: 998.0000)
+Class 3: 0.1656 (Total soft score: 848.0000)
+Class 4: 0.1852 (Total soft score: 948.0000)
+Class 5: 0.1428 (Total soft score: 731.0000)

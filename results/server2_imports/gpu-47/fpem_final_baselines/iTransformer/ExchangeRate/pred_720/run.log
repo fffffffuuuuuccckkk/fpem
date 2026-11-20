@@ -1,0 +1,82 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          long_term_forecast  Is Training:        1                   
+  Model ID:           FPEMFinal_ExchangeRate_96_720Model:              iTransformer        
+
+[1mData Loader[0m
+  Data:               custom              Root Path:          ./dataset/all_datasets/exchange_rate
+  Data Path:          exchange_rate.csv   Features:           M                   
+  Target:             OT                  Freq:               d                   
+  Checkpoints:        results/fpem_final_baselines/iTransformer/ExchangeRate/pred_720/checkpoints
+
+[1mForecasting Task[0m
+  Seq Len:            96                  Label Len:          48                  
+  Pred Len:           720                 Seasonal Patterns:  Monthly             
+  Inverse:            0                   
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             8                   Dec In:             8                   
+  C Out:              8                   d model:            512                 
+  n heads:            8                   e layers:           3                   
+  d layers:           1                   d FF:               512                 
+  Moving Avg:         25                  Factor:             3                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        0                   Itr:                1                   
+  Train Epochs:       10                  Batch Size:         32                  
+  Patience:           3                   Learning Rate:      0.0005              
+  Des:                FPEMFinal_iTransformer_ExchangeRate_720Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Use GPU: cuda:0
+🚀 Lazy Loading: iTransformer ...
+>>>>>>>start training : long_term_forecast_FPEMFinal_ExchangeRate_96_720_iTransformer_custom_ftM_sl96_ll48_pl720_dm512_nh8_el3_dl1_df512_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_iTransformer_ExchangeRate_720_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 4496
+val 41
+test 798
+	iters: 100, epoch: 1 | loss: 0.9623471
+	speed: 0.0243s/iter; left time: 31.9201s
+Epoch: 1 cost time: 3.413431167602539
+Epoch: 1, Steps: 141 | Train Loss: 0.8172261 Vali Loss: 1.2873779 Test Loss: 0.9131122
+Validation loss decreased (inf --> 1.287378).  Saving model ...
+Updating learning rate to 0.0005
+	iters: 100, epoch: 2 | loss: 0.7353290
+	speed: 0.0352s/iter; left time: 41.1871s
+Epoch: 2 cost time: 3.0335185527801514
+Epoch: 2, Steps: 141 | Train Loss: 0.8122912 Vali Loss: 0.9695422 Test Loss: 0.8914962
+Validation loss decreased (1.287378 --> 0.969542).  Saving model ...
+Updating learning rate to 0.00025
+	iters: 100, epoch: 3 | loss: 0.8073803
+	speed: 0.0333s/iter; left time: 34.2893s
+Epoch: 3 cost time: 3.1915700435638428
+Epoch: 3, Steps: 141 | Train Loss: 0.7857950 Vali Loss: 0.9991019 Test Loss: 0.8249735
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 0.000125
+	iters: 100, epoch: 4 | loss: 0.6398014
+	speed: 0.0323s/iter; left time: 28.6527s
+Epoch: 4 cost time: 2.8137598037719727
+Epoch: 4, Steps: 141 | Train Loss: 0.7468113 Vali Loss: 1.2939268 Test Loss: 0.8435974
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 6.25e-05
+	iters: 100, epoch: 5 | loss: 0.7515242
+	speed: 0.0333s/iter; left time: 24.8790s
+Epoch: 5 cost time: 3.111438035964966
+Epoch: 5, Steps: 141 | Train Loss: 0.7109079 Vali Loss: 1.1889740 Test Loss: 0.9771627
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : long_term_forecast_FPEMFinal_ExchangeRate_96_720_iTransformer_custom_ftM_sl96_ll48_pl720_dm512_nh8_el3_dl1_df512_expand2_dc4_fc3_ebtimeF_dtTrue_FPEMFinal_iTransformer_ExchangeRate_720_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 798
+test shape: (798, 720, 8) (798, 720, 8)
+test shape: (798, 720, 8) (798, 720, 8)
+mse:0.8919171094894409, mae:0.7163378000259399, dtw:Not calculated

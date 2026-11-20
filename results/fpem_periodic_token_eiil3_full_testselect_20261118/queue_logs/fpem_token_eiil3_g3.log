@@ -1,0 +1,25 @@
+{"attempt": 1, "case": "moderntcn/ETTh1/pred_720/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T13:47:16+0000"}
+{"attempt": 1, "case": "moderntcn/ETTh1/pred_720/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T13:56:35+0000"}
+{"attempt": 1, "case": "moderntcn/ETTh2/pred_336/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T13:56:35+0000"}
+{"attempt": 1, "case": "moderntcn/ETTh2/pred_336/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T14:05:53+0000"}
+{"attempt": 1, "case": "moderntcn/ETTm1/pred_96/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T14:05:53+0000"}
+{"attempt": 1, "case": "moderntcn/ETTm1/pred_96/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T14:33:06+0000"}
+{"attempt": 1, "case": "patchtst/ETTm2/pred_336/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T14:33:07+0000"}
+{"attempt": 1, "case": "patchtst/ETTm2/pred_336/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T15:37:01+0000"}
+{"attempt": 1, "case": "patchtst/Weather/pred_720/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T15:37:02+0000"}
+{"attempt": 1, "case": "patchtst/Weather/pred_720/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T17:02:47+0000"}
+{"attempt": 1, "case": "itransformer/Weather/pred_720/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T17:02:48+0000"}
+{"attempt": 1, "case": "itransformer/Weather/pred_720/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T18:31:23+0000"}
+{"attempt": 1, "case": "patchtst/ExchangeRate/pred_96/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T18:31:23+0000"}
+{"attempt": 1, "case": "patchtst/ExchangeRate/pred_96/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T18:34:49+0000"}
+{"attempt": 1, "case": "itransformer/ExchangeRate/pred_720/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T18:34:49+0000"}
+{"attempt": 1, "case": "itransformer/ExchangeRate/pred_720/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T18:38:08+0000"}
+{"attempt": 1, "case": "itransformer/Solar/pred_96/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T18:38:09+0000"}
+{"attempt": 1, "case": "itransformer/Solar/pred_96/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T22:54:58+0000"}
+{"attempt": 1, "case": "patchtst/ExchangeRate/pred_192/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T22:54:58+0000"}
+{"attempt": 1, "case": "patchtst/ExchangeRate/pred_192/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T22:57:35+0000"}
+{"attempt": 1, "case": "moderntcn/ExchangeRate/pred_192/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T22:57:35+0000"}
+{"attempt": 1, "case": "moderntcn/ExchangeRate/pred_192/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T22:59:42+0000"}
+{"attempt": 1, "case": "itransformer/ExchangeRate/pred_192/seed_2021", "event": "START", "gpu": 3, "time": "2026-11-18T22:59:42+0000"}
+{"attempt": 1, "case": "itransformer/ExchangeRate/pred_192/seed_2021", "event": "COMPLETE", "gpu": 3, "time": "2026-11-18T23:02:25+0000"}
+{"event": "QUEUE_END", "failed": [], "gpu": 3, "host": "server1", "time": "2026-11-18T23:02:25+0000", "total": 12}

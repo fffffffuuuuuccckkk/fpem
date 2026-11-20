@@ -1,0 +1,3 @@
+START patchtst/ETTm2/pred_96/seed_2021 gpu=3 attempt=1 2026-11-16T22:42:42+00:00
+{"case": "patchtst/ETTm2/pred_96/seed_2021", "status": "complete", "pure_R3_TEST": {"mse": 3.2760674455944656, "mae": 0.993977581825563}, "R3_then_F03_TEST": {"mse": 3.276067549518919, "mae": 0.9939776174073222}, "alpha": 0.0, "r3_trick_TEST": {"mse": 3.3808309590492267, "mae": 1.0392128374512044}}
+COMPLETE patchtst/ETTm2/pred_96/seed_2021 2026-11-16T22:49:37+00:00

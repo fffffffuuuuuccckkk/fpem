@@ -1,0 +1,18 @@
+[train]
+train/correction_beneficial_ratio: nan
+train/correction_cosine_mean: nan
+train/correction_magnitude_ratio_mean: nan
+train/correction_optimal_scalar_mean: nan
+train/correction_patch_beneficial_ratio: []
+train/correction_patch_cosine: []
+train/correction_patch_magnitude_ratio: []
+train/correction_patch_optimal_scalar: []
+[test]
+test/correction_beneficial_ratio: nan
+test/correction_cosine_mean: nan
+test/correction_magnitude_ratio_mean: nan
+test/correction_optimal_scalar_mean: nan
+test/correction_patch_beneficial_ratio: []
+test/correction_patch_cosine: []
+test/correction_patch_magnitude_ratio: []
+test/correction_patch_optimal_scalar: []

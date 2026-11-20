@@ -1,0 +1,19 @@
+[Electricity 96->336] create shared CycleNet reference on GPU=3
+reference warmup 1 {'loss': 0.280499076662963, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_gain_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan, 'gamma_mean': 0.03985891229602353, 'gamma_std': 0.03794741392010513, 'gamma_abs_mean': 0.046839748253549175, 'beta_mean': -0.015884085410475333, 'beta_std': 0.015559027111056166, 'beta_abs_mean': 0.018263563136849608}
+reference warmup 2 {'loss': 0.22514402783505644, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_gain_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan, 'gamma_mean': 0.01885941925405811, 'gamma_std': 0.04881885421553286, 'gamma_abs_mean': 0.04417511067356143, 'beta_mean': -0.03118656307589815, 'beta_std': 0.01646226826902062, 'beta_abs_mean': 0.031559316237572035}
+reference warmup 3 {'loss': 0.2047271705845709, 'var_predictive_loss': nan, 'var_utility_loss': nan, 'var_gain_loss': nan, 'var_conditional_gain_loss': nan, 'conditional_pair_MSE': nan, 'conditional_shuffle_MSE': nan, 'conditional_gain_mean': nan, 'conditional_positive_ratio': nan, 'h_anchor_loss': nan, 'future_var_loss': nan, 'future_var_cosine': nan, 'future_var_l2': nan, 'future_var_pred_norm': nan, 'future_var_target_norm': nan, 'gate/mean': nan, 'gate/std': nan, 'gate/positive_ratio': nan, 'gate/negative_ratio': nan, 'gate/abs_mean': nan, 'gate/near_zero_ratio': nan, 'gamma_mean': -0.012716837778205366, 'gamma_std': 0.06332321828932548, 'gamma_abs_mean': 0.057489728554306514, 'beta_mean': -0.056030877735697655, 'beta_std': 0.021539313329039047, 'beta_abs_mean': 0.056297948418780254}
+shared_reference source=created path=results/predictive_env_cyclenet_film_featurewise_multihorizon_k3/pred_336/Electricity/shared_reference.pt sha256=66c57aa36168c1202895517bcfd8c71092ceda0da2303437d4fee01aeaf3f60a
+reference preparation complete; no experiment was run
+[Electricity 96->336 CycleNet film] start GPU=3 2026-09-16T08:19:46+00:00
+shared_reference source=loaded path=results/predictive_env_cyclenet_film_featurewise_multihorizon_k3/pred_336/Electricity/shared_reference.pt sha256=66c57aa36168c1202895517bcfd8c71092ceda0da2303437d4fee01aeaf3f60a
+A2 identity {'feature': 0.0}
+Traceback (most recent call last):
+  File "tools/run_predictive_env_iv_patchtst.py", line 1706, in <module>
+    main()
+  File "tools/run_predictive_env_iv_patchtst.py", line 1499, in main
+    h_stability_diagnostics(
+  File "tools/run_predictive_env_iv_patchtst.py", line 778, in h_stability_diagnostics
+    "h_prediction_corr_with_pretrained": pearson_correlation(
+  File "tools/run_predictive_env_iv_patchtst.py", line 735, in pearson_correlation
+    finite = torch.isfinite(left) & torch.isfinite(right)
+RuntimeError: [enforce fail at alloc_cpu.cpp:83] err == 0. DefaultCPUAllocator: can't allocate memory: you tried to allocate 15514869888 bytes. Error code 12 (Cannot allocate memory)

@@ -1,0 +1,25 @@
+dataset	pred_len	status	MSE	MAE
+ETTh1	96	unavailable		
+ETTh1	336	unavailable		
+ETTh1	720	unavailable		
+ETTh2	96	unavailable		
+ETTh2	336	unavailable		
+ETTh2	720	unavailable		
+ETTm1	96	unavailable		
+ETTm1	336	unavailable		
+ETTm1	720	unavailable		
+ETTm2	96	unavailable		
+ETTm2	336	unavailable		
+ETTm2	720	unavailable		
+ExchangeRate	96	complete	0.11483097076416016	0.2622411251068115
+ExchangeRate	336	unavailable		
+ExchangeRate	720	unavailable		
+Weather	96	unavailable		
+Weather	336	unavailable		
+Weather	720	unavailable		
+Electricity	96	unavailable		
+Electricity	336	unavailable		
+Electricity	720	unavailable		
+Traffic	96	unavailable		
+Traffic	336	unavailable		
+Traffic	720	unavailable		
